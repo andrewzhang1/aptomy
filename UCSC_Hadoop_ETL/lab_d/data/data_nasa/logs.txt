@@ -1,0 +1,940 @@
+    1  ls -la
+    2  cd /shared/
+    3  ls
+    4  sudo jps
+    5  ls -la /
+    6  ls -la
+    7  ls -la 
+    8  ls -la /
+    9  mkdir /shared
+   10  sudo mkdir /shared
+   11  sudo mount -t vboxsf shared_folder /shared
+   12  ls -la /shared/
+   13  ls
+   14  ls -la /shared
+   15  ls -la
+   16  ls -la /shared
+   17  hive
+   18  beeline -u jdbc:hive2:// --outputformat=tsv2
+   19  beeline -e 'show databases;'
+   20  beeline -u jdbc:hive2:// --outputformat=tsv2 -e 'show databases;'
+   21  ls -la /shared/
+   22  ls -la /shared/ex_01/
+   23  ls -la /shared/ex_01/behive_show_tables.sh 
+   24  /shared/ex_01/behive_show_tables.sh 
+   25  cd /shard
+   26  cd /shared
+   27  ls -la
+   28  cd software/
+   29  l
+   30  ls
+   31  cd java
+   32  ls
+   33  sudo rpm -ivh jdk-8u141-linux-x64.rpm
+   34  java
+   35  java --version
+   36  java -version
+   37  cd ..
+   38  ls
+   39  cd maven
+   40  ls
+   41  mvn
+   42  mvn --version
+   43  mvn -version
+   44  cd ..
+   45  ls
+   46  hdfs dfs -ls /
+   47  hdfs dfs -mkdir /data
+   48  hdfs dfs -ls /
+   49  ls -la
+   50  xhdfs dfs -put /shared/data/stocks/stocks.csv
+   51  hdfs dfs -mkdir /data/stocks
+   52  hdfs dfs -put /shared/data/stocks/stocks.csv /data/stocks
+   53  hdfs dfs -mkdir /data/stocks
+   54  hdfs dfs -mkdir /data/stocks/
+   55  hdfs dfs -ls /data/stocks/
+   56  hdfs dfs -tail jdk-8u141-linux-x64.rpm
+   57  hdfs dfs -tail /data/stocks/stocks.csv
+   58  hdfs dfs -text /data/stocks/stocks.csv | wc -l
+   59  cat /shared/data/stocks/stocks.csv | wc -l
+   60  hdfs dfs -chmod a+r /data/stocks/stocks.csv
+   61  hdfs dfs -ls /data/stocks/
+   62  hdfs dfs -chmod 777 /data/stocks/stocks.csv
+   63  hdfs dfs -ls /data/stocks/
+   64  sudo jps
+   65  cd ..
+   66  ls -la
+   67  ls ex_01/
+   68  ls ex_01/index/
+   69  cd data
+   70  cd ../datasets/
+   71  ls
+   72  cd hadoop-book/
+   73  ls
+   74  cd hadoop-examples/
+   75  l
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd ch06-mr-dev/
+   80  ls
+   81  ls input/
+   82  ls input/ncdc/
+   83  l
+   84  ls 
+   85  ls input/ncdc/
+   86  ls input/ncdc/micro/
+   87  ls input/ncdc/micro/sample.txt 
+   88  cat input/ncdc/micro/sample.txt 
+   89  cd ..
+   90  ls
+   91  cd -
+   92  ls
+   93  mvn package
+   94  sudo chmod -R 777 /shared
+   95  mvn package
+   96  ls
+   97  cd input/
+   98  ls
+   99  cd ncdc/
+  100  ls -la
+  101  cd ..
+  102  ls
+  103  ls -la
+  104  ls -la ~/.m2
+  105  ls -la ~/.m2/repository/
+  106  sudo -rm  ~/.m2/repository/
+  107  sudo rm  ~/.m2/repository/
+  108  sudo rm -R  ~/.m2/repository/
+  109  ls -la
+  110  mvn package
+  111  hadoop fs -mkdir /user/cloudera 
+  112  hdfs dfs -ls /
+  113  hdfs dfs -ls /data
+  114  cd /home/cloudera/workspace/training/
+  115  ls
+  116  cd ..
+  117  xxxcp -R training /shared/
+  118  sudo mkdir /shared/hd1
+  119  cp -R training /shared/hd1/
+  120  sudo mkdir /shared/hd1/training
+  121  sudo chmod 777 /shared/hd1/training
+  122  cp -R training /shared/hd1/
+  123  cd /shared/
+  124  ls
+  125  cd ..
+  126  sudo mv shared/ sh2
+  127  sudo mount -t vboxsf shared_folder /shared
+  128  sudo mkdir shared
+  129  sudo mount -t vboxsf shared_folder /shared
+  130  ls -la /shared
+  131  cp /sh2/hd1 .
+  132  sudo cp -R /sh2/hd1 /shared
+  133  ls -la /shared
+  134  cd /share
+  135  cd /shared
+  136  ls -la
+  137  cd hd1
+  138  ls
+  139  cd training/
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd hd
+  146  cd hd1
+  147  ks
+  148  ls
+  149  cd ..
+  150  ls -la
+  151   cd mr-tutorial/
+  152  ls
+  153  mvn package
+  154  sudo mkdir -p /shared/mr-tutorial/target/classes
+  155  mvn package
+  156  sudo chmod 777 /shared/mr-tutorial
+  157  mvn package
+  158  sudo mkdir -p /shared/mr-tutorial/target/generated-sources/annotations
+  159  sudo chmod -R 777 /shared/mr-tutorial
+  160  mvn package
+  161  sudo chown -R cloudera /shared/mr-tutorial
+  162  mvn package
+  163  sudo ls -la /shared/mr-tutorial/target/test-classes/
+  164  sudo ls -la /shared/mr-tutorial/target/
+  165  sudo chmod -R 777 /shared/mr-tutorial
+  166  sudo ls -la /shared/mr-tutorial/target/
+  167  sudo ls -la /shared/mr-tutorial/target/test-classes/
+  168  sudo chmod 777 /shared/mr-tutorial/target/test-classes/
+  169  sudo ls -la /shared/mr-tutorial/target/test-classes/
+  170  sudo ls -la /shared/mr-tutorial/target/
+  171  mvn package
+  172  mvn -Dskip-test package
+  173  mvn package -DskipTests=true
+  174  sudo adduser cloudera vboxsf
+  175  sudo useradd cloudera vboxsf
+  176  mvn package -DskipTests=true
+  177  sudo vi /etc/group
+  178  mvn package -DskipTests=true
+  179  sudo reboot now
+  180  cd /shared/
+  181  ls
+  182  sudo mount -t vboxsf shared_folder /shared
+  183  ls -la /shared
+  184  cd hd1
+  185  ls
+  186  cd ../mr-tutorial/
+  187  mvn package -DskipTests=true
+  188  ls -la /shared/
+  189  sudo usermod -aG vboxsf $(whoami)
+  190  cd /
+  191  ls shared/
+  192  ls -la
+  193  cd /shared/
+  194  ls
+  195  ls -la
+  196  cd mr-tutorial
+  197  ls
+  198  mvn package
+  199  mvn package -DskipTests=true
+  200  sudo chgrp -R vboxsf /shared
+  201  ls -la /shared/
+  202  unmount /shared
+  203  umount /shared
+  204  sudo umount /shared
+  205  cd 
+  206  umount /shared
+  207  sudo umount /shared
+  208  ls -la /shared
+  209  sudo mount -t vboxsf -o uid=502,gid=20 shared_folder /shared 
+  210  cd /shared
+  211  ls
+  212  cd mr-tutorial/
+  213  ls
+  214  mvn package
+  215  mvn package -DskipTests=true
+  216  ls 0ka
+  217  ls -la
+  218   umount /shared
+  219  sudo  umount /shared
+  220  cd 
+  221  sudo  umount /shared
+  222  ls -la /shared/
+  223  id
+  224  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  225  cd /shared/mr-tutorial/
+  226  ls
+  227  ls -la
+  228  mvn package -DskipTests=true
+  229  ls -la
+  230  id
+  231  hadoop fs -cat input/wordcount.txt
+  232  hdfs fs -cat /input/wordcount.txt
+  233  hdfs dfs -ls /input/wordcount.txt
+  234  hdfs dfs -ls /
+  235  hdfs dfs -ls 
+  236  hdfs dfs -ls /data
+  237  ls
+  238  hdfs dfs -ls /
+  239  hdfs dfs -ls /data
+  240  hdfs dfs -mkdir /data/wordcount
+  241  cd ..
+  242  ls
+  243  cd ls -la
+  244  ls -la
+  245  cd mr-test2/
+  246  ls
+  247  mkdir input
+  248  cd input/
+  249  echo "Hadoop is an elephant" > ./file0
+  250  echo "Hadoop is as yellow as can be" > ./file1
+  251  echo "Oh what a yellow fellow is Hadoop" > ./file2
+  252  ls -la
+  253  hdfs dfs -put file* /data/wordcount/input 
+  254  hdfs dfs -mkdir /data/wordcount/input
+  255  hdfs dfs -put file* /data/wordcount
+  256  ls -la
+  257  hdfs dfs -ls /data/wordcount
+  258  hdfs dfs -ls /data/wordcount/input
+  259  hdfs dfs -mv  /data/wordcount/file0 /data/wordcount/input
+  260  hdfs dfs -ls /data/wordcount
+  261  hdfs dfs -mv  /data/wordcount/file? /data/wordcount/input
+  262  hdfs dfs -put file* /data/wordcount
+  263  hdfs dfs -ls /data/wordcount
+  264  ls -la /data/wordcount/file0
+  265  hdfs dfs -rm /data/wordcount/file0
+  266  hdfs dfs -rm /data/wordcount/file1
+  267  hdfs dfs -rm /data/wordcount/file2
+  268  hdfs dfs -put file0 /data/wordcount
+  269  hdfs dfs -put file? /data/wordcount
+  270  hdfs dfs -rm /data/wordcount/file0
+  271  hdfs dfs -rm /data/wordcount/file1
+  272  hdfs dfs -rm /data/wordcount/file2
+  273  hdfs dfs -put file? /data/wordcount
+  274  hdfs dfs -rm /data/wordcount/file1
+  275  hdfs dfs -rm /data/wordcount/file2
+  276  hdfs dfs -rm /data/wordcount/file0
+  277  hdfs dfs -put file? /data/wordcount/
+  278  hdfs dfs -ls /data/wordcount
+  279  ls -la
+  280   hadoop jar wordcount.jar ai.hadoop2.WordCount /data/wordcount/input /data/wordcount/output 
+  281  cd ..
+  282  ls
+  283  ls -la target/
+  284   hadoop jar ./target/wordcount.jar ai.hadoop2.WordCount /data/wordcount/input /data/wordcount/output 
+  285   hadoop jar ./target/ hadoop jar wordcount.jar ai.hadoop2.WordCount /data/wordcount/input /data/wordcount/output  ai.hadoop2.WordCount /data/wordcount/input /data/wordcount/output 
+  286   hadoop jar ./target/wordcount-0.0.1-SNAPSHOT.jar ai.hadoop2.WordCount /data/wordcount/input /data/wordcount/output 
+  287   hadoop jar ./target/wordcount-0.0.1-SNAPSHOT.jar ai.hadood.WordCount /data/wordcount/input /data/wordcount/output 
+  288   hadoop jar ./target/wordcount-0.0.1-SNAPSHOT.jar ai.hadoop.WordCount /data/wordcount/input /data/wordcount/output 
+  289  jar -ft ./target/wordcount-0.0.1-SNAPSHOT.jar
+  290  cd wordcount/
+  291  ls
+  292  pwd
+  293  cd ..
+  294  ls
+  295  mvn package
+  296  ls -la
+  297  ls -la target/
+  298  date
+  299  ls /shared/
+  300  ls -la
+  301  ls -la /shared/
+  302  cd wordcount-v1
+  303  cd /shared/
+  304  ls
+  305  cd wordcount-v1/
+  306  ls -lka
+  307  ls -la
+  308  cd target/
+  309  cd ..
+  310  vi README.md 
+  311  ls
+  312  hdfs dfs -ls /data
+  313  hdfs dfs -ls /data/wordcound
+  314  hdfs dfs -ls /data/wordcount
+  315  hdfs dfs -mkdir /data/wordcount/output
+  316  cat README.md 
+  317  cd target/
+  318  ls
+  319  hadoop jar grid.util-1.0.0-fat.jar /data/wordcount/input 
+  320  jar tf grid.util-1.0.0.jar
+  321  jar tf grid.util-1.0.0-fat.jar
+  322  hadoop jar grid.util-1.0.0-fat.jar com.example.Driver /data/wordcount/input 
+  323  hadoop jar grid.util-1.0.0-fat.jar /data/wordcount/input /data/wordcount/output
+  324  hadoop jar grid.util-1.0.0-fat.jar edu.ucsc.grid.util.Driver  /data/wordcount/input  /data/wordcount/output 
+  325  jar ft  grid.util-1.0.0-fat.jar
+  326  cd ..
+  327  mvn package
+  328  hadoop jar ./target/grid.util-1.0.0-fat.jar edu.ucsc.grid.util.Driver  /data/wordcount/input  /data/wordcount/output 
+  329  jar ft  ./target/grid.util-1.0.0-fat.jar
+  330  cd target/
+  331  ls
+  332  ls -la
+  333  cd ..
+  334  mvn clean
+  335  wget www.ebay.com
+  336  mvn clean
+  337  mvn package
+  338  cd target/
+  339  cd ..
+  340  hadoop jar ./target/grid.util-1.0.0-fat.jar edu.ucsc.grid.util.Driver  /data/wordcount/input  /data/wordcount/output 
+  341  jps
+  342  sudo jps
+  343  sudo reboot now
+  344  cd /shared/
+  345  ls
+  346  id
+  347  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  348  ls -la
+  349  cd /
+  350  cd shared/
+  351  ls
+  352  ls -la
+  353  dircolors
+  354  ls -la
+  355  sudo chmod -R o-w hadoop_book/
+  356  ls -la
+  357  sudo chmod o-w hadoop_book
+  358  ls -la
+  359  sudo chmod 776 hadoop_book
+  360  ls -la
+  361  cd wordcount-v1/
+  362  hadoop jar ./target/grid.util-1.0.0-fat.jar edu.ucsc.grid.util.Driver  /data/wordcount/input  /data/wordcount/output 
+  363  hdfs dfs -ls /data/wordcount/output
+  364  hdfs dfs -rmdir /data/wordcount/output
+  365  hadoop jar ./target/grid.util-1.0.0-fat.jar edu.ucsc.grid.util.Driver  /data/wordcount/input  /data/wordcount/output 
+  366  hdfs dfs -ls /data/wordcount/output
+  367  hdfs dfs -gettext /data/wordcount/output
+  368  hdfs dfs -text /data/wordcount/output
+  369  hdfs dfs -text /data/wordcount/output/part-r-00000
+  370  hdfs dfs -rmdir /data/wordcount/output
+  371  hdfs dfs -rm -R /data/wordcount/output
+  372  mvn clean package
+  373  ls
+  374  cd ..
+  375  ls -la
+  376  cd grid-util/
+  377  mvn clean package
+  378  ls -la
+  379  ./run_job.sh 
+  380  hdfs dfs -getmerge /data/wordcount/output ./job_results.txt
+  381  cat job_results.txt 
+  382  ./run_job.sh 
+  383  vi ./run_job.sh 
+  384  ./run_job.sh 
+  385  vi ./run_job.sh 
+  386  ./run_job.sh 
+  387  ./job_results.txt
+  388  ls -la
+  389  cat ./job_results.txt 
+  390  rm ./job_results.txt.crc
+  391  ls -la
+  392  rm ./.job_results.txt.crc
+  393  ./job_results.txt
+  394  ./run_job.sh 
+  395  vi ./run_job.sh 
+  396  ./run_job.sh 
+  397  vi ./run_job.sh 
+  398  ./run_job.sh 
+  399  vi ./run_job.sh 
+  400  ./run_job.sh 
+  401  vi ./run_job.sh 
+  402  ./run_job.sh 
+  403  vi ./run_job.sh 
+  404  ./run_job.sh 
+  405  ps
+  406  cd 
+  407  ls /
+  408  ls /shared/
+  409  ls -la
+  410  cd /shared
+  411  ls
+  412  ls -la
+  413  cd grid-util/
+  414  ls
+  415  mkdir bin
+  416  mv run_job.sh bin/
+  417  ls -la
+  418  cd bin
+  419  ls
+  420  mv run_job.sh run_job.sh run_wc_plain.sh
+  421  mv run_job.sh run_wc_plain.sh
+  422  ls -la
+  423  cp run_wc_plain.sh run_wc_stopwords.sh
+  424  ls -la
+  425  vi run_wc_plain.sh 
+  426  pwd
+  427  vi run_wc_plain.sh 
+  428  ls -la /tmp
+  429  ls -la
+  430  ./run_wc_plain.sh 
+  431  head run_wc_plain.sh 
+  432  ls
+  433  cp run_wc_plain.sh run_wc_partitioned.sh
+  434  vi run_wc_partitioned.sh 
+  435  cd ..
+  436  ls
+  437  mvn package
+  438  ls bin/
+  439  vi list_commands.sh
+  440  chmod a+x  list_commands.sh
+  441  ./list_commands.sh 
+  442  vi ./bin/run_wc_plain.sh 
+  443  ./list_commands.sh 
+  444  vi ./list_commands.sh 
+  445  ./list_commands.sh 
+  446  vi ./list_commands.sh 
+  447  ./list_commands.sh 
+  448  vi ./list_commands.sh 
+  449  ./list_commands.sh 
+  450  vi ./list_commands.sh 
+  451  ./list_commands.sh 
+  452  vi ./list_commands.sh 
+  453  ./list_commands.sh 
+  454  vi ./bin/run_wc_plain.sh 
+  455  vi ./list_commands.sh 
+  456  ./list_commands.sh 
+  457  vi ./bin/run_wc_plain.sh 
+  458  vi ./bin/run_wc_partitioned.sh 
+  459  vi ./bin/run_wc_plain.sh 
+  460  vi ./bin/run_wc_partitioned.sh 
+  461  vi ./list_commands.sh 
+  462  ./list_commands.sh 
+  463  vi ./list_commands.sh 
+  464  ./list_commands.sh 
+  465  vi ./list_commands.sh 
+  466  vi ./bin/run_wc_partitioned.sh 
+  467  vi ./list_commands.sh 
+  468  ./list_commands.sh 
+  469  vi ./bin/run_wc_partitioned.sh 
+  470  vi ./list_commands.sh 
+  471  ./list_commands.sh 
+  472  vi ./bin/run_wc_plain.sh 
+  473  ./list_commands.sh 
+  474  mvn package
+  475  ls -la target/
+  476  ./bin/run_wc_partitioned.sh 
+  477  mvn package
+  478  ./bin/run_wc_partitioned.sh 
+  479  hdfs dfs -ls /data/wordcount/output
+  480  vi ./bin/run_wc_partitioned.sh 
+  481  mvn package
+  482  ./bin/run_wc_partitioned.sh 
+  483  mvn clean package
+  484  cat ./bin/run_wc_partitioned.sh 
+  485  ./bin/run_wc_partitioned.sh 
+  486  ls -la target/
+  487  jar tf target/grid.util-1.0.0-fat.jar 
+  488  mvn clean package
+  489  ./bin/run_wc_partitioned.sh 
+  490  ./bin/run_wc_plain.sh 
+  491  mvn clean package
+  492  ls -la
+  493  ./bin/run_wc_partitioned.sh 
+  494  ls -la
+  495  cd ..
+  496  ls
+  497  ls -la
+  498  ls -la ./*/
+  499  cd grid-util/
+  500  ls
+  501  cat list_commands.sh 
+  502  cat ./bin/run_wc_plain.sh 
+  503  hdfs dfs -ls /data
+  504  hdfs dfs -ls /data/wordcount
+  505  hdfs dfs -ls /data/wordcount/input
+  506  ls
+  507  cd bin
+  508  ls
+  509  cp run_wc_plain.sh load_data.sh
+  510  vi load_data.sh 
+  511  ./load_data.sh 
+  512  vi load_data.sh 
+  513  ./load_data.sh 
+  514  vi load_data.sh 
+  515  ./load_data.sh 
+  516  vi load_data.sh 
+  517  hdfs dfs -ls data/wordcount/input   
+  518  hdfs dfs -ls /data/wordcount/input   
+  519  vi load_data.sh 
+  520  ./load_data.sh 
+  521  vi load_data.sh 
+  522  ./load_data.sh 
+  523  vi load_data.sh 
+  524  ./load_data.sh 
+  525  vi load_data.sh 
+  526  ./load_data.sh 
+  527  cd ..
+  528  ./bin/run_wc_partitioned.sh 
+  529  '
+  530  ./bin/run_wc_plain.sh 
+  531  cp ./bin/run_wc_plain.sh ./bin/run_wc_num_reducers.sh
+  532  vi ./bin/run_wc_num_reducers.sh
+  533  ./list_commands.sh 
+  534  vi ./bin/load_data.sh 
+  535  ./list_commands.sh 
+  536  vi ./bin/run_wc_num_reducers.sh 
+  537  ./list_commands.sh 
+  538  ./bin/run_wc_num_reducers.sh 
+  539  hdfs dfs -ls  /data/wordcount/output
+  540  hdfs dfs -text /data/wordcount/output/part-r-00000
+  541  ./bin/run_wc_partitioned.sh
+  542  hdfs dfs -text /data/wordcount/output/part-r-00000
+  543  hdfs dfs -text /data/wordcount/output/part-r-00001
+  544  hdfs dfs -ls  /data/wordcount/output
+  545  mvn packag
+  546  mvn package
+  547  ./bin/run_wc_partitioned.sh
+  548  mvn package
+  549  ./bin/run_wc_partitioned.sh
+  550  hdfs dfs -ls  /data/wordcount/output
+  551  hdfs dfs -text /data/wordcount/output/part-r-00000
+  552  ls
+  553  mvn clean package
+  554  cd..
+  555  cd ..
+  556  ls
+  557  ls -la
+  558  mv grid-util grid-mr
+  559  ls -la
+  560  cd grid-mr/
+  561  ls
+  562  rm job_results.txt 
+  563  ls  -la
+  564  mvn package
+  565  ./list_commands.sh 
+  566  vi list_commands.sh 
+  567  ls
+  568  ls -la
+  569  ./list_commands.sh 
+  570  vi ./list_commands.sh 
+  571  ls 
+  572  ls bin
+  573  cd ..
+  574  cd grid-mr/
+  575  ls
+  576  ls bin
+  577  ls ./bin
+  578  cd /shared/
+  579  ls
+  580  ls -la
+  581  cd grid-mr/
+  582  ls
+  583  ls bin
+  584  ls -la
+  585  cd 
+  586  umount /shared
+  587  sudo umount /shared
+  588  lsof(8)
+  589  lsof
+  590  sudo reboot now
+  591  cd /shared/grid-util/
+  592  ls
+  593  ls -la
+  594  cd bin
+  595  ls
+  596  vi run_wc_plain.sh 
+  597  hdfs dfs -ls  /data/wordcount/output
+  598  cd /shared/grid-util/
+  599  ls
+  600  cd target/
+  601  ls
+  602  ls -la
+  603  ls -la /usr/lib/hadoop/client-0.20/
+  604  ls -la
+  605  cd /shared
+  606  ls
+  607  id
+  608  ls -la
+  609  cd ..
+  610  ls -la /shared/
+  611  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  612   cd /shared/
+  613  ls -la
+  614  cd grid-mr/
+  615  ls -la
+  616  cd bin
+  617  ls -la
+  618  cd ..
+  619  ./list_commands.sh 
+  620  ./bin/load_data.sh 
+  621  ./list_commands.sh 
+  622  ./bin/sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  623   ./bin/run_wc_num_reducers.sh
+  624   ./bin/run_wc_partitioned.sh 
+  625  vi ./bin/load_data.sh 
+  626   ./bin/run_wc_partitioned.sh 
+  627  vi ./bin/load_data.sh 
+  628  ./bin/load_data.sh 
+  629  hdfs dfs -ls /data/wordcount
+  630  hdfs dfs -rm /data/wordcount/file0
+  631  hdfs dfs -rm /data/wordcount/file1
+  632  hdfs dfs -rm /data/wordcount/file2
+  633   ./bin/run_wc_partitioned.sh 
+  634  vi  ./bin/run_wc_partitioned.sh 
+  635   ./bin/run_wc_partitioned.sh 
+  636  mvn package
+  637  vi ./bin/run_wc_partitioned.sh 
+  638   ./bin/run_wc_partitioned.sh 
+  639   ./bin/run_wc_plain.sh 
+  640  ./list_commands.sh 
+  641   ./bin/run_wc_num_reducers.sh 
+  642   ./bin/run_wc_stopwords.sh 
+  643  ls /shared/grid-mr/data/stop_words.txt
+  644  ls -la
+  645  cd data/
+  646  la
+  647  ls -la
+  648   ./bin/run_wc_stopwords.sh 
+  649  cd ..
+  650  ls
+  651   ./bin/run_wc_stopwords.sh 
+  652  hdfs dfs -ls /data
+  653  hdfs dfs -ls /data/wordcould
+  654  hdfs dfs -ls /data/wordcount
+  655  hdfs dfs -mkdir /data/wordcount/other_data
+  656  hdfs dfs -put /shared/grid-mr/data/stop_words.txt /data/wordcount/other_data/
+  657  hdfs dfs -ls /data/wordcount/other_data
+  658  mvn package
+  659   ./bin/run_wc_stopwords.sh 
+  660  ls
+  661  id
+  662  reboot now
+  663  sudo reboot now
+  664  cd /share
+  665  cd /shared
+  666  ls
+  667  ls -la
+  668  cd /
+  669  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  670  id
+  671  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  672  id
+  673  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  674  shutdown now
+  675  sudo shutdown now
+  676  cd shared
+  677  cd  /shared
+  678  ls
+  679  cd 
+  680  id
+  681  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared 
+  682  mkdir /shared_folder
+  683  sudo mkdir /shared_folder
+  684  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared_folder 
+  685  cd /shared
+  686  ls -la
+  687  cd
+  688  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared_folder 
+  689  ls -la /shared
+  690  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared_folder 
+  691  ls -la /shared_filder
+  692  ls -la /shared_folder
+  693  sudo mount -t vboxsf -o uid=501,gid=501 shared_folder /shared
+  694  ls -la /shared
+  695  lc -la /shared
+  696  ls -la /shared
+  697  ls -la /shared_folder
+  698  umount shared_folder
+  699  cd /shared_folder
+  700  cd ../
+  701  rmdir /shared_folder
+  702  sudo rmdir /shared_folder
+  703  ls -la /shared_folder
+  704  umount /shared
+  705  sudo umount /shared_folder
+  706  ls -la /shared_folder
+  707  sudo rmdir /shared_folder
+  708  cd /share
+  709  cd /shared
+  710  ls
+  711  cd grid-mr/
+  712  s
+  713  ls
+  714  ./list_commands.sh 
+  715  ls
+  716  vi pom.xml 
+  717  ls
+  718  ./list_commands.sh 
+  719  cd bin
+  720  ls -la
+  721  ./load_data.sh 
+  722  ls
+  723  ls -la
+  724  ./run_wc_plain.sh 
+  725  cd /
+  726  ls
+  727  cd /media/
+  728  ls -la
+  729  cd sf_shared_folder/
+  730  l
+  731  ls
+  732  ls -la
+  733  cd /shared
+  734  ls -la
+  735  cd grid-mr/
+  736  ls
+  737  cat ./list_commands.sh 
+  738  this will show 
+  739  ls
+  740  ./list_commands.sh 
+  741  nano bin/load_data.sh 
+  742  view  bin/load_data.sh 
+  743  vi bin/load_data.sh 
+  744  cat bin/load_data.sh | grep hdfs
+  745  ls -la
+  746  ls -la bin/
+  747  view bin/run_wc_plain.sh 
+  748  bin/run_wc_partitioned.sh
+  749  cat bin/run_wc_partitioned.sh | grep hadoop
+  750  ls -la bin
+  751  bin/run_wc_stopwords.sh
+  752  bin/run_wc_plain.sh 
+  753  vie bin/run_wc_stopwords.sh
+  754  view bin/run_wc_stopwords.sh
+  755  ls -la
+  756  mvn package
+  757  bin/run_wc_stopwords.sh
+  758  hdfs dfs -ls /data/wordcount/other_data/
+  759  hdfs dfs -ls /data/wordcount/other_data/stop_words.txt
+  760  hdfs dfs -cat /data/wordcount/other_data/stop_words.txt
+  761* 
+  762  cd data
+  763  ls
+  764  vi stop_words.txt 
+  765  hdfs dfs -put stop_words.txt /data/wordcount/other_data/stop_words.txt
+  766  hdfs dfs -rm /data/wordcount/other_data/stop_words.txt
+  767  hdfs dfs -put stop_words.txt /data/wordcount/other_data/stop_words.txt
+  768  cd ..
+  769  mvn package
+  770  bin/run_wc_stopwords.sh
+  771  ls
+  772  ls data/
+  773  java --version
+  774  java -version
+  775  bin/run_wc_stopwords.sh
+  776  mvn package
+  777  bin/run_wc_stopwords.sh
+  778  ls -la 
+  779  ./list_commands.sh 
+  780  vi ./bin/load_data.sh 
+  781  ./bin/run_wc_plain.sh
+  782  ./list_commands.sh 
+  783  ./bin/run_wc_num_reducers.sh
+  784  ./list_commands.sh 
+  785  ./bin/java.lang.InterruptedException
+  786  at java.lang.Object.wait(Native Method)
+  787  at java.lang.Thread.join(Thread.java:1281)
+  788  at java.lang.Thread.join(Thread.java:1355)
+  789  at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.closeResponder(DFSOutputStream.java:952)
+  790  at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.endBlock(DFSOutputStream.java:690)
+  791  at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:879)
+  792  ./list_commands.sh 
+  793  ./bin/run_wc_partitioned.sh
+  794  at java.lang.Thread.join(Thread.java:1281)
+  795  ifconfig
+  796  dnslookup quickstart.cloudera
+  797  host quickstart.cloudera
+  798  hosts
+  799  host
+  800  vi ./x1.sh
+  801  chmod a+x ./x1.sh
+  802  ./x1.sh /hd/abc/file.txt
+  803  lss
+  804  ls
+  805  hive
+  806  beeline -u jdbc:hive2://localhost
+  807  beeline -u jdbc:hive2://
+  808  hdfs dfs -ls /
+  809  hdfs dfs -ls /data
+  810  hdfs dfs -mkdir /data/data_nasa
+  811  ls -la
+  812  cd ..
+  813  la
+  814  l
+  815  ll
+  816  grid-mr/
+  817  cd grid-mr/
+  818  ls la
+  819  ll
+  820  cd dta
+  821  cd data/
+  822  ks
+  823  ll
+  824  pwd
+  825  cd /shared
+  826  ls
+  827  ll
+  828  cd data
+  829  ls
+  830  cd data_
+  831  cd data_nasa/
+  832  ls
+  833  hdfs dfs -put nasa_0701 /data/data_nasa/
+  834  hdfs dfs -ls /data/data_nasa
+  835  head nasa_0701
+  836  head nasa_0701 | cut -d' ' -f 3
+  837  head nasa_0701 | cut -d' ' -f 5
+  838  head nasa_0701 | cut -d' ' -f 6
+  839  head nasa_0701 | cut -d' ' -f 7
+  840  vi nasa_0701
+  841  head nasa_0701 | cut -d' ' -f 6
+  842  head nasa_0701 | cut -d' ' -f 7
+  843  head nasa_0701 | cut -d' ' -f 8
+  844  head nasa_0701 | cut -d' ' -f 9
+  845  head nasa_0701 | cut -d' ' -f 10
+  846  head nasa_0701 | cut -d' ' -f 11
+  847  head nasa_0701 | cut -d' ' -f `
+  848  head nasa_0701 | cut -d' ' -f 1
+  849  head nasa_0701 | cut -d' ' -f 2
+  850  head nasa_0701 | cut -d' ' -f 3
+  851  head nasa_0701 | cut -d' ' -f 4
+  852  head nasa_0701 | cut -d' ' -f 5
+  853  head nasa_0701 | cut -d' ' -f 6
+  854  head nasa_0701 | cut -d' ' -f 7
+  855  head nasa_0701 | cut -d' ' -f 8
+  856  head nasa_0701 | cut -d' ' -f 9
+  857  head nasa_0701 | cut -d' ' -f 10
+  858  hdsf dfs -ls /data/data_nasas
+  859  hdsf dfs -ls /data/data_nasa
+  860  hdfs dfs -ls /data/data_nasa
+  861  hive
+  862  cd ..
+  863  ls
+  864  cd data_movies/
+  865  ls -la
+  866  hdfs dfs -mkdir /data/data_movies
+  867  hdfs dfs -mkdir /data/data_movies/ratings
+  868  hdfs dfs -put ratings.txt /data/data_movies/ratings
+  869  ls
+  870  hdfs dfs -put ratings.csv /data/data_movies/ratings
+  871  cat ratings
+  872  cat ratings.csv 
+  873  head ratings.csv 
+  874  hive
+  875  ls 
+  876  hdfs dfs -put ratings.csv /data/data_movies/movies
+  877  hdfs dfs -ls /data/data_movies/
+  878  hdfs dfs -rm /data/data_movies/movies
+  879  hdfs dfs -mkdir /data/data_movies/movies
+  880  hdfs dfs -put ratings.csv /data/data_movies/movies/
+  881  head movies.csv 
+  882  hive
+  883  hdfs dfs -ls /data/movie_data/
+  884  hdfs dfs -ls /data/data_movie
+  885  hdfs dfs -ls /data/data_movies
+  886  hdfs dfs -ls /data/data_movies/movies
+  887  hdfs dfs -ls /data/data_movies/ratings
+  888  hdfs dfs -rm /data/data_movies/movies/ratings.csv
+  889  ls -la
+  890  hdfs dfs -put movies.csv /data/data_movies/movies/
+  891  hive
+  892  cd ..
+  893  ls
+  894  cd ..
+  895  ls
+  896  cd data/
+  897  ls
+  898  vi here.sh
+  899  chmod a+x  here.sh
+  900  ./here.sh 
+  901  vi here.sh
+  902  ./here.sh 
+  903  cat results.txt 
+  904  vi here.sh
+  905  cat ./results.txt | egrep "^....>
+  906  cat ./results.txt | egrep "^....>"
+  907  cat ./results.txt | egrep-v  "^....>"
+  908  cat ./results.txt | egrep -v  "^....>"
+  909  history
+  910  history | grep hdfs
+  911  ls
+  912  cd data_movies/
+  913  head movies.csv 
+  914  cd ..
+  915  ls
+  916  cd data_
+  917  cd data_nasa/
+  918  ls
+  919  ls -la
+  920  cat nasa_0701
+  921  head nasa_0701
+  922  hdfs dfs -ls /data
+  923  hdfs dfs -ls /data/data_nasa
+  924  hdfs dfs -mkdir /data/data_nasa/temp_load
+  925  hive
+  926  ls -la
+  927  hdfs dfs -put nasa_0701 /data/data_nasa/temp_load/
+  928  hive 
+  929  hdfs dfs -ls /data/
+  930  hdfs dfs -ls /data/data_nasa/
+  931  hdfs dfs -ls /user/
+  932  hdfs dfs -ls /user/hive/
+  933  hdfs dfs -ls /user/hive/warehouse
+  934  pig
+  935  hive
+  936  pig
+  937  ls -la
+  938  hive
+  939  histoty
+  940  history > logs.txt

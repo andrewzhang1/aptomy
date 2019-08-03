@@ -1,0 +1,16 @@
+Found a ping file. Delete /net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/mon/apmail.pin.
+04/22/10_15:04:02:ykono InstNotify  : Autopilot Notification (No sufficient space) - 9.3.1.7.0 002 - stnti22:win32 agtpori2.sh
+InstNotify... User unknown
+/nfshome/ykono/dead.letter... Saved message in /nfshome/ykono/dead.letter
+04/22/10_15:15:50:CleanupNotify  : Please clean up your files on stnti22:win32
+CleanupNotify... User unknown
+/nfshome/ykono/dead.letter... Saved message in /nfshome/ykono/dead.letter
+04/23/10_05:21:01:DoneNotify  : Autopilot Notification (Done) - 9.3.1.7.0 002 - stnti23:winamd64 agtpori2.sh
+DoneNotify... User unknown
+/nfshome/ykono/dead.letter... Saved message in /nfshome/ykono/dead.letter
+04/23/10_05:21:26:DoneNotify  : Autopilot Notification (Done) - 9.3.1.7.0 002 - stnti23:winamd64 agtpori2.sh
+DoneNotify... User unknown
+/nfshome/ykono/dead.letter... Saved message in /nfshome/ykono/dead.letter
+04/23/10_09:57:16:ykono Admin  : Autopilot Notification (No Test Script) - 9.3.1.7.0 002 - stnti22:win32 agtpoti2.sh
+Admin... User unknown
+/nfshome/ykono/dead.letter... Saved message in /nfshome/ykono/dead.letter

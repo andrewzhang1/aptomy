@@ -1,0 +1,85 @@
+# 7160:
+# MDX test from XY: dxmdmain.sh and dxmdmainaso.sh 
+
+# Agent test from Hima: 
+#Agtaimain.sh
+#Agsyuagentmain.sh
+
+#Mdx tests from Hima:
+#maxlmdxmain.sh
+#dmccmdxf.sh
+
+
+### Linux --------------------------------------------------------------------
+
+
+####################################### 
+# stlx9
+######################################
+#stlx9:9.2/9.2.1.0.0:024:agtpjvmain.sh
+#stlx9:9.2/9.2.1.0.0:024:agtpbarmain.sh
+#stlx9:9.2/9.2.1.0.0:024:agtpbkmain.sh
+#stlx9:9.2/9.2.1.0.0:024:maxlmain.sh 
+#stlx9:9.2/9.2.1.0.0:024:agtp70main.sh
+#stlx9:9.2/9.2.1.0.0:024:agtpjymain.sh
+stlx9.hyperion.com:9.2/9.2.1.0.0:024:agtpori1.sh
+stlx9.hyperion.com:9.2/9.2.1.0.0:024:agtpjlmain.sh
+stlx9.hyperion.com:9.2/9.2.1.0.0:024:agtpcwmain.sh
+#stlx9:9.2/9.2.1.0.0:024:agtpori2.sh
+#stlx9:9.2/9.2.1.0.0:024:agtpukmain.sh
+#stlx9:9.2/9.2.1.0.0:024:agtpjlmain.sh parallel buffer
+
+####################################### 
+# stlx11
+# 1) install cd installer with JRE
+# 2) refreshl 7.1:7.1.6.8/002
+# 3) Start autopilot by "autopilot.sh start -noinst"
+
+######################################
+#stlx11:7.1/7.1.6.8:002:agtpjvmain.sh:priority(1)
+#stlx11:7.1/7.1.6.8:002:maxlmain.sh 
+#stlx11:7.1/7.1.6.8:002:agtp70main.sh
+#stlx11:7.1/7.1.6.8:002:agtpori1.sh
+#stlx11:7.1/7.1.6.8:002:agtpjlmain.sh
+stlx11:7.1/7.1.6.8:002:agtpcwmain.sh
+#stlx11:7.1/7.1.6.8:002:agtpori2.sh
+stlx11:7.1/7.1.6.8:002:agtpukmain.sh
+#stlx11:7.1/7.1.6.8:002:agtpjlmain.sh parallel buffer
+
+
+#####################################
+# sthp10
+#####################################
+#sthp10:7.1/7.1.6.8:002:agtpjvmain.sh:priority(1)
+sthp10:7.1/7.1.6.8:002:maxlmain.sh 
+#--sthp10:7.1/7.1.6.8:002:agtp70main.sh  
+sthp10:7.1/7.1.6.8:002:agtpori1.sh 
+sthp10:7.1/7.1.6.8:002:agtpjlmain.sh
+sthp10:7.1/7.1.6.8:002:agtpukmain.sh
+#sthp10:7.1/7.1.6.8:002:agtpcwmain.sh
+sthp10:7.1/7.1.6.8:002:agtpori2.sh   
+sthp10:7.1/7.1.6.8:002:agtpjlmain.sh serial direct
+#sthp10:7.1/7.1.6.8:002:agtpjlmain.sh parallel buffer
+#sthp10:7.1/7.1.6.8:002:agtpjlmain.sh parallel direct
+
+
+#####################################
+# sthp16
+#####################################
+#sthp10:7.1/7.1.6.7:006:agtpjvmain.sh:priority(1)
+#sthp10:7.1/7.1.6.7:006:agtpbarmain.sh
+#sthp10:7.1/7.1.6.7:006:agtpbkmain.sh
+sthp16:7.1/7.1.6.7:006:maxlmain.sh
+#sthp16:7.1/7.1.6.7:006:agtp70main.sh
+#sthp16:7.1/7.1.6.7:006:agtpjymain.sh
+sthp16:7.1/7.1.6.7:006:agtpori1.sh
+#sthp16:7.1/7.1.6.7:006:agtpjlmain.sh
+sthp16:7.1/7.1.6.7:006:agtpcwmain.sh:priority(1)
+#sthp16:7.1/7.1.6.7:006:agtpori2.sh
+#sthp16:7.1/7.1.6.7:006:agtpukmain.sh
+#sthp16:7.1/7.1.6.7:006:agtpjlmain.sh serial direct
+#sthp16:7.1/7.1.6.7:006:agtpjlmain.sh parallel buffer
+#sthp16:7.1/7.1.6.7:006:agtpjlmain.sh parallel direct
+
+
+

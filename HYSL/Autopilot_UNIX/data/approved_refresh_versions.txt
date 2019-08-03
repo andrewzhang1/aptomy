@@ -1,0 +1,26 @@
+# approved_refresh_version.txt
+# This file contains the Essbase version numbers 
+# which is approved to use refresh command for the each test.
+# If the version is not in this file and try to use refresh 
+# command, autopilot framework send e-mail notification
+# to the "RefViolate" list users. 
+# Normally it is set to Henry, Eric, Yuki, Van, Govi
+# Record format:
+#   <approve date>:<approve mail>:<version>:Until <date>
+#   <approve date>:<approve mail>:<version>:Build <build nuber>
+#   <approve date> = Approve date or record update date
+#   <approve mail> = The email address who allow to use refresh
+#   <version>      = Essbase version number
+#   <date>         = The expired date for using refresh command.
+#                    When the date is expired, framework send a notification.
+#   <build number> = Essbase build numner which can arrow to use refresh.
+#                    When the test build is greater than this number,
+#                    autopilot framework send e-mail notification.
+#   The date format should be <4 digit year>/<2 digit month>/<2 digit day>
+# Note:
+# If <approve date> is future or older then 2 month, autopilot framework
+# will ignore that version and send e-mail notification which tell the 
+# approved_refresh_version.txt is expired to the <approve mail>.
+# Sample:
+# 2012/01/21:henry.nguyen@oracle.com:11.1.2.2.100:Until 2012/02/01
+# 2011/09/07:yuki.hashimoto@oracle.com:11.1.2.2.000:Build 1250

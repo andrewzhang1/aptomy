@@ -1,0 +1,39 @@
+hive> 
+    > DROP TABLE movies;
+hive> 
+    > show databases;
+db_test
+default
+foodmart
+ucsc_hive_test
+xademo
+hive> 
+    > CREATE EXTERNAL TABLE movies (
+    >     movie_id INT,
+    >     title STRING,
+    >     genres ARRAY<STRING>)
+    >   ROW FORMAT DELIMITED
+    >   FIELDS TERMINATED BY ':'
+    >   COLLECTION ITEMS TERMINATED BY '|'
+    >   LINES TERMINATED BY '\n'
+    >   STORED AS TEXTFILE
+    >   LOCATION "/data/movies_v1/movies";
+hive>                               
+    >   SHOW TABLES;
+movies
+ratings
+sample_07
+sample_08
+u_item
+hive>   DESC movies;
+movie_id            	int                 	                    
+title               	string              	                    
+genres              	array<string>       	                    
+hive>   show databases;
+db_test
+default
+foodmart
+ucsc_hive_test
+xademo
+hive> 
+    > quit;

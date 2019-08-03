@@ -1,0 +1,4 @@
+regraz2  15444 15436  0 15:50 pts/3    00:00:00 grep -i esscmd
+regraz2  15513 15436  0 15:50 pts/3    00:00:00 grep -i esssvr
+regraz2  15515 15436  0 15:50 pts/3    00:00:00 grep -i essbase
+regraz2  27791     1  0 Mar11 ?        00:00:13 ESSBASE ******** -b

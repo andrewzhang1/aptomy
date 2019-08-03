@@ -1,0 +1,126 @@
+#!/bin/ksh
+
+echo 'Running linuxgenericprof.'
+set -o vi
+# set default access to read write execute for all newly created directories.
+umask 000
+
+# Set some user related variables
+export NETHOME=/nfshome/$LOGNAME
+
+#export SXR_HOME=/vobs/essexer/sxr
+#export SXR_BASE=/vobs/essexer/base
+
+export BUILD_ROOT=/net/nar200/vol/vol2/pre_rel/essbase/builds
+
+export ESSLANG=English_UnitedStates.Latin1@Binary
+#export SXR_MLCAPP=1
+#export ESSCMDQ_UTF8MODE=1
+stty erase ^H
+stty intr ^C
+stty erase ^?
+export PATH=\
+/bin:\
+/usr/bin:\
+/usr/sbin:\
+/usr/X11R6/bin:\
+/etc:\
+/usr/local/bin:\
+/usr/ucb:\
+/usr/atria/bin:\
+${ARBORPATH}/bin:\
+${ARBORPATH}/dlls:\
+${HOME}/bin:\
+${SXR_HOME}/bin:\
+${BUILD_ROOT}/common/bin:\
+${JRE_HOME}/bin
+
+#HOSTNAME=`/usr/bin/uname -n`
+#TTY=`tty | tr "/" "-"`
+
+# Don't export PS1 under SunOS, because if a Bourne shell is subsequently
+# spawned, then the prompt will be literally be "${LOGNAME}@${HO ..." rather
+# than the expansion of those variables.
+#
+
+
+export PS1="
+\$PWD
+($LOGNAME@`uname -n`)\>"
+
+export TERM=vt100
+#resize
+
+export HISTFILE=${HOME}/history/.${HOSTNAME}${TTY}.sh_history
+
+alias myterm='/usr/X11R6/bin/xterm -bg black -fg green -fn 8x13 -sb -sl 1200 -title "stnti8" &'
+
+alias ct=cleartool
+
+alias set65='ct setview az_65view_stlx4'
+alias set71='ct setview -login az_71view_stlx4'
+alias set70='ct setview az_70view_stlx4'
+alias set701='ct setview az_701view_stlx4'
+
+
+# Increase shell max limits
+# Set max number of file descriptors to 1024
+ulimit -n 1024
+
+# For Linux specificily:
+#ulimit -s  392192 
+ulimit -s  unlimited
+
+stty erase ^H
+stty intr ^C
+stty erase ^?
+cd $ARBORPATH
+
+ESSLANG=English_UnitedStates.Latin1@Binary
+
+alias view='cd $ARBORPATH/../views'
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias h=history
+
+alias cfg='cat $ARBORPATH/bin/essbase.cfg'
+
+# For autopilot test
+
+export PATH=$HOME/autoregress:$PATH
+
+# For auto pilot test:
+alias auto='cd $HOME/autoregress'
+alias regress='cd /vol3/views/$LOGNAME/autoregress'
+export PATH=".:$HOME/autoregress:$HOME/bin:$PATH"
+
+alias acfg='cd ~/autop_cfg'
+
+# For new autopilot  by rumitkar 2006.4
+
+export VIEW_PATH=/vol3/views/$LOGNAME
+export AUTOPILOT=/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX
+export PATH=$AUTOPILOT/bin/newb04:$PATH
+
+alias pilot='cd /net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX'
+alias arbor='cd /net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/env/$LOGNAME'
+
+
+# Set autopilot for beckett:
+cd /net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/env/$LOGNAME
+
+#export HIT_ROOT=/net/nar200/vol/vol3/hit
+export HIT_ROOT=/vol3/hit
+
+
+export BAS=/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bas
+
+export TMP=/vol3/tmp
+export TEMP=/vol3/tmp
+export TMPDIR=/vol3/tmp
+
+# Set email notice to Andrew Zhang Only:
+export AP_SCRIPTLIST=$AUTOPILOT/env/$LOGNAME/script_list.txt
+export AP_EMAILLIST=$AUTOPILOT/env/$LOGNAME/email_list.txt
+
+

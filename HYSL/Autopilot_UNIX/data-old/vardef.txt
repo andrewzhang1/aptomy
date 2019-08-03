@@ -1,0 +1,58 @@
+# Default value for the autopilot related variable.
+# This file is read by set_vardef() function.
+# sample:
+#   AP_NOPLAT=false
+#   AP_KEEPWORK=2
+#   When you want to refer some variable, please use variable name with "$".
+#     AP_LOGFOLDER=$AUTOPILOT/log
+#   note: When use variable reference, it will be executed by "eval" command.
+#         If you want to put double quotation character with it, please use \".
+#   Sample: WORKDIR is set to C:/work. (export WORKDIR="C:/work").
+#     AP_WORK=C:/work      -> C:/work
+#     AP_WORK="C:/work"    -> "C:/work"
+#     AP_WORK=$WORKDIR     -> C:/work
+#     AP_WORK="$WORKDIR"   -> C:/work
+#     AP_WORK=\"$WORKDIR\" -> "C:/work"
+
+# Following variables are handled in "autopilot.sh"
+AP_NOPLAT=false
+AP_KEEPWORK=2
+AP_NOAGTPSETUP=true
+AP_WAITTIME=nextday
+AP_NOPARSE_MIDNIGHT=true
+AP_TSKFILE=$AUTOPILOT/tsk/${LOGNAME}.tsk
+
+# Following variables are handled in "start_regress.sh"
+AP_EMAILLIST=$AUTOPILOT/data/email_list.txt
+AP_SCRIPTLIST=$AUTOPILOT/data/script_list.txt
+AP_TARCNT=5
+sxrfiles=log sta sog suc dif dna xcp lastcfg
+# Result post location
+#   atuopilot create $AP_RESLOC/<version>/$AP_RESFOLDER(essbae) and post into there.
+AP_RESLOC=$AUTOPILOT/..
+
+#NEW - need cording
+AP_TARCTL=essexer
+#/NEW
+
+# Following variables are handled by "setchk_env.sh"
+# Those are for logging purpose.
+VIEW_PATH=$HOME/views
+HYPERION_HOME=$HOME/hyperion
+ARBORPATH=$HYPERION_HOME/$_ESSDIR
+ESSBASEPATH=$HYPERION_HOME/$_ESSCDIR
+ODBC_HOME=$HYPERION_HOME/ODBC
+JAVA_HOME=$HYPERION_HOME/JAVA
+ODBCINI=$ODBC_HOME/odbc.ini
+ESSLANG=English_UnitedStates.Latin1@Binary
+SXR_HOME=$_SXR_HOME
+AP_SNAPSHOT_BASE=$AUTOPILOT/../..
+
+# Following variables are hadnled by "remon.sh"
+#AP_REGMON_INTERVAL=600 # 10 mins - interval time to check the hanging up
+AP_REGMON_INTERVAL=300
+AP_CRR_INTERVAL=15
+AP_CLIENT_TIMEOUT=14400
+#This value must bigger than AP_REGMON_INTERVAL value.
+AP_SCRIPT_TIMEOUT=10800
+

@@ -1,0 +1,227 @@
+#####################33
+# tachyon
+########################3
+#tachyon.us.oracle.com:talleyrand:444:capitest.sh:schedule(Mon Thu):priority(1)
+tachyon.hyperion.com:talleyrand:444:agtpori1.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpori2.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpjlmain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtp70main.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpukmain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpcwmain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:maxlmain.sh:schedule(Mon Thu)
+#tachyon.hyperion.com:talleyrand:444:agtpjvmain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpjymain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpbkmain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpjlmain.sh serial direct:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpjlmain.sh parallel direct:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpjlmain.sh parallel buffer:priority:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpbarmain.sh:schedule(Mon Thu)
+tachyon.hyperion.com:talleyrand:444:agtpkenmain.sh:schedule(Mon Thu)
+
+
+
+
+
+## Linux --------------------------------------------------------------------
+
+#####################################
+# stlx8 for stress 
+#####################################
+#stlx8:9.3.3.0.0:034:agtpori1.sh
+#stlx8:9.3.3.0.0:034:agtpori2.sh
+#stlx8:9.3.3.0.0:034:agtpjlmain.sh
+
+
+#####################################
+# stlx9
+#####################################
+#stlx9:9.3.3.0.0:034:agtpori1.sh
+#stlx9:9.3.3.0.0:034:agtpori2.sh
+stlx9:9.3.3.0.0:034:agtpjlmain.sh
+stlx9:9.3.3.0.0:034:agtp70main.sh
+stlx9:9.3.3.0.0:034:agtpukmain.sh
+stlx9:9.3.3.0.0:034:agtpcwmain.sh
+stlx9:9.3.3.0.0:034:maxlmain.sh
+
+# for stlx10:
+#stlx9:9.3.3.0.0:034:agtpjlmain.sh parallel buffer
+
+####################################### 
+# stlx10
+######################################
+# stlx10:9.3.3.0.0:034:agtpori1.sh
+# stlx10:9.3.3.0.0:034:agtpori2.sh
+# stlx10:9.3.3.0.0:034:agtpjymain.sh
+# stlx10:9.3.3.0.0:034:agtpbkmain.sh
+# stlx10:9.3.3.0.0:034:agtpjlmain.sh serial direct
+# stlx10:9.3.3.0.0:034:agtpjlmain.sh parallel direct
+# stlx10:9.3.3.0.0:034:agtpjlmain.sh parallel buffer
+
+
+####################################### 
+# stlx11
+######################################
+stlx11:9.3.3.0.0:034:capitest.sh:priority(1)
+stlx11:9.3.3.0.0:034:agtpjvmain.sh:priority(2)
+stlx11:9.3.3.0.0:034:agtpbarmain.sh
+
+####################################### 
+# stlx12
+######################################
+
+stlx12:9.3.3.0.0:034:capitest.sh:priority(1)
+stlx12:9.3.3.0.0:034:agtpori1.sh
+stlx12:9.3.3.0.0:034:agtpori2.sh
+stlx12:9.3.3.0.0:034:agtpjlmain.sh
+stlx12:9.3.3.0.0:034:agtp70main.sh
+stlx12:9.3.3.0.0:034:agtpukmain.sh
+
+stlx12:9.3.3.0.0:034:agtpcwmain.sh
+stlx12:9.3.3.0.0:034:maxlmain.sh
+stlx12:9.3.3.0.0:034:agtpjvmain.sh:priority(2)
+stlx12:9.3.3.0.0:034:agtpjymain.sh
+stlx12:9.3.3.0.0:034:agtpbkmain.sh
+
+stlx12:9.3.3.0.0:034:agtpjlmain.sh serial direct
+stlx12:9.3.3.0.0:034:agtpjlmain.sh parallel direct
+stlx12:9.3.3.0.0:034:agtpjlmain.sh parallel buffer
+stlx12:9.3.3.0.0:034:agtpbarmain.sh
+
+#####################33
+# soliton
+########################3
+soliton.us.oracle.com:talleyrand:444:capitest.sh:schedule(Mon Thu):priority(1)
+soliton.us.oracle.com:talleyrand:444:agtpori1.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpori2.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpjlmain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtp70main.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpukmain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpcwmain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:maxlmain.sh:schedule(Mon Thu)
+#soliton.us.oracle.com:talleyrand:444:agtpjvmain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpjymain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpbkmain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpjlmain.sh serial direct:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpjlmain.sh parallel direct:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpjlmain.sh parallel buffer:priority:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpbarmain.sh:schedule(Mon Thu)
+soliton.us.oracle.com:talleyrand:444:agtpkenmain.sh:schedule(Mon Thu)
+
+
+
+
+####################################### 
+# dscgaw06 - stress test for 93300
+######################################
+#dscgaw06:9.3.3.0.0:034:capitest.sh:priority(1)
+#dscgaw06:9.3.3.0.0:034:agtpori1.sh
+dscgaw06:9.3.3.0.0:034:agtpori2.sh
+dscgaw06:9.3.3.0.0:034:agtpjlmain.sh
+#dscgaw06:9.3.3.0.0:034:agtp70main.sh
+dscgaw06:9.3.3.0.0:034:agtpukmain.sh
+
+dscgaw06:9.3.3.0.0:034:agtpcwmain.sh
+dscgaw06:9.3.3.0.0:034:maxlmain.sh
+#dscgaw06:9.3.3.0.0:034:agtpjvmain.sh:priority(1)
+#dscgaw06:9.3.3.0.0:034:agtpjymain.sh
+#dscgaw06:9.3.3.0.0:034:agtpbkmain.sh
+
+#dscgaw06:9.3.3.0.0:034:agtpjlmain.sh serial direct
+#dscgaw06:9.3.3.0.0:034:agtpjlmain.sh parallel direct
+#dscgaw06:9.3.3.0.0:034:agtpjlmain.sh parallel buffer
+#dscgaw06:9.3.3.0.0:034:agtpbarmain.sh
+
+
+#############################################################
+# stlx12
+#############################################################
+stlx12:9.3.3.0.0:034:agtpjvmain.sh
+
+
+### Hpux -----------------------------------------------------------------------
+
+#####################################
+# sthp8  - down          
+#####################################
+
+
+#####################################
+# sthp9:  
+# should run agtpbkmain:  hpux --> dmcc*dif intermitantly happens on sthp16/sthp10: 
+#        old issues from 9.3.1.0; re-run on sthp9 passed:
+# + dmcc433rfcb.sh 246:11:54:50 Elapsed sec:    244 Suc: 6 Dif: 0
+#####################################
+sthp9:9.3.3.0.0:034:agtpjlmain.sh
+sthp9:9.3.3.0.0:034:agtp70main.sh
+sthp9:9.3.3.0.0:034:agtpcwmain.sh
+sthp9:9.3.3.0.0:034:maxlmain.sh
+sthp9:9.3.3.0.0:034:agtpbkmain.sh
+
+# For sthp10
+
+
+#####################################
+# sthp10: dctp11_aso.sh (ukmain) sometime caused dif on sthp16.
+#####################################
+# sthp10:9.3.3.0.0:034:agtpori1.sh
+# sthp10:9.3.3.0.0:034:agtpjlmain.sh serial direct
+# sthp10:9.3.3.0.0:034:agtpjlmain.sh parallel direct
+# sthp10:9.3.3.0.0:034:agtpjlmain.sh parallel buffer
+# sthp10:9.3.3.0.0:034:agtpjymain.sh
+
+#####################################
+# sthp16
+#####################################
+sthp16:9.3.3.0.0:034:agtpjvmain.sh:priority(2)
+#sthp16:9.3.3.0.0:034:capitest.sh:priority(1)
+sthp16:9.3.3.0.0:034:agtpjlmain.sh
+sthp16:9.3.3.0.0:034:agtpukmain.sh
+sthp16:9.3.3.0.0:034:agtpori2.sh  
+sthp16:9.3.3.0.0:034:agtpbarmain.sh
+
+
+###  Sun ----------------------------------------------------------------------
+
+#####################################
+# stsun8
+#####################################
+stsun8:9.3.3.0.0:034:capitest.sh:priority(1)
+stsun8:9.3.3.0.0:034:agtpjvmain.sh:priority(2)
+stsun8:9.3.3.0.0:034:maxlmain.sh
+stsun8:9.3.3.0.0:034:agtpbkmain.sh
+
+
+#####################################
+# stsun11: 
+# 1) should run  maxlmain.sh (seems failing for some test on emc-sun1)
+# 2) Also should run agtpbkmain (dmccrc01.sh  failed on emc-sun1/stsun8)
+#####################################
+
+stsun11:9.3.3.0.0:034:agtp70main.sh
+stsun11:9.3.3.0.0:034:agtpcwmain.sh
+
+# for:
+#stsun11:9.3.3.0.0:034:agtpori1.sh
+stsun11:9.3.3.0.0:034:agtpjlmain.sh
+
+ 
+#####################################
+# issol13
+#####################################
+issol13:9.3.3.0.0:034:agtpori1.sh
+issol13:9.3.3.0.0:034:agtpjymain.sh
+issol13:9.3.3.0.0:034:agtpjlmain.sh serial direct
+issol13:9.3.3.0.0:034:agtpjlmain.sh parallel direct
+issol13:9.3.3.0.0:034:agtpjlmain.sh parallel buffer
+
+
+#####################################
+# scl59181 
+###################################
+scl59181:9.3.3.0.0:034:agtpori2.sh
+scl59181:9.3.3.0.0:034:agtp70main.sh
+scl59181:9.3.3.0.0:034:agtpukmain.sh
+scl59181:9.3.3.0.0:034:agtpcwmain.sh
+scl59181:9.3.3.0.0:034:agtpjlmain.sh 
+scl59181:9.3.3.0.0:034:agtpbarmain.sh
+

@@ -1,0 +1,17 @@
+EnvNotify
+Autopilot Notification (No TMP Def) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+$_tmp_ not defined.
+It might cause the installation failure.
+I would recommend to define TMP,TEMP,TMPDIR variables.
+But continue the execution.
+
+  Machine       = $(hostname):$_PLATNAME
+  Login User    = $LOGNAME
+  Version:Build = $VERSION:$BUILD
+  Test Script   = $TEST
+
+  \$TMP   =$TMP
+  \$TEMP  =$TEMP
+  \$TMPDIR=$TMPDIR
+
+---ALL ENV---

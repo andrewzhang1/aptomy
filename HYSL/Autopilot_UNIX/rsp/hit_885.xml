@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<HyperionInstall>
+  <HyperionHome>HYPERION_HOME_CHANGE</HyperionHome>
+  <ActionType>0</ActionType>
+  <SelectedProducts>
+        <Product name="Essbase">
+            <InstallTier name="Client">
+                <Component>Essbase Client ARCH_CHANGE-bit</Component>
+            </InstallTier>
+            <InstallTier name="Service">
+                <Component>Essbase Services Server ARCH_CHANGE-bit</Component>
+            </InstallTier>
+        </Product>
+    </SelectedProducts>
+  <ProductHomes/>
+  <UpgradeCleanUp/>
+  <UninstallCleanUp>false</UninstallCleanUp>
+</HyperionInstall>

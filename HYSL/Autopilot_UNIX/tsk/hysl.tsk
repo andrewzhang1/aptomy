@@ -1,0 +1,14 @@
+########################################################################
+# I18N regression test tasks
+########################################################################
+
+
+########################################################################
+# Solaris64 
+########################################################################
+
+##### stsun12 #####
+
+#olap9:kennedy:latest:accxmain.sh:schedule(Mon) chkfree($VIEW_PATH=5242880) chkfree($ARBORPATH=5242880)
+#olap9:kennedy:473:accxmain.sh:schedule(Mon) chkfree($VIEW_PATH=5242880) chkfree($ARBORPATH=5242880)
+olap9:9.3.1.2.6:latest:accxmain.sh:schedule(08/19/2008) instkind(both) chkfree($VIEW_PATH=5242880) chkfree($ARBORPATH=5242880)

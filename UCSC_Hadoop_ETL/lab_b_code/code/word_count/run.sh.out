@@ -1,0 +1,155 @@
+SPARK_MAJOR_VERSION is set to 2, using Spark2
+18/03/08 04:34:54 INFO SparkContext: Running Spark version 2.2.0.2.6.4.0-91
+18/03/08 04:34:55 INFO SparkContext: Submitted application: WordCount
+18/03/08 04:34:56 INFO SecurityManager: Changing view acls to: azhang
+18/03/08 04:34:56 INFO SecurityManager: Changing modify acls to: azhang
+18/03/08 04:34:56 INFO SecurityManager: Changing view acls groups to: 
+18/03/08 04:34:56 INFO SecurityManager: Changing modify acls groups to: 
+18/03/08 04:34:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(azhang); groups with view permissions: Set(); users  with modify permissions: Set(azhang); groups with modify permissions: Set()
+18/03/08 04:34:56 INFO Utils: Successfully started service 'sparkDriver' on port 35495.
+18/03/08 04:34:57 INFO SparkEnv: Registering MapOutputTracker
+18/03/08 04:34:57 INFO SparkEnv: Registering BlockManagerMaster
+18/03/08 04:34:57 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+18/03/08 04:34:57 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+18/03/08 04:34:57 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-1af4394c-d1da-476d-993d-d004cec435b5
+18/03/08 04:34:57 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+18/03/08 04:34:57 INFO SparkEnv: Registering OutputCommitCoordinator
+18/03/08 04:34:58 INFO log: Logging initialized @8659ms
+18/03/08 04:34:58 INFO Server: jetty-9.3.z-SNAPSHOT
+18/03/08 04:34:58 INFO Server: Started @8857ms
+18/03/08 04:34:58 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+18/03/08 04:34:58 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+18/03/08 04:34:58 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+18/03/08 04:34:58 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+18/03/08 04:34:58 INFO AbstractConnector: Started ServerConnector@33aebc7b{HTTP/1.1,[http/1.1]}{0.0.0.0:4044}
+18/03/08 04:34:58 INFO Utils: Successfully started service 'SparkUI' on port 4044.
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3c9cccd0{/jobs,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@52a4380f{/jobs/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d068a65{/jobs/job,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6b04017d{/jobs/job/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@53eaad8e{/stages,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@13bd6410{/stages/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@401e6816{/stages/stage,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2842be81{/stages/stage/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7b6fbe9f{/stages/pool,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@24f0afab{/stages/pool/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@18714901{/storage,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7d8701c1{/storage/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@15029dfe{/storage/rdd,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5762066b{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1ec5b197{/environment,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3f3c0fbd{/environment/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5aaec125{/executors,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2d4e539a{/executors/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4cb830fc{/executors/threadDump,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@664c58eb{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10a7c858{/static,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4af1bb8{/,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f22158f{/api,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@24f5614f{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@24c9e88b{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/03/08 04:34:58 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.17.0.2:4044
+18/03/08 04:34:59 INFO SparkContext: Added file file:/home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py at file:/home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py with timestamp 1520483699139
+18/03/08 04:34:59 INFO Utils: Copying /home/azhang/Marilo/lab_b_code/code/word_count/word_count.py to /tmp/spark-5be01829-57da-4a9c-8200-f33d367b23ea/userFiles-0573a198-6358-42cb-99f9-c9553c461095/word_count.py
+18/03/08 04:34:59 INFO Executor: Starting executor ID driver on host localhost
+18/03/08 04:34:59 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41676.
+18/03/08 04:34:59 INFO NettyBlockTransferService: Server created on 172.17.0.2:41676
+18/03/08 04:34:59 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/03/08 04:34:59 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.17.0.2, 41676, None)
+18/03/08 04:34:59 INFO BlockManagerMasterEndpoint: Registering block manager 172.17.0.2:41676 with 366.3 MB RAM, BlockManagerId(driver, 172.17.0.2, 41676, None)
+18/03/08 04:34:59 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.17.0.2, 41676, None)
+18/03/08 04:34:59 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.17.0.2, 41676, None)
+18/03/08 04:35:00 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@46f63a35{/metrics/json,null,AVAILABLE,@Spark}
+18/03/08 04:35:02 INFO EventLoggingListener: Logging events to hdfs:///spark2-history/local-1520483699526
+18/03/08 04:35:03 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 356.7 KB, free 366.0 MB)
+18/03/08 04:35:04 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.1 KB, free 365.9 MB)
+18/03/08 04:35:04 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.17.0.2:41676 (size: 32.1 KB, free: 366.3 MB)
+18/03/08 04:35:04 INFO SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+18/03/08 04:35:05 INFO FileInputFormat: Total input paths to process : 1
+18/03/08 04:35:06 INFO SparkContext: Starting job: countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12
+18/03/08 04:35:06 INFO DAGScheduler: Got job 0 (countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12) with 1 output partitions
+18/03/08 04:35:06 INFO DAGScheduler: Final stage: ResultStage 0 (countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12)
+18/03/08 04:35:06 INFO DAGScheduler: Parents of final stage: List()
+18/03/08 04:35:06 INFO DAGScheduler: Missing parents: List()
+18/03/08 04:35:06 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[2] at countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12), which has no missing parents
+18/03/08 04:35:07 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 6.8 KB, free 365.9 MB)
+18/03/08 04:35:07 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 4.2 KB, free 365.9 MB)
+18/03/08 04:35:07 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 172.17.0.2:41676 (size: 4.2 KB, free: 366.3 MB)
+18/03/08 04:35:07 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1006
+18/03/08 04:35:07 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (PythonRDD[2] at countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12) (first 15 tasks are for partitions Vector(0))
+18/03/08 04:35:07 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+18/03/08 04:35:07 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, ANY, 4879 bytes)
+18/03/08 04:35:07 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+18/03/08 04:35:07 INFO Executor: Fetching file:/home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py with timestamp 1520483699139
+18/03/08 04:35:07 INFO Utils: /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py has been previously copied to /tmp/spark-5be01829-57da-4a9c-8200-f33d367b23ea/userFiles-0573a198-6358-42cb-99f9-c9553c461095/word_count.py
+18/03/08 04:35:07 INFO HadoopRDD: Input split: hdfs://sandbox-hdp.hortonworks.com:8020/user/azhang/text.txt:0+376
+18/03/08 04:35:12 INFO PythonRunner: Times: total = 4276, boot = 3834, init = 442, finish = 0
+18/03/08 04:35:12 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2147 bytes result sent to driver
+18/03/08 04:35:12 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 5068 ms on localhost (executor driver) (1/1)
+18/03/08 04:35:12 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+18/03/08 04:35:12 INFO DAGScheduler: ResultStage 0 (countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12) finished in 5.179 s
+18/03/08 04:35:12 INFO DAGScheduler: Job 0 finished: countByValue at /home/azhang/Marilo/lab_b_code/code/word_count/./word_count.py:12, took 6.439711 s
+18/03/08 04:35:12 INFO SparkContext: Invoking stop() from shutdown hook
+18/03/08 04:35:12 INFO AbstractConnector: Stopped Spark@33aebc7b{HTTP/1.1,[http/1.1]}{0.0.0.0:4044}
+18/03/08 04:35:12 INFO SparkUI: Stopped Spark web UI at http://172.17.0.2:4044
+18/03/08 04:35:13 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/03/08 04:35:13 INFO MemoryStore: MemoryStore cleared
+18/03/08 04:35:13 INFO BlockManager: BlockManager stopped
+18/03/08 04:35:13 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/03/08 04:35:13 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/03/08 04:35:13 INFO SparkContext: Successfully stopped SparkContext
+18/03/08 04:35:13 INFO ShutdownHookManager: Shutdown hook called
+18/03/08 04:35:13 INFO ShutdownHookManager: Deleting directory /tmp/spark-5be01829-57da-4a9c-8200-f33d367b23ea/pyspark-9418c8cc-d941-45b6-a923-089169d661d3
+18/03/08 04:35:13 INFO ShutdownHookManager: Deleting directory /tmp/spark-5be01829-57da-4a9c-8200-f33d367b23ea
+and 3
+is 4
+Hadoop 3
+yellow 2
+an 1
+elegant 2
+But 1
+in 1
+wonderful 1
+An 2
+data 1
+The 1
+what 1
+plays 1
+Impala 1
+extraneous 1
+him 1
+to 1
+lets 1
+does 1
+helps 1
+cling 1
+elephant 3
+gets 1
+forgets 1
+thrive 1
+He 2
+A 2
+king 2
+never 2
+Hive 1
+mad 1
+group 1
+mellow 1
+fellow 1
+with 1
+Or 1
+he 1
+And 1
+HDFS 1
+Because 1
+Useful 1
+anything 1
+gentle 1
+Sqoop 1
+well 1
+element 1
+thing 1
+bad 1
+Are 1
+the 2
+or 1

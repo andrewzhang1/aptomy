@@ -1,0 +1,11 @@
+$LOGNAME Admin $AP_ALTEMAIL
+Autopilot Notification (ALTSETUP Error) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Alternate setup caused error($ret).
+
+  Machine       = $(hostname):$_PLATNAME
+  User          = ${LOGNAME}
+  AP_ALTSETUP   = ${AP_ALTSETUP}
+  Version:Build = $VERSION:$BUILD
+  TEST          = ${TEST}
+  _OPTION       = ${_OPTION}
+

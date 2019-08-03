@@ -1,0 +1,11 @@
+$LOGNAME Admin $AP_ALTEMAIL
+Autopilot Notification (Invalid VER/BLD#) - ${VERSION} ${ORG_BUILD} - $(hostname):$(get_platform.sh) ${TEST}
+Invalid Ver/Bld number is difnied.
+status=$sts
+
+  Machine       = $(hostname):$(get_platform.sh)
+  User          = ${LOGNAME}
+  Version:Build = $VERSION:$ORG_BUILD
+  TEST          = ${TEST}
+  _OPTION       = ${_OPTION}
+

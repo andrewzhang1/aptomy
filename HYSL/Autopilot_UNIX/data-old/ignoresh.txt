@@ -1,0 +1,4 @@
+jmldiff.sh
+xmssujpapp.sh
+fixversion.sh
+jmlprep.sh

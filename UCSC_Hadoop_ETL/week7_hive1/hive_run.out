@@ -1,0 +1,16 @@
+hive> 
+    > show databases;
+default
+foodmart
+ucsc_hive_test
+xademo
+hive> DROP DATABASE IF EXISTS UCSC_hive_test;
+hive> CREATE DATABASE UCSC_hive_test;
+hive> 
+    > show databases;
+default
+foodmart
+ucsc_hive_test
+xademo
+hive> 
+    > quit;

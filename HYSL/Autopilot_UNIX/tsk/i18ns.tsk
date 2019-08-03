@@ -1,0 +1,58 @@
+# Task definition file for I18N regression test
+# Each test machine need to define:
+#  AP_TSKFILE=$AUTOPILOT/tsk/i18ns.tsk
+#  AP_NOPLAT=true
+
+# AIX32(aix) hhashimo@staix12
+hhashimo@staix12:talleyrand_sp1:latest:i18n_j.sh:schedule(Sat)
+hhashimo@staix12:talleyrand_sp1:latest:i18n_j_mlc.sh:schedule(Sat)
+hhashimo@staix12:talleyrand_sp1:latest:i18n_i.sh:schedule(Sat)
+hhashimo@staix12:talleyrand_sp1:latest:i18n_i_slc.sh:schedule(Sat)
+hhashimo@staix12:talleyrand_sp1:latest:i18n_x.sh:schedule(Sat)
+hhashimo@staix12:talleyrand_sp1:latest:i18n_xas.sh:schedule(Sat)
+hhashimo@staix12:talleyrand_sp1:latest:xprobmain.sh:schedule(Sat)
+
+# AIX64(aix64) ykono@staix12
+ykono@staix12:talleyrand_sp1:latest:i18n_j.sh:schedule(Sat)
+ykono@staix12:talleyrand_sp1:latest:i18n_j_mlc.sh:schedule(Sat)
+ykono@staix12:talleyrand_sp1:latest:i18n_i.sh:schedule(Sat)
+ykono@staix12:talleyrand_sp1:latest:i18n_i_slc.sh:schedule(Sat)
+ykono@staix12:talleyrand_sp1:latest:i18n_x.sh:schedule(Sat)
+ykono@staix12:talleyrand_sp1:latest:i18n_xas.sh:schedule(Sat)
+ykono@staix12:talleyrand_sp1:latest:xprobmain.sh:schedule(Sat)
+
+# HP-UX64(hpux64) ykono@stiahp3
+ykono@stiahp3:talleyrand_sp1:latest:i18n_j.sh:schedule(Sat)
+ykono@stiahp3:talleyrand_sp1:latest:i18n_j_mlc.sh:schedule(Sat)
+ykono@stiahp3:talleyrand_sp1:latest:i18n_i.sh:schedule(Sat)
+ykono@stiahp3:talleyrand_sp1:latest:i18n_i_slc.sh:schedule(Sat)
+ykono@stiahp3:talleyrand_sp1:latest:i18n_x.sh:schedule(Sat)
+ykono@stiahp3:talleyrand_sp1:latest:i18n_xas.sh:schedule(Sat)
+ykono@stiahp3:talleyrand_sp1:latest:xprobmain.sh:schedule(Sat)
+
+# Solaris32(solaris) hhashimo@issol13
+hhashimo@issol13:talleyrand_sp1:latest:i18n_j.sh:schedule(Sat)
+hhashimo@issol13:talleyrand_sp1:latest:i18n_j_mlc.sh:schedule(Sat)
+hhashimo@issol13:talleyrand_sp1:latest:i18n_i.sh:schedule(Sat)
+hhashimo@issol13:talleyrand_sp1:latest:i18n_i_slc.sh:schedule(Sat)
+hhashimo@issol13:talleyrand_sp1:latest:i18n_x.sh:schedule(Sat)
+hhashimo@issol13:talleyrand_sp1:latest:i18n_xas.sh:schedule(Sat)
+hhashimo@issol13:talleyrand_sp1:latest:xprobmain.sh:schedule(Sat)
+
+# Solaris64(solaris) ykono@issol13
+ykono@issol13:talleyrand_sp1:latest:i18n_j.sh:schedule(Sat)
+ykono@issol13:talleyrand_sp1:latest:i18n_j_mlc.sh:schedule(Sat)
+ykono@issol13:talleyrand_sp1:latest:i18n_i.sh:schedule(Sat)
+ykono@issol13:talleyrand_sp1:latest:i18n_i_slc.sh:schedule(Sat)
+ykono@issol13:talleyrand_sp1:latest:i18n_x.sh:schedule(Sat)
+ykono@issol13:talleyrand_sp1:latest:i18n_xas.sh:schedule(Sat)
+ykono@issol13:talleyrand_sp1:latest:xprobmain.sh:schedule(Sat)
+
+# i18n_j.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+# i18n_j_mlc.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+# i18n_i.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+# i18n_i_slc.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+# i18n_x.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+# i18n_xas.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+# xprobmain.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+

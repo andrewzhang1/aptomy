@@ -1,0 +1,32 @@
+# gtlf.dat : Control the GTLF release and load values and other default setting per version.
+# Syntax:
+# <version>=false|{<gtlf-release-value>:<gtlf-load-value>}
+# When you don't want to create GTLF file, please define "false" as value.
+#     11.1.2.3.001=false
+# When you define "false" to specific version, but Task was defined with "GTLFRelease()"
+# and "GTLFLoad()" task option, autopilot will create GTLF file with task option values.
+# When you defin specific release and load value for specific version, y<keyword>=<string>
+# <test>:<keyword>=<string>
+# <ver>:<keyword>=<string>
+# <keyword>=<string>
+# 11.1.2.3.001:dsapbg.sh:prefix=AUTO_APSservices- # Set prefix for dsapbg.sh only 11.1.2.3.001.
+# dsapfusion.sh:prefix=AUTO_APSservices-         # Set prefix for dsapbg.sh for all version.
+
+# GTLF Release and Load setting.
+# 11.1.2.3.001=11.1.1.8.0:1           # 2013/07/12 defined...
+#11.1.2.3.001=11.1.1.7.0BI-FAREL8:1       # 2013/08/06 by Kono for Eric's request
+#11.1.2.3.001=11.1.1.7.0BI-FAREL8:2          # 2013/08/26 by Eric changed to stage 2
+11.1.2.3.001=11.1.1.7.0BI-FAREL8:3          # 2013/09/23 by Eric changed to stage 3
+11.1.2.4.000=false
+11.1.2.6.000=false            # 2013/08/26 by Eric to override creating GTLF file from task file
+
+# APS prefix
+dsapssdqmd_acc_v1.sh:prefix=AUTO_APSservices-
+dsapdq_reg_v2.sh:prefix=AUTO_APSservices-
+dsapmd_reg_v2.sh:prefix=AUTO_APSservices-
+dsapds_reg_v1.sh:prefix=AUTO_APSservices-
+dsapds_reg_v2.sh:prefix=AUTO_APSservices-
+dsapssdqmd_acc_v1.sh:prefix=AUTO_APSservices-
+dsapprobmain.sh:prefix=AUTO_APSservices-
+dsapfusion.sh:prefix=AUTO_APSservices-
+dsapbg.sh:prefix=AUTO_APSservices-

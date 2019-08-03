@@ -1,0 +1,15 @@
+export ARBORPATH="F:/hvuggumu/Hyperion/92020"
+export HYPERION_HOME="F:/hvuggumu/Hyperion/92020"
+export ESSLANG="English_UnitedStates.Latin1@Binary"
+export SXR_HOME="S:/beckett/vobs/essexer/latest"
+export SXR_BASE="S:/joyce/vobs/essexer/latest"
+export PATH="$ARBORPATH/bin"
+export PATH="${SXR_HOME}/bin"
+#export PATH="$PATH;${HYPERION_HOME}/common/CSS/3.0.1/bin"
+export PATH="$PATH;${HYPERION_HOME}/common/ODBC-IA64/Merant/5.1/Drivers"
+export PATH="F:/PROGRA~2/MKSTOO~1/mksnt;$PATH"
+echo "AGENTPORT	100" >> $ARBORPATH/bin/essbase.cfg
+echo "SERVERPORTBEGIN 20000" >> $ARBORPATH/bin/essbase.cfg
+echo "SERVERPORTEND	21000" >> $ARBORPATH/bin/essbase.cfg
+echo "PORTINC		5" >> $ARBORPATH/bin/essbase.cfg
+export AUTOPILOT="S:/regressions/Autopilot_UNIX"

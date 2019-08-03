@@ -1,0 +1,13 @@
+initGrid "0" "100" "100";
+GethInst;
+newGrid "0";
+connectGrid "0" "%HOST" "%USR" "%PWD" "%APP" "%DB" "1";
+GethCtx 0;
+retrievegrid 0 "%GRID" "%ROW" "%COL" "%RESULT";
+DisconnectGrid 0 1;
+DestroyGrid 0;
+TermGrid;
+Exit;
+
+
+

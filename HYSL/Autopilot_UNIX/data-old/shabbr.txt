@@ -1,0 +1,30 @@
+93139main.sh 35:93139main_35
+93139main.sh 36,37:93139main_36_37
+93139main.sh:93139main
+agtpori1.sh:ori1
+agtpori2.sh:ori2
+maxlmain.sh:maxl
+agtpjlmain.sh:jlmain_sb
+agtpjvmain.sh:jvmain
+agtpjymain.sh:jymain
+agtp70main.sh:70main
+agtpcwmain.sh:cwmain
+agtpukmain.sh:ukmain
+agtpbkmain.sh:bkmain
+agtpjlmain.sh serial direct:jlmain_sd
+agtpjlmain.sh parallel direct:jlmain_pd
+agtpjlmain.sh parallel buffer:jlmain_pb
+agtpjlmain.sh_serial_direct:jlmain_sd
+agtpjlmain.sh_parallel_direct:jlmain_pd
+agtpjlmain.sh_parallel_buffer:jlmain_pb
+regress.sh:regress_sb
+regress.sh serial buffer:regress_sb
+regress.sh_serial_buffer:regress_sb
+regress.sh serial direct:regress_sd
+regress.sh_serial_direct:regress_sd
+regress.sh parallel buffer:regress_pb
+regress.sh_parallel_buffer:regress_pb
+regress.sh parallel direct:regress_pd
+regress.sh_parallel_direct:regress_pd
+agtpbarmain.sh:barmain
+agtpkenmain.sh:kenmain

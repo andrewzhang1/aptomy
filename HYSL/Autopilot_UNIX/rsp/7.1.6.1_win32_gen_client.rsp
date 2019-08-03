@@ -1,0 +1,485 @@
+################################################################################
+#
+# InstallShield Options File
+#
+# Wizard name: Install
+# Wizard source: setup.jar
+# Created on: Mon Jul 17 11:40:15 PDT 2006
+# Created by: InstallShield Options File Generator
+#
+# This file contains values that were specified during a recent execution of
+# Install. It can be used to configure Install with the options specified below
+# when the wizard is run with the "-options" command line option. Read each
+# setting's documentation for information on how to change its value.
+# 
+# A common use of an options file is to run the wizard in silent mode. This lets
+# the options file author specify wizard settings without having to run the
+# wizard in graphical or console mode. To use this options file for silent mode
+# execution, use the following command line arguments when running the wizard:
+# 
+#    -options "C:/7.1.6.0_win32_gen_client.rsp" -silent
+#
+################################################################################
+
+
+################################################################################
+#
+# User Input Field - country
+#
+#
+
+
+-W licenseCountryPanel.country="US"
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT ACCEPT" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT ACCEPT",
+# use
+# 
+#    -W licenseAT.selection=2
+#
+
+
+-W licenseAT.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseDK.selection=2
+#
+
+
+-W licenseDK.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseFI.selection=2
+#
+
+
+-W licenseFI.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT ACCEPT" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT ACCEPT",
+# use
+# 
+#    -W licenseFR.selection=2
+#
+
+
+-W licenseFR.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT ACCEPT" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT ACCEPT",
+# use
+# 
+#    -W licenseDE.selection=2
+#
+
+
+-W licenseDE.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseNL.selection=2
+#
+
+
+-W licenseNL.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT ACCEPT" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT ACCEPT",
+# use
+# 
+#    -W licenseIT.selection=2
+#
+
+
+-W licenseIT.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "????" will be selected
+#    2 - "?????" will be selected
+# 
+# For example, to configure the panel to initially display "?????", use
+# 
+#    -W licenseJP.selection=2
+#
+
+
+-W licenseJP.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseNO.selection=2
+#
+
+
+-W licenseNO.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licensePT.selection=2
+#
+
+
+-W licensePT.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT ACCEPT" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT ACCEPT",
+# use
+# 
+#    -W licenseES.selection=2
+#
+
+
+-W licenseES.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseSE.selection=2
+#
+
+
+-W licenseSE.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseCH.selection=2
+#
+
+
+-W licenseCH.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseUK.selection=2
+#
+
+
+-W licenseUK.selection=2
+
+
+################################################################################
+#
+# License Agreement State
+#
+# The initial state of the License Agreement panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I ACCEPT" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W licenseUS.selection=2
+#
+
+
+-W licenseUS.selection=1
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "Yes" will be selected
+#    2 - "No " will be selected
+# 
+# For example, to configure the panel to initially display "No ", use
+# 
+#    -W chkOldInstallationApprovalbean.selection=2
+#
+
+
+-W chkOldInstallationApprovalbean.selection=2
+
+
+################################################################################
+#
+# Hyperion Essbase(R) Client 7.1.6 Install Location
+#
+# The install location of the product. Specify a valid directory into which the
+# product should be installed. If the directory contains spaces, enclose it in
+# double-quotes. For example, to install the product to C:\Program Files\My
+# Product, use
+# 
+#    -P installLocation="C:\Program Files\My Product"
+#
+
+
+-P installLocation="ARBORPATH_CHANGE"
+
+
+################################################################################
+#
+# Please select the Hyperion Home Directory
+#
+# <html>The required common components for this application will be<br>installed
+# to this location<br></html>
+#
+
+
+-W bean.hyperionHome=HYPERION_HOME_CHANGE
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "Yes" will be selected
+#    2 - "No" will be selected
+# 
+# For example, to configure the panel to initially display "No", use
+# 
+#    -W Approval.selection=2
+#
+
+
+-W Approval.selection=1
+
+
+################################################################################
+#
+# Setup Type
+#
+# The setup type to be used when installing the product. Legal values are:
+# 
+#    typicalSuite - Typical: The program will be installed with the suggested
+#                   configuration. Recommended for most users.
+#    customSuite  - Custom: The program will be installed with the features you
+#                   choose. Recommended for advanced users.
+# 
+# For example, to specify that the "Typical" setup type is selected, use
+# 
+#    -W setupTypesSuite.selectedSetupTypeId=typicalSuite
+# 
+# You may also set the setup type to nothing by using
+# 
+#    -W setupTypesSuite.selectedSetypTypeId=
+# 
+# This clears the current setup type and prevents any changes to the set of
+# selected features. Use this option whenever you set feature active states in
+# this options file. If you do not clear the selected setup type, the setup type
+# panel will override any changes you make to feature active states using this
+# file.
+#
+
+
+-W setupTypesSuite.selectedSetupTypeId=typicalSuite
+
+
+################################################################################
+#
+# "Runtime Client" Feature
+#
+# The selection state of the "Runtime Client" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Runtime Client" for installation, use
+# 
+#    -P essbaseClient7_0_0Reference_clientRuntime7_0_0Feature.active=true
+#
+
+
+-P essbaseClient7_0_0Reference_clientRuntime7_0_0Feature.active=true
+
+
+################################################################################
+#
+# "Excel Spreadsheet Add-in" Feature
+#
+# The selection state of the "Excel Spreadsheet Add-in" feature. Legal values
+# are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Excel Spreadsheet Add-in" for installation, use
+# 
+#    -P
+#    essbaseClient7_0_0Reference_excelSpreadSheetAddIn7_0_0Feature.active=tru
+#    e
+#
+
+
+-P essbaseClient7_0_0Reference_excelSpreadSheetAddIn7_0_0Feature.active=true
+
+
+################################################################################
+#
+# "Essbase API" Feature
+#
+# The selection state of the "Essbase API" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Essbase API" for installation, use
+# 
+#    -P essbaseClient7_0_0Reference_essbaseAPI7_0_0Feature.active=true
+#
+
+
+-P essbaseClient7_0_0Reference_essbaseAPI7_0_0Feature.active=false
+
+
+################################################################################
+#
+# User Input Field - updateEnvironment
+#
+#
+
+
+-W updatePath.updateEnvironment=""

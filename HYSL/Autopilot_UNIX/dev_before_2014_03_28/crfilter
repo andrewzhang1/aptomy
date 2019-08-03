@@ -1,0 +1,6 @@
+#!/usr/bin/ksh
+while read line
+do
+  echo $line | tr -d '\r'
+done
+

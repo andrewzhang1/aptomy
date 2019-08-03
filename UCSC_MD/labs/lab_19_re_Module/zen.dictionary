@@ -1,0 +1,7 @@
+replace_d = {
+        'general':'band leader', 
+	'china':'mexico', 
+	'zen':'mariachi', 
+	'master':'teacher', 
+	'sword':'baton',
+	'through':'around'}

@@ -1,0 +1,16 @@
+agtpori1.sh
+agtpukmain.sh
+agtpcwmain.sh
+agtpjvmain.sh
+maxlmain.sh
+agtpjlmain.sh parallel direct
+agtpjlmain.sh parallel buffer
+agtpjlmain.sh
+agtpjlmain.sh serial direct
+agtpori2.sh
+agtp70main.sh
+agtpjymain.sh
+agtpbkmain.sh
+agtpbarmain.sh
+# agtpkenmain.sh
+capitest.sh:setenv2(APIPATH="\$HYPERION_HOME/products/Essbase/EssbaseClient") runplat(stnti21 stnti23 regrrk1@stiahp3)

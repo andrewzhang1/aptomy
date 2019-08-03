@@ -1,0 +1,173 @@
+# Default value for the autopilot related variable.
+# This file is read by set_vardef() function.
+# sample:
+#   AP_NOPLAT=false
+#   AP_KEEPWORK=2
+#   When you want to refer some variable, please use variable name with "$".
+#     AP_LOGFOLDER=$AUTOPILOT/log
+#   note: When use variable reference, it will be executed by "eval" command.
+#         If you want to put double quotation character with it, please use \".
+#   Sample: WORKDIR is set to C:/work. (export WORKDIR="C:/work").
+#     AP_WORK=C:/work      -> C:/work
+#     AP_WORK="C:/work"    -> "C:/work"
+#     AP_WORK=$WORKDIR     -> C:/work
+#     AP_WORK="$WORKDIR"   -> C:/work
+#     AP_WORK=\"$WORKDIR\" -> "C:/work"
+
+# Following variables are handled in "autopilot.sh"
+AP_NOPLAT=false
+AP_KEEPWORK=2
+AP_NOAGTPSETUP=true
+AP_NOPARSE_MIDNIGHT=true
+AP_TSKFILE=$AUTOPILOT/tsk/${LOGNAME}.tsk
+# Following variables are handled in "apmon.dh" and check each $AP_APMON_SLEEP interval
+# and if those are modified, apmon.sh imidiately use that value.
+AP_WAITTIME=nextday
+AP_APMON_SLEEP=30
+
+# Following variables are handled in "start_regress.sh"
+AP_EMAILLIST=$AUTOPILOT/data/email_list.txt
+AP_SCRIPTLIST=$AUTOPILOT/data/script_list.txt
+AP_NOEMAILLIST=$AUTOPILOT/data/no_email_list.txt
+
+# Following variable is handled in "se.sh"
+AP_AGTPLIST=$AUTOPILOT/data/agentport_list.txt
+
+AP_TARCNT=3
+sxrfiles=log sta sog suc dif dna xcp lastcfg cfg
+# Result post location
+#   atuopilot create $AP_RESLOC/<version>/$AP_RESFOLDER(essbase) and post into there.
+AP_RESLOC=$AUTOPILOT/..
+AP_NATIVESEC=true
+AP_FORCEARBORPATH=true
+AP_SINGLEARBORPATH=true
+
+#NEW - need cording
+AP_TARCTL=essexer
+#/NEW
+
+# Following variables are handled by "setchk_env.sh"
+# Those are for logging purpose only.
+VIEW_PATH=$HOME/views
+HYPERION_HOME=$HOME/hyperion
+ARBORPATH=$HYPERION_HOME/$_ESSDIR
+ESSBASEPATH=$HYPERION_HOME/$_ESSCDIR
+ODBC_HOME=$HYPERION_HOME/ODBC
+JAVA_HOME=$HYPERION_HOME/JAVA
+ODBCINI=$ODBC_HOME/odbc.ini
+ESSLANG=English_UnitedStates.Latin1@Binary
+SXR_HOME=$_SXR_HOME
+AP_SNAPSHOT_BASE=$AUTOPILOT/../..
+
+# Following variables are hadnled by "remon.sh"
+#AP_REGMON_INTERVAL=600 # 10 mins - interval time to check the hanging up
+AP_REGMON_INTERVAL=600
+AP_CRR_INTERVAL=15
+# AP_CLIENT_TIMEOUT=14400
+AP_CLIENT_TIMEOUT=14400
+#This value must bigger than AP_REGMON_INTERVAL value.
+AP_SCRIPT_TIMEOUT=10800
+
+# Following variables are handled by "ap.sh"
+AP_BINPTR=$AUTOPILOT/../../qacleanup/vobs/essexer/autopilot/bin
+AP_DEVPTR=$AUTOPILOT/dev
+AP_TSTPTR=$AUTOPILOT/tst
+
+# AP_BICONSTR : The default connection string definition for the RCU utility(biinst.sh)
+# AP_BICONSTR=<DBMS kind>:<hostname>:<port>:<sid>:><sys usr>:<pwd>:<role>:<repf>:<repmethd>
+# <DBMS kind> : ora=Oracle, sql=MS SQL Server, db2=IBM DB2
+# <hosname>   : The host name of the RDBMS. scl14152.oracle.com, etc...
+# <port>      : Port number like 1521, etc...
+# <sid>       : SID or databse name like ora, etc..
+# <sys usr>   : User account name which has SYSDBA privilege like SYS, etc...
+# <pwd>       : Passord for <sys usr>
+# <role>      : The system role using on login for the <sys usr> like SYSDBA, etc...
+# <repf>      : Repository list file using for this connection.
+#               If definition doesn't include path separator, "/", autopilot add $AUTOPILOT/data 
+#               to that file name. Other wise, use defined path directly.
+#		If you skip this parameter, autopilot uses birep_list.txt for it.
+# <repmethd>  : Repository list file handling method. (incr|line)
+#               The method how to use the repository file.
+#               incr -> Increase the number for the prefix -> Not re-use same number
+#               line -> Use specific number for the prefix -> Same user on same machine always 
+#                       use same number. Now, RCU tool failed to drop previous repository. 
+#                       So, the default is set to incr
+# AP_BICONSTR=ora:10.148.176.187:1521:bi:SYS:password:SYSDBA:birep_list.txt:incr
+# AP_BICONSTR=ora:10.148.176.187:1521:bi:SYS:password:SYSDBA:birep_list.txt:line
+# AP_BICONSTR=ora:scl14152:1521:regbi:SYS:password:SYSDBA:birep_scl14152.txt:incr
+# AP_BICONSTR=ora:scl14152:1521:regbi2:SYS:password:SYSDBA:birep_scl14152_2.txt:incr
+# AP_BICONSTR=ora:scl14152:1521:regbi3:SYS:password:SYSDBA:birep_scl14152_3.txt:incr
+# AP_BICONSTR=ora:scl14152:1521:regbi4:SYS:password:SYSDBA:birep_scl14152_4.txt:incr
+# AP_BICONSTR=ora:10.148.218.232:1521:regbi:SYS:password:SYSDBA:birep_kono.txt:incr
+# AP_BICONSTR=ora:10.148.218.119:1521:regbi:SYS:password:SYSDBA:birep_kono.txt:incr
+# AP_BICONSTR=ora:10.148.218.153:1521:regbi:SYS:password:SYSDBA:birep_regorax64.txt:incr
+# AP_BICONSTR=ora:scl14159:1521:regbi:SYS:password:SYSDBA:birep_scl14159.txt:incr
+AP_BICONSTR=ora:slc03jle:1521:regbi1:SYS:password:SYSDBA:slc03jle_bilist.txt:incr
+AP_HSSCONSTR=ora:slc03jle:1521:reg:regress:password
+
+# Default prefix for BISHIPHOME (srch_bi.sh)
+AP_BIPREFIX=BISHIPHOME
+
+# Logto test. (by autopilot.sh)
+AP_LOGTO=$HOME/${LOGNAME}@$(hostname).log
+
+# Done mark text (by start_regress.sh)
+AP_DMFILE=$AUTOPILOT/data/task_completed.txt
+
+# GTLF Upload default (from gtlf.sh)
+#  =true : Upload result all times
+#  =false: Won't upload result
+#  =0    : Upload result when the diff count is zero
+#  =#    : Upload result when the diff count is less than #
+AP_GTLFUPLOAD=false
+
+# GTLF Upload platforms
+AP_GTLFPLAT="linuxamd64 winamd64"
+
+# Default GTLF Load and Release values
+GTLF_load=1
+GTLF_release=11.1.1.8.0
+
+# Essbase initializing(from ap_essinit.sh)
+AP_ESSINIT=false
+
+# Default version for se.sh
+AP_VERSION=11.1.2.2.500
+
+# Control opackinst.sh
+# AP_OPACK_ROLLBACKTEST=true -> Do rollback test
+# AP_OPACK_CMPZIPBIN=true -> Compare the binary files between refresh and opack
+# AP_OPACK_CMPATTR=true -> Do attribute compare on the AP_OPACK_CMPZIPBIN test
+AP_OPACK_ROLLBACKTEST=false
+AP_OPACK_CMPZIPBIN=false
+AP_OPACK_CMPATTR=false
+
+# Following variables are handled by bisync.sh
+BISYNC_BRANCH=11.1.1.7.0
+BISYNC_SOURCE=/ade_autofs/ade_generic3
+
+# From start_regress.sh
+# true = always create GTLF file
+# conditional = When uses GTLF(true) or GTLFLoad() or GTLFRelease(), create GTLF
+# false = restrict to create GTLF file even if GTLF() or GTLFLoad() or GTLFRelease() used.
+AP_RUNGTLF=conditional
+
+# from se.sh
+# Bug 16398551 - HIT PS3 DOESN'T ALLOW "." FOR THE INSTALL LOCATION.
+# it can be "_" "-" ""
+AP_VERSEPCH=-
+
+# BUG 16571221 - NOTIFICATION ONLY SENT TO PLATFORM PERSON WHEN DIF FROM TEST IS 25+ 
+AP_NOTIFYLVL=25
+
+# BUG 16571195 - PUT TASK FILES IN CLEARCASE
+AP_TSKFLD=$AUTOPILOT/tsk
+# AP_TSKFLD=$APCC/tsk
+
+# RC date file from 
+AP_RCDATEFLD=$AUTOPILOT/data
+# AP_RCDATEFLD=$APCC/data
+
+# latest check for parse_one_task.sh.
+AP_BUILDTHRESHOLDHOUR=24
+

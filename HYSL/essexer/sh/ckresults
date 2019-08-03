@@ -1,0 +1,65 @@
+cd $SXR_WORK
+echo "Checking Regression Results" 
+date 
+uname -n 
+echo "Current Working directory is "$(pwd) 
+
+BOX=$(uname)
+ 
+if [ $BOX = Windows_NT ]
+then
+        cd $SXR_WORK
+
+	echo "Number of Success:"
+		ls *.suc |wc -l
+	echo "Number of fails:"
+		ls *.dif |wc -l
+	echo "Number of total sog files"
+		ls *.sog |wc -l
+	echo "Executing find $ARBORPATH -name *.xcp"
+		find $ARBORPATH -name "*.xcp"
+	echo "Executing grep -i respond *.sog"
+		grep -i respond *.sog
+	echo "Executing grep -i network *.sog"
+		grep -i network *.sog
+	echo "Executing grep -i file Handle *.sog"
+        	grep -i "file handle" *.sog 
+	echo "Executing grep -i segmentation *.sog"
+        	grep -i segmentation *.sog 
+	echo "Executing grep -i network error *.sog"
+        	grep -i "network error: cannot send" *.sog   
+	echo "Looking for fatal in Essbase.log"
+		grep -i 'fatal ' $ARBORPATH/ESSBASE.log
+ 	ls -l *.dif
+
+elif [ $BOX = HP-UX -o $BOX = Linux -o $BOX = AIX -o $BOX = SunOS ]
+        then
+	echo "Number of Success:"
+		ls *.suc |wc -l
+	echo "Number of fails:"
+		ls *.dif |wc -l
+	echo "Number of total sog files"
+		ls *.sog |wc -l
+	echo "Executing find $ARBORPATH -name *.xcp"
+		find $ARBORPATH -name "*.xcp"
+	echo "Executing grep -i network *.sog"
+		grep -i network *.sog
+	echo "Executing grep -i coredump *.sog"
+		grep -i coredump *.sog
+	echo "Executing grep -i serious *.sog"
+		grep -i serious *.sog
+	echo "Executing grep -i respond *.sog"
+		grep -i respond *.sog
+	echo "Executing grep -i file handle *.sog"
+        	grep -i "file handle" *.sog 
+	echo "Executing grep -i segmentation *.sog"
+        	grep -i segmentation *.sog 
+	echo "Executing grep -i network error *.sog"
+        	grep -i "network error: cannot send" *.sog   
+	echo "Looking for fatal in Essbase.log"
+		grep -i 'fatal ' $ARBORPATH/Essbase.log
+	ls -l *.dif
+    
+else
+        echo "Unable to send email"
+fi

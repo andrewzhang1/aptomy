@@ -1,0 +1,49 @@
+# agsfmain.sh:secmode(fa)
+# agsbmain.sh:secmode(rep)
+maxlmain.sh:
+capitest.sh:runplat(stiahp4 scl14093 scl14160)
+dxmdmain.sh:
+dmccmain.sh:
+dmbgmain.sh:
+agbgmain.sh:
+dcbgmain.sh:
+dcrpmain.sh:
+dctpmain.sh:
+dxssmain.sh:
+apgdmain.sh:
+sddbmain.sh:
+dmdcmain.sh:
+ddldmain.sh:
+ddbgmain.sh:
+dmpcmain.sh:
+smbgmain.sh:
+smlrmain.sh:
+apbgmain.sh:
+apgemain.sh:
+dresmain.sh:
+msscmain.sh:
+sdbgmain.sh:
+sdremain.sh:
+sdsvmain.sh:
+smbumain.sh:
+agapmain.sh:
+aglgmain.sh:
+agsymain.sh:
+dcmpmain.sh:
+dmglmain.sh:
+dmudmain.sh:
+dxrrmain.sh:
+sdatmain.sh:
+smalmain.sh:
+smixmain.sh:
+smtxmain.sh:
+apotmain.sh:
+dcosmain.sh:
+ddximain.sh:
+dxbgmain.sh:
+# dsapssdqmd_acc_v1.sh:setVar(APS_VERSION=11.1.2.2.200 APS_BUILD=latest)
+# dsapdq_reg_v2.sh:setVar(APS_VERSION=11.1.2.2.200 APS_BUILD=latest)
+# dsapmd_reg_v2.sh:setVar(APS_VERSION=11.1.2.2.200 APS_BUILD=latest)
+# dsapds_reg_v1.sh:setVar(APS_VERSION=11.1.2.2.200 APS_BUILD=latest)
+# dsapds_reg_v2.sh:setVar(APS_VERSION=11.1.2.2.200 APS_BUILD=latest)
+agssmain.sh:secmode(hss) forceinst(true) DoneMark(%VER|%BLD|%PLAT|%INST)

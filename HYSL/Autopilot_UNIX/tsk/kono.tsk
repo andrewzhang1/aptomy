@@ -1,0 +1,7 @@
+dsapssdqmd_acc_v1.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)
+dsapdq_reg_v2.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)
+dsapmd_reg_v2.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)
+dsapds_reg_v1.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)
+dsapds_reg_v2.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)
+dsapprobmain.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)
+dsapbg.sh:opackver(epm) setenv(APS_VERSION=$VERSION APS_BUILD=003)

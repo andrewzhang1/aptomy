@@ -1,0 +1,6 @@
+{
+    "db_def": {
+        "database": "db_prod",
+        "table": "tb_01"
+    }
+}

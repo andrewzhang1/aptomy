@@ -1,0 +1,13 @@
+$LOGNAME InstNotify $AP_ALTEMAIL
+Autopilot Notification (Installation $_insterr_kind) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Installer caused error. $_insterr_mess
+
+  Machine        = $(hostname):$_PLATNAME
+  Login User     = $LOGNAME
+  Install Status = $_inst_err
+  Version:Build  = $VERSION:$BUILD
+  Test Script    = $TEST
+  ARBORPATH      = $ARBORPATH
+  HYPERION_HOME  = $HYPERION_HOME
+  SXR_HOME       = $SXR_HOME
+

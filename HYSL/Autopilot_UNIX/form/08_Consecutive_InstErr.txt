@@ -1,0 +1,13 @@
+$LOGNAME MgrNotify InstNotify $AP_ALTEMAIL
+Autopilot Notification (Consecutive Installation error) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Installation error occured on 3 more builds.
+
+  Machine        = $(hostname):$_PLATNAME
+  Login User     = $LOGNAME
+  Install Status = $_inst_err
+  Version:Build  = $VERSION:$BUILD
+  Test Script    = $TEST
+  ARBORPATH      = $ARBORPATH
+  HYPERION_HOME  = $HYPERION_HOME
+  SXR_HOME       = $SXR_HOME
+

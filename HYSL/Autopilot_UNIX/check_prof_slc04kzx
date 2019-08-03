@@ -1,0 +1,14 @@
+echo `date` > memory_slc04kzx.out
+while :
+do
+IDS=`ps -fu username|grep ESSSVR|grep -v grep|cut -f5 -d" "`
+IDA=`ps -fu usersname|grep ESSBASE|grep -v grep|cut -f4 -d" "`
+echo "server is $IDS and agent is $IDA"
+echo "agent mem is `pmap $IDA |grep total`"  >> memory_slc04kzx.out
+echo "server mem is `pmap $IDS |grep total`" >> memory_slc04kzx.out
+echo "`mpstat`" >> memory_slc04kzx.out
+pmap $IDS |grep total
+pmap $IDA |grep total
+sleep 15
+done
+

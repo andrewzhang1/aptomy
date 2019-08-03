@@ -1,0 +1,26 @@
+# Environment setup template for WIN32
+# _JAVA_HOME=Relative path for the JAVA directory from $HYPERION_HOME
+# _ODBC_HOME=Relative path for the ODBC directory from $HYPERION_HOME
+# If you don't need that definition on some version, please define it empty like *)
+
+unset _JAVA_HOME _ODBC_HOME
+unset _PATHLIST _LIBLIST
+unset _EXTRA_VARS
+export _LIBPATH="PATH"
+
+export _JAVA_HOME="common/JRE/Sun/1.6.0"
+export _JAVA_HOME="$_JAVA_HOME common/JRE/Sun/1.5.0"
+export _JAVA_HOME="$_JAVA_HOME common/JRE/Sun/1.4.2"
+export _ODBC_HOME="common/ODBC/Merant/6.0"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC/Merant/5.3"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC/Merant/5.2"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC/Merant/5.1"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC/Merant/4.2"
+export _PATHLIST="$_PATHLIST \$ODBC_HOME/Drivers"
+# Temporary work around for Bug 8982240
+# export _PATHLIST="\$JAVA_HOME/bin \$JAVA_HOME/bin/server $_PATHLIST"
+# export _PATHLIST="\$JAVA_HOME/bin/server \$JAVA_HOME/bin/client $\$JAVA_HOME/bin _PATHLIST"
+export _PATHLIST="$_PATHLIST \$JAVA_HOME/bin/client \$JAVA_HOME/bin"
+export _EXTRA_VARS="APIPATH"					# C API
+[ -n "$_ESSCDIR" ] && export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+	|| export _APIPATH="\$ARBORPATH/api"

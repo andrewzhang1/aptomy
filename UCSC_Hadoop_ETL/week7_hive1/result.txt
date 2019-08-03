@@ -1,0 +1,9 @@
+hive> 
+    > -- this is hive comment
+    > -- CREATE …
+    > SHOW DATABASES
+    > ;
+default
+foodmart
+xademo
+hive> 

@@ -1,0 +1,8 @@
+There is an apsal. But the process(19422) is not found.
+Delete /nar200/essbasesxr/regressions/Autopilot_UNIX/mon/regrhv1@slc02gmv.ap.
+FLAG=START
+STS =RUNNING
+set_vardef:AP_NOPLAT is already set to "false(def:false)".
+set_vardef:AP_KEEPWORK is already set to "1(def:2)".
+Parameter is start
+No apmon.sh. Launch it.

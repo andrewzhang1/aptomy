@@ -1,0 +1,13 @@
+# rcdate.txt : RC date record
+# This file contains the RC date record for each versions.
+# If current date over the RC date, addtsk.sh and task_parser.sh
+# reject task which uses <ver>/<bld> format.
+# Only <ver> hit() task can be added after it.
+# This file is refered from ckrcdate.sh.
+# Format:
+#   <version>:YYYY/MM/DD
+# Example:
+#   11.1.2.4.000:2013/06/25
+# History:
+# 2013/07/19	YKono	First edition
+

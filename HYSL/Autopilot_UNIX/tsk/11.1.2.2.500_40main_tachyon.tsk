@@ -1,0 +1,142 @@
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	agapmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	agbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	aglgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	agsymain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	apbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	apgdmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	apgemain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	apotmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	capitest.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	dcbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dcmpmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dcosmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dcrpmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dctpmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	ddbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	ddldmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	ddximain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)" 
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dmbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dmccmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dmdcmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dmglmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dmpcmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dmudmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dresmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	dxbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	dxmdmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	dxrrmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	dxssmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	maxlmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	msscmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	msxxmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	sdatmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	sdbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	sddbmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	sdremain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	sdsvmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	smalmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	smbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	smbumain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	smixmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	smlrmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	smtxmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(11.1.2.2.500|4112|linux|EPM)"
+
+re-run:
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	sddbmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0)"
+
+
+sddbmain
+
+
+# 2012/06/08 As per Yuki: Re-run with new format: adding "doneMark" 
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4107  capitest.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+ 
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	smalmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4112	smbgmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	smbumain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4112	smixmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4112	smlrmain.sh -o "snapshot(qacleanup) GTLFLoad(3.1) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+
+
+send_result.sh -fromap  11.1.2.2.500 4112 capitest.sh
+send_result.sh -fromap  11.1.2.2.500 4112 aglgmain.sh
+send_result.sh -fromap  11.1.2.2.500 4112 apbgmain.sh
+
+apbg9131686
+
+kill_regress.sh 
+autopilotbg.sh -noinst start
+
+
+
+# Re run 
+kill_regress.sh 
+autopilotbg.sh -noinst start
+addtsk.sh -i azhang@scl14351 11.1.2.2.500 4084	dxrrmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4084	dmudmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	dxrrmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+kill_regress.sh 
+autopilotbg.sh -noinst start
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4084	capitest.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4084	apotmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	dcosmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+
+
+
+
+dxssmain.sh and dmudmain.sh 
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4084	agsymain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4084	dxmdmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	sddbmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	dmudmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) NoBuildCheck(true)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	maxlmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+
+
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	accxmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) NoBuildCheck(true)"
+
+
+
+NoBuildCheck(true) 
+
+
+
+
+1066/183              11.1.2.2.500_4084_linuxamd64_agsymain_Security.gtlf.xml
+3646/61                11.1.2.2.500_4084_linuxamd64_dxmdmain_MDX.gtlf.xml
+525/18                  11.1.2.2.500_4084_linuxamd64_maxl_Maxl_Tests.gtlf.xml
+3404/101              11.1.2.2.500_4084_linuxamd64_sddbmain_Dimension_Build.gtlf.xml
+
+While the web results page show the dmudmain script as run, I don’t see a gtlf file for the same
+
+
+
+
+# regraz2: 9
+
+# regraz2: 15
+
+# regraz4: 17
+
+
+kill_regress.sh 
+autopilotbg.sh -noinst start
+
+   
+##################################
+# Run Autopilot with ????main.sh
+
+# After Van fixed some test:
+##################################
+11.1.2.2.500
+
+
+

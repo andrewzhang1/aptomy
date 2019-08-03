@@ -1,0 +1,77 @@
+#
+# WIN32 and WINAMD32 tasks are moved to ykono
+#
+
+
+########################################################################
+#
+# WIN32 
+#
+########################################################################
+
+##### stnti10 #####
+
+##### stnti17 #####
+
+##### stnti18 #####
+
+##### stnti21 #####
+
+##### stnti22 #####
+
+STNT-BL1:kennedy:latest:ori1.sh
+########################################################################
+#
+# WINAMD64 (AMD & Xeon64)
+#
+########################################################################
+
+##### stnti23 #####
+
+##### Eval-win3 #####
+
+
+########################################################################
+#
+# WIN64 Montecito  (Itanium 2)
+#
+########################################################################
+
+##### eval-win6 #####
+# eval-win6:9.2/9.2.0.3.0:049:agtpjvmain.sh
+# eval-win6:9.2/9.2.0.3.0:049:agtpjlmain.sh parallel buffer
+# eval-win6:9.2/9.2.0.3.0:049:agtpori2.sh
+# eval-win6:9.2/9.2.0.3.0:049:agtpjlmain.sh
+# eval-win6:9.2/9.2.0.3.0:049:agtpjymain.sh
+# eval-win6:9.2/9.2.0.3.0:049:agtpjlmain.sh parallel direct
+
+
+########################################################################
+#
+# WIN64 (Itanium)
+#
+########################################################################
+
+
+#### iahpux2 #####
+#iahpux2:9.3.1.0.0:181:agtp70main.sh
+iahpux2:9.3.1.0.0:181:agtpbarmain.sh
+iahpux2:9.3.1.0.0:181:agtpjlmain.sh serial direct
+iahpux2:9.3.1.0.0:181:agtpjymain.sh
+iahpux2:9.3.1.0.0:181:agtpcwmain.sh
+#iahpux2:9.3.1.0.0:181:agtpbkmain.sh
+
+##### stiahp2 #####
+#stiahp2:9.3.1.0.0:181:agtpjvmain.sh
+#stiahp2:9.3.1.0.0:181:maxlmain.sh
+#stiahp2:9.3.1.0.0:181:agtpjlmain.sh parallel buffer
+#stiahp2:9.3.1.0.0:181:agtpori2.sh
+#stiahp2:9.3.1.0.0:181:agtpukmain.sh
+stiahp2:9.3.1.0.0:181:agtpbkmain.sh
+
+
+##### iant03 #####
+#iant03:9.3.1.0.0:181:agtpjlmain.sh parallel direct
+#iant03:9.3.1.0.0:181:agtpjlmain.sh
+#iant03:9.3.1.0.0:181:agtpori1.sh
+iant03:9.3.1.0.0:181:agtpbarmain.sh

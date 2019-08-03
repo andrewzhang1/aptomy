@@ -1,0 +1,17 @@
+# Special e-mail address	
+# Admin	ADMIN<yukio.kono@oracle.com>
+# InstNotify	INST<yukio.kono@oracle.com>
+# DoneNotify	DONE<yukio.kono@oracle.com>
+# DifNotify	DIFF<yukio.kono@oracle.com>
+# DirCompNotify	DIRCMP<yukio.kono@oracle.com>
+# CleanupNotify	CLEANUP<hvnguyen_org_ww@oracle.com>
+# EnvNotify	ENV<yukio.kono@oracle.com>
+
+# Login account
+	
+# Andrew	
+regraz1	Andrew_Zhang<andrew.zhang@oracle.com> 
+regraz2	Andrew_Zhang<andrew.zhang@oracle.com>
+regraz3	Andrew_Zhang<andrew.zhang@oracle.com> 
+	
+Andrew	Andrew_Zhang<andrew.zhang@oracle.com> 

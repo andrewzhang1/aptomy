@@ -1,0 +1,130 @@
+[W 16:07:35.239 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 16:07:35.266 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 16:07:35.266 NotebookApp] Serving notebooks from local directory: /Users/axz1191/Documents/azhang/aptomy
+[I 16:07:35.266 NotebookApp] The Jupyter Notebook is running at:
+[I 16:07:35.266 NotebookApp] http://(MKC02WQ208HTD6 or 127.0.0.1):9003/
+[I 16:07:35.266 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:07:37.707 NotebookApp] 302 GET /tree (::1) 2.43ms
+[I 16:07:41.820 NotebookApp] 302 POST /login?next=%2Ftree (::1) 1.35ms
+[I 16:09:49.326 NotebookApp] 302 GET / (10.137.48.115) 0.66ms
+[W 16:09:49.335 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:49.371 NotebookApp] 403 GET /tree? (10.137.48.115) 35.84ms referer=None
+[W 16:09:50.569 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.570 NotebookApp] 403 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=3c2a865c832a1322285c55c6ed99abb2 (10.137.48.115) 2.25ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.579 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.580 NotebookApp] 403 GET /static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56 (10.137.48.115) 2.04ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.581 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.582 NotebookApp] 403 GET /static/style/style.min.css?v=e79dbfdd7c8f19c96a1c8d0d7da38bdc (10.137.48.115) 1.57ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.588 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.590 NotebookApp] 403 GET /custom/custom.css (10.137.48.115) 1.88ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.591 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.592 NotebookApp] 403 GET /static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe (10.137.48.115) 1.27ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.598 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.600 NotebookApp] 403 GET /static/components/preact/index.js?v=00a2fac73c670ce39ac53d26640eb542 (10.137.48.115) 2.00ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.601 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.602 NotebookApp] 403 GET /static/components/proptypes/index.js?v=c40890eb04df9811fcc4d47e53a29604 (10.137.48.115) 1.46ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.604 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.605 NotebookApp] 403 GET /static/components/preact-compat/index.js?v=f865e990e65ad27e3a2601d8adb48db1 (10.137.48.115) 1.63ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.606 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.607 NotebookApp] 403 GET /static/components/requirejs/require.js?v=951f856e81496aaeec2e71a1c2c0d51f (10.137.48.115) 1.21ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.608 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.609 NotebookApp] 403 GET /static/base/images/logo.png?v=641991992878ee24c6f3826e81054a0f (10.137.48.115) 1.18ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:50.666 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:50.667 NotebookApp] 403 GET /static/base/images/favicon.ico?v=97c6417ed01bdc0ae3ef32ae4894fd03 (10.137.48.115) 2.23ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:54.118 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.120 NotebookApp] 403 GET /tree (10.137.48.115) 2.14ms referer=http://10.137.48.95:9003/tree?
+[W 16:09:54.141 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.142 NotebookApp] 403 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=3c2a865c832a1322285c55c6ed99abb2 (10.137.48.115) 2.12ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.143 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.144 NotebookApp] 403 GET /static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56 (10.137.48.115) 1.44ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.145 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.146 NotebookApp] 403 GET /static/style/style.min.css?v=e79dbfdd7c8f19c96a1c8d0d7da38bdc (10.137.48.115) 1.33ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.147 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.148 NotebookApp] 403 GET /custom/custom.css (10.137.48.115) 1.29ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.149 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.150 NotebookApp] 403 GET /static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe (10.137.48.115) 1.52ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.154 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.155 NotebookApp] 403 GET /static/components/preact/index.js?v=00a2fac73c670ce39ac53d26640eb542 (10.137.48.115) 1.84ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.159 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.160 NotebookApp] 403 GET /static/components/proptypes/index.js?v=c40890eb04df9811fcc4d47e53a29604 (10.137.48.115) 1.68ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.161 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.162 NotebookApp] 403 GET /static/components/preact-compat/index.js?v=f865e990e65ad27e3a2601d8adb48db1 (10.137.48.115) 1.27ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.165 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.166 NotebookApp] 403 GET /static/components/requirejs/require.js?v=951f856e81496aaeec2e71a1c2c0d51f (10.137.48.115) 1.58ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.175 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.176 NotebookApp] 403 GET /static/base/images/logo.png?v=641991992878ee24c6f3826e81054a0f (10.137.48.115) 2.20ms referer=http://10.137.48.95:9003/tree
+[W 16:09:54.190 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:54.191 NotebookApp] 403 GET /static/base/images/favicon.ico?v=97c6417ed01bdc0ae3ef32ae4894fd03 (10.137.48.115) 2.20ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.043 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.045 NotebookApp] 403 GET /tree (10.137.48.115) 2.22ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.067 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.068 NotebookApp] 403 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=3c2a865c832a1322285c55c6ed99abb2 (10.137.48.115) 2.09ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.069 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.070 NotebookApp] 403 GET /static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56 (10.137.48.115) 1.45ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.071 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.072 NotebookApp] 403 GET /static/style/style.min.css?v=e79dbfdd7c8f19c96a1c8d0d7da38bdc (10.137.48.115) 1.36ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.073 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.074 NotebookApp] 403 GET /custom/custom.css (10.137.48.115) 1.31ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.077 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.078 NotebookApp] 403 GET /static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe (10.137.48.115) 1.65ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.079 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.080 NotebookApp] 403 GET /static/components/preact/index.js?v=00a2fac73c670ce39ac53d26640eb542 (10.137.48.115) 1.27ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.086 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.087 NotebookApp] 403 GET /static/components/proptypes/index.js?v=c40890eb04df9811fcc4d47e53a29604 (10.137.48.115) 1.68ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.088 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.089 NotebookApp] 403 GET /static/components/preact-compat/index.js?v=f865e990e65ad27e3a2601d8adb48db1 (10.137.48.115) 1.28ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.090 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.092 NotebookApp] 403 GET /static/components/requirejs/require.js?v=951f856e81496aaeec2e71a1c2c0d51f (10.137.48.115) 1.61ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.094 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.096 NotebookApp] 403 GET /static/base/images/logo.png?v=641991992878ee24c6f3826e81054a0f (10.137.48.115) 1.68ms referer=http://10.137.48.95:9003/tree
+[W 16:09:57.117 NotebookApp] Blocking request with non-local 'Host' 10.137.48.95 (10.137.48.95:9003). If the notebook should be accessible at that name, set NotebookApp.allow_remote_access to disable the check.
+[W 16:09:57.119 NotebookApp] 403 GET /static/base/images/favicon.ico?v=97c6417ed01bdc0ae3ef32ae4894fd03 (10.137.48.115) 2.27ms referer=http://10.137.48.95:9003/tree
+[W 16:10:43.975 NotebookApp] Notebook 1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb is not trusted
+[W 16:10:44.073 NotebookApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js?v=20190321160734 (::1) 21.24ms referer=http://localhost:9003/notebooks/1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[W 16:10:44.076 NotebookApp] 404 GET /nbextensions/c.js?v=20190321160734 (::1) 1.83ms referer=http://localhost:9003/notebooks/1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[I 16:10:46.584 NotebookApp] Kernel started: e5e04dd9-4d63-4f4e-9eba-940023bf2c1c
+[W 16:10:46.731 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190321160734 (::1) 2.36ms referer=http://localhost:9003/notebooks/1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[W 16:10:46.911 NotebookApp] 404 GET /notebooks/1-Housekeeping/biblio.bib (::1): No such file or directory: 1-Housekeeping/biblio.bib
+[W 16:10:46.912 NotebookApp] 404 GET /notebooks/1-Housekeeping/biblio.bib (::1) 2.07ms referer=http://localhost:9003/notebooks/1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[I 16:10:48.724 NotebookApp] Adapting to protocol v5.1 for kernel e5e04dd9-4d63-4f4e-9eba-940023bf2c1c
+[I 16:12:45.352 NotebookApp] Saving file at /1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[W 16:12:45.353 NotebookApp] Notebook 1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb is not trusted
+[I 16:30:22.834 NotebookApp] Saving file at /1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[W 16:30:22.836 NotebookApp] Notebook 1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb is not trusted
+[W 16:30:45.365 NotebookApp] Notebook 1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb is not trusted
+[W 16:30:45.412 NotebookApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js?v=20190321160734 (::1) 3.23ms referer=http://localhost:9003/notebooks/1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb
+[W 16:30:45.415 NotebookApp] 404 GET /nbextensions/c.js?v=20190321160734 (::1) 2.22ms referer=http://localhost:9003/notebooks/1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb
+[I 16:30:46.631 NotebookApp] Kernel started: 1509a163-89f5-4f8d-b7ca-ff153def4ebc
+[I 16:30:47.076 NotebookApp] Saving file at /1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb
+[W 16:30:47.077 NotebookApp] Notebook 1-Housekeeping/AnalysisOfFuelEfficiencyFromtheConnectedCar.ipynb is not trusted
+[W 16:30:47.162 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190321160734 (::1) 2.85ms referer=http://localhost:9003/notebooks/1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb
+[W 16:30:47.350 NotebookApp] 404 GET /notebooks/1-Housekeeping/biblio.bib (::1): No such file or directory: 1-Housekeeping/biblio.bib
+[W 16:30:47.352 NotebookApp] 404 GET /notebooks/1-Housekeeping/biblio.bib (::1) 2.31ms referer=http://localhost:9003/notebooks/1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb
+[I 16:30:49.365 NotebookApp] Adapting to protocol v5.1 for kernel 1509a163-89f5-4f8d-b7ca-ff153def4ebc
+[I 16:32:53.592 NotebookApp] Saving file at /1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb
+[W 16:32:53.593 NotebookApp] Notebook 1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb is not trusted
+[W 16:53:40.097 NotebookApp] Notebook MachineLearning_from_A-Z-checkpoint.ipynb is not trusted
+[W 16:53:40.110 NotebookApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js?v=20190321160734 (::1) 2.00ms referer=http://localhost:9003/notebooks/MachineLearning_from_A-Z-checkpoint.ipynb
+[W 16:53:40.113 NotebookApp] 404 GET /nbextensions/c.js?v=20190321160734 (::1) 2.82ms referer=http://localhost:9003/notebooks/MachineLearning_from_A-Z-checkpoint.ipynb
+[I 16:53:40.526 NotebookApp] Kernel started: f1cb811e-2ee7-4bcb-b234-8720fabefd29
+[W 16:53:40.617 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190321160734 (::1) 3.06ms referer=http://localhost:9003/notebooks/MachineLearning_from_A-Z-checkpoint.ipynb
+[W 16:53:40.834 NotebookApp] 404 GET /notebooks/biblio.bib (::1): No such file or directory: biblio.bib
+[W 16:53:40.836 NotebookApp] 404 GET /notebooks/biblio.bib (::1) 2.61ms referer=http://localhost:9003/notebooks/MachineLearning_from_A-Z-checkpoint.ipynb
+[I 16:53:41.914 NotebookApp] Adapting to protocol v5.0 for kernel f1cb811e-2ee7-4bcb-b234-8720fabefd29
+[I 16:54:03.759 NotebookApp] Starting buffering for f1cb811e-2ee7-4bcb-b234-8720fabefd29:9e28328c5f1c480ca971fe3d9e2709eb
+[W 17:13:57.720 NotebookApp] Notebook 1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode (with one voltage mode).ipynb is not trusted
+[W 17:13:57.770 NotebookApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js?v=20190321160734 (::1) 1.42ms referer=http://localhost:9003/notebooks/1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode%20(with%20one%20voltage%20mode).ipynb
+[W 17:13:57.771 NotebookApp] 404 GET /nbextensions/c.js?v=20190321160734 (::1) 1.20ms referer=http://localhost:9003/notebooks/1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode%20(with%20one%20voltage%20mode).ipynb
+[I 17:13:59.544 NotebookApp] Kernel started: e7dfe79d-df82-41db-a2f8-f394492576f5
+[W 17:14:00.140 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190321160734 (::1) 2.14ms referer=http://localhost:9003/notebooks/1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode%20(with%20one%20voltage%20mode).ipynb
+[W 17:14:00.473 NotebookApp] 404 GET /notebooks/1-Housekeeping/biblio.bib (::1): No such file or directory: 1-Housekeeping/biblio.bib
+[W 17:14:00.474 NotebookApp] 404 GET /notebooks/1-Housekeeping/biblio.bib (::1) 2.20ms referer=http://localhost:9003/notebooks/1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode%20(with%20one%20voltage%20mode).ipynb
+[I 17:14:02.483 NotebookApp] Adapting to protocol v5.1 for kernel e7dfe79d-df82-41db-a2f8-f394492576f5
+[I 17:14:56.007 NotebookApp] Saving file at /1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb
+[W 17:14:56.009 NotebookApp] Notebook 1-Housekeeping/Annotations_Statistics_Result-for-day-of-170301_img.ipynb is not trusted
+[I 17:16:00.049 NotebookApp] Saving file at /1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode (with one voltage mode).ipynb
+[W 17:16:00.050 NotebookApp] Notebook 1-Housekeeping/ACAP_Core_Annotations_Test2-CVC-Mode (with one voltage mode).ipynb is not trusted
+[W 03:30:18.769 NotebookApp] WebSocket ping timeout after 7229991 ms.
+[I 03:30:18.936 NotebookApp] Starting buffering for e5e04dd9-4d63-4f4e-9eba-940023bf2c1c:5c65bf9872b24d2d841413e0fa1dc1be
+[W 05:30:32.601 NotebookApp] WebSocket ping timeout after 7208366 ms.
+[I 05:30:32.813 NotebookApp] Starting buffering for e7dfe79d-df82-41db-a2f8-f394492576f5:77c51af19a4d4fdb83837a45893e0b1f

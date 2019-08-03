@@ -1,0 +1,7 @@
+# File created for AUTO PILOT review on Wednesday, 26 November, 2008
+#<hostname>:<Project/codeline/VER#>:<Build#>:<TEST SCRIPT NAME>:<TASK_OPTION>
+#w2003r2en:kennedy2:latest:apjvaccmain.sh:igndone(true)
+#w2003r2en:9.3.1.3.0:latest:capitest.sh:igndone(true)
+w2003r2en:9.3.3.0.0:latest:apotmain.sh:igndone(true)
+
+

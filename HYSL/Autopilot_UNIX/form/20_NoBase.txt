@@ -1,0 +1,7 @@
+$LOGNAME DirCompNotify Admin InstNotify $AP_ALTEMAIL
+Autopilot Notification (No Base file) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+There is no base file for following platform.
+
+  Machine        = $(hostname):$_PLATNAME
+  Version:Build  = $VERSION:$BUILD
+

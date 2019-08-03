@@ -1,0 +1,208 @@
+Pig Stack Trace
+---------------
+ERROR 1200: Pig script failed to parse: 
+<line 40, column 2> Undefined alias: data
+
+Failed to parse: Pig script failed to parse: 
+<line 40, column 2> Undefined alias: data
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:196)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 40, column 2> Undefined alias: data
+	at org.apache.pig.parser.AstValidator.validateAliasRef(AstValidator.java:278)
+	at org.apache.pig.parser.AstValidator.rel(AstValidator.java:6526)
+	at org.apache.pig.parser.AstValidator.foreach_clause(AstValidator.java:13915)
+	at org.apache.pig.parser.AstValidator.op_clause(AstValidator.java:1923)
+	at org.apache.pig.parser.AstValidator.general_statement(AstValidator.java:1035)
+	at org.apache.pig.parser.AstValidator.statement(AstValidator.java:499)
+	at org.apache.pig.parser.AstValidator.query(AstValidator.java:373)
+	at org.apache.pig.parser.QueryParserDriver.validateAst(QueryParserDriver.java:255)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:183)
+	... 16 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 57, column 11> Invalid field projection. Projected field [http_code] does not exist in schema: group:chararray,medium_page_reqs:bag{:tuple(http_code:chararray)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 57, column 11> Invalid field projection. Projected field [http_code] does not exist in schema: group:chararray,medium_page_reqs:bag{:tuple(http_code:chararray)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 67, column 11> Invalid field projection. Projected field [code] does not exist in schema: group:chararray,medium_page_reqs:bag{:tuple(code:chararray)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 67, column 11> Invalid field projection. Projected field [code] does not exist in schema: group:chararray,medium_page_reqs:bag{:tuple(code:chararray)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1045: 
+<line 67, column 5> Could not infer the matching function for org.apache.pig.builtin.COUNT as multiple or none of them fit. Please use an explicit cast.
+
+org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1059: 
+<line 58, column 10> Problem while reconciling output schema of ForEach
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.throwTypeCheckerException(TypeCheckingRelVisitor.java:142)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:182)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1737)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1045: 
+<line 67, column 5> Could not infer the matching function for org.apache.pig.builtin.COUNT as multiple or none of them fit. Please use an explicit cast.
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingExpVisitor.visit(TypeCheckingExpVisitor.java:788)
+	at org.apache.pig.newplan.logical.expression.UserFuncExpression.accept(UserFuncExpression.java:112)
+	at org.apache.pig.newplan.ReverseDependencyOrderWalker.walk(ReverseDependencyOrderWalker.java:70)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visitExpressionPlan(TypeCheckingRelVisitor.java:191)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:157)
+	at org.apache.pig.newplan.logical.relational.LOGenerate.accept(LOGenerate.java:246)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:174)
+	... 20 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1003: Unable to find an operator for alias results
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1001: Unable to describe schema for alias results
+	at org.apache.pig.PigServer.dumpSchema(PigServer.java:787)
+	at org.apache.pig.tools.grunt.GruntParser.processDescribe(GruntParser.java:306)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:412)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1003: Unable to find an operator for alias results
+	at org.apache.pig.PigServer$Graph.buildPlan(PigServer.java:1525)
+	at org.apache.pig.PigServer.buildStorePlan(PigServer.java:1276)
+	at org.apache.pig.PigServer.getOperatorForAlias(PigServer.java:1396)
+	at org.apache.pig.PigServer.dumpSchema(PigServer.java:770)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1003: Unable to find an operator for alias results
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1001: Unable to describe schema for alias results
+	at org.apache.pig.PigServer.dumpSchema(PigServer.java:787)
+	at org.apache.pig.tools.grunt.GruntParser.processDescribe(GruntParser.java:306)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:412)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1003: Unable to find an operator for alias results
+	at org.apache.pig.PigServer$Graph.buildPlan(PigServer.java:1525)
+	at org.apache.pig.PigServer.buildStorePlan(PigServer.java:1276)
+	at org.apache.pig.PigServer.getOperatorForAlias(PigServer.java:1396)
+	at org.apache.pig.PigServer.dumpSchema(PigServer.java:770)
+	... 13 more
+================================================================================

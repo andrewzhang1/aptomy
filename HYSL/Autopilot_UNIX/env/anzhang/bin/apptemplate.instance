@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hubregistration.xsd" csversion="1.0">
+<instance name="Application Local Id" instanceId="ESBAPPLOCALID"> <!-- instanceId should be same as local_id parameter when registering. -->
+<connection/> 
+<attribute type="xsd:string" name="ParentAppId" value="APPIDOFPARENT" />
+
+<admin>
+<context id="eas.CONTEXTID" path="http://EASLOC/eas" 
+logoffUri="logon?action=logoff"
+keepAliveUri="logon/ping"><!-- EAS Server Url -->
+<module id="cas.eas9-0-0.app"> <!-- static -->
+<property name="op">com.essbase.eas.essbase.defs.CASCommands.Callback</property> <!-- static -->
+<property name="EssbaseServer">ESSBASELOC</property> <!-- Essbase server name and port -->
+<property name="ApplicationName">ESBAPPNAME</property> <!-- Application being registered -->
+<property name="ApplicationID">ESBAPPID</property> <!-- Local id of application -->
+</module>
+</context>
+</admin>
+<taskflow/>
+<security/>
+<lcm plugin="java">
+      <lcmCallBack>
+	      <properties>
+		<property name="server" 	value="ESSBASELOC_LCM" /> 
+		<property name="application"    value="ESBAPPNAME_LCM" /> 
+      		</properties>
+      </lcmCallBack>    
+</lcm>
+</instance>
+</registration>

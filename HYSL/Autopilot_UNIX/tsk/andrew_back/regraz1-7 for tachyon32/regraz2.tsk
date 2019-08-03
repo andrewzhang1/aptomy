@@ -1,0 +1,2 @@
+# on tachyon for linux32
+tachyon:talleyrand_sp1:latest:agtpori2.sh:schedule(Sun Wed) refresh(true) arch(32)

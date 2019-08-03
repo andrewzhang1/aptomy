@@ -1,0 +1,54 @@
+agsysec31001.dif	agtpjlmain.sh agsysec31001.sh
+agsysec11.dif	agtpjlmain.sh 62agsysecshort.sh
+agsy29188x6.dif	agtpjlmain.sh agsy29188.sh
+agapun08.dif	agtpjlmain.sh agapun00.sh
+agapun08a.dif	agtpjlmain.sh agapun00.sh
+calccd.dif	maxlmain.sh calccd.sh
+user.dif	maxlmain.sh user.sh
+privilege2.dif	maxlmain.sh privilege.sh privilege2.sh
+import1.dif	import1.sh
+misc.dif	maxlmain.sh misc.sh
+tstpart1.dif	maxmain.sh 65maxlfunc.sh tstpart.sh tstpart1.sh
+app5.dif	maxlmain.sh 65maxlfunc.sh agapmainapp.sh agapapp5.sh
+database3.dif	maxmain.sh 65maxlfunc.sh agapmaindatabase.sh agapdatabase3.sh
+user3.dif	maxlmain.sh 65mainfunc.sh agsymainuser.sh agsyuser3.sh
+misc1.dif	maxlmain.sh 65mainfunc.sh agsymainmsc.sh agsymisc1.sh
+misc4.dif	maxlmain.sh 65mainfunc.sh agsymainmsc.sh agsymisc4.sh
+partition06.dif	maxlmain.sh partition04.sh partition06.sh
+7.0nm4.dif	maxlmain.sh 7.0nm4.sh
+dxmdpsr2.dif	maxlmain.sh maxlmdxpsr.sh
+Apgdgver.dif	agtpori2.sh ori2.sh apgdmain.sh apgdgver.sh
+smbuardess1.dif	agtpkenmain.sh smbuardess1.sh
+smbuardess2.dif	agtpkenmain.sh smbuardess2.sh
+smbuardmxl1.dif	agtpkenmain.sh smbuardmxl1.sh
+smbuardmxl2.dif	agtpkenmain.sh smbuardmxl2.sh
+
+xasagsyf01iu.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf02iu.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf03iu.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf04iu.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf01ju.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf02ju.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf03ju.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+xasagsyf04ju.dif	xprobmain.sh xasagsyfmain.sh xasagsyf.sh
+
+BeginDataloadASO.dif	capitest.sh capimain.sh
+GetGroupListEx.dif      capitest.sh capimain.sh
+StreamBuildDim.dif      capitest.sh capimain.sh
+UpdateFileASO.dif      capitest.sh capimain.sh
+apot9482980Log.dif      capitest.sh capimain.sh
+
+
+
+ゆにこーどデタベス00001.01.dif	xprobmain.sh idxlgmain.sh
+ゆにこーどデタベス00001.02.dif	xprobmain.sh idxlgmain.sh
+ゆにこーどデタベス00001.03.dif	xprobmain.sh idxlgmain.sh
+ゆにこーどデタベス00001.04.dif	xprobmain.sh idxlgmain.sh
+ゆにこーどデタベス00001.05.dif	xprobmain.sh idxlgmain.sh
+
+# new script
+Sdre005.dif	sdremain.sh Sdreattr.sh Sdreatt1.sh
+Sdre006.dif	sdremain.sh Sdreattr.sh Sdreatt1.sh
+Sdre007.dif	sdremain.sh Sdreattr.sh Sdreatt1.sh
+dmpsvdlerr.dif	dmpcmain.sh dmpckdlsv.sh
+

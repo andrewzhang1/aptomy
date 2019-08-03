@@ -1,0 +1,47 @@
+#/bin/bash
+###############################################################################
+#: Author: Andrew Zhang
+#: Script name: run_command_main.sh 
+#: Reviewers:
+#: Date: 8/02/2016
+#: Purpose:   This is the main script to call a temp script in which contains the daily run.
+#: Note: Need a few  parameters on the command line 
+#: Command line: run_command_main.sh TodayAnnotaions_160727.txt
+# 
+#: Note: need to set a few system env:
+# Input parameters: 
+# $1 = Date,  a parameter as date format, such 160727
+# $2 = A machine list for the gpu in text format.
+
+para1=$1
+
+if [ $# != 1 ]; then
+    echo "You need one argument: the input file for the collection of the annotations.h5 file!"
+   exit
+fi
+
+cat $1 | 
+while read line 
+do
+    echo "It's line:"
+    echo "$line"
+    set $line
+    echo "Second para is: $2 "
+    echo "3rd para is: $3 "
+    echo "4th  para is: $4 "
+    echo "5th para is: $5 "
+  
+    #Find a way to get the machine name from "160726_SIG-A_01_drowzee_WAG25R07C09"
+    
+    Station_Name=`echo "160728_ENG-SYS_04_sunkern_WAQ22R07C04" | cut -d"_" -f4`
+    Station_Name=`echo $2 | cut  -d"_" -f4`
+    DATA=`echo 2 | cut  -d"_" -f4`
+    
+    # call gpuTestMain.sh after defined four parameters:
+   # $1: Date,
+   # $2: machine name,
+   # $3: Run_name,
+   # $4: number of the run, such as: P_01
+    #gpuTestMain.sh $1 $2 $3 $4 
+    sleep 1
+done

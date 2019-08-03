@@ -1,0 +1,7 @@
+spool on to "%OUTF";
+login '%USR' identified by '%PWD' on '%HOST';
+import database '%APP'.'%DB' data from local text data_file '%DATAF' on error abort;
+execute calculation default on '%APP'.'%DB';
+spool off;
+logout;
+quit;

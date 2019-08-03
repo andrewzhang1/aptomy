@@ -1,0 +1,2 @@
+When product uses the old type installer (InstallShield) like 7.X or 9.X, you can create the response file using following syntax.
+C:\> setup.exe -options-record <response-file-name>

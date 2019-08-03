@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD for the query logging output from Essbase server -->
+<!ELEMENT root (session+)>
+<!-- Session records the activities from database startup to shutdown  -->
+<!ELEMENT session (bootuptime, logsettings, querylist)>
+<!-- bootuptime - database startup time  -->
+<!ELEMENT bootuptime (#PCDATA)>
+<!-- logsettings - query logging settings active for this session  -->
+<!ELEMENT logsettings (dimensions, othersettings)>
+<!-- dimensions - dimensions to be logged and their corresponding logging specs -->
+<!ELEMENT dimensions (logdim+)>
+<!ELEMENT logdim (spec*)>
+<!ATTLIST logdim
+	name CDATA #REQUIRED
+>
+<!ELEMENT spec (#PCDATA)>
+<!-- othersettings: -->
+<!--               logformat: the output format of the query log file; currently supported formats are cluster and tuple -->
+<!--               logpath:   the path of the query log file -->
+<!ELEMENT othersettings (logformat, logpath)>
+<!ELEMENT logformat (#PCDATA)>
+<!ELEMENT logpath (#PCDATA)>
+<!-- querylist - list of queries -->
+<!-- query - a unit of data retrieval from the user's perspective -->
+<!ELEMENT querylist (query*)>
+<!-- user - user who executed the query -->
+<!-- time - start time of the query -->
+<!-- subquery - a unit of data retrieval executed from the point of view of the Essbase server -->
+<!-- subquery - a query will have at least one or more subqueries -->
+<!-- subquery - each subquery will be logged in the specified logformat in the logsettings section -->
+<!-- elapsed time - the time required to execute the given query -->
+<!ELEMENT query (user, time, (subquery*), elapsedtime)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT elapsedtime (#PCDATA)>
+<!ELEMENT subquery (cluster | tuples)>
+
+<!-- the number of dims logged in cluster format matches the number of logdims -->
+<!-- mentioned in the logsettings/dimensions section -->
+<!ELEMENT cluster (dim+)>
+<!-- size designates the number of combinations captured within this section, -->
+<!-- which is the product of size(s) recorded for the individual dim(s). -->
+<!ATTLIST cluster
+	size CDATA #REQUIRED
+>
+
+<!-- size here designates the number of elements logged in this section -->
+<!-- a single element can be either a member or a generation or a level -->
+<!-- or a memberset (only in case of Hybrid Analysis) -->
+<!ELEMENT dim (generation* | level* | member*| memberset*)+>
+<!ATTLIST dim
+	size CDATA #REQUIRED
+>
+
+<!-- tuples is the collection of individual combinations logged in tuple format -->
+<!ELEMENT tuples (tuple*)>
+<!-- tuple is an ordered collection of member/level/generation tags -->
+<!-- the number and order of elements is same as the number and order of logdims -->
+<!-- mentioned in the logsettings/dimensions section -->
+<!ELEMENT tuple (generation*, member*, level*)>
+
+<!ELEMENT generation (#PCDATA)>
+<!ELEMENT level (#PCDATA)>
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member
+	type CDATA #IMPLIED
+>
+<!-- The following types of members can be logged: -->
+<!--      - Pure Essbase outline members which are represented by the member tag with no attribute --> 
+<!--      - Level zero Essbase members which contain relational operators represented by the memberset tag -->
+<!--      - Pure relational members which contain operators represented by the memberset tag -->
+<!--      - Pure relational members represented by the member tag with the relational attribute -->
+<!-- There can be 3 types of members: Pure Essbase outline members, Level zero Essbase members -->
+<!ELEMENT memberset (oper, member)>
+<!ELEMENT oper (#PCDATA)>

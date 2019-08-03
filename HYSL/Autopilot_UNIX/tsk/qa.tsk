@@ -1,0 +1,12 @@
+##### scl34616 #####
+scl34616:talleyrand_sp1:latest:sqdl_sqlifcmain.sh:refresh(true)
+
+#######scl14122#########
+scl14122:talleyrand_sp1:347:sqdl_sqlifcmain.sh:refresh(true)
+
+##### SCL34509 #####
+SCL34509:talleyrand_sp1:latest:agtpori1.sh:igndone(true)
+SCL34509:talleyrand_sp1:latest:agtpori2.sh:igndone(true)
+SCL34509:talleyrand_sp1:D8B4_RC8-232:agtpukmain.sh:igndone(true)
+SCL34509:talleyrand_sp1:D8B4_RC8-232:agtpcwmain.sh:igndone(true)
+SCL34509:talleyrand_sp1:D8B4_RC8-232:agtpjymain.sh:igndone(true)

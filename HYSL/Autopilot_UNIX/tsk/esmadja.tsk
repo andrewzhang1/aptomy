@@ -1,0 +1,34 @@
+#esmadja3:11.1.1.3.0:45:agtpjvmain.sh
+#esmadja3:11.1.1.3.0:45:maxlmain.sh
+#esmadja3:11.1.1.3.0:45:agtpjlmain.sh parallel direct
+#esmadja3:11.1.1.3.0:45:agtpjlmain.sh parallel buffer
+#esmadja3:11.1.1.3.0:45:agtp70main.sh
+#esmadja3:11.1.1.3.0:45:agtpbarmain.sh
+#esmadja3:11.1.1.3.0:45:agtpcwmain.sh
+#esmadja3:11.1.1.3.0:45:agtpjlmain.sh serial direct
+#esmadja3:11.1.1.3.0:45:agtpjymain.sh
+#esmadja3:11.1.1.3.0:45:agtpjlmain.sh
+#esmadja3:11.1.1.3.0:45:agtpkenmain.sh
+#esmadja3:11.1.1.3.0:45:agtpbkmain.sh
+#esmadja3:11.1.1.3.0:45:agtpukmain.sh
+#esmadja3:11.1.1.3.0:45:agtpori1.sh
+#esmadja3:11.1.1.3.0:45:agtpori2.sh
+
+#esmadja3:11.1.2.2.000:1164:agtptalleymain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:maxlmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpjlmain.sh parallel direct:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpjlmain.sh parallel buffer:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpjlmain.sh serial direct:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpkenmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtp70main.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpbarmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpcwmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpjlmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpjymain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpbkmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpori2.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:agtpori1.sh:schedule(Sat) refresh(true)
+esmadja3:11.1.2.2.000:latest:agtpukmain.sh:schedule(Fri) refresh(true)
+##esmadja3:11.1.2.2.000:1164:agtpjvmain.sh:schedule(Sat) refresh(true)
+#esmadja3:11.1.2.2.000:1164:capitest.sh:schedule(Sat) refresh(true)
+##esmadja3:11.1.2.2.000:1164:prob_main.sh:schedule(Sat) refresh(true)

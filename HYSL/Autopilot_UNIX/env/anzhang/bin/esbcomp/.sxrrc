@@ -1,0 +1,74 @@
+#
+# Essexer sample local view initialization file.
+# This file is sourced each time this view is entered via 'sxr goview' command.
+# It may be used for doing some view-specific initialization, including setting
+# Essexer-related environment variables. The following is a full list of
+# environment variables whose values can be changed set by the user:
+#
+# SXR_AGENT_FG          The agent will start up in a separate window when
+#                       'sxr agtctl start' is executed. Only valid on NT.
+#                       Set it to 1. E.g) export SXR_AGENT_FG=1
+#
+# SXR_BASE		Alternate location of the test repository (base).
+#                       Default value: "q:/base" on PC platforms, "/import/
+#                       essexer/base" on Unix platforms.
+#
+# SXR_DIFF_LOGDEL       May be set to any value, although something mnemonic,
+#                       like "yes" is recommended.  Test log files which
+#                       compared successfully against their base lines via
+#                       the `sxr diff' command are removed.  Default value:
+#                       unset.
+#
+# SXR_DIFF_TRIGGER      On diff post-action trigger.  The value is evaluated
+#                       by ksh -c evaluator as part of the 'sxr diff' command
+#                       right before returning.  Default value: unset.
+#                       
+#
+# SXR_ESSBASE		Alternate agent startup command. For instance, can be
+#                       used to make the agtctl command launch the agent in a
+#                       separate window by setting to "start essbase password"
+#                       Default value: unset.
+#               
+# SXR_ESSCMD		Alternate ESSCMD interpreter.  For instance, can be
+#                       used by a test to use ESSCMDQ instead of ESSCMD.
+#                       Default value: unset.
+#
+# SXR_ESSCMD_TRIGGER    On esscmd post-action trigger.  The value is evaluated
+#                       by ksh -c evaluator as part of the 'sxr esscmd' command
+#                       right before returning.  Default value: unset.
+#
+# SXR_GOVIEW_TRIGGER    On goview post-action trigger.  The value is evaluated
+#                       by ksh -c evaluator as part of the 'sxr goview' command
+#                       right before returning. Default value: unset.
+#
+# SXR_MLCAPP            Unicode-mode application creation trigger. 'sxr newapp'
+#                       will create an Unicode-mode application. Set it to 1.
+#                       E.g.) export SXR_MLCAPP=1
+#
+# SXR_USER		The user name on whose behalf `agtctl', `newapp', and
+#                       `newdb' commands are executed.  Default value: essexer.
+#
+# SXR_PASSWORD          The password of the above user. Default value: password
+#
+# SXR_NEWAPP_TRIGGER    On newapp post-action trigger.  The value is evaluated
+#                       by ksh -c evaluator as part of the 'sxr newapp' command
+#                       right before returning.  A separate trigger fires for
+#                       each application.  Default value: unset.
+#
+# SXR_NEWDB_TRIGGER     On newdb post-action trigger.  The value is evaluated
+#                       by ksh -c evaluator as part of the 'sxr newdb' command
+#                       right before returning.  A separate trigger fires for
+#                       each database.  Default value: unset.
+#
+# SXR_SHELL_TRIGGER     On shell post-action trigger.  The value is evaluated
+#                       by ksh -c evaluator as part of the 'sxr shell' command
+#                       right before returning.  Fires only for the highest
+#                       level Shell script invoked either interactively or in
+#                       a trigger.  Default value: unset.
+# 
+#
+# To set an environment variable:
+# export SXR_BASE='q:/5.0.0'
+#
+ 
+

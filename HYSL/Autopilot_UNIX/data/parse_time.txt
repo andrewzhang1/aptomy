@@ -1,0 +1,29 @@
+# Task parsing time schedule
+# Format: HH:DD[=<ver>]
+# When you define HH:DD only, task_parser.sh will be launched at that time
+# without any version specifications.
+# If you have HH:DD=<ver> line in this definition file like below,
+#   10:00
+#   18:00=11.1.2.6.000
+# task_parser.sh will be launched:
+#   at 10:00 for other version (except 11.1.2.6.000) -> task_parser.sh -i 11.1.2.6.000
+#   at 17:00 for 11.1.2.6.000 -> task_parser.sh 11.1.2.6.000
+# When you define following,
+#   10:00
+#   14:00=11.1.2.6.000
+#   16:00=11.1.2.2.104
+# And have following in your task definition file,
+#   11.1.2.3.002:latest:maxlmain.sh:opackver(epm)
+#   11.1.2.2.104:latest:capitest.sh:runplat(CAPI) opeckver(epm)
+#   11.1.2.6.000:latestLdmudmain.sh:opackver(epm)
+# Each time execute following command:
+#   at 10:00 -> task_parser.sh -i 11.1.2.6.000 11.1.2.2.104
+#               This add a task for 11.1.2.3.002 latest maxlmain.sh
+#   at 14:00 -> task_parser.sh 11.1.2.6.000
+#               This add a task for 11.1.2.6.000 latest capitest.sh
+#   at 16L00 -> task_parser.sh 11.1.2.2.104
+#               This add a task for 11.1.2.2.104 latest dmudmain.sh
+# 08:00
+03:00=11.1.2.3.500
+21:00=11.1.2.6.000
+

@@ -1,0 +1,124 @@
+11.1.2.1.104:latest:agtpori1.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpori2.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpjlmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtp70main.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpukmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpcwmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:maxlmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpjvmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpjymain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpbkmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpjlmain.sh serial direct:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpjlmain.sh parallel buffer:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpjlmain.sh parallel direct:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpbarmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:capitest.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtpkenmain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:agtptalleymain.sh:opackver(!bi) snapshot(11121x)
+11.1.2.1.104:latest:prob_main.sh:opackver(!bi) snapshot(11121x) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+
+time hyslinst.sh 11.1.2.1.104 017 2>&1 | tee inst_104_017_EPM.log
+
+
+# solaris32:
+
+addtsk.sh -i 11.1.2.1.104 017 maxlmain.sh
+addtsk.sh -i 11.1.2.1.104 017 agtpjvmain.sh
+addtsk.sh -i 11.1.2.1.104 017 agtpjymain.sh
+addtsk.sh -i 11.1.2.1.104 017 agtpbkmain.sh
+
+
+addtsk.sh -i 11.1.2.1.104 017 dsapdq_reg_v2.sh
+addtsk.sh -i 11.1.2.1.104 017 dsapds_reg_v1.sh
+addtsk.sh -i 11.1.2.1.104 017 dsapds_reg_v2.sh
+addtsk.sh -i 11.1.2.1.104 017 dsapmd_reg_v2.sh
+addtsk.sh -i 11.1.2.1.104 017 dsapssdqmd_acc_v1.sh
+
+
+11.1.2.1.104:latest:.sh:snapshot(11121x) runplat(regraz1@scl14182) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.104) 
+11.1.2.1.104:latest:.sh:snapshot(11121x) runplat(regraz1@scl14182) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.104) 
+11.1.2.1.104:latest:.sh:snapshot(11121x) runplat(regraz1@scl14182) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.104)
+11.1.2.1.104:latest:.sh:snapshot(11121x) runplat(regraz1@scl14182) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.104)
+11.1.2.1.104:latest:.sh:snapshot(11121x) runplat(regraz1@scl14182) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.104)
+
+
+# regress.sh send result:
+export SXR_WORK=/home/regraz7/test/parallelbuffer
+
+send_result.sh -fromap 11.1.2.1.104 017 regress.sh_parallel_buffer
+send_result.sh -fromap 11.1.2.1.104 017 regress.sh_parallel_buffer
+
+
+
+send_result.sh -fromap 11.1.2.1.104 017 regress.sh_parallel_direct 
+send_result.sh -fromap 11.1.2.1.104 017 regress.sh_serial_buffer
+send_result.sh -fromap 11.1.2.1.104 017 regress.sh_serial_direct
+
+send_result.sh -fromap 11.1.2.1.104 017 regress.sh_serial_direct
+
+send_result.sh  -fromap 11.1.2.1.104 017 agtpjlmain.sh parallel buffer
+send_result.sh  -fromap 11.1.2.1.104 017 agtpjlmain.sh parallel direct
+
+send_result.sh  -fromap 11.1.2.1.104 017 agtpkenmain.sh
+
+
+send_result.sh -fromap 11.1.2.1.104 017 maxlmain.sh
+
+send_result.sh -fromap 11.1.2.1.104 017 capitest.sh
+send_result.sh -fromap 11.1.2.1.104 017 agtpjymain.sh
+send_result.sh -fromap 11.1.2.1.104 017 agtpkenmain.sh
+
+
+
+
+#Linux32
+send_result.sh -fromap 11.1.2.1.104 017 dsapdq_reg_v2.sh  # regraz3@scl14181)
+send_result.sh -fromap 11.1.2.1.104 017 dsapdq_reg_v2.sh  # regraz1@scl14182)
+send_result.sh -fromap 11.1.2.1.104 017 dsapdq_reg_v2.sh   # regraz3@scl14181)
+send_result.sh -fromap 11.1.2.1.104 017 dsapdq_reg_v2.sh # regraz1@scl14182)
+send_result.sh -fromap 11.1.2.1.104 017 dsapssdqmd_acc_v1.sh #done # regraz3@scl14182)
+
+# Linux64
+
+
+#solaris32 regraz3@slc02lec
+send_result.sh -fromap 11.1.2.1.104 017 dsapdq_reg_v2.sh  # regraz3@scl14181)
+send_result.sh -fromap 11.1.2.1.104 017 dsapds_reg_v1.sh  # regraz1@scl14182)
+send_result.sh -fromap 11.1.2.1.104 017 dsapds_reg_v2.sh   # regraz3@scl14181)
+send_result.sh -fromap 11.1.2.1.104 017 dsapmd_reg_v2.sh # regraz1@scl14182)
+send_result.sh -fromap 11.1.2.1.104 017 dsapssdqmd_acc_v1.sh #done # regraz3@scl14182)
+
+
+# Linux32: regraz1@scl14182:
+
+hyslinst.sh 11.1.2.1.104 017 -o "secMode(hss)"  2>&1 | tee inst_017_HSS.log
+(Failed)
+
+# Linux64: regraz3@scl14351
+hyslinst.sh 11.1.2.1.104 017 -o "secMode(hss)"  2>&1 | tee inst_11.1.2.1.104_017_hss_regraz3@scl14351.log
+
+
+
+addtsk.sh -i 11.1.2.1.104 017 agtpjlmain.sh 
+addtsk.sh -i 11.1.2.1.104 017 agtptalleymain.sh 
+
+
+
+
+# solaris32:
+
+addtsk.sh -i 11.1.2.1.104 017 agtpjlmain.sh
+addtsk.sh -i 11.1.2.1.104 017 maxlmain.sh
+addtsk.sh -i 11.1.2.1.104 017 agtpjymain.sh
+addtsk.sh -i 11.1.2.1.104 017 agtpbkmain.sh
+
+ 
+
+send_result.sh -fromap 11.1.2.1.104 017 dsapdq_reg_v2.sh  # regraz3@scl14181)
+send_result.sh -fromap 11.1.2.1.104 017 dsapds_reg_v1.sh  # regraz1@scl14182)
+send_result.sh -fromap 11.1.2.1.104 017 dsapds_reg_v2.sh   # regraz3@scl14181)
+send_result.sh -fromap 11.1.2.1.104 017 dsapmd_reg_v2.sh # regraz1@scl14182)
+send_result.sh -fromap 11.1.2.1.104 017 dsapssdqmd_acc_v1.sh #done # regraz3@scl14182)
+
+

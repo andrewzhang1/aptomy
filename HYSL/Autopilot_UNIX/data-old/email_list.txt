@@ -1,0 +1,103 @@
+# Special e-mail address	
+Admin	ADMIN<yukio.kono@oracle.com>
+InstNotify	INST<yukio.kono@oracle.com>
+DoneNotify	DONE<yukio.kono@oracle.com>
+DifNotify	DiffNotify<eric.smadja@oracle.com> DIFF<yukio.kono@oracle.com>
+DirCompNotify	DIRCMP<yukio.kono@oracle.com>
+CleanupNotify	CLEANUP<hvnguyen_org_ww@oracle.com>
+EnvNotify	ENV<yukio.kono@oracle.com>
+ConsDifNotify6	CDN6<yukio.kono@oracle.com> CDN6<yuki.hashimoto@oracle.com>	# for 6 Consecutive dif notification
+ConsDifNotify	CDN<eric.smadja@oracle.com> CDN<yukio.kono@oracle.com> CDN<yuki.hashimoto@oracle.com>	# for 3 Consecutive dif notification
+# ConsDifNotify6	CDN6<yukio.kono@oracle.com>	# for 6 Consecutive dif notification
+# ConsDifNotify	CDN<yukio.kono@oracle.com>	# for 3 Consecutive dif notification
+# MgrNotify	eric.smadja@oracle.com henry.nguyen@oracle.com
+MgrNotify	MGR<yukio.kono@oracle.com>
+
+# Login account
+	
+# Andrew	
+regraz1	Andrew_Zhang<andrew.zhang@oracle.com>
+regraz2	Andrew_Zhang<andrew.zhang@oracle.com>
+regraz3	Andrew_Zhang<andrew.zhang@oracle.com>
+	
+# Hima regression	
+hvuggumu	Hima_vuggumundi<hima.vuggumudi@oracle.com>
+regrhv1	Hima_vuggumundi<hima.vuggumudi@oracle.com>
+regrhv2	Hima_vuggumundi<hima.vuggumudi@oracle.com>
+regrhv3	Hima_vuggumundi<hima.vuggumudi@oracle.com>
+regrhv4	Hima_vuggumundi<hima.vuggumudi@oracle.com>
+
+
+# Saileela regression
+saileela saileela_policepatil<saileela.policepatil@oracle.com>
+
+
+# Tuan regression	
+regrtm1	Tuan_Mai<tuan.mai@oracle.com> Eric<eric.smadja@oracle.com>
+regrth2	Tuan_Mai<tuan.mai@oracle.com> Eric<eric.smadja@oracle.com>
+regrth3	Tuan_Mai<tuan.mai@oracle.com> Eric<eric.smadja@oracle.com>
+regrth4	Tuan_Mai<tuan.mai@oracle.com> Eric<eric.smadja@oracle.com>
+regrny3	Tuan_Mai<tuan.mai@oracle.com> Eric<eric.smadja@oracle.com>
+
+# Kono regression	
+regrrk1	REGRRK1<yukio.kono@oracle.com>
+regrrk2	REGRRK2<yukio.kono@oracle.com>
+ykono	LoginID<yukio.kono@oracle.com>
+
+hhashimo	yuk.hashimoto@oracle.com	# Yuki Unix logon account
+govi        Govi_Rajagopal<govi.rajagopal@oracle.com>
+
+fou		Fa_Yon_Ou<fa-yon.ou@oracle.com> 
+user9x	christina.turner@oracle.com
+
+# Script QE owner	
+Christina	Christina_Turner<christina.turner@oracle.com>
+Bao	Bao_Nguyen<bao.nguyen@oracle.com> Eric<eric.smadja@oracle.com>
+Fa	Fa_Yon_Ou<fa-yon.ou@oracle.com> 
+Van	Van_Gee<van.gee@oracle.com>
+Joseph	Joseph_Li<huan-yi.li@oracle.com> Van_Gee<van.gee@oracle.com>
+Jesse	Assigned_to_Jesse<van.gee@oracle.com>
+Lyuda	Lyuda_Nelson<lyudmila.nelson@oracle.com> Tuan_Mai<tuan.mai@oracle.com> Van_Gee<van.gee@oracle.com>
+Nhan	Nhan_Nguyen<nhan.nguyen@oracle.com> Van_Gee<van.gee@oracle.com>
+Xuesong	Xuesong_Yang<xuesong.yang@oracle.com> Van_Gee<van.gee@oracle.com>
+Krikor	Krikor_Krikorian<krikor.krikorian@oracle.com>
+Chi	Chi_Nguyen<chi.b.nguyen@oracle.com>
+   
+# Script Dev owner	
+# VanKevin	Van_Gee<van.gee@oracle.com> Kevin_Liao<kevin.liao@oracle.com> Biswajit<biswajit.d.das@oracle.com>
+BaoAlbert	Bao_Nguyen<bao.nguyen@oracle.com> Albert_Ng<albert.ng@oracle.com>
+BaoEric	Bao_Nguyen<bao.nguyen@oracle.com> Eric_Watkins<eric.watkins@oracle.com>
+BaoGuibin	Bao_Nguyen<bao.nguyen@oracle.com> Guibin_Qiao<guibin.qiao@oracle.com>
+BaoKaj	Bao_Nguyen<bao.nguyen@oracle.com> Kaj_Edholm<kaj.edholm@oracle.com>
+# BaoKevin	Bao_Nguyen<bao.nguyen@oracle.com> Kevin_Liao<kevin.liao@oracle.com>
+BaoRam	Bao_Nguyen<bao.nguyen@oracle.com> Ram_Velury<ram.velury@oracle.com>
+BaoRamSaugata	Bao_Nguyen<bao.nguyen@oracle.com> Ram_Velury<ram.velury@oracle.com> Saugata_Chowdhury<saugata.chowdhury@oracle.com>
+BaoVinod	Bao_Nguyen<bao.nguyen@oracle.com> Vinod_Menon<vinod.x.menon@oracle.com>
+FaPamu	Fa_Yon_Ou<fa-yon.ou@oracle.com> Priyatham_Pamu<priyatham.pamu@oracle.com>
+FaKaj	Fa_Yon_Ou<fa-yon.ou@oracle.com> Kaj_Edholm<kaj.edholm@oracle.com>
+FaVlad	Fa_Yon_Ou<fa-yon.ou@oracle.com> Vlad_Rozov<vladimir.rozov@oracle.com>
+FaAbhijeet	Fa_Yon_Ou<fa-yon.ou@oracle.com> Abhijeet_Tendulkar<abhijeet.tendulkar@oracle.com>
+XuesongRam	Xuesong_Yang<xuesong.yang@oracle.com> Ram_Velury<ram.velury@oracle.com>
+
+# By Van's request on 02/17/2011
+Mike  mike.karbushev@oracle.com
+
+Teresa	Teresa_account<eric.smadja@oracle.com> TERESA_ERIC<eric.smadja@oracle.com>
+Rumitkar	Rumitkar_account<eric.smadja@oracle.com> Kono<yukio.kono@oracle.com>
+regreg2	regreg2_account<eric.smadja@oracle.com> REGREG2<yukio.kono@oracle.com>
+Andrew	Andrew_Zhang<andrew.zhang@oracle.com> Lareine<eric.smadja@oracle.com>
+rukumar	rukuma_account<eric.smadja@oracle.com> Kono_Rukmar<yukio.kono@oracle.com>
+qa	QA_account<eric.smadja@oracle.com>
+Hima	Hima_vuggumundi<hima.vuggumudi@oracle.com> Lareine<eric.smadja@oracle.com>
+Tuan	Tuan_Mai<tuan.mai@oracle.com> Eric<eric.smadja@oracle.com>
+Kono	Kono<yukio.kono@oracle.com>
+I18N	I18N_K<yukio.kono@oracle.com> I18N_Y<yuki.hashimoto@oracle.com>
+
+user9x  christina.turner@oracle.com
+talleyrand christina.turner@oracle.com
+
+Idcqe Vipin<vipin.bhaskar@oracle.com> Hema<hema.gogineni@oracle.com> Govi<Govi.rajagopal@oracle.com> Venu<Venugopal.jaladurgapranesh@oracle.com>
+vbhaskar	Vipin<vipin.bhaskar@oracle.com> Hema<hema.gogineni@oracle.com> Govi<Govi.rajagopal@oracle.com> Venu<Venugopal.jaladurgapranesh@oracle.com>
+
+
+miwatago	miyuki<miyuki.iwata-goldman@oracle.com>

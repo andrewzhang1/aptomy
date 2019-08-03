@@ -1,0 +1,155 @@
+# Environment setup template for WIN64
+# _JAVA_HOME=Relative path for the JAVA directory from $HYPERION_HOME
+# _ODBC_HOME=Relative path for the ODBC directory from $HYPERION_HOME
+# If you don't need that definition on some version, please define it empty like *)
+
+unset _JAVA_HOME _ODBC_HOME
+unset _PATHLIST _LIBLIST
+unset _EXTRA_VARS
+export _LIBPATH="PATH"
+
+if [ $# -eq 1 ]
+then
+	case $1 in
+		talleyrand_sp1|11.1.2.1.*)
+			export _JAVA_HOME="../jdk160_20/jre../jdk160_18/jre common/JRE-64/Sun/1.6.0 common/JRE-64/Sun/1.5.0"
+			export _ODBC_HOME="common/ODBC-64/Merant/5.3 common/ODBC-64/Merant/5.2"
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/jrockit $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		talleyrand|11.1.2.0.*)
+			export _JAVA_HOME="../jdk160_11/jre common/JRE-64/Sun/1.6.0 common/JRE-64/Sun/1.5.0"
+			export _ODBC_HOME="common/ODBC-64/Merant/5.3 common/ODBC-64/Merant/5.2"
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/jrockit $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		dickens|zola|11.1.1.2.*|11.1.1.3.*)
+			export _JAVA_HOME=common/JRE-64/Sun/1.5.0
+			export _ODBC_HOME=common/ODBC-64/Merant/5.2
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/jrockit $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		kennedy2|11.1.1.1.*)
+			export _JAVA_HOME=common/JRE-64/Sun/1.5.0
+			export _ODBC_HOME=common/ODBC-64/Merant/5.1
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		kennedy|9.5*|11.1.1.0.*)
+			export _JAVA_HOME=common/JRE-64/Sun/1.5.0
+			export _ODBC_HOME=common/ODBC-64/Merant/5.1
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.3.1.0.0)	# Barnes
+			export _JAVA_HOME=common/JRE-64/Sun/1.5.0
+			export _ODBC_HOME=common/ODBC-64/Merant/5.1
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.3.0.1.0|beckett) # Beckett - 9.3.0
+			export _JAVA_HOME=common/JRE-64/Sun/1.5.0
+			export _ODBC_HOME=common/ODBC-64/Merant/5.1
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.3.*)	# Barnes 9.3.1.* before
+			export _JAVA_HOME=common/JRE-64/Sun/1.5.0
+			export _ODBC_HOME="common/ODBC-64/Merant/6.0 common/ODBC-64/Merant/5.2"
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.2.1.*)
+			export _JAVA_HOME=common/JRE-64/Sun/1.4.2
+			export _ODBC_HOME=common/ODBC-64/Merant/5.2
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.2.0*) # Conrad
+			export _JAVA_HOME=common/JRE-64/Sun/1.4.2
+			export _ODBC_HOME=common/ODBC-64/Merant/5.1
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		7.1.6*)
+			export _JAVA_HOME=common/JRE-64/Sun/1.4.2
+			export _ODBC_HOME=common/ODBC-64/Merant/5.1
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		7.1*)
+			export _JAVA_HOME=common/JRE-64/Sun/1.4.2
+			export _ODBC_HOME=common/ODBC-64/Merant/4.2
+			export _PATHLIST="\$ODBC_HOME/Drivers"
+			export _PATHLIST="\$JAVA_HOME/bin $_PATHLIST"
+			export _PATHLIST="\$JAVA_HOME/bin/server $_PATHLIST"
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		*)
+			export _JAVA_HOME=
+			export _ODBC_HOME=
+			export _EXTRA_VARS="APIPATH"					# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+	esac
+fi

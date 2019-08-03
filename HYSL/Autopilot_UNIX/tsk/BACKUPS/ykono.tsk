@@ -1,0 +1,61 @@
+
+# Win32
+
+# AIX32
+
+# AIX64
+# staix12:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+# Solaris32
+
+# Solaris64
+# issol13:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+# HPUX32
+# sthp16:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# sthp16:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# sthp16:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# sthp16:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# sthp16:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# sthp16:9.3.3.0.0:latest:i18n_xas.sh: schedule(Mon Thu)
+# sthp16:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+# HPUX64
+# stiahp3:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# stiahp3:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# stiahp3:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# stiahp3:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# stiahp3:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# stiahp3:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# stiahp3:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+# LINUX
+# stlx9:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# stlx9:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# stlx9:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# stlx9:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# stlx9:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# stlx9:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# stlx9:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+# LINUX64
+# stnt35-3:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# stnt35-3:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# stnt35-3:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# stnt35-3:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# stnt35-3:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# stnt35-3:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# stnt35-3:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+

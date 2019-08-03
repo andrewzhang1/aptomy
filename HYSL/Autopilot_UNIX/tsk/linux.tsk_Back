@@ -1,0 +1,40 @@
+# 9.3.3.0.0
+# regraz1
+
+# Regular regression
+
+9.3.3.0.0:latest:agtpjvmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:maxlmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpjlmain.sh parallel direct:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpjlmain.sh parallel buffer:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpjlmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpori1.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpjlmain.sh serial direct:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpcwmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpori2.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtp70main.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpukmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpjymain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpbkmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:agtpbarmain.sh:schedule(Mon Thu) runplat(regraz1)
+9.3.3.0.0:latest:capitest.sh:schedule(Mon Thu) runplat(regraz1@stlx11) setenv2(SHLIB_PATH="\$SHLIB_PATH:.:/lib:/usr/lib:/usr/lib/hpux64:\$HYPERION_HOME/products/Essbase/EssbaseClient/bin:\$ARBORPATH/bin") setenv2(LPATH="\$SHLIB_PATH")
+
+# Talleyrand PS1
+# regraz2
+talleyrand_sp1:hit(latest):agtpjvmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):maxlmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpjlmain.sh parallel direct:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpjlmain.sh parallel buffer:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpjlmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpori1.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpjlmain.sh serial direct:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpcwmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpori2.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtp70main.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpukmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpjymain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpbkmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpbarmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):agtpkenmain.sh:schedule(Mon Thu) runplat(regraz2)
+talleyrand_sp1:hit(latest):capitest.sh:schedule(Mon Thu) unplat(regraz2e@stlx11) setenv2(SHLIB_PATH="\$SHLIB_PATH:.:/lib:/usr/lib:/usr/lib/hpux64:\$HYPERION_HOME/products/Essbase/EssbaseClient/bin:\$ARBORPATH/bin") setenv2(LPATH="\$SHLIB_PATH")
+

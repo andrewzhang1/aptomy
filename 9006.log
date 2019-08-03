@@ -1,0 +1,8 @@
+[W 20:50:43.057 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 20:50:43.141 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.0
+[I 20:50:43.249 NotebookApp] JupyterLab extension loaded from /Users/axz1191/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:50:43.250 NotebookApp] JupyterLab application directory is /Users/axz1191/anaconda3/share/jupyter/lab
+[I 20:50:43.267 NotebookApp] Serving notebooks from local directory: /Users/axz1191/Documents/azhang/aptomy
+[I 20:50:43.267 NotebookApp] The Jupyter Notebook is running at:
+[I 20:50:43.268 NotebookApp] http://(MKC02WQ208HTD6 or 127.0.0.1):9006/
+[I 20:50:43.268 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).

@@ -1,0 +1,8 @@
+com/mycompany/app/WordcountReducer.class
+com/mycompany/app/WordCountPartitioner.class
+com/mycompany/app/DriverNumReducers.class
+com/mycompany/app/WordCountStopWMapper.class
+com/mycompany/app/Driver.class
+com/mycompany/app/DriverPartitioned.class
+com/mycompany/app/DriverStopWords.class
+com/mycompany/app/WordcountMapper.class

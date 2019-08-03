@@ -1,0 +1,5 @@
+   10  sudo mount -t vboxsf -o uid=1000,gid=1000 shared /shared
+   18  sudo mount -t vboxsf -o uid=1000,gid=1000 shared /shared
+   81  history | grep vboxsf
+   82  history | grep vboxsf > /shared.txt
+   83  history | grep vboxsf > /shared/mt.txt

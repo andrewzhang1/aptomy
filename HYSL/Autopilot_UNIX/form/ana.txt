@@ -1,0 +1,16 @@
+Test Environment:
+*************************************************************************
+Machine:       $(hostname):$_PLATNAME
+Login User:    $LOGNAME
+Test Suite:    $TEST
+Version:       $VERSION:$BUILD
+VIEW_PATH:     $VIEW_PATH
+HYPERION_HOME: $HYPERION_HOME
+ARBORPATH:     $ARBORPATH
+SXR_HOME:      $SXR_HOME
+Snapshot TS:   $updt_ts
+Env file:      $_ENVFILEBASE.env
+Start Time:    $st_datetime
+End   Time:    $ed_datetime
+Work image:    $tarfile
+

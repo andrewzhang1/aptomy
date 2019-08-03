@@ -1,0 +1,5 @@
+dsapssdqmd_acc_v1.sh:snapshot(11122200) runplat(regrhv2@scl51027.us.oracle.com) setEnv(APS_BUILD=5018 APS_VERSION=11.1.2.2.200)
+dsapdq_reg_v2.sh:snapshot(11122200) runplat(regrhv2@scl51027.us.oracle.com) setEnv(APS_BUILD=5018 APS_VERSION=11.1.2.2.200)
+dsapmd_reg_v2.sh:snapshot(11122200) runplat(regrhv2@scl51027.us.oracle.com) setEnv(APS_BUILD=5018 APS_VERSION=11.1.2.2.200)
+dsapds_reg_v1.sh:snapshot(11122200) runplat(regrhv2@scl51027.us.oracle.com) setEnv(APS_BUILD=5018 APS_VERSION=11.1.2.2.200)
+#dsapds_reg_v2.sh:snapshot(11122200) runplat(regrhv2@scl51027.us.oracle.com) setEnv(APS_BUILD=5018 APS_VERSION=11.1.2.2.200)

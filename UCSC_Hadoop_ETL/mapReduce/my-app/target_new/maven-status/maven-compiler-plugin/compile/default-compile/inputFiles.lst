@@ -1,0 +1,8 @@
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/DriverStopWords.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/DriverPartitioned.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/DriverNumReducers.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/WordCountStopWMapper.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/WordCountPartitioner.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/WordcountMapper.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/WordcountReducer.java
+/home/azhang/workspace_mapR/my-app/src/main/java/com/mycompany/app/Driver.java

@@ -1,0 +1,16 @@
+\$target_owner ${LOGNAME} $AP_ALTEMAIL
+Autopilot Notification(CONSECUTIVE DIF) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+$_ct more consecutive difs generated.
+
+Test Environment
+
+PLATFORM:       $_PLATNAME
+MACHINE:        $(hostname)
+LOGNAME:        $LOGNAME
+VERSION:        $VERSION
+BUILD:          $BUILD
+TEST SUITE:     $TEST
+SXR_HOME:       $SXR_HOME
+Snapshot TS:    $updt_ts
+WORK BACKUP:    ${tarfile}
+

@@ -1,0 +1,158 @@
+
+#####################################
+# stlx8:
+# Login as lroot: mkdir -p  /nfshome/regraz1
+# mount scfs3:/vol/vol2/homes/regraz1 /nfshome/regraz1
+# mount stublnx1:/vol4/vol1 /mnt/stublnx1_vol4
+#########################################
+stlx8:zola:hit(latest):agtpori1.sh:schedule(Mon Thu)
+stlx8:zola:hit(latest):agtpjlmain.sh:schedule(Mon Thu)
+stlx8:zola:hit(latest):agtpcwmain.sh:schedule(Mon) schedule(Thu)
+
+#####################################
+# stlx9: (Oracle Linux 32 bits)
+# /vol1/regraz3/kennedy --> regraz3
+# /vol1/regraz2/9.3.1.1.0 --> regraz2
+#####################################
+stlx9:zola:hit(latest):agtpori2.sh:schedule(Mon) schedule(Thu)
+stlx9:zola:hit(latest):agtpjymain.sh:schedule(Mon) schedule(Thu)
+stlx9:zola:hit(latest):agtpukmain.sh:schedule(Mon) schedule(Thu)
+
+#####################################
+# stlx10: (Oracle Linux 32 bits)
+#####################################
+stlx10:zola:hit(latest):agtpbkmain.sh:schedule(Mon) schedule(Thu)
+stlx10:zola:hit(latest):agtpbarmain.sh:schedule(Mon) schedule(Thu)
+stlx10:zola:hit(latest):agtp70main.sh:schedule(Mon) schedule(Thu)
+stlx10:zola:hit(latest):maxlmain.sh:schedule(Mon) schedule(Thu)
+
+####################################### 
+# stlx11 - agtpori1.sh should be run on this box
+#        agtp70main.sh should be run on this box too
+#
+# /vol2/regraz2/9.3.1.1.0 --> regraz2
+# /vol3/regraz3/kennedy --> regraz3
+# for c-api
+######################################
+stlx11:zola:hit(latest):agtpjvmain.sh:schedule(Mon) schedule(Thu)
+stlx11:zola:hit(latest):capitest.sh:schedule(Mon) schedule(Thu)
+stlx11:zola:hit(latest):agtpjlmain.sh serial direct:schedule(Mon) schedule(Thu)
+stlx11:zola:hit(latest):agtpjlmain.sh parallel direct:schedule(Mon) schedule(Thu)
+stlx11:zola:hit(latest):agtpjlmain.sh parallel buffer:schedule(Mon) schedule(Thu)
+stlx11:zola:hit(latest):agtpkenmain.sh:schedule(Mon) schedule(Thu)
+
+
+################################################################################
+# stlx12 - (Oracle Linux 64 bits
+#
+# /vol2/regraz2/9.3.1.1.0 --> regraz2
+# /vol3/regraz3/kennedy --> regraz3
+# Bugs: 05/5: 
+#7019372 PARTITION TEST dcos0006.KSH CAUSED SERVER CRASH (473) --> Dcos0006.dif
+#7019893 9.5 REGRESSION: LINUX 64 BITS GOT EXTRA ERROR MSG FOR TEST ON OUTLINE SYNCHRONIZ
+# 6897641 - 9.5 REGRESSION: SOME LINUX 64 BITS SPECIFIC BEHAVIORS
+# cwmain.sh - [azhang 06/16/08] Linux64: 16 dmccvse*.sh: caused by decimal rounding.
+#################################################################################
+stlx12:zola:hit(latest):capitest.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpori1.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpori2.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpjlmain.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtp70main.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpukmain.sh:schedule(Mon Thu)
+
+stlx12:zola:hit(latest):agtpcwmain.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):maxlmain.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpjvmain.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpjymain.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpbkmain.sh:schedule(Mon Thu)
+
+stlx12:zola:hit(latest):agtpjlmain.sh serial direct:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpjlmain.sh parallel direct:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpjlmain.sh parallel buffer:priority:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpbarmain.sh:schedule(Mon Thu)
+stlx12:zola:hit(latest):agtpkenmain.sh:schedule(Mon Thu)
+
+
+### Hpux ##############################################################
+# sthp8: bkmain should be on sthp9 --> dmcc433rfcb.sh casued dmcc433passive_b.dif  
+####  No LD_PRELOAD should be set int the env for 93x#######
+# # sddbcmpotl.sh only passed on sthp9 for cwmain.sh
+
+############################################################################
+# sthp8:
+#######################################################################
+sthp8:zola:hit(latest):agtpori1.sh:schedule(Mon Thu)
+sthp8:zola:hit(latest):agtpori2.sh:schedule(Mon Thu)
+sthp8:zola:hit(latest):agtpjlmain.sh:schedule(Mon Thu)
+
+###################################################
+# sthp9: agtpori1.sh on this box only get 1974 *suc 
+# 2008/04/22 ukmain.sh failed on sthp16, reurn now
+###################################################
+
+# Not run for sthp9 on zola
+
+#####################################################################
+# sthp10: - agtpori1.sh should be run on this box
+# "agtpjlmain.sh parallel buffer" and pd should be run on this one 
+#####################################################################
+sthp10:zola:hit(latest):agtpcwmain.sh:schedule(Mon Thu)
+sthp10:zola:hit(latest):agtpbkmain.sh:schedule(Mon Thu)
+sthp10:zola:hit(latest):agtpbarmain.sh:schedule(Mon Thu)
+sthp10:zola:hit(latest):agtp70main.sh:schedule(Mon Thu)
+sthp10:zola:hit(latest):agtpukmain.sh:schedule(Mon Thu)
+sthp10:zola:hit(latest):agtpkenmain.sh:schedule(Mon Thu)
+
+#########################################################################
+# sthp16: for c-api and agtpjymain, agtpbarmain(these two may fail some test on sthp8)
+#########################################################################
+sthp16:zola:hit(latest):maxlmain.sh:schedule(Mon Thu)
+sthp16:zola:hit(latest):agtpjvmain.sh:schedule(Mon Thu)
+sthp16:zola:hit(latest):capitest.sh:schedule(Mon Thu)
+sthp16:zola:hit(latest):agtpjlmain.sh serial direct:schedule(Mon Thu)
+sthp16:zola:hit(latest):agtpjlmain.sh parallel direct:schedule(Mon Thu)
+sthp16:zola:hit(latest):agtpjlmain.sh parallel buffer:schedule(Mon Thu)
+sthp16:zola:hit(latest):agtpjymain.sh:schedule(Mon Thu)
+sthp16:zola:hit(latest):agtpbarmain.sh:schedule(Mon Thu)
+
+#####################################
+# stsun8 - or1.sh had problem
+# for c-api
+#####################################
+stsun8:zola:hit(latest):capitest.sh:schedule(Mon Thu)
+
+#####################################
+# stsun15 - or1.sh had problem
+#####################################
+stsun15:zola:hit(latest):agtpori1.sh:schedule(Mon Thu)
+stsun15:zola:hit(latest):agtpjlmain.sh:schedule(Mon Thu)
+stsun15:zola:hit(latest):agtpukmain.sh :schedule(Mon Thu)
+
+############################################
+# emc-sun1: - rerun bkmain on this machine for 181build
+# /vol1/regraz2/9.3.1.1.0_32 --> regraz2
+# /vol2/regraz3/kennedy_32  --> regraz3
+###############################################
+emc-sun1:zola:hit(latest):agtpcwmain.sh:schedule(Mon Thu)
+emc-sun1:zola:hit(latest):agtpjymain.sh:schedule(Mon Thu)
+emc-sun1:zola:hit(latest):agtpbkmain.sh:schedule(Mon Thu)
+emc-sun1:zola:hit(latest):agtpori2.sh:schedule(Mon Thu)
+emc-sun1:zola:hit(latest):agtpbarmain.sh:schedule(Mon Thu)
+
+#####################################
+# emc-sun2 - rerun bkmain on this machine for 181build
+#####################################
+emc-sun2:zola:hit(latest):agtp70main.sh:schedule(Mon Thu)
+emc-sun2:zola:hit(latest):maxlmain.sh:schedule(Mon Thu)
+emc-sun2:zola:hit(latest):agtpjvmain.sh:schedule(Mon Thu)
+
+emc-sun2:zola:hit(latest):agtpori1.sh:schedule(Mon Thu)
+emc-sun2:zola:hit(latest):agtpukmain.sh :schedule(Mon Thu)
+emc-sun2:zola:hit(latest):agtpjlmain.sh serial direct:schedule(Mon Thu)
+emc-sun2:zola:hit(latest):agtpjlmain.sh parallel direct:schedule(Mon Thu)
+emc-sun2:zola:hit(latest):agtpjlmain.sh parallel buffer:schedule(Mon Thu)
+emc-sun2:zola:hit(latest):agtpkenmain.sh:schedule(Mon Thu)
+
+########################################################
+########################################################
+

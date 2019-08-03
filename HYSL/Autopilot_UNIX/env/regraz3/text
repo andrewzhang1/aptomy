@@ -1,0 +1,24 @@
+ echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_dscgaw06.env
+echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_issol13_32.env
+echo "export SXR_STA_ACCUMULATED=1" >>talleyrand_issol13_64.env
+
+echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_scl59181_32.env
+talleyrand_stadi51.env
+talleyrand_sthp10.env
+talleyrand_sthp16.env
+talleyrand_sthp8.env
+talleyrand_sthp9.env
+echo "export SXR_STA_ACCUMULATED=1" >>talleyrand_stlx10.env
+echo "export SXR_STA_ACCUMULATED=1" >>talleyrand_stlx11.env
+echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_stlx12.env
+echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_stlx8.env
+echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_stlx9.env
+talleyrand_stnt31-3.env
+talleyrand_stnt35-3.env
+talleyrand_stnti16-1.env
+echo "export SXR_STA_ACCUMULATED=1" >> talleyrand_stsun11_32.env
+talleyrand_stsun11_64.env
+talleyrand_stsun15_32.env
+echo "export SXR_STA_ACCUMULATED=1" >>talleyrand_stsun8_32.env
+talleyrand_vmlxaz1.env
+talleyrand_vmlxaz2.env

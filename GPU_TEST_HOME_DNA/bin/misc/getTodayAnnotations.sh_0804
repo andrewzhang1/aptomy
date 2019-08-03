@@ -1,0 +1,56 @@
+#!/bin/bash
+###############################################################################
+#: Author: Andrew Zhang
+#: Script name: getTodayAnnotations.sh 
+#: Reviewers:
+#: Date: 7/27/2016
+#: Purpose:   This is temp script trying to get the daily runs with good annotations.h5.
+#: Note: Need a few  parameters on the command line 
+#: Command line
+# 
+#: Note: need to set a few system env:
+# Input parameters: 
+# $1 = Date,  a parameter as date format, such 160727
+# $2 = A machine list for the gpu in text format.
+#################################################################################
+set -x
+export log=get_TodayAnnotations_logf_${1}.txt
+date=$1
+gpu_machine_list=$2
+
+if [ $# != 2 ]; then
+    echo "You need two arguments: date(format like 160801), and gpu_list, in order to run this script!"
+   exit
+fi
+
+if [ $date -eq 0 ] ; then
+    echo "Error: Please specify the date, such as: 160725"
+    exit -1
+fi
+
+if [ $gpu_machine_list -eq 0 ] ; then
+    echo "Error: Please specify gpu machine list."
+    exit -1
+fi
+
+export RUN_LOC=/home/genia/rigdata
+
+cat $2 |
+while read station_name
+  do
+    #sleep 1
+    # set $line
+    cd $RUN_LOC/$station_name
+    echo "We are currently at: `pwd`"
+    #if ($? -eg 1); then
+    echo "We are at: `pwd`"   
+    echo "`find . -name  annotations.h5 |grep $1_ `"
+	find -L . -name "annotations.h5" | grep -v "chunked_results" | grep $1_  >> $GPU_TEST_HOME/bin/TodayAnnotaions_$1.txt >> $log
+
+    #sleep 1
+    # kill -9 $2
+#      echo "Done with machine: `echo $station_name`"
+    #fi
+    #sleep 1
+done
+

@@ -1,0 +1,14 @@
+$LOGNAME InstNotify $AP_ALTEMAIL
+Autopilot Notification (No sufficient space) - ${VERSION} ${BUILD} - ${tmp_hostname}:${tmp_platform} ${TEST}
+There is no sufficient free space on $dskloc.
+
+  Machine         = $tmp_hostname:$tmp_platform
+  Login User      = $tmp_logname
+  Target location = $dskloc
+  Disk Free size  = ${CURRFREE} KB
+  Expected size   = $expfree KB
+  Version:Build   = $VERSION:$BUILD
+  Test Script     = $TEST
+
+Autopilot is moving to PAUSE mode.
+Please check the disk space on this machine.

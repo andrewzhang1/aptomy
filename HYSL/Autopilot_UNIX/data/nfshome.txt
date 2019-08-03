@@ -1,0 +1,64 @@
+# hpux64
+stiahp1
+stiahp3
+stiahp4
+stiahp5
+dscv0002
+dscv0009
+
+# solaris
+issol13
+emc-sun1
+stsun8
+slc02gnm
+slc02gnt
+slc02gmv
+
+# solaris64
+# emc-sun1
+emc-sun2
+qtfsun2
+scl59181
+scl59182
+# slc02gmv
+slc02iad
+slc02ica
+slc02lec
+slc02les
+
+# aix
+
+# aix64
+olap9
+scl51027.us.oracle.com
+scl51028.us.oracle.com
+slc03kvb.us.oracle.com
+slc03kvc.us.oracle.com
+staix10
+staix11.us.oracle.com
+staix12
+staix9
+
+# linux
+scl14181
+scl14182
+
+# linuxamd64
+pion.us.oracle.com
+scl14200
+scl14351
+slc01mwc
+slc02ixl
+slc02ixl
+slc03qtl
+slc03riv
+slc04kzx
+yyhlx64f
+
+# linux64
+
+# linuxx64
+
+# linuxx64exa
+# slck24014
+

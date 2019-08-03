@@ -1,0 +1,67 @@
+addtsk.sh 11.1.2.2.200 5027 agapmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 agbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 aglgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 agsymain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 apbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 apgdmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 apgemain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 apotmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 capitest.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dcbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dcmpmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dcosmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dcrpmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dctpmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 ddbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 ddldmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 ddximain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dmbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dmccmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dmdcmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dmglmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dmpcmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dmudmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dresmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dxbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dxmdmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dxrrmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 dxssmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+
+addtsk.sh -i 11.1.2.2.200 5027 maxlmain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative)" 
+addtsk.sh 11.1.2.2.200 5027 msscmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 sdatmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 sdbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 sddbmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+
+addtsk.sh 11.1.2.2.200 5027 sdremain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 sdsvmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 smalmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 smbgmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 smbumain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 smixmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 smlrmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+addtsk.sh 11.1.2.2.200 5027 smtxmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)" 
+ 
+addtsk.sh -i 11.1.2.2.200 5027 maxlmain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative)"
+
+addtsk.sh -i 11.1.2.2.200 5027 dsapssdqmd_acc_v1.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative) setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200)"
+addtsk.sh -i 11.1.2.2.200 5027 dsapdq_reg_v2.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative) setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200)"
+addtsk.sh -i 11.1.2.2.200 5027 dsapmd_reg_v2.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative) setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200)"
+addtsk.sh -i 11.1.2.2.200 5027 dsapds_reg_v1.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative) setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200)"
+addtsk.sh -i 11.1.2.2.200 5027 dsapds_reg_v2.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative) setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200)"
+addtsk.sh -i 11.1.2.2.200 5027 dsapprobmain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative) setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200)"
+
+ 
+
+ 
+#Missing:
+#addtsk.sh 11.1.2.2.200 5027 agssmain.sh -o "bi(true) runplat(anzhang@slc01mwc test8@pion.us.oracle.com) noInst(true) tag(_binative)"
+
+#maxl NOT run on PIOPN
+addtsk.sh -i 11.1.2.2.200 5027 maxlmain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative)"  
+
+
+re-run: 
+addtsk.sh -i 11.1.2.2.200 5027 sdremain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative)"
+addtsk.sh -i 11.1.2.2.200 5027 sdsvmain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative)"
+addtsk.sh -i 11.1.2.2.200 5027 smtxmain.sh -o "bi(true) runplat(anzhang@slc01mwc) noInst(true) tag(_binative)"

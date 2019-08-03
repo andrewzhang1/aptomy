@@ -1,0 +1,430 @@
+################################################################################
+#
+# InstallShield Options File
+#
+# Wizard name: Installer
+# Wizard source: setup.jar
+# Created on: Wed Apr 26 11:52:44 PDT 2006
+# Created by: InstallShield Options File Generator
+#
+# This file contains values that were specified during a recent execution of
+# Installer. It can be used to configure Installer with the options specified
+# below when the wizard is run with the "-options" command line option. Read
+# each setting's documentation for information on how to change its value.
+# 
+# A common use of an options file is to run the wizard in silent mode. This lets
+# the options file author specify wizard settings without having to run the
+# wizard in graphical or console mode. To use this options file for silent mode
+# execution, use the following command line arguments when running the wizard:
+# 
+#    -options "C:/tmai/win64EDS.txt" -silent
+#
+################################################################################
+
+
+################################################################################
+#
+# User Input Field - languageSelectionList
+#
+#
+
+
+-W languageSelectionBean.languageSelectionList="en_US"
+
+
+################################################################################
+#
+# User Input Field - countryList
+#
+#
+
+
+-W bean8.countryList="US"
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I AGREE" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W bean9.selection=2
+#
+
+
+-W bean9.selection=1
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "Yes" will be selected
+#    2 - "No" will be selected
+# 
+# For example, to configure the panel to initially display "No", use
+# 
+#    -W recommendPreviousUninstall.selection=2
+#
+
+
+-W recommendPreviousUninstall.selection=2
+
+
+################################################################################
+#
+# Analytic High Availability Services 9.2.0.0 Install Location
+#
+# The install location of the product. Specify a valid directory into which the
+# product should be installed. If the directory contains spaces, enclose it in
+# double-quotes. For example, to install the product to C:\Program Files\My
+# Product, use
+# 
+#    -P installLocation="C:\Program Files\My Product"
+#
+
+
+-P installLocation="C:\tmai\Hyperion\AvailabilityServices"
+
+
+################################################################################
+#
+# Select the Hyperion Home Directory
+#
+# <html>The required common components for the application will be<br>installed
+# to the identified location.<br></html>
+#
+
+
+-W bean3.hyperionHome="C:/tmai/Hyperion"
+
+
+################################################################################
+#
+# Setup Type
+#
+# The setup type to be used when installing the product. Legal values are:
+# 
+#    typical - Typical: The program will be installed with the suggested
+#              configuration. Recommended for most users.
+#    custom  - Custom: The program will be installed with the features you
+#              choose. Recommended for advanced users.
+# 
+# For example, to specify that the "Typical" setup type is selected, use
+# 
+#    -W setupTypes.selectedSetupTypeId=typical
+# 
+# You may also set the setup type to nothing by using
+# 
+#    -W setupTypes.selectedSetypTypeId=
+# 
+# This clears the current setup type and prevents any changes to the set of
+# selected features. Use this option whenever you set feature active states in
+# this options file. If you do not clear the selected setup type, the setup type
+# panel will override any changes you make to feature active states using this
+# file.
+#
+
+
+-W setupTypes.selectedSetupTypeId=typical
+
+
+################################################################################
+#
+# User Input Field - EsslangList
+#
+#
+
+
+-W esslangPanel.EsslangList="English_UnitedStates.Latin1@Binary"
+
+
+################################################################################
+#
+# "Start High Availability Services Command Line Utility" Feature
+#
+# The selection state of the "Start High Availability Services Command Line
+# Utility" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Start High Availability Services Command Line Utility"
+# for installation, use
+# 
+#    -P eDSProductBean_eDS7_0_0ClientFeature.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0ClientFeature.active=true
+
+
+################################################################################
+#
+# "Analytic High Availability Server " Feature
+#
+# The selection state of the "Analytic High Availability Server " feature. Legal
+# values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Analytic High Availability Server " for installation,
+# use
+# 
+#    -P eDSProductBean_eDS7_0_0ServerFeature.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0ServerFeature.active=true
+
+
+################################################################################
+#
+# "Application Server Deployment(Servlet mode)" Feature
+#
+# The selection state of the "Application Server Deployment(Servlet mode)"
+# feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Application Server Deployment(Servlet mode)" for
+# installation, use
+# 
+#    -P eDSProductBean_eDS7_0_0ServletFeature.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0ServletFeature.active=true
+
+
+################################################################################
+#
+# "Standalone Feature (TCP/IP mode)" Feature
+#
+# The selection state of the "Standalone Feature (TCP/IP mode)" feature. Legal
+# values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Standalone Feature (TCP/IP mode)" for installation,
+# use
+# 
+#    -P eDSProductBean_eDS7_0_0StandaloneFeature.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0StandaloneFeature.active=true
+
+
+################################################################################
+#
+# "Common " Feature
+#
+# The selection state of the "Common " feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Common " for installation, use
+# 
+#    -P eDSProductBean_eDS7_0_0CommonFeature.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0CommonFeature.active=true
+
+
+################################################################################
+#
+# "API " Feature
+#
+# The selection state of the "API " feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "API " for installation, use
+# 
+#    -P eDSProductBean_eDS7_0_0APIFeature.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0APIFeature.active=true
+
+
+################################################################################
+#
+# "Java API" Feature
+#
+# The selection state of the "Java API" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Java API" for installation, use
+# 
+#    -P eDSProductBean_eDS7_0_0JavaAPI.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0JavaAPI.active=true
+
+
+################################################################################
+#
+# "XMLA Provider (Application Server Required)" Feature
+#
+# The selection state of the "XMLA Provider (Application Server Required)"
+# feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "XMLA Provider (Application Server Required)" for
+# installation, use
+# 
+#    -P eDSProductBean_xMLA7_0_0Provider.active=true
+#
+
+
+-P eDSProductBean_xMLA7_0_0Provider.active=true
+
+
+################################################################################
+#
+# "Documentation" Feature
+#
+# The selection state of the "Documentation" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Documentation" for installation, use
+# 
+#    -P eDSProductBean_eDS7_0_0Documentation.active=true
+#
+
+
+-P eDSProductBean_eDS7_0_0Documentation.active=true
+
+
+################################################################################
+#
+# User Input Field - lookupWebLogicLocationDirectory
+#
+#
+
+
+-W lookUpWeblogic7_0_2.lookupWebLogicLocationDirectory=""
+
+
+################################################################################
+#
+# User Input Field - windowsServiceOption
+#
+#
+
+
+-W lookUpWeblogic7_0_2.windowsServiceOption=""
+
+
+################################################################################
+#
+# User Input Field - weblogicLocation
+#
+#
+
+
+-W weblogicDetailsPanel.weblogicLocation="$J(CIS.beaHome)"
+
+
+################################################################################
+#
+# User Input Field - weblogicSkipDeploymentCheckBox
+#
+#
+
+
+-W weblogicDetailsPanel.weblogicSkipDeploymentCheckBox=""
+
+
+################################################################################
+#
+# User Input Field - lookupWebLogicLocationDirectory
+#
+#
+
+
+-W lookUpWeblogic7_0_2SecondTime.lookupWebLogicLocationDirectory=""
+
+
+################################################################################
+#
+# User Input Field - windowsServiceOption
+#
+#
+
+
+-W lookUpWeblogic7_0_2SecondTime.windowsServiceOption=""
+
+
+################################################################################
+#
+# User Input Field - userJavaHomeDirectory
+#
+#
+
+
+-W promptForBeaJavaHome.userJavaHomeDirectory="$J(CIS.beaJavaHome)"
+
+
+################################################################################
+#
+# User Input Field - appServerStartupPort
+#
+#
+
+
+-W eDSOnlyWeblogicPortPanelAppServer.appServerStartupPort="$J(CIS.beaDefaultStartupPort)"
+
+
+################################################################################
+#
+# User Input Field - appServetSSLPort
+#
+#
+
+
+-W eDSOnlyWeblogicPortPanelAppServer.appServetSSLPort="$J(CIS.beaDefaultSSLPort)"
+
+
+################################################################################
+#
+# User Input Field - domainDirectory
+#
+#
+
+
+-W weblogicDomainDirectory.domainDirectory="$N($J(CIS.uninstallerBaseLocation)\deployments\Weblogic\7.0.2)"
+
+
+################################################################################
+#
+# User Input Field - field2
+#
+#
+
+
+-W bean52.field2=""

@@ -1,0 +1,27 @@
+
+######################################################### 
+# stadi51 - (Oracle Hosted Linux 32 bits)
+# HYPERION_HOME:  /mnt/stublnx1/Hyperion/talleyrand
+# VIEW_PAHT:      /scratch/views/autoregress
+# HIT:            /mnt/hit
+#                 (anzhang@stadi51)\>
+#########################################################
+
+stadi51:talleyrand:096:agtpori1.sh
+stadi51:talleyrand:096:agtpori2.sh
+stadi51:talleyrand:096:agtpjlmain.sh 
+#stadi51:talleyrand:096:agtp70main.sh
+stadi51:talleyrand:096:agtpukmain.sh
+
+stadi51:talleyrand:096:agtpcwmain.sh
+stadi51:talleyrand:096:maxlmain.sh
+#stadi51.talleyrand:096:agtpjvmain.sh:priority(1)
+stadi51.talleyrand:096:agtpjymain.sh
+#stadi51:talleyrand:096:agtpbkmain.sh
+
+stadi51:talleyrand:096:agtpjlmain.sh serial direct
+stadi51:talleyrand:096:agtpjlmain.sh parallel direct
+stadi51:talleyrand:096:agtpjlmain.sh parallel buffer:priority
+#stadi51:talleyrand:096:agtpbarmain.sh
+stadi51:talleyrand:096:prob_main.sh
+stadi51:talleyrand:096:agtpkenmain.sh

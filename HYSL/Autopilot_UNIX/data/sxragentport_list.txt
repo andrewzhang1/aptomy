@@ -1,0 +1,4 @@
+ykono	10000
+regrrk2	10005
+Administrator	10010
+regrrk1	10015

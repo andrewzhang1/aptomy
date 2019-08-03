@@ -1,0 +1,21 @@
+# Special e-mail address	
+Admin	ADMIN<yukio.kono@oracle.com>
+InstNotify	INST<yukio.kono@oracle.com> INST<yuki.hashimoto@oracle.com>
+DoneNotify	DONE<yukio.kono@oracle.com>
+DifNotify	DIFF<yukio.kono@oracle.com> DIFF<yuki.hashimoto@oracle.com>
+DirCompNotify	DIRCMP<yukio.kono@oracle.com> DIRCMP<yuki.hashimoto@oracle.com>
+CleanupNotify	yukio.kono@oracle.com
+EnvNotify	ENV<yukio.kono@oracle.com>
+ConsDifNotify6	CDN6<yukio.kono@oracle.com> CDN6<yuki.hashimoto@oracle.com>
+ConsDifNotify	CDN<yukio.kono@oracle.com> CDN<yuki.hashimoto@oracle.com>	# for 3 Consecutive dif notification
+# ConsDifNotify6	CDN6<yukio.kono@oracle.com>	# for 6 Consecutive dif notification
+# ConsDifNotify	CDN<yukio.kono@oracle.com>	# for 3 Consecutive dif notification
+# MgrNotify	eric.smadja@oracle.com henry.nguyen@oracle.com
+MgrNotify	MGR<yukio.kono@oracle.com>
+KilledNotify	KILL<yuki.hashimoto@oracle.com> KILL<yukio.kono@oracle.com>
+
+
+# Login account
+hhashimo	yuk.hashimoto@oracle.com	# Yuki Unix logon account
+Kono	Kono<yukio.kono@oracle.com>
+I18N	I18N_K<yukio.kono@oracle.com> I18N_Y<yuki.hashimoto@oracle.com>

@@ -1,0 +1,4 @@
+dcbgmain.sh:runplat(eas1lnx@scl14199) altsetup($AUTOPILOT/aps_integ/mega.sh)
+#"/nar200/essbasesxr/regressions/APSTalleyrand_PS2_snapshot/aps/autopilot/scripts/autotest.sh":runplat(eas1lnx@scl14199) altsetup($AUTOPILOT/aps_integ/mega.sh)
+#11.1.2.2.100:2127:dcbgmain.sh:altsetup($AUTOPILOT/aps_integ/test1.sh)
+dcbgmain.sh:runplat(eas1lnx@scl14199) altsetup($AUTOPILOT/aps_integ/mega.sh)

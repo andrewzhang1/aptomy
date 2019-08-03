@@ -1,0 +1,17 @@
+agtpori1.sh:runplat[regraz1@tachyon]
+agtpori2.sh:runplat[regraz2@tachyon]
+agtp70main.sh:runplat[regraz3@tachyon]
+agtpjlmain.sh:runplat[regraz4@tachyon]
+agtpukmain.sh:runplat[regraz5@tachyon]
+agtpcwmain.sh:runplat[regraz6@tachyon]
+maxlmain.sh:runplat[regraz1@tachyon]
+agtpjymain.sh:runplat[regraz2@tachyon]
+agtpbkmain.sh:runplat[regraz3@tachyon]
+agtpjlmain.sh.sh parallel buffer:runplat[regraz4@tachyon]
+agtpjlmain.sh parallel direct:runplat[regraz5@tachyon]
+agtpjlmain.sh serial direct:runplat[regraz6@tachyon]
+agtpbarmain.sh:runplat[regraz1@tachyon]
+agtpkenmain.sh:runplat[regraz2@tachyon]
+
+
+

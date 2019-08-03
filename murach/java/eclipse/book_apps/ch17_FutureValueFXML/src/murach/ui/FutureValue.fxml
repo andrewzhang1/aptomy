@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<GridPane fx:controller="murach.ui.FutureValueController" 
+          xmlns:fx="http://javafx.com/fxml" 
+          alignment="TOP_CENTER" hgap="10" vgap="10">
+    <padding>
+        <Insets top="25" left="25" bottom="25" right="25"/>
+    </padding>
+    
+    <!-- Monthly investment -->
+    <Label text="Monthly Investment:"
+        GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="investmentField"
+        GridPane.columnIndex="1" GridPane.rowIndex="0" />
+ 
+    <!-- Yearly interest rate -->
+    <Label text="Yearly Interest Rate:"
+        GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="interestRateField" 
+        GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    
+    <!-- number of years -->
+    <Label text="Years:"
+        GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="yearsField" 
+        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    
+    <!-- Future value -->
+    <Label text="Future Value:"
+        GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <TextField fx:id="futureValueField" editable="false" 
+           GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    
+    <!-- Buttons -->
+    <HBox spacing="10" alignment="bottom_right" 
+        GridPane.columnIndex="0" GridPane.rowIndex="4" 
+        GridPane.columnSpan="2" GridPane.rowSpan="1" >
+        <Button text="Calculate" onAction="#calculateButtonClicked"/>
+        <Button text="Exit" onAction="#exitButtonClicked"/>
+    </HBox>
+
+</GridPane>

@@ -1,0 +1,10 @@
+$LOGNAME KillNotify $AP_ALTEMAIL
+Autopilot Notification (Killed) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Detect killed processes record.
+
+  Machine       = $(hostname):$_PLATNAME
+  Login User    = ${LOGNAME}
+  Version:Build = $VERSION:$BUILD
+  Test Script   = ${TEST}
+  _OPTION       = ${_OPTION}
+

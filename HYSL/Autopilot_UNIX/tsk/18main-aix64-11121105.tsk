@@ -1,0 +1,45 @@
+capitest.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10)
+
+maxlmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+dsapssdqmd_acc_v1.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.105)
+
+dsapdq_reg_v2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.105)
+
+dsapmd_reg_v2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.105)
+
+dsapds_reg_v1.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.105)
+
+dsapds_reg_v2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.1.105)
+
+agtpjvmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtp70main.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpcwmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpbkmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpbarmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpkenmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtptalleymain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+prob_main.sh:snapshot(11121x):snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpjymain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpjlmain.sh parallel direct:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpjlmain.sh parallel buffer:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpjlmain.sh serial direct:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com)
+
+agtpori1.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) 
+
+agtpori2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) 
+
+agtpjlmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) 
+
+agtpukmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix11.us.oracle.com regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com regrhv4@slc03kvc.us.oracle.com) 

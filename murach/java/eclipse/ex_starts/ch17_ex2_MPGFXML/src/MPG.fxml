@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="MPGController"
+          hgap="5" vgap="5">
+    
+    <!-- Miles -->
+    <Label text="Miles:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="milesField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    
+    <!-- Gallons -->
+    <Label text="Gallons:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="gallonsField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    
+    <!-- Miles per gallon -->
+    <Label text="MPG:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="mpgField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    
+    <!-- Button -->
+    <Button text="Calculate" onAction="#calculateButtonClicked"
+            GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+</GridPane>

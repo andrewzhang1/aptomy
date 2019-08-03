@@ -1,0 +1,19 @@
+ 
+----- Delete the target hdfs dir -----
+> hdfs dfs -rm -R /data/wordcount/output
+18/03/06 20:40:53 INFO fs.TrashPolicyDefault: Moved: 'hdfs://sandbox-hdp.hortonworks.com:8020/data/wordcount/output' to trash at: hdfs://sandbox-hdp.hortonworks.com:8020/user/azhang/.Trash/Current/data/wordcount/output1520368853106
+ 
+----- Launching Hadoop Job ---- 
+ 
+  - Ignore the warning: 'WARN hdfs.DFSClient: Caught exception'
+    Its a Hadoop bug described at: https://issues.apache.org/jira/browse/HDFS-10429
+  
+> hadoop jar ./target/mycompany.app-1.0.0-fat.jar com.mycompany.app.DriverPartitioned  /data/wordcount/input  /data/wordcount/output
+Exception in thread "main" java.lang.ClassNotFoundException: com.mycompany.app.DriverPartitioned
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:226)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:148)

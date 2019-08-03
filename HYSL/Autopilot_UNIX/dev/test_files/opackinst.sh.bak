@@ -1,0 +1,609 @@
+#!/usr/bin/ksh
+#######################################################################
+# File: opackinst.sh
+# Author: Yukio Kono
+# Description: Installs OPACK modules into current installation.
+# Syntax: opackint.sh <ver> <ess-bld>
+#######################################################################
+# Out:
+#    1: Parameter error.
+#    2: No BUILD_ROOT defined or folder
+#    3: No VIEW_PATH defined or folder.
+#    4: No target opack folder under $BUILD_ROOT
+#    5: No .zip files.
+#    6: No unzip command.
+#    7: Unzip failed.
+#    8: No OPatch folder under $HYPERION_HOME
+#    9: No opatch.bat command.
+#   10: Compare failed between OPACK and refresh binaries.
+#   50- : opack failure (return code + 50)
+#######################################################################
+# History:
+# 10/15/2010 YK Fist edition.
+# 01/27/2011 YK Check opatch return code
+# 02/28/2011 YK Add hpatch check and if exist, use hpatch instead of
+#               opatch command.
+# 04/11/2011 YK Correspond to the new OPACK structure from 11.1.2.1.102 B031
+#               like esb11.1.2.1.102_client_solaris_031.zip...
+# 05/25/2011 YK Add rollback test.
+# 05/25/2011 YK Add binaries compare between OPCK zip and refresh .tar.Z
+# 07/20/2011 YK Change the test order to 1) Rollback test, 2) Dup compare
+# 07/20/2011 YK Add duplicate check in the ARBORPATH/bin, 
+#               HYPERION_HOME/common/EssbaseRTC(-64)/<ver>/bin and HYPERION_HOME/lib(bin)
+# 10/04/2011 YK Support $ver/$bld/*.zip folder
+
+. apinc.sh
+
+display_help()
+{
+	echo "opackinst.sh [<options>] <ver> <bld>."
+	echo "<options> := [-opack <opack-bld>|-norollback|-nocmpzip]"
+	echo "Description: Install OPACK module."
+	echo "Parameter:"
+	echo "  <ver>  : Version number."
+	echo "  <bld>  : Build number."
+	echo "Options:"
+	echo "  -opack      : Use <opack-bld> build."
+	echo "  -norollback : Don't test the rollback feature."
+	echo "  -rollback   : Do test the rollback feature."
+	echo "  -nocmpzip   : No comparison test between OPACK zip and refresh .tar.Z."
+	echo "  -cmpzip     : Compare the OPACK zip and refresh .tar.Z."
+}
+
+# Check environment
+if [ -z "$BUILD_ROOT" ]; then
+	echo "No \$BUILD_ROOT defined."
+	exit 2
+fi
+if [ ! -d "$BUILD_ROOT" ]; then
+	echo "No \$BUILD_ROOT($BUILD_ROOT) folder exists."
+	exit 2
+fi
+
+if [ -z "$VIEW_PATH" ]; then
+	echo "No \$VIEW_PATH defined."
+	exit 3
+fi
+if [ ! -d "$VIEW_PATH" ]; then
+	echo "No \$VIEW_PATH($VIEW_PATH) folder exists."
+	exit 3
+fi
+
+
+#######################################################################
+# Check the Parameter (err=1)
+#######################################################################
+orgpar=$@
+opbld=latest
+unset ver bld
+rollbacktest=true
+cmpzipbin=true
+cmpattr=
+while [ $# -ne 0 ]; do
+	case $1 in
+		-norollback|-norollbacktest)
+			rollbacktest=false
+			;;
+		-rollback|-rollbacktest)
+			rollbacktest=true
+			;;
+		-cmpzip|-cmpzipbin)
+			cmpzipbin=true
+			;;
+		-nocmpzip|-nocmpzipbin)
+			cmpzipbin=false
+			;;
+		-cmpattr)
+			cmpattr="-attr"
+			;;
+		-opack|opack)
+			if [ $# -lt 2 ]; then
+				echo "\"-opack\" parameter need a build number for opack."
+				display_help
+				exit 1
+			fi
+			shift
+			opbld=$1
+			;;
+		-h|help|-help)
+			display_help with sample
+			exit 0
+			;;
+		*)
+			if [ -z "$ver" ]; then
+				ver=$1
+			elif [ -z "$bld" ]; then
+				bld=$1
+			else
+				echo "Too many parameter."
+				display_help
+				exit 1
+			fi
+			;;
+	esac
+	shift
+done
+
+if [ -z "$ver" -o -z "$bld" ]; then
+	echo "Not enough parameter."
+	echo "current param:$orgpar"
+	display_help
+	exit 1
+fi
+
+. settestenv.sh $ver HYPERION_HOME JAVA_HOME
+
+if [ "$bld" = "latest" ]; then
+	bld=`get_latest.sh $ver`
+	if [ $? -ne 0 ]; then
+		echo $bld
+		exit 1
+	fi
+fi
+echo "Apply OPACK($ver/$bld/$opbld)."
+thisplat=`get_platform.sh`
+dupchk_list=$(. ver_setenv.sh $ver 2> /dev/null; echo $_DUPCHK_LIST)
+ignbin_list=$(. ver_setenv.sh $ver 2> /dev/null; echo $_IGNBIN_LIST)
+[ -z "$ignbin_list" ] && ignbin_list="XXXXXXXXXXXXXXX"
+unset rtc plt
+[ ! "${thisplat%64}" = "${thisplat}" ] && rtc="-64"
+[ "$thisplat" = "solaris" -o "$thisplat" = "aix" ] && plt="-32"
+dupchk_list=`echo $dupchk_list | sed -e "s/<rtc64>/$rtc/g"`
+dupchk_list=`echo $dupchk_list | sed -e "s/<plat32>/$plt/g"`
+unset rtc plt
+dupchk_list=`eval "echo $dupchk_list" 2> /dev/null`
+sts=0
+mysts=0
+crrdir=`pwd`
+targ="$VIEW_PATH/opack"
+cd $VIEW_PATH
+[ -d "opack" ] && rm -rf $targ/* > /dev/null 2>&1 || mkdir $targ > /dev/null 2>&1
+
+# define which kind
+# $ver/$vbld/opack/001/<plat>/*.zip -> 11.1.1.2.1, 11.1.1.2.2 -> platform specific patch
+# $ver/$vbld/opack/001/*.zip  -> 11.1.1.2.3 -> All platforms
+# $ver/$bld/opack/<plat>/*.zip -> Refresh opack
+# $ver/$bld/opack/*<plat>*.zip -> From 11.1.2.1.102/031
+# $ver/$bld/opack/*.zup -> 11.1.2.1.000_12962507
+
+if [ ! -d "$BUILD_ROOT/$ver" ]; then
+	echo "No $ver folder under \$BUILD_ROOT($BUILD_ROOT)."
+	exit 4
+fi
+if [ ! -d "$BUILD_ROOT/$ver/$bld" ]; then
+	echo "No $ver/$bld folder under \$BUILD_ROOT($BUILD_ROOT)."
+	exit 4
+fi
+
+if [ ! -d "$BUILD_ROOT/$ver/$bld/opack" ]; then
+	echo "No $ver/$bld/opack folder under $BUILD_ROOT($BUILD_ROOT)."
+	exit 4
+fi
+
+# Check patch command file exist or not.
+if [ ! -d "$HYPERION_HOME/OPatch" ]; then
+	echo "No \$HYPERION_HOME/OPatch fodler.($HYPERION_HOME)"
+	exit 8
+fi
+patchcmd=
+if [ "${thisplat#win}" != "$thisplat" ]; then
+	# Win platform
+	if [ -f "$HYPERION_HOME/OPatch/hpatch.bat" ]; then
+		patchcmd=hpatch.bat
+	elif [ -f "$HYPERION_HOME/OPatch/opatch.bat" ]; then
+		patchcmd=opatch.bat
+	fi
+else
+	# Unix
+	if [ -f "$HYPERION_HOME/OPatch/hpatch.sh" ]; then
+		patchcmd=hpatch.sh
+	elif [ -f "$HYPERION_HOME/OPatch/opatch" ]; then
+		patchcmd=opatch
+	fi
+fi
+if [ -z "$patchcmd" ]; then
+	echo "There is no hpatch or opatch file under $HYPERION_HOME/OPatch folder."
+	exit 9
+fi
+
+crrver=`(. se.sh $ver > /dev/null 2>&1;get_ess_ver.sh)`
+if [ $? -ne 0 ]; then
+	crrver="missing-version"
+fi
+
+# Copy zip files into $VIEW_PATH/opack.
+if [ -d "$BUILD_ROOT/$ver/$bld/opack/$thisplat" ]; then
+	# Case Refresh opack
+	echo "Found $thisplat folder."
+	cp $BUILD_ROOT/$ver/$bld/opack/$thisplat/*.zip $targ > /dev/null 2>&1
+else
+	ls $BUILD_ROOT/$ver/$bld/opack/*_${thisplat}_*.zip > /dev/null 2>&1
+	if [ $? -eq 0 ]; then
+		# New format from 11.1.2.1.102 B031
+		echo "Found $thisplat zip files."
+		ls $BUILD_ROOT/$ver/$bld/opack/*_${thisplat}_*.zip | while read line; do
+			line=${line##*/}
+			echo "- $line"
+		done
+		cp $BUILD_ROOT/$ver/$bld/opack/*_${thisplat}_*.zip $targ > /dev/null 2>&1
+	else
+		echo "Use opbld=$opbld opack."
+		if [ "$opbld" = "latest" ]; then
+			cd $BUILD_ROOT/$ver/$bld/opack
+			opblds=`ls -1r | grep "^[0-9][0-9]*$"`
+			for one in $opblds; do
+				ls $one/$thisplat/*.zip > /dev/null 2>&1
+				if [ $? -eq 0 ]; then
+					opbld=$one
+					break
+				fi
+				ls $one/*.zip > /dev/null 2>&1
+				if [ $? -eq 0 ]; then
+					opbld=$one
+					break
+				fi
+			done
+			cd $crrdir
+			echo "OPack(latest)=$opbld"
+		fi
+		if [ "$opbld" = "latest" ]; then
+			# New for 11.1.2.1.000_12962507
+			echo "No latest opack build folder. Check the zip file."
+			ls $BUILD_ROOT/$ver/$bld/opack/*.zip > /dev/null 2>&1
+			if [ $? -eq 0 ]; then
+				cp $BUILD_ROOT/$ver/$bld/opack/*.zip $targ > /dev/null 2>&1
+			else
+				echo "No ZIP file under the $BUILD_ROOT/$ver/$bld/opack fodler."
+				exit 4
+			fi
+		else
+			if [ ! -d "$BUILD_ROOT/$ver/$bld/opack/$opbld" ]; then
+				echo "No $opbld folder under the $BUILD_ROOT/$ver/$bld/opack folder."
+				exit 4
+			fi
+				ls $BUILD_ROOT/$ver/$bld/opack/$opbld/$thisplat/*.zip > /dev/null 2>&1
+			if [ $? -eq 0 ]; then
+				cp $BUILD_ROOT/$ver/$bld/opack/$opbld/$thisplat/*.zip $targ > /dev/null 2>&1
+			else
+				cp $BUILD_ROOT/$ver/$bld/opack/$opbld/*.zip $targ > /dev/null 2>&1
+			fi
+		fi
+	fi
+fi
+
+ls $targ/*.zip > /dev/null 2>&1
+if [ $? -ne 0 ]; then
+	echo "There is no .zip file for this opack."
+	exit 5
+fi
+
+unzipcmd=`which unzip`
+if [ $? -ne 0 -o "x${unzipcmd#no}" != "x${unzipcmd}" ]; then
+	case `uname` in
+		HP-UX)	unzipcmd=`which unzip_hpx32`;;
+		Linux)	unzipcmd=`which unzip_lnx`;;
+		SunOS)	unzipcmd=`which unzip_sparc`;;
+		AIX)	unzipcmd=`which unzip_aix`;;
+	esac	
+fi
+if [ $? -ne 0 -o -z "${unzipcmd}" ]; then
+	echo "Couldn't find the unzip command."
+	exit 6
+fi
+echo "unzipcmd=$unzipcmd"
+
+# extract each zip file
+cd $VIEW_PATH/opack
+opdirs=
+while [ 1 ]; do
+	tarzip=`ls *.zip 2> /dev/null | head -1`
+	[ -z "$tarzip" ] && break
+	[ -f unzip.log ] && rm -rf unzip.log > /dev/null 2>&1
+	${unzipcmd} -o ${tarzip} | tee unzip.log
+	rm -f ${tarzip}
+	opdir=`grep "creating" unzip.log | head -1 | awk '{print $2}'`
+	opdir=${opdir%?}
+	rm -rf unzip.log > /dev/null 2>&1
+	if [ -z "$opdir" -o ! -d "$opdir" ]; then
+		echo "Failed to unzip opack($tarzip) file."
+		exit 7
+	fi
+	[ -z "$opdirs" ] && opdirs=$opdir || opdirs="$opdirs $opdir"
+done
+echo "opdirs=$opdirs"
+
+# Apply each opack
+apply_opack()
+{
+for opdir in $opdirs; do
+echo "# Apply $opdir OPACK"
+	opdir="$VIEW_PATH/opack/$opdir"
+	cd $HYPERION_HOME/OPatch
+	rm -rf _tmpimp_ > /dev/null 2>&1
+	echo > _tmpimp_
+	echo "Y" >> _tmpimp_
+	echo "OPATCH FOLDER=$opdir with $patchcmd."
+echo "# Following lines are displayed by opatch command."
+echo ">>>>> START OPATCH OUTPUT"
+	if [ "${patchcmd#hpatch}" != "$patchcmd" ]; then
+		# use hpatch.[sh|bat]
+		if [ "${thisplat#win}" != "$thisplat" ]; then
+			hhback=$HYPERION_HOME
+			export HYPERION_HOME=`echo $HYPERION_HOME | sed -e "s/\//\\\\\/g"`
+			cmd.exe /c ${patchcmd} apply "$opdir" < _tmpimp_
+			sts=$?
+			export HYPERION_HOME=$hhback
+			unset hhback
+		else
+			./${patchcmd} apply "$opdir" < _tmpimp_
+			sts=$?
+		fi
+	else
+		# use opatch[.bat]
+		if [ "${thisplat#win}" != "$thisplat" ]; then
+			opdirw=`echo $opdir | sed -e "s/\//\\\\\/g"`
+			hhdir=`echo $HYPERION_HOME | sed -e "s/\//\\\\\/g"`
+			jhdir=`echo $JAVA_HOME | sed -e "s/\//\\\\\/g"`
+			cmd.exe /c ${patchcmd} apply "$opdirw" \
+				-oh "$hhdir" \
+				-jre "$jhdir" < _tmpimp_
+			sts=$?
+		else
+			./${patchcmd} apply "$opdir" \
+				-oh "$HYPERION_HOME" \
+				-invPtrLoc "$HYPERION_HOME/oraInst.loc" \
+				-jre "$JAVA_HOME" < _tmpimp_
+			sts=$?
+		fi
+	fi
+	rm -rf _tmpimp_ > /dev/null 2>&1
+	echo "<<<<< END OPATCH OUTPUT"
+	if [ $sts -eq 0 ]; then
+		echo "### Applied $tarzip(sts=0)."
+	else
+		echo "### Failed to apply $tarzip(sts=$sts)."
+		let sts=sts+10
+		break
+	fi
+	### # Move modules to EssbaseRTC folder if opack is for client.
+	### cl=`grep "EssbaseClient" $opdir/etc/config/actions 2> /dev/null`
+	### if [ 1 -eq 0 ]; then # if [ -n "$cl" ]; then
+	### 	echo "  Dupchk_list=$dupchk_list"
+	### 	rtc=
+	### 	for one in $dupchk_list; do
+	### 		if [ "$one" != "${one#*EssbaseRTC}" ]; then
+	### 			rtc=$one
+	### 			break
+	### 		fi
+	### 	done
+	### 	if [ -d "$rtc" ]; then
+	### 		cd $rtc
+	### 		echo "Found this opack copy modules to EssbaseClinet folder."
+	### 		echo "Move those modules to $rtc folder."
+	### 		grep "EssbaseClient" $opdir/etc/config/actions 2> /dev/null | while read one; do
+	### 			cl=${one##*file_name=\"}
+	### 			cl=${cl%\"*}
+	### 			clf=${cl#*EssbaseClient/}
+	### 			# sv=`echo $cl | sed -e "s/EssbaseClient/EssbaseServer/g"`
+	### 			# if [ -f "$HYPERION_HOME/$sv" ]; then
+	### 			# 	echo "  Copy to $HYPERION_HOME/$sv"
+	### 			# 	cp $HYPERION_HOME/$cl $HYPERION_HOME/$sv
+	### 			# fi
+	### 			echo "  Move $cl to RTC"
+	### 			mv $HYPERION_HOME/$cl $rtc > /dev/null 2>&1
+	### 		done
+	### 	else
+	### 		echo "Missing <$rtc> folder."
+	### 	fi
+	### else
+	### 	echo "There is no EssbaseClient moving..."
+	### fi
+	### echo ""
+done
+} # apply_opack
+
+apply_opack
+
+# Test rollback command
+if [ $sts -eq 0 -a "$rollbacktest" = "true" ]; then
+	cd $VIEW_PATH/opack
+	echo "Rollback test..."
+	rm -rf applied.lst > /dev/null 2>&1
+	opackcmd.sh lsinv | grep "^Patch" | grep "applied" > applied.lst
+	while read dmy id rest; do
+		echo "# Rollback for $id"
+		echo ">>>> START OPATCH ROLLBACK OUTPUT"
+		opackcmd.sh rollback -id $id
+		sts=$?
+		echo "<<<<< END OPATCH ROLLBACK OUTPUT"
+		if [ $sts -ne 0 ]; then
+			break
+		fi
+	done < applied.lst
+	echo ">>>> START OPATCH LSINVENTORY OUTPUT"
+	opackcmd.sh lsinv
+	echo "<<<<< END OPATCH LSINVENTORY OUTPUT"
+	if [ $sts -ne 0 ]; then
+		echo "### There is problem on rollback(sts=$sts)."
+	else
+		essver=`(. se.sh $ver > /dev/null 2>&1;get_ess_ver.sh)`
+		if [ "$crrver" = "$essver" ]; then
+			echo "### Rollbacked($essver) and previous($crrver) versions are same."
+		else
+			echo "### Rollbacked($essver) and previous($crrver) versions are difference."
+		fi
+	fi
+	rm -rf applied.lst
+	echo "Re-apply opack again..."
+	echo ""
+	apply_opack > /dev/null 2>&1
+fi
+
+# Compare the binaries with refresh binaries
+if [ $sts -eq 0 -a "$cmpzipbin" = "true" ]; then
+	echo "COMPARE OPACK BINARY AND REFRESH BINARY"
+	cd $VIEW_PATH/opack
+	rm -rf refresh.siz > /dev/null 2>&1
+	rm -rf refreshbin.siz > /dev/null 2>&1
+	rm -rf opack.siz > /dev/null 2>&1
+	rm -rf opackbin.siz > /dev/null 2>&1
+	rm -rf refresh > /dev/null 2>&1
+	mkdir refresh
+	cd refresh
+	ext_reftar.sh $ver $bld
+	echo "Create refresh.siz file..."
+	filesize.pl $cmpattr -cksum -igndir ARBORPATH HYPERION_HOME > ../refresh.siz
+	grep "^ARBORPATH/bin" ../refresh.siz > ../refreshbin.siz
+	cd ..
+	# rm -rf refresh > /dev/null 2>&1
+	(
+		. ver_setenv.sh $ver
+		unset _plat32 _rtc64
+		case $thisplat in
+        		solaris|aix)    _plat32="-32";;
+        		*64)                    _rtc64="-64";;
+		esac
+		_ESSDIR=`echo $_ESSDIR | sed -e "s/<plat32>//g" -e "s/<rtc64>/$_rtc64/g"`
+		_ESSCDIR=`echo $_ESSCDIR | sed -e "s/<plat32>//g" -e "s/<rtc64>/$_rtc64/g"`
+		rm -rf opack.siz > /dev/null 2>&1
+		for opdir in $opdirs; do
+			echo "Create file size for $opdir..."
+			export HYPERION_HOME=$VIEW_PATH/opack/$opdir/files
+			rm -f $opdir.siz > /dev/null 2>&1
+			rm -f $opdir.tmp > /dev/null 2>&1
+			filesize.pl $cmpattr -cksum -igndir \$HYPERION_HOME > $opdir.tmp
+			if [ -n "$_ESSCDIR" ]; then
+				cat $opdir.tmp | sed -e "s!^HYPERION_HOME/$_ESSDIR!ARBORPATH!g" \
+					-e "s!^HYPERION_HOME/$_ESSCDIR!ARBORPATH!g" > $opdir.siz
+			else
+				cat $opdir.tmp | sed -e "s!^HYPERION_HOME/$_ESSDIR!ARBORPATH!g" > $opdir.siz
+			fi
+			cat $opdir.siz >> opack.siz
+			rm -f $opdir.tmp > /dev/null 2>&1
+			# rm -f $opdir.siz > /dev/null 2>&1
+		done
+		rm -rf opack.tmp > /dev/null 2>&1
+		sort opack.siz > opack.tmp
+		uniq opack.tmp > opack.siz
+		rm -rf opack.tmp > /dev/null 2>&1
+	)
+	isrtc=`grep EssbaseRTC opack.siz`
+	if [ -n "$isrtc" ]; then	# When opack include HH/common/EssbaseRTC...
+		rm -f opack_siz.tmp > /dev/null 2>&1
+		cat opack.siz | sed -e "s!^.*EssbaseRTC.*/bin!ARBORPATH/bin!g" \
+			-e "s!^.*EssbaseRTC.*/locale!ARBORPATH/locale!g" > opack_siz.tmp
+		rm -f opack.siz > /dev/null 2>&1
+		cat opack_siz.tmp | egrep -v "$ignbin_list" | sort | uniq > opack.siz
+	fi
+	rm -rf opack.dif > /dev/null 2>&1
+	echo "compare size files between refresh and opack..."
+	sizediff.pl refresh.siz opack.siz | grep -v "^d <" | tee opack.dif
+	dnum=`cat opack.dif | wc -l`
+	let dnum=dnum
+	if [ $dnum -eq 0 ]; then
+		echo "### There is no differences between refresh and OPACK binaries."
+	else
+		echo "### $dnum diff exists between refresh and OPACK binaries."
+	#	exit 10
+	fi
+	# Duplicate file check
+	if [ -n "$dupchk_list" ]; then
+
+	echo ""
+	echo "CHECK DUPLOCATED EXECUTABLE FILES BETWEEN REFRESH/BIN AND $dupchk_list."
+	echo "Create opack file list..."
+	trgdir=$VIEW_PATH/opack/opackbin
+	frmlst=$VIEW_PATH/opack/opb_from.lst
+	cd $VIEW_PATH/opack
+	rmdir -rf opackbin > /dev/null 2>&1
+	rmdir -rf $frmlst > /dev/null 2>&1
+	mkdir opackbin 2> /dev/null
+	unset svdir
+	for one in $dupchk_list; do
+		[ -z "$svdir" ] && svdir=$one
+		if [ -d "$one" ]; then
+			cd $one
+			ls | while read fname; do
+				if [ -d "$fname" ]; then
+					cp -pR $fname $trgdir
+					echo "$fname $one # Directory" >> $frmlst
+				elif [ -h "$fname" ]; then
+					lnksrc=`ls -l $fname`
+					lnksrc=${lnksrc##*-\> }
+					ln -s $lnksrc $trgdir/$fname
+					echo "$fname $one # Symbolick link to $lnksrc" >> $frmlst
+				elif [ -f "$trgdir/$fname" ]; then
+					unset oinf osiz ochsm tinf tsiz tchsm
+					oinf=`cksum $trgdir/$fname 2> /dev/null`
+					if [ $? -eq 0 ]; then
+						osiz=`echo $oinf | awk '{print $2}'`
+						ocksm=`echo $oinf | awk '{print $1}'`
+					fi
+					tinf=`cksum $fname 2> /dev/null`
+					if [ $? -eq 0 ]; then
+						tsiz=`echo $tinf | awk '{print $2}'`
+						tcksm=`echo $tinf | awk '{print $1}'`
+					fi
+					if [ ! "$tsiz" = "$osiz" -o ! "$tcksm" = "$ocksm" ]; then
+						echo "# Duplicated `pwd`/$fname ($osiz:$ocksm vs $tsiz:$tcksm)"
+						echo "$fname $one # Duplicated file($osiz:$ocksm vs this:$tsiz:$tcksm)." >> $frmlst
+						# cp -p $fname $svdir 2> /dev/null
+						# cp -p $fname $trgdir 2> /dev/null
+					else
+						echo "$fname $one # Dup but same size and cksum." >> $frmlst
+					fi
+				else
+					cp -p $fname $trgdir 2> /dev/null
+					echo "$fname $one" >> $frmlst
+				fi
+			done
+		else
+			echo "# Directory $one not found."
+		fi
+	done
+	cd $VIEW_PATH/opack
+	filesize.pl $cmpattr -cksum -igndir opackbin | sed -e "s!^opackbin!ARBORPATH/bin!g" > opackbin.siz
+	echo "Compare execution moduels between refresh/bin and installations..."
+	sizediff.pl refreshbin.siz opackbin.siz | egrep -v "$ignbin_list" | grep -v "^a > " | tee bin.dif | while read line; do
+		cord=`echo $line | awk '{print $1}'`
+		mod=`echo $line | awk '{print $3}'`
+		mod=${mod##*/}
+		echo $line
+		if [ "$cord" = "c" ]; then
+			fmod=`grep "$mod" $frmlst`
+			if [ -n "$fmod" ]; then
+				echo "  target:$fmod"
+			fi
+		fi
+	done
+	dnum=`cat bin.dif | wc -l`
+	let dnum=dnum
+	if [ $dnum -eq 0 ]; then
+		echo "### There is no differences between refresh/bin and OPACK/bin binaries."
+	else
+		echo "### $dnum diff exists between refresh/bin and OPACK/bin binaries."
+		# exit 10
+	fi
+
+	else # dupchk_list
+		echo "### No dupchk_list defined. Skip dup file check."
+	fi
+fi
+
+### cd $VIEW_PATH
+### rm -rf opack > /dev/null 2>&1
+
+cd $crrdir
+# WORKAROUND BUG 12743474
+if [ "$ver" = "11.1.2.2.000" ]; then
+	if [ "$thisplat" = "win32" ]; then
+		cp $AUTOPILOT/data/MSRTC100/win32/* $HYPERION_HOME/products/Essbase/EssbaseServer/bin
+		cp $AUTOPILOT/data/MSRTC100/win32/* $HYPERION_HOME/common/EssbaseRTC/11.1.2.0/bin
+	elif [ "$thisplat" = "winamd64" ]; then
+		cp $AUTOPILOT/data/MSRTC100/winamd64/* $HYPERION_HOME/products/Essbase/EssbaseServer/bin
+		cp $AUTOPILOT/data/MSRTC100/winamd64/* $HYPERION_HOME/common/EssbaseRTC-64/11.1.2.0/bin
+	fi
+fi
+
+echo "opackinst.sh(sts=$sts)"
+exit $sts

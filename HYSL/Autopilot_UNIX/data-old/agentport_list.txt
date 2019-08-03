@@ -1,0 +1,131 @@
+fou	1501
+vgee	2001
+regrcl1	2020
+regrcl2	2021
+regrcl3	2022
+regrcl4	2023
+hhashimo	2030
+azhang  2054
+anzhang 2055
+regraz1	2050
+regraz2	2051
+regraz3	2052
+regraz4	2053
+regraz5 2055
+regraz6 2056 
+regraz7 2057
+regraz8 2058
+regraz9 2059
+regraz10 2060
+regraz11 2061
+regraz12 2062
+regraz13 2063
+regraz14 2064
+azhang 	2054
+regrbn1	2090
+regrbn2	2091
+regrbn3	2092
+regrbn4	2093
+regrvk1	2110
+regrvk2	2111
+regrvk3	2112
+regrvk4	2113
+regrxy1	2130
+regrxy2	2131
+regrxy3	2132
+regrxy4	2133
+regrhv1	2146
+regrhv2	2147
+regrhv3	2148
+regrhv4	2149
+regrga1	2150
+regrga2	2151
+regrga3	2152
+regrga4	2153
+regreg2	2171
+regreg3	2172
+regreg4	2173
+regrem1	2200
+regrem2	2201
+regrem3	2202
+regrem4	2203
+regrth1	2205
+regrth2	2206
+regrth3	2207
+regrth4	2208
+hysl	2222
+hyperion	3005
+hvuggumu	3025
+orcl	3333
+ykono	4030
+qa	4120
+regrrk1	4121
+regrrk2	4122
+regrrk3	4123
+regrrk4	4124
+rukumar	4125
+regrtm1	4126
+regrtm2	4127
+regrtm3	4128
+regrtm4	4129
+tmai	4130
+regreg1	4455
+egershma	4456
+regrshr2	6001
+regrshr3	6002
+regrshr4	6003
+regrshr1	6004
+ykono	4030
+Administrator	3010
+regrny3	3015
+hhashimo	2030
+govi	3020
+jli	3030
+regryk1	3035
+regryk2	3040
+hvuggumu	3045
+regryk3	3050
+testuser	3055
+spolicepatil	3060
+qeteam1	2901
+
+qeteam2 2902
+
+qeteam3 2903
+
+qeteam4 2904
+
+qeteam5 2905
+
+qeteam6 2906
+
+qeteam7 2907
+
+qeteam8 2908
+
+qeteam9 2909
+
+qeteam10 2910
+
+qeteam11 2911
+
+qeteam12 2912
+
+qeteam13 2913
+
+qeteam14 2914
+
+qeteam15 2915
+
+qeteam16 2916
+
+qeteam17 2917
+qeteam18 2918
+qeteam19 2919
+qeteam20 2920
+qeteam21 2921
+qeteam22 2922
+qeteam23 2923
+qeteam24 2924
+qeteam25 2925
+miwatago 3000

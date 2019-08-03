@@ -1,0 +1,70 @@
+
+# For 11.1.2.3.003 oapck
+################################
+####### #11.1.2.3.003 APS Test #####
+dsapdq_reg_v2.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapds_reg_v1.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapds_reg_v2.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapmd_reg_v2.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapprobmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapfusion.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapbg.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+
+## 43 main tests ###################
+maxlmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+agsymain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+agapmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+agbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+aglgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+apbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+apgdmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+apgemain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+apotmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+capitest.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dcbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dcmpmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dcosmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dcrpmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dctpmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+ddbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+ddldmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+ddximain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dmbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dmccmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dmdcmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dmglmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dmpcmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dmudmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dresmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dxbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dxmdmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dxrrmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+dxssmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+msscmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+sdatmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+sdbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+sddbmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+sdremain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+sdsvmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+smalmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+smbgmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+smbumain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+smixmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+smlrmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+smtxmain.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+prob_main.sh:opackver(epm) runplat(regress1@slck24014 regress2@slck24014 regress3@slck24014)
+  
+
+####### #11.1.2.3.001 User Provisioning Test #####
+agssmain.sh:opackver(epm) secmode(hss) forceInst(true) runplat(hvuggumu@slc05wic)
+
+## FA and BI ####
+agsbmain.sh:secmode(bi) biimg($HOME/bitmp_11.1.1.7.0ln64_release) opackver(bi) agtStart(true) runplat(hvuggumu@slc05wic)
+agsfmain.sh:secmode(fa) biimg($HOME/bitmp_11.1.1.7.0ln64_release) opackver(bi) runplat(hvuggumu@slc05wic)
+
+
+
+
+
+

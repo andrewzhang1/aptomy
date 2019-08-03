@@ -1,0 +1,12 @@
+$LOGNAME $AP_ALTEMAIL EnvNotify
+Autopilot Notification (ESSLANG) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Missmatched \$ESSLANG vales ($ESSLANG/$_esslng).
+
+  Machine         = $(hostname):$_PLATNAME
+  Login User      = $LOGNAME
+  Version:Build   = $VERSION:$BUILD
+  Test Script     = $TEST
+
+$ESSLANG is valid value for \$ESSLANG.
+However, it might cause a lot of difs on regression tests.
+Autopilot continue this test. But please check your enviroment setup scripts.

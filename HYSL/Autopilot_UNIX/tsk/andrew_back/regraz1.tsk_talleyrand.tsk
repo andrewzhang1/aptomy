@@ -1,0 +1,323 @@
+#####################################
+# stnt31-3:
+#####################################
+#stnt31-3:kennedy2:101:agtpori1.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpori2.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpjlmain.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtp70main.sh:refresh(true)
+
+#stnt31-3:kennedy2:101:agtpukmain.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpcwmain.sh:refresh(true)
+#stnt31-3:kennedy2:101:maxlmain.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpjvmain.sh:refresh(true):priority(1)
+
+#stnt31-3:kennedy2:101:agtpjymain.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpbkmain.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpjlmain.sh serial direct:refresh(true)
+#stnt31-3:kennedy2:101:agtpjlmain.sh parallel direct:refresh(true)
+
+#stnt31-3:kennedy2:101:agtpjlmain.sh parallel buffer:refresh(true)
+#stnt31-3:kennedy2:101:agtpbarmain.sh:refresh(tru)
+#stnt31-3:kennedy2:101:prob_main.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpkenmain.sh:refresh(true)
+
+stnt31-3:talleyrand:hit(1970):agtpori1.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpori2.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpjlmain.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtp70main.sh:refresh(true)
+
+stnt31-3:talleyrand:hit(1970):agtpukmain.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpcwmain.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):maxlmain.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpjvmain.sh:refresh(true):priority(1)
+
+stnt31-3:talleyrand:hit(1970):agtpjymain.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpbkmain.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpjlmain.sh serial direct:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpjlmain.sh parallel direct:refresh(true)
+
+stnt31-3:talleyrand:hit(1970):agtpjlmain.sh parallel buffer:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpbarmain.sh:refresh(tru)
+stnt31-3:talleyrand:hit(1970):prob_main.sh:refresh(true)
+stnt31-3:talleyrand:hit(1970):agtpkenmain.sh:refresh(true)
+
+
+#set  on stlx9, 12, stnti8; sthp8, 9; stsun1, stsun8
+# export SXR_ESSINITEX_STOP=1
+# export SXR_ESSINITEX_RMDMAPP=1
+#####################################
+# stlx8:
+#####################################
+stlx8:talleyrand:045:agtpori1.sh
+#stlx8:talleyrand:045:agtpori2.sh
+stlx8:talleyrand:045:agtpjlmain.sh
+stlx8:talleyrand:045:agtp70main.sh
+stlx8:talleyrand:045:agtpukmain.sh
+#stlx8:talleyrand:045:agtpjvmain.sh
+
+# for stlx9
+#stlx8:talleyrand:045:agtpjvmain.sh
+
+#####################################
+# stlx9: (Oracle Linux 32 bits)
+# /vol1/regraz3/kennedy --> regraz3
+# /vol1/regraz2/9.3.1.1.0 --> regraz2
+#####################################
+stlx9:talleyrand:045:agtpcwmain.sh
+stlx9:talleyrand:045:maxlmain.sh
+stlx9:talleyrand:045:agtpjvmain.sh:priority(1)
+stlx9:talleyrand:045:agtpjymain.sh
+stlx9:talleyrand:045:agtpbkmain.sh
+#For stlx8
+stlx9:talleyrand:045:agtpori2.sh
+
+
+#stnt31-3:kennedy2:101:agtpori1.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpori2.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtpjlmain.sh:refresh(true)
+#stnt31-3:kennedy2:101:agtp70main.sh:refresh(true)
+
+####################################### 
+# stlx11 - agtpori1.sh should be run on this box
+#        agtp70main.sh should be run on this box too
+#
+# /vol2/regraz2/9.3.1.1.0 --> regraz2
+# /vol3/regraz3/kennedy --> regraz3
+# for c-api
+######################################
+stlx11:talleyrand:045:agtpjlmain.sh serial direct
+stlx11:talleyrand:045:agtpjlmain.sh parallel direct
+stlx11:talleyrand:045:agtpjlmain.sh parallel buffer
+stlx11:talleyrand:045:agtpbarmain.sh
+stlx11:talleyrand:045:prob_main.sh
+#stlx11:talleyrand:045:agtpkenmain.sh
+stlx11:talleyrand:045:capitest.sh:priority(1)
+#stlx11:talleyrand:045:agtpjvmain.sh:priority(2)
+# for stlx8
+#stlx11:talleyrand:hit(1970):agtpori2.sh:priority(2)
+
+####################################### 
+# stlx12 - (Oracle Linux 64 bits)
+#
+# /vol2/regraz2/9.3.1.1.0 --> regraz2
+# /vol3/regraz3/kennedy --> regraz3
+# Bugs: 05/5: 
+#7019372 PARTITION TEST dcos0006.KSH CAUSED SERVER CRASH (473) --> Dcos0006.dif
+#7019893 9.5 REGRESSION: LINUX 64 BITS GOT EXTRA ERROR MSG FOR TEST ON OUTLINE SYNCHRONIZ
+# 6897641 - 9.5 REGRESSION: SOME LINUX 64 BITS SPECIFIC BEHAVIORS
+# cwmain.sh - [azhang 06/16/08] Linux64: 16 dmccvse*.sh: caused by decimal rounding.
+#########################################
+
+stlx12:9.3.1.3.5:001:agtpori1.sh
+#stlx12:9.3.1.3.5:001:agtpori2.sh
+#stlx12:9.3.1.3.5:001:agtpjlmain.sh
+#stlx12:9.3.1.3.5:001:agtp70main.sh
+
+
+
+#stlx12:9.3.1.3.5:hit(1970):agtpukmain.sh
+
+
+#stlx12:talleyrand:hit(1970):agtpcwmain.sh
+#stlx12:talleyrand:hit(1970):maxlmain.sh
+#stlx12:talleyrand:hit(1970):agtpjvmain.sh:priority(1)
+#stlx12:talleyrand:hit(1970):agtpjymain.sh
+#stlx12:talleyrand:hit(1970):agtpbkmain.sh
+
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh serial direct
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh parallel direct
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh parallel buffer:priority(3)
+#stlx12:talleyrand:hit(1970):agtpbarmain.sh
+#stlx12:talleyrand:hit(1970):prob_main.sh
+#stlx12:talleyrand:hit(1970):agtpkenmain.sh
+#stlx12:talleyrand:hit(1970):capitest.sh:priority(1)
+
+
+#stlx12:talleyrand:hit(1970):agtpori1.sh
+#stlx12:talleyrand:hit(1970):agtpori2.sh
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh:priority(2)
+#stlx12:talleyrand:hit(1970):agtp70main.sh
+#stlx12:talleyrand:hit(1970):agtpukmain.sh
+
+#stlx12:talleyrand:hit(1970):agtpcwmain.sh
+#stlx12:talleyrand:hit(1970):maxlmain.sh
+#stlx12:talleyrand:hit(1970):agtpjvmain.sh:priority(1)
+#stlx12:talleyrand:hit(1970):agtpjymain.sh
+#stlx12:talleyrand:hit(1970):agtpbkmain.sh
+
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh serial direct
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh parallel direct
+#stlx12:talleyrand:hit(1970):agtpjlmain.sh parallel buffer:priority(3)
+#stlx12:talleyrand:hit(1970):agtpbarmain.sh
+#stlx12:talleyrand:hit(1970):prob_main.sh
+#stlx12:talleyrand:hit(1970):agtpkenmain.sh
+#stlx12:talleyrand:hit(1970):capitest.sh:priority(1)
+
+### Hpux -----------------------------------------------------------------------
+#####################################
+# sthp8:
+#####################################
+#sthp8:talleyrand:hit(1970):agtpori1.sh
+#sthp8:talleyrand:hit(1970):agtpori2.sh
+sthp8:talleyrand:hit(1970):agtpjlmain.sh
+sthp8:talleyrand:hit(1970):agtp70main.sh
+sthp8:talleyrand:hit(1970):agtpukmain.sh
+
+
+
+###################################################
+# sthp9: agtpori1.sh on this box only get 1974 *suc 
+# 2008/04/22 ukmain.sh failed on sthp16, reurn now
+###################################################
+
+sthp9:talleyrand:hit(1970):agtpcwmain.sh
+sthp9:talleyrand:hit(1970):maxlmain.sh
+#sthp10:talleyrand:hit(1970):agtpjvmain.sh
+sthp9:talleyrand:hit(1970):agtpjymain.sh
+#sthp9:talleyrand:hit(1970):agtpbkmain.sh
+#sthp9:talleyrand:hit(1970):agtpori1.sh
+#sthp10:talleyrand:hit(1970):agtpori2.sh
+
+
+#sthp9:talleyrand:hit(1970):agtpori1.sh
+#sthp9:talleyrand:hit(1970):agtpori2.sh
+#sthp9:talleyrand:hit(1970):agtpjlmain.sh
+#sthp9:talleyrand:hit(1970):agtp70main.sh
+#sthp9:talleyrand:hit(1970):agtpukmain.sh
+
+
+#####################################################################
+# sthp10: - agtpori1.sh should be run on this box
+# "agtpjlmain.sh parallel buffer" and pd should be run on this one 
+# /vol2/regraz3/kennedy --> regraz3
+# /vol2/regraz2/9.3.1.1.0 --> regraz2
+  # on sthp10: Suc: 2019 Dif: 1
+#####################################################################
+#sthp10:talleyrand:hit(1970):agtpcwmain.sh
+#sthp10:talleyrand:hit(1970):maxlmain.sh
+#sthp10:talleyrand:hit(1970):agtpjvmain.sh
+#sthp10:talleyrand:hit(1970):agtpjymain.sh
+sthp10:talleyrand:hit(1970):agtpbkmain.sh
+sthp10:talleyrand:hit(1970):agtpori1.sh
+sthp10:talleyrand:hit(1970):agtpori2.sh
+
+
+#####################################
+# sthp16: for c-api
+#####################################
+sthp16:talleyrand:hit(1970):agtpjlmain.sh serial direct
+sthp16:talleyrand:hit(1970):agtpjlmain.sh parallel direct
+sthp16:talleyrand:hit(1970):agtpjlmain.sh parallel buffer
+sthp16:talleyrand:hit(1970):agtpbarmain.sh
+sthp16:talleyrand:hit(1970):prob_main.sh
+sthp16:talleyrand:hit(1970):agtpkenmain.sh
+#sthp16:talleyrand:hit(1970):capitest.sh:priority(1)
+#sthp16:talleyrand:hit(1970):agtpjlmain.sh
+#sthp16:talleyrand:hit(1970):agtp70main.sh
+#sthp16:talleyrand:hit(1970):agtpukmain.sh
+#sthp16:talleyrand:hit(1970):agtpori2.sh
+sthp16:talleyrand:hit(1970):agtpjvmain.sh:priority(1)
+
+#for sthp9
+#sthp16:talleyrand:hit(1970):agtpori2.sh
+#sthp16:talleyrand:hit(1970):agtpori1.sh
+
+#####################################
+# stsun8 - or1.sh had problem
+# for c-api
+#####################################
+#stsun8:talleyrand:hit(1970):agtpori1.sh
+#stsun8:talleyrand:hit(1970):agtpori2.sh
+stsun8:talleyrand:hit(1970):agtpjvmain.sh:priority(2)
+stsun8:talleyrand:hit(1970):agtpjlmain.sh #failed: 36 dif
+stsun8:talleyrand:hit(1970):agtp70main.sh #failed: 538 dif
+stsun8:talleyrand:hit(1970):agtpukmain.sh #failed: 3450
+#stsun8:talleyrand:hit(1970):capitest.sh:priority(1)
+
+#####################################
+# stsun11 - or1.sh had problem
+#####################################
+#stsun11:talleyrand:hit(1970):agtpori1.sh
+#stsun11:talleyrand:hit(1970):agtpori2.sh
+stsun11:talleyrand:hit(1970):agtpjlmain.sh
+stsun11:talleyrand:hit(1970):agtp70main.sh
+stsun11:talleyrand:hit(1970):agtpukmain.sh
+
+############################################
+# emc-sun1: - rerun bkmain on this machine for 181build
+# /vol1/regraz2/9.3.1.1.0_32 --> regraz2
+# /vol2/regraz3/kennedy_32  --> regraz3
+###############################################
+emc-sun1:talleyrand:hit(1970):agtpcwmain.sh
+emc-sun1:talleyrand:hit(1970):maxlmain.sh
+emc-sun1:talleyrand:hit(1970):agtpjvmain.sh
+emc-sun1:talleyrand:hit(1970):agtpjymain.sh
+emc-sun1:talleyrand:hit(1970):agtpbkmain.sh
+emc-sun1:talleyrand:hit(1970):agtpjvmain.sh:priority(1)
+emc-sun1:talleyrand:hit(1970):agtpori1.sh
+
+# For stsun8
+#emc-sun1:talleyrand:hit(1970):agtpukmain.sh
+#emc-sun1:talleyrand:hit(1970):agtp70main.sh
+
+#####################################
+# emc-sun2 - rerun bkmain on this machine for 181build
+# /vol1/regraz2/9.3.1.1.0_32 --> regraz2
+# /vol2/regraz3/kennedy_32  --> regraz3
+#emc-sun2:kennedy:470:agtpjvmain.sh
+#emc-sun2:kennedy2:hit(887):agtpbarmain.sh
+#####################################
+emc-sun2:talleyrand:hit(1970):agtpjlmain.sh serial direct
+emc-sun2:talleyrand:hit(1970):agtpjlmain.sh parallel direct
+emc-sun2:talleyrand:hit(1970):agtpjlmain.sh parallel buffer
+emc-sun2:talleyrand:hit(1970):agtpbarmain.sh
+emc-sun2:talleyrand:hit(1970):prob_main.sh
+emc-sun2:talleyrand:hit(1970):agtpkenmain.sh
+emc-sun2:talleyrand:hit(1970):agtpori2.sh
+
+
+# for stsun8
+#emc-sun2:talleyrand:hit(1970):agtpjvmain.sh:priority(1)
+#emc-sun2:talleyrand:hit(1970):agtpjlmain.sh
+#emc-sun2:talleyrand:hit(1970):agtpori2.sh
+#emc-sun2:talleyrand:hit(1970):agtpori1.sh
+#emc-sun2:talleyrand:hit(1970):agtp70main.sh
+
+########################################################
+########################################################
+
+autopilot.sh stop 
+autopilot.sh start 
+     
+
+autopilot.sh stop
+autopilot.sh -refresh start 
+
+autopilot.sh stop 
+autopilot.sh restart  # repeat the same autopilot
+#or:  run: "rmtsk.sh done kennedy2 887 -" 
+     
+autopilot.sh stop 
+autopilot.sh start -noinst
+
+
+
+ 
+     
+ 
+hitcleanup.sh
+hitinst.sh kennedy2 hit[887]
+
+
+-noinst
+
+refresh kennedy:hit(284) --> does not work Kennedy
+
+1) hyslinst2.sh kennedy hit(284)
+
+hyslinst3.sh kennedy hit(284) 
+
+2) hyslinst3.sh kennedy hit(284) true  --> using refresh
+
+
+

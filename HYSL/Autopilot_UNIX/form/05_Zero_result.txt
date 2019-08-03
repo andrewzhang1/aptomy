@@ -1,0 +1,14 @@
+$LOGNAME $AP_ALTEMAIL EnvNotify
+Autopilot Notification (ZERO RESULTS) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+The result seems not to be appropriate.
+This execution created no .dif and no .suc files.
+
+  Machine       = $(hostname):$_PLATNAME
+  Login User    = $LOGNAME
+  Version:Build = $VERSION:$BUILD
+  Test Script   = $TEST
+  Suc. 0    Dif. 0
+
+Autopilot is moving to PAUSE mode.
+Please check the test environment of this machine.
+

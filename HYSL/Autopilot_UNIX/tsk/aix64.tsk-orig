@@ -1,0 +1,74 @@
+###################### 11.1.2.2 #######################
+# Working machines: (regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12)
+
+# If use HIT:
+# 11.1.2.2.000:hit[latest]:agtp70main.sh:runplat(regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) schedule(Mon)
+# Capitest machine has known bug:
+
+# 12597383 - 'INITIALIZING UTILITY ROUTINES' ERROR UPON STARTING AIX64 ESSBASE ON STAIX10. (This was filed in 1.1.2.1.102,
+#  but holds good for 11.1.2.2 as well) 
+
+11.1.2.2.000:latest:agtpjvmain.sh:runplat(regrhv1@scl51028.us.oracle.com) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpbarmain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpjymain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri)
+11.1.2.2.000:latest:agtpcwmain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpbkmain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpkenmain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtptalleymain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:maxlmain.sh:runplat(regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpori2.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpukmain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri)
+11.1.2.2.000:latest:agtpjlmain.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpjlmain.sh serial direct:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:prob_main.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:capitest.sh:runplat(regrhv3@staix10) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtp70main.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpori1.sh:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpjlmain.sh parallel direct:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+11.1.2.2.000:latest:agtpjlmain.sh parallel buffer:runplat(regrhv4@olap9 regrhv1@scl51027.us.oracle.com regrhv1@scl51028.us.oracle.com regrhv1@staix12) refresh(true) schedule(Fri) 
+
+
+
+# Working machines: (regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027) 
+# all refresh build 
+
+# 12597383 - 'INITIALIZING UTILITY ROUTINES' ERROR UPON STARTING AIX64 ESSBASE ON STAIX10. (This was filed in 1.1.2.1.102,
+#  but holds good for 11.1.2.2 as well) 
+
+#11.1.2.1.102:147:agtpjvmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10) igndone(true)
+#11.1.2.1.102:147:agtp70main.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10) 
+#11.1.2.1.102:147:agtpcwmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10) igndone(true)
+#11.1.2.1.102:147:agtpbkmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10) igndone(true)
+#11.1.2.1.102:147:agtpbarmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10) igndone(true)
+#11.1.2.1.102:147:agtpjymain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10) igndone(true)
+#11.1.2.1.102:147:agtpkenmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtptalleymain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpori1.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpori2.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpjlmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpukmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpjlmain.sh parallel direct:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpjlmain.sh parallel buffer:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:agtpjlmain.sh serial direct:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:prob_main.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+##11.1.2.1.102:147:maxlmain.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@olap9 regrhv4@staix10)
+#11.1.2.1.102:147:capitest.sh:noinst(true) client(talleyrand_sp1:347) runplat(regrhv4@staix10)
+
+#################### 11.1.1.4/11.1.1.3.500 ####################
+
+# 11.1.1.3.500:HIT(3794):capitest.sh:tag(_11.1.1.4) runplat(regrhv3@staix10)
+#11.1.1.3.500:HIT(3794):agtpori1.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpori2.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtp70main.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpcwmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpbkmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpjymain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpkenmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpbarmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):maxlmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpjvmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpukmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpjlmain.sh:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpjlmain.sh parallel direct:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpjlmain.sh parallel buffer:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)
+#11.1.1.3.500:HIT(3794):agtpjlmain.sh serial direct:tag(_11.1.1.4) runplat(regrhv3@staix12 regrhv3@olap9 regrhv3@scl51027.us.oracle.com)

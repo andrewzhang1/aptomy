@@ -1,0 +1,146 @@
+# ESSLANG Values
+
+# Arabic
+ar_aso:Arabic_SaudiArabia.ISO-8859-6@Default
+ar_ms:Arabic_SaudiArabia.MS1256@Default
+ar:Arabic_SaudiArabia.MS1256@Default
+# Croatian
+cr:Croatian_Croatia.MS1250@Croatian
+cr_ms:Croatian_Croatia.MS1250@Croatian
+cr_iso:Croatian_Croatia.ISO-8859-2@Croatian
+# Cyrillic
+cy:CyrillicSerbian_Yugoslavia.MS1251@Default
+cy_ms:CyrillicSerbian_Yugoslavia.MS1251@Default
+cy_iso:CyrillicSerbian_Yugoslavia.ISO-8859-5@Default
+# Czech
+cz:Czech_CzechRepublic.MS1250@Czech
+cz_ms:Czech_CzechRepublic.MS1250@Czech
+cz_iso:Czech_CzechRepublic.ISO-8859-2@Czech
+# Danish
+da:Danish_Denmark.Latin1@Danish
+da_ms:Danish_Denmark.MS1252@Danish
+da_iso:Danish_Denmark.ISO-8859-15@Danish
+da_ibm:Danish_Denmark.IBM500@Danish
+# Dutch(Netherlands)
+du:Dutch_Netherlands.Latin1@Default
+du_ms:Dutch_Netherlands.MS1252@Default
+du_iso:Dutch_Netherlands.ISO-8859-15@Default
+du_ibm:Dutch_Netherlands.IBM500@Default
+du_ibm2:Dutch_Netherlands.IBM037@Default
+# English(United States)
+en:English_UnitedStates.Latin1@Binary
+en_ms:English_UnitedStates.MS1252@Binary
+en_asc:English_UnitedStates.US-ASCII@Binary
+en_ibm:English_UnitedStates.IBM500@Binary
+en_ibm2:English_UnitedStates.IBM037@Binary
+en_ibm3:English_UnitedStates.IBM285@Binary
+# Finnish(Finland)
+fi:Finnish_Finland.Latin1@Finnish
+fi_ms:Finnish_Finland.MS1252@Finnish
+fi_iso:Finnish_Finland.ISO-8859-15@Finnish
+fi_ibm:Finnish_Finland.IBM500@Finnish
+# French
+fr:French_France.Latin1@Default
+fr_ms:French_France.MS1252@Default
+fr_iso:French_France.ISO-8859-15@Default
+fr_ibm:French_France.IBM500@Default
+fr_ibm2:French_France.IBM273@Default
+# German
+ge:German_Germany.Latin1@Default
+ge_ms:German_Germany.MS1252@Default
+ge_iso:German_Germany.ISO-8859-15@Default
+ge_ibm:German_Germany.IBM500@Default
+ge_ibm2:German_Germany.IBM273@Default
+# Greek
+gr:Greek_Greece.MS1253@Default
+gr_ms:Greek_Greece.MS1253@Default
+gr_iso:Greek_Greece.ISO-8859-7@Default
+# Hebrew
+he:Hebrew_Israel.MS1255@Default
+he_ms:Hebrew_Israel.MS1255@Default
+he_iso:Hebrew_Israel.ISO-8859-8@Default
+# Hungarian
+hu:Hungarian_Hungary.MS1250@Hungarian
+hu_ms:Hungarian_Hungary.MS1250@Hungarian
+hu_iso:Hungarian_Hungary.ISO-8859-2@Hungarian
+# Italian
+it:Italian_Italy.Latin1@Default
+it_ms:Italian_Italy.MS1252@Default
+it_iso:Italian_Italy.ISO-8859-15@Default
+it_ibm:Italian_Italy.IBM500@Default
+it_ibm2:Italian_Italy.IBM280@Default
+# Japanese
+jp:Japanese_Japan.MS932@Binary
+jp_ms:Japanese_Japan.MS932@Binary
+jp_ibm:Japanese_Japan.IBM930@Binary
+jp_euc:Japanese_Japan.JapanEUC@Binary
+# Korean
+ko:Korean_Korea.MS949@Binary
+ko_ms:Korean_Korea.MS949@Binary
+ko_ms2:Korean_Korea.MS1361@Binary
+# Norwegian
+no:Norwegian_Norway.Latin1@Danish
+no_ms:Norwegian_Norway.MS1252@Danish
+no_iso:Norwegian_Norway.ISO-8859-4@Danish
+no_iso2:Norwegian_Norway.ISO-8859-10@Danish
+no_iso3:Norwegian_Norway.ISO-8859-15@Danish
+no_ibm:Norwegian_Norway.IBM500@Danish
+# Portuguese
+po:Portuguese_Portugal.Latin1@Default
+po_ms:Portuguese_Portugal.MS1252@Default
+po_iso:Portuguese_Portugal.ISO-8859-15@Default
+po_ibm:Portuguese_Portugal.IBM500@Default
+po_ibm2:Portuguese_Portugal.IBM037@Default
+# Romanian
+ro:Romanian_Romania.MS1250@Romanian
+ro_ms:Romanian_Romania.MS1250@Romanian
+ro_iso:Romanian_Romania.ISO-8859-2@Romanian
+# Russian
+ru:Russian_Russia.MS1251@Default
+ru_ms:Russian_Russia.MS1251@Default
+ru_iso:Russian_Russia.ISO-8859-5@Default
+# Serbian
+se:Serbian_Yugoslavia.MS1250@Default
+se_ms:Serbian_Yugoslavia.MS1250@Default
+se_iso:Serbian_Yugoslavia.ISO-8859-2@Default
+# Chinese (Simplified Chinese)
+sc:SimplifiedChinese_China.MS936@Binary
+sc_ms:SimplifiedChinese_China.MS936@Binary
+sc_ibm:SimplifiedChinese_China.IBM935@Binary
+sc_utf8:SimplifiedChinese_China.UTF-8@Binary
+# Slovak
+sv:Slovak_Slovakia.MS1250@Slovak
+sv_ms:Slovak_Slovakia.MS1250@Slovak
+sv_iso:Slovak_Slovakia.ISO-8859-2@Slovak
+# Slovenian
+sl:Slovenian_Slovenia.MS1250@Slovenian
+sl_iso:Slovenian_Slovenia.ISO-8859-10@Slovenian
+sl_iso2:Slovenian_Slovenia.ISO-8859-4@Slovenian
+sl_iso3:Slovenian_Slovenia.ISO-8859-2@Slovenian
+# Spanish
+sp:Spanish_Spain.Latin1@Spanish
+sp_ms:Spanish_Spain.MS1252@Spanish
+sp_iso:Spanish_Spain.ISO-8859-15@Spanish
+sp_ibm:Spanish_Spain.IBM500@Spanish
+# Swedish
+sw:Swedish_Sweden.Latin1@Swedish
+sw_ms:Swedish_Sweden.MS1252@Swedish
+sw_iso:Swedish_Sweden.ISO-8859-15@Swedish
+sw_ibm:Swedish_Sweden.IBM500@Swedish
+# Thai
+th:Thai_Thailand.MS874@Thai
+th_ms:Thai_Thailand.MS874@Thai
+# Taiwan (Traditional Chinese)
+tc:TraditionalChinese_Taiwan.MS950@Binary
+tc_ms:TraditionalChinese_Taiwan.MS950@Binary
+tc_ibm:TraditionalChinese_Taiwan.IBM937@Binary
+tc_euc:TraditionalChinese_Taiwan.EUC-TW@Binary
+# Turkish
+tu:Turkish_Turkey.MS1254@Turkish
+tu_ms:Turkish_Turkey.MS1254@Turkish
+tu_iso:Turkish_Turkey.ISO-8859-3@Turkish
+tu_iso2:Turkish_Turkey.ISO-8859-9@Turkish
+# Ukrainian
+uk:Ukrainian_Ukraine.MS1251@Ukrainian
+uk_ms:Ukrainian_Ukraine.MS1251@Ukrainian
+uk_iso:Ukrainian_Ukraine.ISO-8859-5@Ukrainian

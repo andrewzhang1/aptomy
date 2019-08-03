@@ -1,0 +1,15 @@
+# Syntax
+# <the name of a dif file | the name of a shell script> <expiration date>
+#
+# agtpori2.sh 2010/12/31
+# agapun08a.dif 2010/8/10
+#
+xprobmain.sh	2010/12/31	# Sample for ignorable script - I18N
+i18n_x.sh 2010/12/31
+i18n_j.sh 2010/12/31
+i18n_j_slc.sh 2010/12/31
+i18n_i.sh 2010/12/31
+i18n_i_mlc.sh 2010/21/31
+i18n_xas.sh 2010/12/31
+# perltest.dif	2013/12/31
+

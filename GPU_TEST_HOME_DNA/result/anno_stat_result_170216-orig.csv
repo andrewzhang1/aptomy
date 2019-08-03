@@ -1,0 +1,931 @@
+/home/genia/rigdata/aerodactyl/170216_TAG_02_aerodactyl_WAE22R13C08/P_00_170216230921_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/aerodactyl/170216_TAG_02_aerodactyl_WAE22R13C08/P_00_170216230921_s16pre-master_ac-analysis_v11.22.1 17.9248 -109.052 17.9248 -109.052 173.752 -1.7469 173.752 -1.7469
+/home/genia/rigdata/aipom/170216_SIG-A_01_aipom_WAT13R03C08/P_00_170216214223_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/aipom/170216_SIG-A_01_aipom_WAT13R03C08/P_00_170216214223_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 7.44344 -22.9999 7.44344 -22.9999 178.913 12.8331 178.913 12.8331
+/home/genia/rigdata/alakazam/170216_TAG_02_alakazam_WAE19R05C04/P_00_170216230451_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/alakazam/170216_TAG_02_alakazam_WAE19R05C04/P_00_170216230451_ggc3-keeper_ac-analysis_v11.22.1 23.6218 -102.777 23.6218 -102.777 156.018 2.14198 156.018 2.14198
+/home/genia/rigdata/beedril/170216_SIG-A_01_beedril_WAT08R04C05/P_00_170216213650_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/beedril/170216_SIG-A_01_beedril_WAT08R04C05/P_00_170216213650_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 10.5667 -24.1116 10.5667 -24.1116 174.476 9.95047 174.476 9.95047
+/home/genia/rigdata/beedril/170216_SIG-A_02_beedril_WAE22R11C03/P_00_170217024403_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/beedril/170216_SIG-A_02_beedril_WAE22R11C03/P_00_170217024403_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 2.6589 -52.7769 2.6589 -52.7769 167.325 12.9493 167.325 12.9493
+/home/genia/rigdata/beedril/170216_SIG-A_02_beedril_WAE22R11C03/P_01_170217064907_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/beedril/170216_SIG-A_02_beedril_WAE22R11C03/P_01_170217064907_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 2.6589 -88.4291 2.6589 -88.4291 196.016 -143.821 196.016 -143.821
+/home/genia/rigdata/bellossom/170216_SAM_03_bellossom_WAE22R06C13/P_00_170216211008_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/bellossom/170216_SAM_03_bellossom_WAE22R06C13/P_00_170216211008_ggc3-keeper_ac-analysis_v11.22.1 0.762058 -23.4111 0.762058 -23.4111 194.664 17.7133 194.664 17.7133
+/home/genia/rigdata/blaine/170216_PEG-POL_01_blaine_WAE22R07C16/P_00_170216211019_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/blaine/170216_PEG-POL_01_blaine_WAE22R07C16/P_00_170216211019_ggc3-keeper_ac-analysis_v11.22.1 7.92763 -25.677 7.92763 -25.677 192.12 3.97443 192.12 3.97443
+/home/genia/rigdata/blastoise/170216_SIG-A_02_blastoise_WAE22R05C14/P_00_170217041004_s16-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/blastoise/170216_SIG-A_02_blastoise_WAE22R05C14/P_00_170217041004_s16-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 3.62013 -31.064 3.62013 -31.064 177.061 11.436 177.061 11.436
+/home/genia/rigdata/blastoise/170216_SIG-A_02_blastoise_WAE22R05C14/P_01_170217064902_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/blastoise/170216_SIG-A_02_blastoise_WAE22R05C14/P_01_170217064902_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 6.97111 -63.8038 6.97111 -63.8038 213.958 -109.529 213.958 -109.529
+/home/genia/rigdata/blastoise/170216_SIG-A_01_blastoise_WAT13R04C05/P_00_170216213639_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/blastoise/170216_SIG-A_01_blastoise_WAT13R04C05/P_00_170216213639_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -4.89252 -37.844 -4.89252 -37.844 183.777 9.07129 183.777 9.07129
+/home/genia/rigdata/brock/170216_SIG-A_01_brock_WAT12R04C13/P_01_170217031115_ggc2-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/brock/170216_SIG-A_01_brock_WAT12R04C13/P_01_170217031115_ggc2-keeper_ac-analysis_v11.22.1 -0.677166 -34.6781 -0.677166 -34.6781 180.488 13.809 180.488 13.809
+/home/genia/rigdata/brock/170216_SIG-A_01_brock_WAT12R04C13/P_00_170216213617_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/brock/170216_SIG-A_01_brock_WAT12R04C13/P_00_170216213617_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -0.677166 -34.6781 -0.677166 -34.6781 180.488 13.809 180.488 13.809
+/home/genia/rigdata/butterfree/170216_TAG_02_butterfree_WAE22R09C15/P_00_170216230934_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/butterfree/170216_TAG_02_butterfree_WAE22R09C15/P_00_170216230934_s16pre-master_ac-analysis_v11.22.1 9.9422 -107.937 9.9422 -107.937 160.035 2.68913 160.035 2.68913
+/home/genia/rigdata/caterpie/170216_TAG_02_caterpie_WAE22R08C15/P_00_170216230554_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/caterpie/170216_TAG_02_caterpie_WAE22R08C15/P_00_170216230554_s16-master_ac-analysis_v11.22.1 24.2909 -111.952 24.2909 -111.952 162.13 -6.87481 162.13 -6.87481
+/home/genia/rigdata/charizard/170216_SIG-A_02_charizard_WAE22R09C17/P_00_170217021552_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/charizard/170216_SIG-A_02_charizard_WAE22R09C17/P_00_170217021552_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 0.737465 -41.8923 0.737465 -41.8923 163.502 14.8257 163.502 14.8257
+/home/genia/rigdata/charizard/170216_SIG-A_02_charizard_WAE22R09C17/P_01_170217064909_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/charizard/170216_SIG-A_02_charizard_WAE22R09C17/P_01_170217064909_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 0.737466 -65.5084 0.737466 -65.5084 207.726 -109.322 207.726 -109.322
+/home/genia/rigdata/charizard/170216_SIG-A_01_charizard_WAT09R03C11/P_00_170216213232_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/charizard/170216_SIG-A_01_charizard_WAT09R03C11/P_00_170216213232_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 4.68837 -26.5198 4.68837 -26.5198 175.331 13.9766 175.331 13.9766
+/home/genia/rigdata/charmeleon/170216_TAG_02_charmeleon_WAE19R06C09/P_00_170216230627_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/charmeleon/170216_TAG_02_charmeleon_WAE19R06C09/P_00_170216230627_ggc3-keeper_ac-analysis_v11.22.1 27.5508 -107.698 27.5508 -107.698 167.255 0.495634 167.255 0.495634
+/home/genia/rigdata/chikorita/170216_ENG-BIE_02_chikorita_WAS21R04C11/P_00_170216224805_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/chikorita/170216_ENG-BIE_02_chikorita_WAS21R04C11/P_00_170216224805_s16pre-master_ac-analysis_v11.22.1 18.4461 -107.052 18.4461 -107.052 156.318 -0.0364099 156.318 -0.0364099
+/home/genia/rigdata/chikorita/170216_ENG-BIE_03_chikorita_WAS21R04C11/P_00_170217021037_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/chikorita/170216_ENG-BIE_03_chikorita_WAS21R04C11/P_00_170217021037_ggc3-keeper_ac-analysis_v11.22.1 23.131 -101.224 23.131 -101.224 151.868 -0.706492 151.868 -0.706492
+/home/genia/rigdata/chikorita/170216_ENG-BIE_01_chikorita_WAS21R04C11/P_00_170216195729_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/chikorita/170216_ENG-BIE_01_chikorita_WAS21R04C11/P_00_170216195729_ggc3-keeper_ac-analysis_v11.22.1 7.27728 -100.477 7.27728 -100.477 153.069 -0.625967 153.069 -0.625967
+/home/genia/rigdata/clefairy/170216_TAG_02_clefairy_WAE23R08C05/P_00_170216230708_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/clefairy/170216_TAG_02_clefairy_WAE23R08C05/P_00_170216230708_s16pre-master_ac-analysis_v11.22.1 12.7097 -109.12 12.7097 -109.12 156.116 2.41364 156.116 2.41364
+/home/genia/rigdata/cloyster/170216_ACTG_01_cloyster_WAS02R06C06/P_00_170216191711_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/cloyster/170216_ACTG_01_cloyster_WAS02R06C06/P_00_170216191711_s16-master_ac-analysis_v11.22.1 107.69 -145.087 107.69 -145.087 196.194 10.8679 196.194 10.8679
+/home/genia/rigdata/cloyster/170216_ACTG_01_cloyster_WAS02R06C06_b34914/P_00_170216195339_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/cloyster/170216_ACTG_01_cloyster_WAS02R06C06_b34914/P_00_170216195339_ggc3-keeper_ac-analysis_v11.22.1 107.69 -145.087 107.69 -145.087 196.194 17.3491 196.194 17.3491
+/home/genia/rigdata/cloyster/170216_ACTG_01_cloyster_WAS02R06C06_b12/P_00_170216195328_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/cloyster/170216_ACTG_01_cloyster_WAS02R06C06_b12/P_00_170216195328_ggc3-keeper_ac-analysis_v11.22.1 0.0147866 -92.0019 0.0147866 -92.0019 106.232 10.8679 106.232 10.8679
+/home/genia/rigdata/cyndaquil/170216_ENG-BIE_03_cyndaquil_WAE22R05C08/P_00_170217020026_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/cyndaquil/170216_ENG-BIE_03_cyndaquil_WAE22R05C08/P_00_170217020026_ggc3-keeper_ac-analysis_v11.22.1 3.85301 -100.601 3.85301 -100.601 150.612 -0.526591 150.612 -0.526591
+/home/genia/rigdata/cyndaquil/170216_ENG-BIE_01_cyndaquil_WAE22R05C08/P_00_170216195546_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/cyndaquil/170216_ENG-BIE_01_cyndaquil_WAE22R05C08/P_00_170216195546_s16-master_ac-analysis_v11.22.1 4.34202 -96.0916 4.34202 -96.0916 149.449 1.4271 149.449 1.4271
+/home/genia/rigdata/cyndaquil/170216_ENG-BIE_02_cyndaquil_WAE22R05C08/P_00_170216224624_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/cyndaquil/170216_ENG-BIE_02_cyndaquil_WAE22R05C08/P_00_170216224624_ggc3-keeper_ac-analysis_v11.22.1 1.6543 -103.023 1.6543 -103.023 147.432 0.49017 147.432 0.49017
+/home/genia/rigdata/diglett/170216_TAG_02_diglett_WAE19R07C13/P_00_170216230340_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/diglett/170216_TAG_02_diglett_WAE19R07C13/P_00_170216230340_s16pre-master_ac-analysis_v11.22.1 19.972 -109.761 19.972 -109.761 157.605 -20.1327 157.605 -20.1327
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b34914/P_00_170216195059_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b34914/P_00_170216195059_ggc3-keeper_ac-analysis_v11.22.1 121.553 -124.19 121.553 -124.19 154.901 12.4951 154.901 12.4951
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b12/P_00_170216195047_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b12/P_00_170216195047_ggc3-keeper_ac-analysis_v11.22.1 -1.63677 -81.2977 -1.63677 -81.2977 91.9813 8.57153 91.9813 8.57153
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18/P_00_170216191857_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18/P_00_170216191857_s16-master_ac-analysis_v11.22.1 121.553 -124.19 121.553 -124.19 154.901 8.57153 154.901 8.57153
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b34914/P_00_170216195059_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b34914/P_00_170216195059_ggc3-keeper_ac-analysis_v11.22.1 121.553 -124.19 121.553 -124.19 154.901 12.4951 154.901 12.4951
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b12/P_00_170216195047_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18_b12/P_00_170216195047_ggc3-keeper_ac-analysis_v11.22.1 -1.63677 -81.2977 -1.63677 -81.2977 91.9813 8.57153 91.9813 8.57153
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18/P_00_170216191857_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ditto/170216_ACTG_01_ditto_WAS02R10C18/P_00_170216191857_s16-master_ac-analysis_v11.22.1 121.553 -124.19 121.553 -124.19 154.901 8.57153 154.901 8.57153
+/home/genia/rigdata/dragonite/170216_PEG-PORE_01_dragonite_WAE22R06C15/P_00_170216212548_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dragonite/170216_PEG-PORE_01_dragonite_WAE22R06C15/P_00_170216212548_s16pre-master_ac-analysis_v11.22.1 20.6352 -106.599 20.6352 -106.599 152.895 0.265355 152.895 0.265355
+/home/genia/rigdata/drowzee/170216_SIG-A_02_drowzee_WAS21R07C17/P_00_170217040408_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/drowzee/170216_SIG-A_02_drowzee_WAS21R07C17/P_00_170217040408_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 2.68282 -44.1457 2.68282 -44.1457 173.888 8.1307 173.888 8.1307
+/home/genia/rigdata/drowzee/170216_SIG-A_02_drowzee_WAS21R07C17/P_01_170217064903_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/drowzee/170216_SIG-A_02_drowzee_WAS21R07C17/P_01_170217064903_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 2.68212 -58.636 2.68212 -58.636 219.302 -100.094 219.302 -100.094
+/home/genia/rigdata/drowzee/170216_SIG-A_01_drowzee_WAT13R03C10/P_00_170216213536_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/drowzee/170216_SIG-A_01_drowzee_WAT13R03C10/P_00_170216213536_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 0.727285 -33.1534 0.727285 -33.1534 181.407 11.8326 181.407 11.8326
+/home/genia/rigdata/dugtrio/170216_ENG-BIE_01_dugtrio_WAS21R11C11/P_00_170216200232_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dugtrio/170216_ENG-BIE_01_dugtrio_WAS21R11C11/P_00_170216200232_s16-master_ac-analysis_v11.22.1 7.76557 -98.9003 7.76557 -98.9003 164.349 -16.9099 164.349 -16.9099
+/home/genia/rigdata/dugtrio/170216_ENG-BIE_02_dugtrio_WAS21R11C11/P_00_170216225338_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dugtrio/170216_ENG-BIE_02_dugtrio_WAS21R11C11/P_00_170216225338_ggc3-keeper_ac-analysis_v11.22.1 11.22 -106.086 11.22 -106.086 162.129 -13.9798 162.129 -13.9798
+/home/genia/rigdata/dugtrio/170216_ENG-BIE_03_dugtrio_WAS21R11C11/P_00_170217021118_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dugtrio/170216_ENG-BIE_03_dugtrio_WAS21R11C11/P_00_170217021118_s16pre-master_ac-analysis_v11.22.1 31.5428 -100.969 31.5428 -100.969 153.858 -8.68477 153.858 -8.68477
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle06/P_00_170217065608_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle06/P_00_170217065608_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 21.1578 -88.1564 21.1578 -88.1564 146.58 -0.855407 146.58 -0.855407
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle10/P_00_170217103937_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle10/P_00_170217103937_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 19.314 -95.2554 19.314 -95.2554 143.608 -0.377838 143.608 -0.377838
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle05/P_00_170217055610_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle05/P_00_170217055610_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 22.3398 -93.197 22.3398 -93.197 142.659 0.345429 142.659 0.345429
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle02/P_00_170217024646_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle02/P_00_170217024646_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 18.9871 -101.323 18.9871 -101.323 146.538 -1.2085 146.538 -1.2085
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle04/P_00_170217045855_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle04/P_00_170217045855_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 13.6207 -96.3562 13.6207 -96.3562 143.641 1.3433 143.641 1.3433
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle03/P_00_170217034023_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle03/P_00_170217034023_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 28.1779 -99.1312 28.1779 -99.1312 160.106 -1.23464 160.106 -1.23464
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle09/P_00_170217094323_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle09/P_00_170217094323_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.3502 -88.8249 15.3502 -88.8249 139.237 -3.75578 139.237 -3.75578
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle01/P_00_170217015322_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle01/P_00_170217015322_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.11477 -101.91 9.11477 -101.91 141.885 -9.08228 141.885 -9.08228
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle07/P_00_170217075145_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle07/P_00_170217075145_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 40.3679 -94.8099 40.3679 -94.8099 143.087 1.72553 143.087 1.72553
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle08/P_00_170217084759_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/dunsparce/170216_ENG-SYS_01_dunsparce_WAS22R11C13_cycle08/P_00_170217084759_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.8363 -94.9462 15.8363 -94.9462 153.667 3.41991 153.667 3.41991
+/home/genia/rigdata/eevee/170216_SW_02_eevee_WAE19R06C05/P_00_170216235023_s16pre-master_RFS-v11.22.2
+/home/genia/rigdata/eevee/170216_SW_03_eevee_WAE19R06C05/P_00_170217022605_s16pre-master_RFS-v11.22.2
+/home/genia/rigdata/eevee/170216_SW_01_eevee_WAE19R06C05/P_02_170216195530_s16pre-master_RFS-v11.22.2
+/home/genia/rigdata/eevee/170216_SW_01_eevee_WAE19R06C05/P_01_170216194809_s16pre-master_RFS-v11.23.0.dev
+/home/genia/rigdata/ekans/170216_ENG-BIE_03_ekans_WAS21R05C12/P_00_170217020522_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ekans/170216_ENG-BIE_03_ekans_WAS21R05C12/P_00_170217020522_ggc3-keeper_ac-analysis_v11.22.1 15.6401 -102.621 15.6401 -102.621 162.029 -3.59317 162.029 -3.59317
+/home/genia/rigdata/ekans/170216_ENG-BIE_02_ekans_WAS21R05C12/P_00_170216225327_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ekans/170216_ENG-BIE_02_ekans_WAS21R05C12/P_00_170216225327_ggc3-keeper_ac-analysis_v11.22.1 23.3321 -104.693 23.3321 -104.693 157.273 -1.04677 157.273 -1.04677
+/home/genia/rigdata/ekans/170216_ENG-BIE_01_ekans_WAS21R05C12/P_00_170216195607_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ekans/170216_ENG-BIE_01_ekans_WAS21R05C12/P_00_170216195607_ggc3-keeper_ac-analysis_v11.22.1 36.6766 -100.247 36.6766 -100.247 148.14 -46.2298 148.14 -46.2298
+/home/genia/rigdata/exeggcute/170216_PEG-POL_01_exeggcute_WAE22R08C17/P_00_170216211808_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/exeggcute/170216_PEG-POL_01_exeggcute_WAE22R08C17/P_00_170216211808_ggc3-keeper_ac-analysis_v11.22.1 4.56909 -34.2025 4.56909 -34.2025 191.35 8.45317 191.35 8.45317
+/home/genia/rigdata/farfetchd/170216_TAG_02_farfetchd_WAE22R07C15/P_00_170216230944_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/farfetchd/170216_TAG_02_farfetchd_WAE22R07C15/P_00_170216230944_ggc3-keeper_ac-analysis_v11.22.1 14.0388 -111.912 14.0388 -111.912 160.979 -14.694 160.979 -14.694
+/home/genia/rigdata/flareon/170216_SIG-A_03_flareon_WAE23R06C07/P_01_170217064912_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/flareon/170216_SIG-A_03_flareon_WAE23R06C07/P_01_170217064912_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 3.68032 -68.3264 3.68032 -68.3264 217.059 -114.584 217.059 -114.584
+/home/genia/rigdata/flareon/170216_SIG-A_03_flareon_WAE23R06C07/P_00_170217021159_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/flareon/170216_SIG-A_03_flareon_WAE23R06C07/P_00_170217021159_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 3.68032 -41.7888 3.68032 -41.7888 172.135 11.8427 172.135 11.8427
+/home/genia/rigdata/flareon/170216_SIG-A_02_flareon_WAT10R04C11/P_00_170216213210_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/flareon/170216_SIG-A_02_flareon_WAT10R04C11/P_00_170216213210_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -3.27619 -34.2956 -3.27619 -34.2956 178.007 15.2152 178.007 15.2152
+/home/genia/rigdata/gary/170216_SIG-A_03_gary_WAS21R07C12/P_00_170217042007_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/gary/170216_SIG-A_03_gary_WAS21R07C12/P_00_170217042007_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 1.73495 -36.7598 1.73495 -36.7598 176.308 5.02534 176.308 5.02534
+/home/genia/rigdata/gary/170216_SIG-A_03_gary_WAS21R07C12/P_01_170217064855_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/gary/170216_SIG-A_03_gary_WAS21R07C12/P_01_170217064855_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 1.73495 -75.2617 1.73495 -75.2617 215.765 -106.297 215.765 -106.297
+/home/genia/rigdata/gary/170216_SIG-A_01_gary_WAT11R03C11/P_00_170216214525_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/gary/170216_SIG-A_01_gary_WAT11R03C11/P_00_170216214525_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 4.01597 -26.1804 4.01597 -26.1804 185.527 10.6666 185.527 10.6666
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle03/P_00_170216195952_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle03/P_00_170216195952_s16pre-master_ac-analysis_v11.22.1 2.17621 -79.5188 2.17621 -79.5188 125.042 -0.659771 125.042 -0.659771
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle02/P_00_170217000034_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle02/P_00_170217000034_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.67662 -85.6127 8.67662 -85.6127 147.846 0.63838 147.846 0.63838
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle05/P_00_170217014600_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle05/P_00_170217014600_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.6731 -95.9715 14.6731 -95.9715 145.495 -21.6003 145.495 -21.6003
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle01/P_00_170216231758_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle01/P_00_170216231758_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.37591 -68.5476 8.37591 -68.5476 141.352 -1.43907 141.352 -1.43907
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle01/P_00_170216184736_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle01/P_00_170216184736_s16-master_ac-analysis_v11.22.1 5.85425 -72.7177 5.85425 -72.7177 136.046 1.61017 136.046 1.61017
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle01/P_01_170216194734_spore1-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle01/P_01_170216194734_spore1-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.85425 -72.7177 5.85425 -72.7177 136.046 1.61017 136.046 1.61017
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle04/P_00_170216203738_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle04/P_00_170216203738_s16pre-master_ac-analysis_v11.22.1 12.5343 -48.827 12.5343 -48.827 97.7304 7.5993 97.7304 7.5993
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle05/P_00_170216211200_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle05/P_00_170216211200_ggc3-keeper_ac-analysis_v11.22.1 16.4524 -95.8818 16.4524 -95.8818 140.492 -22.4522 140.492 -22.4522
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle02/P_00_170216192511_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_01_girafarig_WAS21R08C13_cycle02/P_00_170216192511_ggc3-keeper_ac-analysis_v11.22.1 4.68007 -72.6229 4.68007 -72.6229 122.918 0.67435 122.918 0.67435
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle03/P_00_170217003339_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle03/P_00_170217003339_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 10.0304 -100.779 10.0304 -100.779 145.643 2.66764 145.643 2.66764
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle04/P_00_170217010934_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/girafarig/170216_ENG-SYS_02_girafarig_WAS21R08C13_cycle04/P_00_170217010934_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.7481 -100.494 5.7481 -100.494 140.651 2.12912 140.651 2.12912
+/home/genia/rigdata/gloom/170216_PEG-POL_01_gloom_WAE22R06C07/P_00_170216212142_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/gloom/170216_PEG-POL_01_gloom_WAE22R06C07/P_00_170216212142_ggc3-keeper_ac-analysis_v11.22.1 5.75949 -28.3557 5.75949 -28.3557 191.155 -2.59047 191.155 -2.59047
+/home/genia/rigdata/goldeen/170216_SAM_01_goldeen_WAS24R07C07/P_00_170216210131_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/goldeen/170216_SAM_01_goldeen_WAS24R07C07/P_00_170216210131_ggc3-keeper_ac-analysis_v11.22.1 0.874379 -27.9752 0.874379 -27.9752 188.689 8.99193 188.689 8.99193
+/home/genia/rigdata/graveler/170216_SIG-A_01_graveler_WAT09R04C05/P_00_170216214303_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/graveler/170216_SIG-A_01_graveler_WAT09R04C05/P_00_170216214303_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 4.41014 -23.1634 4.41014 -23.1634 189.351 14.4998 189.351 14.4998
+/home/genia/rigdata/graveler/170216_SIG-A_02_graveler_WAE22R13C14/P_00_170217041926_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/graveler/170216_SIG-A_02_graveler_WAE22R13C14/P_00_170217041926_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 3.38115 -35.0676 3.38115 -35.0676 175.955 6.27342 175.955 6.27342
+/home/genia/rigdata/graveler/170216_SIG-A_02_graveler_WAE22R13C14/P_01_170217064857_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/graveler/170216_SIG-A_02_graveler_WAE22R13C14/P_01_170217064857_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 20.768 -64.0814 20.768 -64.0814 217.199 -103.835 217.199 -103.835
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_02_170217014509_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_00_170216211756_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_00_170216211756_ggc3-keeper_ac-analysis_v11.22.1 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_01_170217014407_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/growlithe/170216_PEG-POL_01_growlithe_WAE22R09C14/P_01_170217014407_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.76229 -36.2379 2.76229 -36.2379 190.258 9.51143 190.258 9.51143
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle09/P_00_170217093912_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle09/P_00_170217093912_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 13.4985 -87.1758 13.4985 -87.1758 133.554 5.23706 133.554 5.23706
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle10/P_00_170217103626_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle10/P_00_170217103626_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 21.6198 -88.7541 21.6198 -88.7541 140.714 -14.7018 140.714 -14.7018
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle07/P_00_170217074653_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle07/P_00_170217074653_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.76775 -86.8295 8.76775 -86.8295 140.854 0.87757 140.854 0.87757
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle06/P_00_170217065057_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle06/P_00_170217065057_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 12.3733 -87.3783 12.3733 -87.3783 133.499 -5.10238 133.499 -5.10238
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle04/P_00_170217045814_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle04/P_00_170217045814_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 16.5325 -100.849 16.5325 -100.849 145.388 -0.874895 145.388 -0.874895
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle05/P_00_170217055429_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle05/P_00_170217055429_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 24.7646 -88.4157 24.7646 -88.4157 129.723 1.83232 129.723 1.83232
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle01/P_00_170217015533_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle01/P_00_170217015533_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.39038 -99.4935 8.39038 -99.4935 149.382 -0.368741 149.382 -0.368741
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle08/P_00_170217084248_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle08/P_00_170217084248_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.5482 -92.5592 14.5482 -92.5592 139.506 -2.83939 139.506 -2.83939
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle02/P_00_170217025457_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle02/P_00_170217025457_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.58893 -92.5884 9.58893 -92.5884 142.823 -0.266912 142.823 -0.266912
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle03/P_00_170217035635_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hitmonchan/170216_ENG-SYS_01_hitmonchan_WAS22R07C10_cycle03/P_00_170217035635_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 19.1109 -95.7081 19.1109 -95.7081 134.856 2.07233 134.856 2.07233
+/home/genia/rigdata/hoothoot/170216_TAG_02_hoothoot_WAE22R11C07/P_00_170216231107_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hoothoot/170216_TAG_02_hoothoot_WAE22R11C07/P_00_170216231107_s16-master_ac-analysis_v11.22.1 12.2673 -107.06 12.2673 -107.06 155.855 1.60231 155.855 1.60231
+/home/genia/rigdata/horsea/170216_ACTG_01_horsea_WAV08R12C16/P_00_170216191805_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/horsea/170216_ACTG_01_horsea_WAV08R12C16/P_00_170216191805_ggc3-keeper_ac-analysis_v11.22.1 126.33 -138.903 126.33 -138.903 146.907 -35.4629 146.907 -35.4629
+/home/genia/rigdata/horsea/170216_ACTG_01_horsea_WAV08R12C16_b12/P_00_170216195121_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/horsea/170216_ACTG_01_horsea_WAV08R12C16_b12/P_00_170216195121_ggc3-keeper_ac-analysis_v11.22.1 14.0701 -112.727 14.0701 -112.727 123.34 6.86706 123.34 6.86706
+/home/genia/rigdata/horsea/170216_ACTG_01_horsea_WAV08R12C16_b34914/P_00_170216195133_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/horsea/170216_ACTG_01_horsea_WAV08R12C16_b34914/P_00_170216195133_ggc3-keeper_ac-analysis_v11.22.1 126.33 -138.903 126.33 -138.903 146.907 -35.4629 146.907 -35.4629
+/home/genia/rigdata/hypno/170216_ACTG_01_hypno_WAV08R08C18_b34914/P_00_170216205223_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hypno/170216_ACTG_01_hypno_WAV08R08C18_b34914/P_00_170216205223_ggc3-keeper_ac-analysis_v11.22.1 120.74 -148.564 120.74 -148.564 172.216 -28.0898 172.216 -28.0898
+/home/genia/rigdata/hypno/170216_ACTG_06_hypno_WAV08R08C18/P_00_170217032142_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hypno/170216_ACTG_06_hypno_WAV08R08C18/P_00_170217032142_ggc3-keeper_ac-analysis_v11.22.1 -1.78212 -33.8041 -1.78212 -33.8041 87.6615 17.1626 87.6615 17.1626
+/home/genia/rigdata/hypno/170216_ACTG_01_hypno_WAV08R08C18/P_00_170216191938_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hypno/170216_ACTG_01_hypno_WAV08R08C18/P_00_170216191938_s16pre-master_ac-analysis_v11.22.1 120.74 -148.564 120.74 -148.564 172.216 -28.0898 172.216 -28.0898
+/home/genia/rigdata/hypno/170216_ACTG_04_hypno_WAV08R07C13/P_00_170217010442_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hypno/170216_ACTG_04_hypno_WAV08R07C13/P_00_170217010442_ggc3-keeper_ac-analysis_v11.22.1 -18.1188 -87.5901 -18.1188 -87.5901 156.834 48.3586 156.834 48.3586
+/home/genia/rigdata/hypno/170216_ACTG_01_hypno_WAV08R08C18_b12/P_00_170216205211_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/hypno/170216_ACTG_01_hypno_WAV08R08C18_b12/P_00_170216205211_ggc3-keeper_ac-analysis_v11.22.1 56.6324 -114.819 56.6324 -114.819 129.127 12.3972 129.127 12.3972
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle01/P_00_170216185017_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle01/P_00_170216185017_ggc3-keeper_ac-analysis_v11.22.1 21.8259 -79.4471 21.8259 -79.4471 162.503 6.15839 162.503 6.15839
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle01/P_01_170216194736_spore1-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle01/P_01_170216194736_spore1-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 21.8259 -79.4471 21.8259 -79.4471 162.503 6.15839 162.503 6.15839
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle05/P_00_170216204830_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle05/P_00_170216204830_ggc3-keeper_ac-analysis_v11.22.1 26.6873 -95.1333 26.6873 -95.1333 162.397 -13.5938 162.397 -13.5938
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle02/P_00_170216235853_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle02/P_00_170216235853_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 23.3242 -84.2642 23.3242 -84.2642 138.124 2.90234 138.124 2.90234
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle05/P_00_170217013626_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle05/P_00_170217013626_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 10.2299 -95.5566 10.2299 -95.5566 138.298 3.78624 138.298 3.78624
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle04/P_00_170216201716_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle04/P_00_170216201716_s16pre-master_ac-analysis_v11.22.1 21.7993 -96.3891 21.7993 -96.3891 194.942 4.56582 194.942 4.56582
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle01/P_00_170216231809_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle01/P_00_170216231809_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.0552 -90.177 11.0552 -90.177 144.482 3.34073 144.482 3.34073
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle03/P_00_170216194644_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle03/P_00_170216194644_ggc3-keeper_ac-analysis_v11.22.1 37.0466 -95.9193 37.0466 -95.9193 160.782 5.06828 160.782 5.06828
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle03/P_00_170217003158_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle03/P_00_170217003158_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.38047 -94.7521 5.38047 -94.7521 141.042 3.53616 141.042 3.53616
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle04/P_00_170217010453_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_02_igglybuff_WAS21R09C08_cycle04/P_00_170217010453_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.7351 -80.472 11.7351 -80.472 145.193 -1.04925 145.193 -1.04925
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle02/P_00_170216191650_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/igglybuff/170216_ENG-SYS_01_igglybuff_WAS21R09C08_cycle02/P_00_170216191650_s16pre-master_ac-analysis_v11.22.1 31.296 -94.8663 31.296 -94.8663 145.902 6.43482 145.902 6.43482
+/home/genia/rigdata/ivysaur/170216_SAM_01_ivysaur_WAE22R07C08/P_00_170216210153_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ivysaur/170216_SAM_01_ivysaur_WAE22R07C08/P_00_170216210153_ggc3-keeper_ac-analysis_v11.22.1 -2.68716 -31.0996 -2.68716 -31.0996 186.152 18.1036 186.152 18.1036
+/home/genia/rigdata/jolteon/170216_SIG-A_01_jolteon_WAT11R04C13/P_00_170216213221_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/jolteon/170216_SIG-A_01_jolteon_WAT11R04C13/P_00_170216213221_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.07335 -25.6282 5.07335 -25.6282 176.151 11.1537 176.151 11.1537
+/home/genia/rigdata/jolteon/170216_SIG-A_03_jolteon_WAE22R05C15/P_01_170217064849_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/jolteon/170216_SIG-A_03_jolteon_WAE22R05C15/P_01_170217064849_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 2.56395 -59.2788 2.56395 -59.2788 216.406 -99.6812 216.406 -99.6812
+/home/genia/rigdata/jolteon/170216_SIG-A_03_jolteon_WAE22R05C15/P_00_170217045652_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/jolteon/170216_SIG-A_03_jolteon_WAE22R05C15/P_00_170217045652_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 2.56395 -42.362 2.56395 -42.362 174.53 8.26445 174.53 8.26445
+/home/genia/rigdata/joy/170216_ACTG_01_joy_WAS02R12C04_b12/P_00_170216195026_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/joy/170216_ACTG_01_joy_WAS02R12C04_b12/P_00_170216195026_ggc3-keeper_ac-analysis_v11.22.1 12.7947 -114.268 12.7947 -114.268 128.636 8.93874 128.636 8.93874
+/home/genia/rigdata/joy/170216_ACTG_01_joy_WAS02R12C04/P_00_170216192019_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/joy/170216_ACTG_01_joy_WAS02R12C04/P_00_170216192019_s16-master_ac-analysis_v11.22.1 97.4541 -145.596 97.4541 -145.596 246.6 6.45304 246.6 6.45304
+/home/genia/rigdata/joy/170216_ACTG_01_joy_WAS02R12C04_b34914/P_00_170216195036_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/joy/170216_ACTG_01_joy_WAS02R12C04_b34914/P_00_170216195036_ggc3-keeper_ac-analysis_v11.22.1 97.4541 -145.596 97.4541 -145.596 246.6 6.45304 246.6 6.45304
+/home/genia/rigdata/jynx/170216_SIG-A_03_jynx_WAE22R12C15/P_01_170217064900_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/jynx/170216_SIG-A_03_jynx_WAE22R12C15/P_01_170217064900_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 1.12957 -69.161 1.12957 -69.161 215.181 -104.005 215.181 -104.005
+/home/genia/rigdata/jynx/170216_SIG-A_03_jynx_WAE22R12C15/P_00_170217041915_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/jynx/170216_SIG-A_03_jynx_WAE22R12C15/P_00_170217041915_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 1.12957 -53.6755 1.12957 -53.6755 176.052 11.2394 176.052 11.2394
+/home/genia/rigdata/jynx/170216_SIG-A_01_jynx_WAT11R03C08/P_00_170216213324_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/jynx/170216_SIG-A_01_jynx_WAT11R03C08/P_00_170216213324_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 6.67749 -24.2448 6.67749 -24.2448 190.062 13.0352 190.062 13.0352
+/home/genia/rigdata/kadabra/170216_SIG-A_01_kadabra_WAT13R03C11/P_00_170216213731_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/kadabra/170216_SIG-A_01_kadabra_WAT13R03C11/P_00_170216213731_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 45.5768 -77.2448 45.5768 -77.2448 182.361 -57.5009 182.361 -57.5009
+/home/genia/rigdata/kadabra/170216_SIG-A_01_kadabra_WAT13R03C11/P_01_170217031117_ggc2-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/kadabra/170216_SIG-A_01_kadabra_WAT13R03C11/P_01_170217031117_ggc2-keeper_ac-analysis_v11.22.1 45.5768 -77.2448 45.5768 -77.2448 182.361 -57.5009 182.361 -57.5009
+/home/genia/rigdata/kakuna/170216_SIG-A_01_kakuna_WAS21R05C08/P_01_170217064847_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/kakuna/170216_SIG-A_01_kakuna_WAS21R05C08/P_01_170217064847_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 1.48668 -84.0033 1.48668 -84.0033 208.411 -122.06 208.411 -122.06
+/home/genia/rigdata/kakuna/170216_SIG-A_01_kakuna_WAS21R05C08/P_00_170217051417_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/kakuna/170216_SIG-A_01_kakuna_WAS21R05C08/P_00_170217051417_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 1.3651 -41.3679 1.3651 -41.3679 163.425 16.4991 163.425 16.4991
+/home/genia/rigdata/koffing/170216_ENG-BIE_02_koffing_WAS21R07C04/P_00_170216225419_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/koffing/170216_ENG-BIE_02_koffing_WAS21R07C04/P_00_170216225419_s16-master_ac-analysis_v11.22.1 21.5289 -110.523 21.5289 -110.523 160.606 -9.57263 160.606 -9.57263
+/home/genia/rigdata/koffing/170216_ENG-BIE_01_koffing_WAS21R07C04/P_00_170216200344_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/koffing/170216_ENG-BIE_01_koffing_WAS21R07C04/P_00_170216200344_s16pre-master_ac-analysis_v11.22.1 29.167 -106.966 29.167 -106.966 154.542 -43.3303 154.542 -43.3303
+/home/genia/rigdata/koffing/170216_ENG-BIE_03_koffing_WAS21R07C04/P_00_170217021440_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/koffing/170216_ENG-BIE_03_koffing_WAS21R07C04/P_00_170217021440_ggc3-keeper_ac-analysis_v11.22.1 22.2294 -104.688 22.2294 -104.688 158.861 -3.70424 158.861 -3.70424
+/home/genia/rigdata/koga/170216_TAG_02_koga_WAE20R05C05/P_00_170216230615_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/koga/170216_TAG_02_koga_WAE20R05C05/P_00_170216230615_ggc3-keeper_ac-analysis_v11.22.1 21.9491 -109.173 21.9491 -109.173 177.187 -12.2564 177.187 -12.2564
+/home/genia/rigdata/krabby/170216_SAM_01_krabby_WAE22R11C09/P_00_170216205536_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/krabby/170216_SAM_01_krabby_WAE22R11C09/P_00_170216205536_ggc3-keeper_ac-analysis_v11.22.1 7.15122 -18.0795 7.15122 -18.0795 180.837 4.87727 180.837 4.87727
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_02_170217014516_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_00_170216211704_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_00_170216211704_ggc3-keeper_ac-analysis_v11.22.1 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_01_170217014414_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/lickitung/170216_PEG-POL_01_lickitung_WAE22R13C13/P_01_170217014414_ggc2-keeper_ac-analysis_v11.22.1.custom_param 2.07597 -60.1793 2.07597 -60.1793 190.264 0.9679 190.264 0.9679
+/home/genia/rigdata/machop/170216_TAG_03_machop_WAE19R11C17/P_00_170216230955_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/machop/170216_TAG_03_machop_WAE19R11C17/P_00_170216230955_ggc3-keeper_ac-analysis_v11.22.1 11.0266 -108.786 11.0266 -108.786 170.275 0.74883 170.275 0.74883
+/home/genia/rigdata/magikarp/170216_ENG-BIE_01_magikarp_WAS22R10C07/P_00_170216195154_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magikarp/170216_ENG-BIE_01_magikarp_WAS22R10C07/P_00_170216195154_s16-master_ac-analysis_v11.22.1 7.43091 -107.806 7.43091 -107.806 150.394 -0.423349 150.394 -0.423349
+/home/genia/rigdata/magikarp/170216_ENG-BIE_02_magikarp_WAS22R10C07/P_00_170216224411_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magikarp/170216_ENG-BIE_02_magikarp_WAS22R10C07/P_00_170216224411_ggc3-keeper_ac-analysis_v11.22.1 19.0819 -118.056 19.0819 -118.056 148.515 -0.547264 148.515 -0.547264
+/home/genia/rigdata/magikarp/170216_ENG-BIE_03_magikarp_WAS22R10C07/P_00_170217020815_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magikarp/170216_ENG-BIE_03_magikarp_WAS22R10C07/P_00_170217020815_ggc3-keeper_ac-analysis_v11.22.1 27.6146 -118.973 27.6146 -118.973 167.184 -8.36462 167.184 -8.36462
+/home/genia/rigdata/magmar/170216_PEG-POL_01_magmar_WAE23R06C03/P_00_170216212204_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magmar/170216_PEG-POL_01_magmar_WAE23R06C03/P_00_170216212204_ggc3-keeper_ac-analysis_v11.22.1 1.4349 -37.1923 1.4349 -37.1923 193.107 2.05066 193.107 2.05066
+/home/genia/rigdata/magnemite/170216_ENG-BIE_01_magnemite_WAE19R04C11/P_00_170216195741_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magnemite/170216_ENG-BIE_01_magnemite_WAE19R04C11/P_00_170216195741_ggc3-keeper_ac-analysis_v11.22.1 6.18806 -103.598 6.18806 -103.598 149.604 0.241105 149.604 0.241105
+/home/genia/rigdata/magnemite/170216_ENG-BIE_03_magnemite_WAE19R04C11/P_00_170217020137_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magnemite/170216_ENG-BIE_03_magnemite_WAE19R04C11/P_00_170217020137_s16-master_ac-analysis_v11.22.1 7.97279 -101.543 7.97279 -101.543 150.48 1.2031 150.48 1.2031
+/home/genia/rigdata/magnemite/170216_ENG-BIE_02_magnemite_WAE19R04C11/P_00_170216224916_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/magnemite/170216_ENG-BIE_02_magnemite_WAE19R04C11/P_00_170216224916_s16-master_ac-analysis_v11.22.1 7.10759 -104.744 7.10759 -104.744 161.43 -5.18534 161.43 -5.18534
+/home/genia/rigdata/mankey/170216_PEG-POL_01_mankey_WAE22R11C12/P_00_170216211211_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/mankey/170216_PEG-POL_01_mankey_WAE22R11C12/P_00_170216211211_ggc3-keeper_ac-analysis_v11.22.1 16.9257 -26.8909 16.9257 -26.8909 184.722 7.44584 184.722 7.44584
+/home/genia/rigdata/metapod/170216_SAM_01_metapod_WAS21R11C09/P_00_170216210616_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/metapod/170216_SAM_01_metapod_WAS21R11C09/P_00_170216210616_ggc3-keeper_ac-analysis_v11.22.1 4.44393 -18.0559 4.44393 -18.0559 197.057 10.2977 197.057 10.2977
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle05/P_00_170217015111_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle05/P_00_170217015111_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 6.13399 -79.8393 6.13399 -79.8393 140.46 6.88065 140.46 6.88065
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle03/P_00_170216194422_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle03/P_00_170216194422_ggc3-keeper_ac-analysis_v11.22.1 10.9403 -66.9161 10.9403 -66.9161 140.803 6.20959 140.803 6.20959
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle01/P_00_170216184344_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle01/P_00_170216184344_ggc3-keeper_ac-analysis_v11.22.1 12.5915 -70.5076 12.5915 -70.5076 139.091 9.41581 139.091 9.41581
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle01/P_01_170216194740_spore3-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle01/P_01_170216194740_spore3-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 12.5915 -70.5076 12.5915 -70.5076 139.091 9.41581 139.091 9.41581
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle05/P_00_170216205718_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle05/P_00_170216205718_ggc3-keeper_ac-analysis_v11.22.1 6.91894 -94.8303 6.91894 -94.8303 145.128 -1.23607 145.128 -1.23607
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle01/P_00_170216231820_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle01/P_00_170216231820_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 1.10569 -81.2185 1.10569 -81.2185 146.779 3.51115 146.779 3.51115
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle04/P_00_170217011745_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle04/P_00_170217011745_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.71763 -64.8584 5.71763 -64.8584 136.958 2.36049 136.958 2.36049
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle04/P_00_170216202157_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle04/P_00_170216202157_ggc3-keeper_ac-analysis_v11.22.1 2.45439 -84.6573 2.45439 -84.6573 141.054 4.31745 141.054 4.31745
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle03/P_00_170217004320_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle03/P_00_170217004320_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -1.34544 -79.4055 -1.34544 -79.4055 135.394 6.93107 135.394 6.93107
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle02/P_00_170216191309_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_01_miltank_WAE23R03C08_cycle02/P_00_170216191309_s16-master_ac-analysis_v11.22.1 3.49532 -65.2735 3.49532 -65.2735 126.858 5.36241 126.858 5.36241
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle02/P_00_170217000736_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/miltank/170216_ENG-SYS_02_miltank_WAE23R03C08_cycle02/P_00_170217000736_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 6.55154 -79.1206 6.55154 -79.1206 130.327 2.36025 130.327 2.36025
+/home/genia/rigdata/missingno/170216_ENG-BIE_01_missingno_WAS22R07C17/P_00_170216195618_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/missingno/170216_ENG-BIE_01_missingno_WAS22R07C17/P_00_170216195618_s16pre-master_ac-analysis_v11.22.1 8.38684 -99.4292 8.38684 -99.4292 145.035 -10.431 145.035 -10.431
+/home/genia/rigdata/missingno/170216_ENG-BIE_03_missingno_WAS22R07C17/P_00_170217020309_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/missingno/170216_ENG-BIE_03_missingno_WAS22R07C17/P_00_170217020309_ggc3-keeper_ac-analysis_v11.22.1 11.1338 -99.0836 11.1338 -99.0836 162.383 -10.4541 162.383 -10.4541
+/home/genia/rigdata/missingno/170216_ENG-BIE_02_missingno_WAS22R07C17/P_00_170216224613_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/missingno/170216_ENG-BIE_02_missingno_WAS22R07C17/P_00_170216224613_ggc3-keeper_ac-analysis_v11.22.1 8.33804 -106.163 8.33804 -106.163 151.83 -11.2181 151.83 -11.2181
+/home/genia/rigdata/misty/170216_SIG-A_01_misty_WAT13R04C11/P_00_170216213627_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/misty/170216_SIG-A_01_misty_WAT13R04C11/P_00_170216213627_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -3.51835 -34.7379 -3.51835 -34.7379 180.102 14.2718 180.102 14.2718
+/home/genia/rigdata/moltres/170216_SAM_01_moltres_WAE19R08C15/P_00_170216210857_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/moltres/170216_SAM_01_moltres_WAE19R08C15/P_00_170216210857_ggc3-keeper_ac-analysis_v11.22.1 4.39292 -19.9178 4.39292 -19.9178 187.043 14.8526 187.043 14.8526
+/home/genia/rigdata/mrmime/170216_PEG-POL_01_mrmime_WAV08R05C14/P_00_170216211715_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/mrmime/170216_PEG-POL_01_mrmime_WAV08R05C14/P_00_170216211715_ggc3-keeper_ac-analysis_v11.22.1 8.9598 -28.7617 8.9598 -28.7617 195.329 11.6367 195.329 11.6367
+/home/genia/rigdata/nidoking/170216_ENG-BIE_01_nidoking_WAE19R12C05/P_00_170216195535_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoking/170216_ENG-BIE_01_nidoking_WAE19R12C05/P_00_170216195535_s16-master_ac-analysis_v11.22.1 1.46973 -98.2592 1.46973 -98.2592 147.973 0.74617 147.973 0.74617
+/home/genia/rigdata/nidoking/170216_ENG-BIE_03_nidoking_WAE19R12C05/P_00_170217020217_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoking/170216_ENG-BIE_03_nidoking_WAE19R12C05/P_00_170217020217_s16pre-master_ac-analysis_v11.22.1 11.0569 -103.404 11.0569 -103.404 150.256 0.280919 150.256 0.280919
+/home/genia/rigdata/nidoking/170216_ENG-BIE_02_nidoking_WAE19R12C05/P_00_170216224603_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoking/170216_ENG-BIE_02_nidoking_WAE19R12C05/P_00_170216224603_s16-master_ac-analysis_v11.22.1 15.9023 -103.142 15.9023 -103.142 155.631 -0.54416 155.631 -0.54416
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_02_nidoqueen_WAE19R07C11/P_00_170216224552_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_02_nidoqueen_WAE19R07C11/P_00_170216224552_s16-master_ac-analysis_v11.22.1 9.54755 -105.843 9.54755 -105.843 154.413 -0.598363 154.413 -0.598363
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_03_nidoqueen_WAE19R07C11/P_00_170217020228_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_03_nidoqueen_WAE19R07C11/P_00_170217020228_ggc3-keeper_ac-analysis_v11.22.1 19.0766 -100.313 19.0766 -100.313 159.58 1.10161 159.58 1.10161
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_03_nidoqueen_WAE19R07C11/P_00_170217020228_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_03_nidoqueen_WAE19R07C11/P_00_170217020228_ggc3-keeper_ac-analysis_v11.22.1 19.0766 -100.313 19.0766 -100.313 159.58 1.10161 159.58 1.10161
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_01_nidoqueen_WAE19R07C11/P_00_170216195556_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/nidoqueen/170216_ENG-BIE_01_nidoqueen_WAE19R07C11/P_00_170216195556_ggc3-keeper_ac-analysis_v11.22.1 3.35605 -100.584 3.35605 -100.584 154.468 0.240773 154.468 0.240773
+/home/genia/rigdata/oddish/170216_TAG_02_oddish_WAE22R06C11/P_00_170216231448_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/oddish/170216_TAG_02_oddish_WAE22R06C11/P_00_170216231448_s16pre-master_ac-analysis_v11.22.1 17.8849 -106.487 17.8849 -106.487 158.429 0.21678 158.429 0.21678
+/home/genia/rigdata/parasect/170216_PEG-POL_01_parasect_WAV08R06C05/P_00_170216211919_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/parasect/170216_PEG-POL_01_parasect_WAV08R06C05/P_00_170216211919_ggc3-keeper_ac-analysis_v11.22.1 -1.43316 -41.8887 -1.43316 -41.8887 190.099 -16.7084 190.099 -16.7084
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle05/P_00_170217074112_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle05/P_00_170217074112_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 24.6793 -95.0451 24.6793 -95.0451 160.966 -9.90304 160.966 -9.90304
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle07/P_00_170217104047_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle07/P_00_170217104047_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 24.292 -91.2578 24.292 -91.2578 153.64 -20.2847 153.64 -20.2847
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle02/P_00_170217031631_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle02/P_00_170217031631_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 25.718 -94.2092 25.718 -94.2092 146.19 -0.305726 146.19 -0.305726
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle04/P_00_170217061044_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle04/P_00_170217061044_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 39.1302 -85.3357 39.1302 -85.3357 138.661 -9.04347 138.661 -9.04347
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle03/P_00_170217044741_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle03/P_00_170217044741_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 22.176 -90.3072 22.176 -90.3072 154.077 -5.74067 154.077 -5.74067
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle01/P_00_170217015744_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle01/P_00_170217015744_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 10.6779 -104.386 10.6779 -104.386 146.384 -2.67611 146.384 -2.67611
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle06/P_00_170217091131_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle06/P_00_170217091131_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 24.8951 -98.449 24.8951 -98.449 153.233 -14.2469 153.233 -14.2469
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle08/P_00_170217120751_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/persian/170216_ENG-SYS_01_persian_WAS22R10C17_cycle08/P_00_170217120751_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 43.1072 -94.9057 43.1072 -94.9057 161.47 -20.774 161.47 -20.774
+/home/genia/rigdata/pidgey/170216_PEG-POL_01_pidgey_WAV08R05C15/P_00_170216212153_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/pidgey/170216_PEG-POL_01_pidgey_WAV08R05C15/P_00_170216212153_ggc3-keeper_ac-analysis_v11.22.1 0.739234 -35.6517 0.739234 -35.6517 195.186 7.84238 195.186 7.84238
+/home/genia/rigdata/politoed/170216_ENG-SYS_04_politoed_WAE19R03C12/P_00_170217014119_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/politoed/170216_ENG-SYS_04_politoed_WAE19R03C12/P_00_170217014119_ggc3-keeper_ac-analysis_v11.22.1 -2.68942 -59.7992 -2.68942 -59.7992 91.5458 4.70112 91.5458 4.70112
+/home/genia/rigdata/politoed/170216_ENG-SYS_02_politoed_WAS02R11C06/P_00_170217000455_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/politoed/170216_ENG-SYS_02_politoed_WAS02R11C06/P_00_170217000455_s16-master_ac-analysis_v11.22.1 48.4744 -76.0719 48.4744 -76.0719 154.698 10.3397 154.698 10.3397
+/home/genia/rigdata/politoed/170216_ENG-SYS_01_politoed_WAS02R07C19/P_00_170216182032_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/politoed/170216_ENG-SYS_01_politoed_WAS02R07C19/P_00_170216182032_ggc3-keeper_ac-analysis_v11.22.1 14.8759 -86.1171 14.8759 -86.1171 114.49 3.11394 114.49 3.11394
+/home/genia/rigdata/ponyta/170216_SIG-A_02_ponyta_WAE19R12C15/P_01_170217064906_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ponyta/170216_SIG-A_02_ponyta_WAE19R12C15/P_01_170217064906_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 2.70351 -89.6554 2.70351 -89.6554 203.167 -120.58 203.167 -120.58
+/home/genia/rigdata/ponyta/170216_SIG-A_02_ponyta_WAE19R12C15/P_00_170217035927_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ponyta/170216_SIG-A_02_ponyta_WAE19R12C15/P_00_170217035927_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 2.60873 -32.6405 2.60873 -32.6405 174.869 8.84639 174.869 8.84639
+/home/genia/rigdata/ponyta/170216_SIG-A_01_ponyta_WAT10R03C10/P_00_170216214314_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ponyta/170216_SIG-A_01_ponyta_WAT10R03C10/P_00_170216214314_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 2.3693 -30.1426 2.3693 -30.1426 175.01 13.0524 175.01 13.0524
+/home/genia/rigdata/raichu/170216_SIG-A_01_raichu_WAT11R03C10/P_00_170216213243_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/raichu/170216_SIG-A_01_raichu_WAT11R03C10/P_00_170216213243_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 3.06666 -36.4474 3.06666 -36.4474 186.141 13.5777 186.141 13.5777
+/home/genia/rigdata/raichu/170216_SIG-A_02_raichu_WAS21R07C10/P_01_170217064853_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/raichu/170216_SIG-A_02_raichu_WAS21R07C10/P_01_170217064853_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 1.66235 -59.3999 1.66235 -59.3999 213.166 -99.619 213.166 -99.619
+/home/genia/rigdata/raichu/170216_SIG-A_02_raichu_WAS21R07C10/P_00_170217044119_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/raichu/170216_SIG-A_02_raichu_WAS21R07C10/P_00_170217044119_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 1.23999 -43.4187 1.23999 -43.4187 180.288 12.9702 180.288 12.9702
+/home/genia/rigdata/ratatta/170216_TAG_02_ratatta_WAE22R13C06/P_00_170216230719_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/ratatta/170216_TAG_02_ratatta_WAE22R13C06/P_00_170216230719_s16-master_ac-analysis_v11.22.1 15.6193 -107.668 15.6193 -107.668 158.086 0.71726 158.086 0.71726
+/home/genia/rigdata/sabrina/170216_TAG_02_sabrina_WAE22R09C02/P_00_170216230730_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sabrina/170216_TAG_02_sabrina_WAE22R09C02/P_00_170216230730_s16pre-master_ac-analysis_v11.22.1 18.8821 -109.927 18.8821 -109.927 169.186 -7.57671 169.186 -7.57671
+/home/genia/rigdata/scyther/170216_ACTG_01_scyther_WAS02R12C12/P_00_170216192100_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/scyther/170216_ACTG_01_scyther_WAS02R12C12/P_00_170216192100_ggc3-keeper_ac-analysis_v11.22.1 105.795 -138.883 105.795 -138.883 168.457 4.71372 168.457 4.71372
+/home/genia/rigdata/scyther/170216_ACTG_01_scyther_WAS02R12C12_b12/P_00_170216195513_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/scyther/170216_ACTG_01_scyther_WAS02R12C12_b12/P_00_170216195513_ggc3-keeper_ac-analysis_v11.22.1 -1.69618 -99.6104 -1.69618 -99.6104 138.765 9.7007 138.765 9.7007
+/home/genia/rigdata/scyther/170216_ACTG_01_scyther_WAS02R12C12_b34914/P_00_170216195524_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/scyther/170216_ACTG_01_scyther_WAS02R12C12_b34914/P_00_170216195524_ggc3-keeper_ac-analysis_v11.22.1 105.795 -138.883 105.795 -138.883 168.457 4.71372 168.457 4.71372
+/home/genia/rigdata/seadra/170216_SIG-A_02_seadra_WAE22R07C14/P_00_170217075105_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seadra/170216_SIG-A_02_seadra_WAE22R07C14/P_00_170217075105_s16pre-master_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 3.63126 -47.8576 3.63126 -47.8576 171.56 8.87451 171.56 8.87451
+/home/genia/rigdata/seadra/170216_SIG-A_01_seadra_WAT10R04C07/P_00_170216222147_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seadra/170216_SIG-A_01_seadra_WAT10R04C07/P_00_170216222147_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.48388 -25.8097 5.48388 -25.8097 183.535 13.2334 183.535 13.2334
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_00_170216212559_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_00_170216212559_s16-master_ac-analysis_v11.22.1 -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_02_170217014522_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_01_170217014421_ggc2-keeper_ac-analysis_v11.22.1.custom_param
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/seaking/170216_PEG-POL_01_seaking_WAE23R11C04/P_01_170217014421_ggc2-keeper_ac-analysis_v11.22.1.custom_param -0.694009 -40.2327 -0.694009 -40.2327 194.556 2.78325 194.556 2.78325
+/home/genia/rigdata/shellder/170216_SAM_01_shellder_WAU06R03C08/P_00_170216205809_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/shellder/170216_SAM_01_shellder_WAU06R03C08/P_00_170216205809_ggc3-keeper_ac-analysis_v11.22.1 4.28842 -22.179 4.28842 -22.179 184.38 16.1436 184.38 16.1436
+/home/genia/rigdata/slowking/170216_ENG-SYS_02_slowking_WAS02R03C14/P_00_170217001247_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/slowking/170216_ENG-SYS_02_slowking_WAS02R03C14/P_00_170217001247_ggc3-keeper_ac-analysis_v11.22.1 4.15013 -74.1786 4.15013 -74.1786 105.383 10.5014 105.383 10.5014
+/home/genia/rigdata/slowking/170216_ENG-SYS_04_slowking_WAE19R09C11/P_00_170217014107_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/slowking/170216_ENG-SYS_04_slowking_WAE19R09C11/P_00_170217014107_ggc3-keeper_ac-analysis_v11.22.1 -2.47259 -87.8414 -2.47259 -87.8414 106.355 4.38026 106.355 4.38026
+/home/genia/rigdata/slowking/170216_ENG-SYS_01_slowking_WAS02R07C13/P_00_170216181422_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/slowking/170216_ENG-SYS_01_slowking_WAS02R07C13/P_00_170216181422_s16-master_ac-analysis_v11.22.1 7.79368 -87.6639 7.79368 -87.6639 132.246 3.52803 132.246 3.52803
+/home/genia/rigdata/slowpoke/170216_ACTG_02_slowpoke_WAV08R10C14_b34914/P_00_170216195205_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/slowpoke/170216_ACTG_02_slowpoke_WAV08R10C14_b34914/P_00_170216195205_s16-master_ac-analysis_v11.22.1 38.102 -123.987 38.102 -123.987 123.738 -31.4121 123.738 -31.4121
+/home/genia/rigdata/slowpoke/170216_ACTG_02_slowpoke_WAV08R10C14_b12/P_00_170216195144_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/slowpoke/170216_ACTG_02_slowpoke_WAV08R10C14_b12/P_00_170216195144_s16pre-master_ac-analysis_v11.22.1 -8.98449 -100.856 -8.98449 -100.856 112.992 8.57335 112.992 8.57335
+/home/genia/rigdata/slowpoke/170216_ACTG_02_slowpoke_WAV08R10C14/P_00_170216191754_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/slowpoke/170216_ACTG_02_slowpoke_WAV08R10C14/P_00_170216191754_ggc3-keeper_ac-analysis_v11.22.1 38.102 -123.987 38.102 -123.987 123.738 -31.4121 123.738 -31.4121
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle04/P_00_170216201505_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle04/P_00_170216201505_ggc3-keeper_ac-analysis_v11.22.1 28.1823 -95.3292 28.1823 -95.3292 145.174 -24.1352 145.174 -24.1352
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle03/P_00_170216194503_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle03/P_00_170216194503_s16-master_ac-analysis_v11.22.1 6.16958 -107.012 6.16958 -107.012 145.005 -3.89756 145.005 -3.89756
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle01/P_00_170216215606_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle01/P_00_170216215606_ggc3-keeper_ac-analysis_v11.22.1 23.7984 -83.7255 23.7984 -83.7255 143.024 3.76947 143.024 3.76947
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle03/P_00_170216225600_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle03/P_00_170216225600_s16pre-master_ac-analysis_v11.22.1 19.6412 -99.015 19.6412 -99.015 145.473 0.994093 145.473 0.994093
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle01/P_01_170216194738_spore1-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle01/P_01_170216194738_spore1-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.668 -83.0216 11.668 -83.0216 132.728 6.85773 132.728 6.85773
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle01/P_00_170216184625_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle01/P_00_170216184625_ggc3-keeper_ac-analysis_v11.22.1 11.668 -83.0216 11.668 -83.0216 132.728 6.85773 132.728 6.85773
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle02/P_00_170216191816_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle02/P_00_170216191816_ggc3-keeper_ac-analysis_v11.22.1 18.9798 -87.6335 18.9798 -87.6335 157.64 3.76941 157.64 3.76941
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle05/P_00_170216204519_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_01_snubbull_WAS21R07C09_cycle05/P_00_170216204519_ggc3-keeper_ac-analysis_v11.22.1 33.0808 -93.7253 33.0808 -93.7253 158.26 -16.1034 158.26 -16.1034
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle04/P_00_170216232931_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle04/P_00_170216232931_ggc3-keeper_ac-analysis_v11.22.1 14.335 -68.5457 14.335 -68.5457 144.016 2.04293 144.016 2.04293
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle05/P_00_170217000114_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle05/P_00_170217000114_s16pre-master_ac-analysis_v11.22.1 13.4045 -72.3923 13.4045 -72.3923 143.199 -22.9712 143.199 -22.9712
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle02/P_00_170216222458_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/snubbull/170216_ENG-SYS_02_snubbull_WAS21R07C09_cycle02/P_00_170216222458_s16-master_ac-analysis_v11.22.1 19.3764 -93.607 19.3764 -93.607 146.795 3.94754 146.795 3.94754
+/home/genia/rigdata/spearow/170216_ENG-BIE_03_spearow_WAS22R10C13/P_00_170217020401_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spearow/170216_ENG-BIE_03_spearow_WAS22R10C13/P_00_170217020401_s16pre-master_ac-analysis_v11.22.1 8.75417 -108.633 8.75417 -108.633 157.691 -2.97584 157.691 -2.97584
+/home/genia/rigdata/spearow/170216_ENG-BIE_01_spearow_WAS22R10C13/P_00_170216195216_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spearow/170216_ENG-BIE_01_spearow_WAS22R10C13/P_00_170216195216_s16pre-master_ac-analysis_v11.22.1 2.95603 -99.9053 2.95603 -99.9053 146.005 0.625659 146.005 0.625659
+/home/genia/rigdata/spearow/170216_ENG-BIE_02_spearow_WAS22R10C13/P_00_170216224330_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spearow/170216_ENG-BIE_02_spearow_WAS22R10C13/P_00_170216224330_s16pre-master_ac-analysis_v11.22.1 32.4864 -101.331 32.4864 -101.331 160.972 0.165402 160.972 0.165402
+/home/genia/rigdata/spinarak/170216_SIG-A_01_spinarak_WAT10R03C12/P_01_170217031119_ggc2-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spinarak/170216_SIG-A_01_spinarak_WAT10R03C12/P_01_170217031119_ggc2-keeper_ac-analysis_v11.22.1 3.3605 -29.5477 3.3605 -29.5477 184.879 13.7847 184.879 13.7847
+/home/genia/rigdata/spinarak/170216_SIG-A_01_spinarak_WAT10R03C12/P_00_170216213812_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spinarak/170216_SIG-A_01_spinarak_WAT10R03C12/P_00_170216213812_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 3.3605 -29.5477 3.3605 -29.5477 184.879 13.7847 184.879 13.7847
+/home/genia/rigdata/spinarak/170216_SIG-A_02_spinarak_WAE22R11C05/P_01_170217064852_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spinarak/170216_SIG-A_02_spinarak_WAE22R11C05/P_01_170217064852_ggc2-keeper_ac-analysis_v11.23.0.dev.drop_pts_12_tag_order 4.46925 -65.0025 4.46925 -65.0025 215.105 -111.993 215.105 -111.993
+/home/genia/rigdata/spinarak/170216_SIG-A_02_spinarak_WAE22R11C05/P_00_170217044230_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/spinarak/170216_SIG-A_02_spinarak_WAE22R11C05/P_00_170217044230_ggc3-keeper_ac-analysis_v11.23.0.dev.drop_pts_10_tag_order 4.42846 -36.1943 4.42846 -36.1943 170.673 0.217167 170.673 0.217167
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle02/P_00_170217030850_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle02/P_00_170217030850_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 51.614 -83.2731 51.614 -83.2731 144.713 -10.7107 144.713 -10.7107
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle06/P_00_170217065649_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle06/P_00_170217065649_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 37.725 -76.6124 37.725 -76.6124 170.64 -17.4785 170.64 -17.4785
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle08/P_00_170217085610_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle08/P_00_170217085610_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 18.4583 -87.3801 18.4583 -87.3801 157.521 -1.08996 157.521 -1.08996
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle03/P_00_170217035916_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle03/P_00_170217035916_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 20.1223 -96.2805 20.1223 -96.2805 145.758 -13.1774 145.758 -13.1774
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle10/P_00_170217105028_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle10/P_00_170217105028_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 16.0999 -88.1053 16.0999 -88.1053 142.566 -23.5683 142.566 -23.5683
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle01/P_00_170217020926_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle01/P_00_170217020926_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 6.80268 -94.7373 6.80268 -94.7373 139.746 -1.70012 139.746 -1.70012
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle07/P_00_170217075527_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle07/P_00_170217075527_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 35.4417 -91.3412 35.4417 -91.3412 139.056 -0.126781 139.056 -0.126781
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle05/P_00_170217055722_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle05/P_00_170217055722_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 22.57 -91.3127 22.57 -91.3127 138.518 -0.137971 138.518 -0.137971
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle04/P_00_170217045733_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle04/P_00_170217045733_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 25.7133 -89.2629 25.7133 -89.2629 143.785 -3.46553 143.785 -3.46553
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle09/P_00_170217095304_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/sudowoodo/170216_ENG-SYS_02_sudowoodo_WAS22R03C08_cycle09/P_00_170217095304_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 21.555 -94.9088 21.555 -94.9088 148.75 -18.8768 148.75 -18.8768
+/home/genia/rigdata/tangela/170216_ENG-BIE_01_tangela_WAS22R12C09/P_00_170216195110_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/tangela/170216_ENG-BIE_01_tangela_WAS22R12C09/P_00_170216195110_ggc3-keeper_ac-analysis_v11.22.1 3.37775 -98.566 3.37775 -98.566 149.059 -0.0366096 149.059 -0.0366096
+/home/genia/rigdata/tangela/170216_ENG-BIE_03_tangela_WAS22R12C09/P_00_170217020441_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/tangela/170216_ENG-BIE_03_tangela_WAS22R12C09/P_00_170217020441_s16-master_ac-analysis_v11.22.1 8.16924 -104.156 8.16924 -104.156 155.48 -0.375536 155.48 -0.375536
+/home/genia/rigdata/tangela/170216_ENG-BIE_02_tangela_WAS22R12C09/P_00_170216224249_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/tangela/170216_ENG-BIE_02_tangela_WAS22R12C09/P_00_170216224249_s16-master_ac-analysis_v11.22.1 12.8361 -99.2749 12.8361 -99.2749 152.213 0.972399 152.213 0.972399
+/home/genia/rigdata/taoros/170216_SAM_01_taoros_WAE22R13C10/P_00_170216210205_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/taoros/170216_SAM_01_taoros_WAE22R13C10/P_00_170216210205_ggc3-keeper_ac-analysis_v11.22.1 3.12056 -25.1651 3.12056 -25.1651 183.095 6.78175 183.095 6.78175
+/home/genia/rigdata/tentacool/170216_PEG-POL_01_tentacool_WAE23R08C09/P_00_170216211523_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/tentacool/170216_PEG-POL_01_tentacool_WAE23R08C09/P_00_170216211523_ggc3-keeper_ac-analysis_v11.22.1 -7.29177 -45.6639 -7.29177 -45.6639 197.223 9.76712 197.223 9.76712
+/home/genia/rigdata/unown/170216_PEG-POL_01_unown_WAE22R09C13/P_00_170216212456_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/unown/170216_PEG-POL_01_unown_WAE22R09C13/P_00_170216212456_ggc3-keeper_ac-analysis_v11.22.1 8.42162 -31.2491 8.42162 -31.2491 188.015 3.49645 188.015 3.49645
+/home/genia/rigdata/venusaur/170216_SAM_01_venusaur_WAE22R07C07/P_00_170216205950_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/venusaur/170216_SAM_01_venusaur_WAE22R07C07/P_00_170216205950_ggc3-keeper_ac-analysis_v11.22.1 -0.184496 -30.6909 -0.184496 -30.6909 173.537 7.5739 173.537 7.5739
+/home/genia/rigdata/vespasian/170216_ACTG_01_vespasian_WAV08R04C08_b34914/P_00_170216195432_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/vespasian/170216_ACTG_01_vespasian_WAV08R04C08_b34914/P_00_170216195432_ggc3-keeper_ac-analysis_v11.22.1 142.794 -109.187 142.794 -109.187 199.321 -35.047 199.321 -35.047
+/home/genia/rigdata/vespasian/170216_ACTG_01_vespasian_WAV08R04C08/P_00_170216191701_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/vespasian/170216_ACTG_01_vespasian_WAV08R04C08/P_00_170216191701_s16-master_ac-analysis_v11.22.1 142.794 -109.187 142.794 -109.187 199.321 -35.047 199.321 -35.047
+/home/genia/rigdata/vespasian/170216_ACTG_01_vespasian_WAV08R04C08_b12/P_00_170216195420_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/vespasian/170216_ACTG_01_vespasian_WAV08R04C08_b12/P_00_170216195420_ggc3-keeper_ac-analysis_v11.22.1 -8.77638 -70.0646 -8.77638 -70.0646 79.3629 7.82664 79.3629 7.82664
+/home/genia/rigdata/vileplume/170216_ENG-BIE_02_vileplume_WAE19R06C03/P_00_170217020350_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/vileplume/170216_ENG-BIE_02_vileplume_WAE19R06C03/P_00_170217020350_s16-master_ac-analysis_v11.22.1 1.8412 -107.766 1.8412 -107.766 152.186 -3.55195 152.186 -3.55195
+/home/genia/rigdata/voltorb/170216_ENG-SYS_02_voltorb_WAS02R09C15/P_00_170216201354_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/voltorb/170216_ENG-SYS_02_voltorb_WAS02R09C15/P_00_170216201354_s16pre-master_ac-analysis_v11.22.1 30.1061 -98.9246 30.1061 -98.9246 121.71 3.39977 121.71 3.39977
+/home/genia/rigdata/voltorb/170216_ENG-SYS_01_voltorb_WAS02R09C15/P_00_170216190558_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/voltorb/170216_ENG-SYS_01_voltorb_WAS02R09C15/P_00_170216190558_ggc3-keeper_ac-analysis_v11.22.1 1.57029 -84.1248 1.57029 -84.1248 110.744 9.85274 110.744 9.85274
+/home/genia/rigdata/voltorb/170216_ENG-SYS_05_voltorb_WAS02R09C15/P_00_170217004701_s16pre-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/voltorb/170216_ENG-SYS_05_voltorb_WAS02R09C15/P_00_170217004701_s16pre-master_ac-analysis_v11.22.1 18.1173 -101.838 18.1173 -101.838 104.662 7.16607 104.662 7.16607
+/home/genia/rigdata/voltorb/170216_ENG-SYS_04_voltorb_WAS02R09C15/P_00_170216223139_s16-master_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/voltorb/170216_ENG-SYS_04_voltorb_WAS02R09C15/P_00_170216223139_s16-master_ac-analysis_v11.22.1 7.91043 -70.4855 7.91043 -70.4855 129.17 3.26567 129.17 3.26567
+/home/genia/rigdata/weepinbell/170216_SAM_01_weepinbell_WAE19R11C06/P_00_170216210142_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/weepinbell/170216_SAM_01_weepinbell_WAE19R11C06/P_00_170216210142_ggc3-keeper_ac-analysis_v11.22.1 2.09007 -18.3939 2.09007 -18.3939 175.831 13.1273 175.831 13.1273
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle02/P_00_170217030338_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle02/P_00_170217030338_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.99318 -96.2108 9.99318 -96.2108 146.081 1.36943 146.081 1.36943
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle01/P_00_170217020633_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle01/P_00_170217020633_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 24.9027 -86.6726 24.9027 -86.6726 150.833 -16.9923 150.833 -16.9923
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle10/P_00_170217111340_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle10/P_00_170217111340_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 16.2921 -100.782 16.2921 -100.782 141.069 -25.8154 141.069 -25.8154
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle06/P_00_170217070600_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle06/P_00_170217070600_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.8991 -91.4085 11.8991 -91.4085 142.936 -0.0976501 142.936 -0.0976501
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle09/P_00_170217101115_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle09/P_00_170217101115_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 7.57253 -93.3427 7.57253 -93.3427 140.155 1.48511 140.155 1.48511
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle03/P_00_170217040420_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle03/P_00_170217040420_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 2.25964 -96.0437 2.25964 -96.0437 139.966 2.37282 139.966 2.37282
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle08/P_00_170217090851_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle08/P_00_170217090851_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.3966 -88.1089 15.3966 -88.1089 140.283 2.14396 140.283 2.14396
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle04/P_00_170217050536_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle04/P_00_170217050536_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.9962 -111.332 14.9962 -111.332 141.001 -24.9416 141.001 -24.9416
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle05/P_00_170217060533_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle05/P_00_170217060533_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.8241 -91.7095 15.8241 -91.7095 137.609 1.94436 137.609 1.94436
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle07/P_00_170217080707_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wobbuffet/170216_ENG-SYS_01_wobbuffet_WAS22R13C14_cycle07/P_00_170217080707_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 3.99576 -77.5795 3.99576 -77.5795 140.119 2.96971 140.119 2.96971
+/home/genia/rigdata/wooper/170216_PEG-POL_01_wooper_WAE22R07C17/P_00_170216212100_ggc3-keeper_ac-analysis_v11.22.1
+anno_path neg_high_max neg_high_min neg_low_max neg_low_min pos_high_max pos_high_min pos_low_max pos_low_min
+/home/genia/rigdata/wooper/170216_PEG-POL_01_wooper_WAE22R07C17/P_00_170216212100_ggc3-keeper_ac-analysis_v11.22.1 6.9922 -34.977 6.9922 -34.977 192.436 8.59741 192.436 8.59741

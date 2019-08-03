@@ -1,0 +1,13 @@
+login essexer password on 10.148.178.49:2064;
+execute allocation process on database gl.basic with
+POV  "{(Acc19802).siblings}"
+amount "[Eur to Usd] / 1"
+amountcontext "([org00], [CC10000], [ANLT], [OUTT], [PUBT], [FRED], [Scenario], [Beginning Balance])"
+amounttimespan "Descendants([Year], 10, LEAVES)"
+TARGET "([ANLT], [OUTT], [PUBT], [FRED], [Allocations], [Eur to Usd])"
+targettimespan "Descendants([Year], 10, LEAVES)"
+
+DEBITMEMBER "[Beginning Balance Debit]"
+CREDITMEMBER "[Beginning Balance Credit]"
+RANGE "CrossJoin(Descendants([ORGT], [Organisation].Levels(0)), Descendants([CCT], [Cost Centre].Levels(0)))"
+BASIS "([ANLT], [OUTT], [PUBT], [fred], [Feb-05/06],[Beginning Balance], [Scenario], [EUR to usd])" share negativebasisoptions  missing_value;

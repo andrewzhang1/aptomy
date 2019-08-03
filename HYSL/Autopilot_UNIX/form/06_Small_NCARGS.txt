@@ -1,0 +1,17 @@
+$LOGNAME $AP_ALTEMAIL EnvNotify
+Autopilot Notification (NCARGS) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Small value for NCARGS parameter($_ncarg).
+
+  Machine         = $(hostname):$_PLATNAME
+  Login User      = $LOGNAME
+  Version:Build   = $VERSION:$BUILD
+  Test Script     = $TEST
+
+Autopilot is moving to PAUSE mode.
+
+This setting cause 'ls *.suc | wc -l' to 0 result
+by '0403-027 The parameter list is too long(6625591)' error.
+You need set it to at least 16 or greater
+using 'chdev -l sys0 -a ncargs=256' command.
+
+Please check http://docs.sun.com/app/docs/doc/820-3530/gfxzh?a=view site

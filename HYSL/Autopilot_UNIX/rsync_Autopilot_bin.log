@@ -1,0 +1,1616 @@
+building file list ... done
+bin/
+bin/.DS_Store
+bin/SxrAgent.jar
+bin/addtsk.sh
+bin/addtsk_all.sh
+bin/analyze.pl
+bin/ap_essinit.sh
+bin/apcleaner.sh
+bin/apcleanerd.sh
+bin/apctl.sh
+bin/apinc.sh
+bin/aplog.sh
+bin/apmail.sh
+bin/apmaild.sh
+bin/apmon.sh
+bin/apver.sh
+bin/autopilot.sh
+bin/autopilotbg.sh
+bin/autotest.bat
+bin/autotest.sh
+bin/backup.sh
+bin/bicopy.sh
+bin/biinst.sh
+bin/biloc.sh
+bin/biplat.sh
+bin/cdinst.sh
+bin/chg_hit_essver.sh
+bin/chgtsk.sh
+bin/chk_essinst.sh
+bin/chk_filesize.sh
+bin/chk_licmode.sh
+bin/chk_para.sh
+bin/chk_path.sh
+bin/chkcrr.pl
+bin/chkcrr.sh
+bin/chkenv.sh
+bin/chktsk.sh
+bin/ck.sh
+bin/ckbi.sh
+bin/ckbibin.sh
+bin/ckhitinst.sh
+bin/ckmount.sh
+bin/ckmytsk.sh
+bin/ckresults2.sh
+bin/clinst.sh
+bin/cmdgqinst.sh
+bin/cnvplat.sh
+bin/cptest.sh
+bin/crfilter
+bin/crr.sh
+bin/cssprov.sh
+bin/datestamp_2013_04_19.txt
+bin/dbd.sh
+bin/dbreq.sh
+bin/delaplogd.sh
+bin/delegate.sh
+bin/depends.sh
+bin/display_help.sh
+bin/dspcrr.sh
+bin/ext_bi.sh
+bin/ext_reftar.sh
+bin/extpath.sh
+bin/filesize.pl
+bin/fixpath.sh
+bin/get_applogs.sh
+bin/get_apslatest.sh
+bin/get_elapsetime.sh
+bin/get_ess_ver.sh
+bin/get_free.sh
+bin/get_freemem.sh
+bin/get_gtlftu.sh
+bin/get_hitblds.sh
+bin/get_hitlatest.sh
+bin/get_instkind.sh
+bin/get_latest.sh
+bin/get_opackbase.sh
+bin/get_osrev.sh
+bin/get_platform.sh
+bin/get_resloc.sh
+bin/get_snapshot_ts.sh
+bin/get_timeout.sh
+bin/gtar_aix
+bin/gtar_hpx32
+bin/gtar_lnx
+bin/gtar_lnx64
+bin/gtar_sparc
+bin/gtlf.sh
+bin/hitcleanup.sh
+bin/hitcmptest.sh
+bin/hitinst.sh
+bin/hitunzip.sh
+bin/hyslinst.sh
+bin/instlock.sh
+bin/instunlock.sh
+bin/keep_lock.sh
+bin/keepnth.sh
+bin/kill_essprocess.sh
+bin/kill_essprocs.sh
+bin/kill_regress.sh
+bin/liblist.sh
+bin/linux_ver.sh
+bin/lock.sh
+bin/lock_kill.sh
+bin/lock_ping.sh
+bin/lockdef.sh
+bin/logto.sh
+bin/lscrrtsk.sh
+bin/lssize.sh
+bin/lstsk.pl
+bin/lstsk.sh
+bin/lsver.sh
+bin/make_env.sh
+bin/memmon.sh
+bin/memusage.exe
+bin/menu.sh
+bin/mk_basefile.sh
+bin/mk_difrec.sh
+bin/mk_filesize.sh
+bin/mk_gtlf.sh
+bin/mkddir.sh
+bin/monitor.sh
+bin/normbld.sh
+bin/opackcmd.sh
+bin/opackinst.sh
+bin/parse_one_task.sh
+bin/prtenv.sh
+bin/pstree.pl
+bin/pstree.sh
+bin/psu
+bin/psusage.exe
+bin/pswin.exe
+bin/realplat.sh
+bin/recover_crrtsk.sh
+bin/regmon.sh
+bin/rendir.sh
+bin/rerun.sh
+bin/resdmp.sh
+bin/reset_all.sh
+bin/reset_task.sh
+bin/resetque.sh
+bin/rmfld.sh
+bin/rmtsk.sh
+bin/scripttest.sh
+bin/se.sh
+bin/send_email.sh
+bin/send_result.sh
+bin/setchk_env.sh
+bin/settestenv.sh
+bin/simpmail.sh
+bin/sizediff.pl
+bin/srch_basehit.sh
+bin/srch_bi.sh
+bin/srch_hit.sh
+bin/ssconf.sh
+bin/start_regress.sh
+bin/start_service.sh
+bin/start_sxragent.sh
+bin/stop_service.sh
+bin/sv_crragt.sh
+bin/sv_crrapp.sh
+bin/sv_get_timeout.sh
+bin/sv_hang_test.sh
+bin/svcmd.sh
+bin/svconnect.sh
+bin/svd.sh
+bin/svrelease.sh
+bin/sxragent.sh
+bin/sxragentC.sh
+bin/sysinfo.sh
+bin/task_parser.sh
+bin/this version.txt
+bin/timediff.sh
+bin/timespent.sh
+bin/unlock.sh
+bin/unzip_aix
+bin/unzip_hpx32
+bin/unzip_lnx
+bin/unzip_sparc
+bin/ver_cmdgq.sh
+bin/ver_cmstrct.sh
+bin/ver_codename.sh
+bin/ver_essinit.sh
+bin/ver_hitloc.sh
+bin/ver_hitplat.sh
+bin/ver_hitver.sh
+bin/ver_installer.sh
+bin/ver_mkbase.sh
+bin/ver_setenv.sh
+bin/ver_vernum.sh
+bin/win_cleanup.sh
+bin/win_kill_relproc.sh
+bin/xmlgen.pl
+bin/depends_ia64/
+bin/depends_x64/
+bin/depends_x86/
+bin/unzip_Eric_hpux/
+bin/unzip_hp64/
+bin/unzip_hp64/ascore_version.xml
+bin/unzip_hp64/zipinfo_OHS-11123-hpitanium.properties
+bin/unzip_hp64/assemblies/
+bin/unzip_hp64/assemblies/ohs/
+bin/unzip_hp64/assemblies/ohs/11.1.2.0/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/assemblies/ohs/11.1.2.0/assembly.dat": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Labels.txt": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/runInstaller": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/doc.css": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/index.htm": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/
+bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/css/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/css/blafdoc.css": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/gifs/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/gifs/doclib.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/gifs/oracle.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/gifs/prodicon.gif": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/html/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/html/cpyr.htm": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/dcommon/html/feedback.htm": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/images/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/Thumbs.db": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/banner-spacer.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/brdcrmb-bg.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/cntc-bttn.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/cntc.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/ctnt-hdr.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/ctnt-r-corner.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/fmw_logo.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/nav_bg.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/nil.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/images/ttle-banner.gif": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help.bi/
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help.bi/biesg/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help.bi/biesg/biesg_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/aiaag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/aiaag/aiaag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/asadm/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/asadm/asadm_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/asper/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/asper/asper_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/astda/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/astda/astda_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/csmsp/
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/hsadm/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/hsadm/hsadm_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/isvag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/isvag/isvag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/jisec/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/jisec/jisec_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/oidag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/oidag/oidag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/oimig/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/oimig/oimig_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/ovdag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/ovdag/ovdag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/owcag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/owcag/owcag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/sfsag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/sfsag/sfsag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/soaag/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/soaag/soaag_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wcadm/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wcadm/wcadm_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wccsa/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wccsa/wccsa_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wls_help_toc/
+bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wssec/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/doc/online_help/wssec/wssec_help.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/
+bin/unzip_hp64/ohs_patchset/Disk1/install/aix/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/aix/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpia64/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/hpunix/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/intelsolaris/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/linux/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linux64/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/linuxS390/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/runInstaller": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/unzip": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/solaris/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/win32/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/setup.exe": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/unzip.exe": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win32/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/win64/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/oraparam.ini": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/setup.exe": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/unzip.exe": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_de.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_es.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_fr.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_it.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_ja.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_ko.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_pt_BR.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_zh_CN.nls": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/install/win64/resource/cons_zh_TW.nls": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/plugins/
+bin/unzip_hp64/ohs_patchset/Disk1/plugins/sjsws/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/plugins/sjsws/oracle_proxy.so": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/OuiConfigVariables.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/config.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/disk.label": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/install1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/invDetails.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/libs.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/oracle.as.common.top.11_1_1_2_0.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/oracle.as.webtiercd.top.11_1_1_7_0.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/productlanguages.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/products.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/shiphomeproperties.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/SpawnActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/SpawnActions/10.1.0.3.4/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/SpawnActions/10.1.0.3.4/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/SpawnActions/10.1.0.3.4/1/spawnActions.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/clusterActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/clusterActions/10.1.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/clusterActions/10.1.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/clusterActions/10.1.0.2.0/1/clusterActionLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/dbActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/dbActions/10.1.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/dbActions/10.1.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/dbActions/10.1.0.2.0/1/dbActions.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/fileActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/fileActions/10.2.0.6.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/fileActions/10.2.0.6.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/fileActions/10.2.0.6.0/1/fileActionLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/generalActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/generalActions/10.2.0.9.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/generalActions/10.2.0.9.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/generalActions/10.2.0.9.0/1/generalActions.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/jarActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/jarActions/10.2.0.0.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/jarActions/10.2.0.0.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/jarActions/10.2.0.0.0/1/jarActionLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/launchPadActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/launchPadActions/10.1.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/launchPadActions/10.1.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/launchPadActions/10.1.0.2.0/1/launchpadaction.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntServicesActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntServicesActions/10.2.0.6.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntServicesActions/10.2.0.6.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntServicesActions/10.2.0.6.0/1/ntServicesActions.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntw32FoldersActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntw32FoldersActions/10.2.0.3.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntw32FoldersActions/10.2.0.3.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/ntw32FoldersActions/10.2.0.3.0/1/WindowsFolders.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/oradim/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/oradim/10.1.0.3.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/oradim/10.1.0.3.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/oradim/10.1.0.3.0/1/oradim.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/rgsActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/rgsActions/10.1.0.3.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/rgsActions/10.1.0.3.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/rgsActions/10.1.0.3.0/1/rgsActions.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/unixActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/unixActions/10.2.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/unixActions/10.2.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/unixActions/10.2.0.2.0/1/unixActions.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32OcxRegActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32OcxRegActions/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32OcxRegActions/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32OcxRegActions/10.2.0.1.0/1/w32OcxLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32RegActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32RegActions/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32RegActions/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/w32RegActions/10.2.0.1.0/1/w32RegActionLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/wingeneralActions/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/wingeneralActions/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/wingeneralActions/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Actions/wingeneralActions/10.2.0.1.0/1/wingeneralActionLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ComponentList/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ComponentList/oracle.as.common.top_Custom.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ComponentList/oracle.as.webtiercd.top_Custom.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.chgip/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.chgip/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.chgip/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.clone.ohs/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.clone.ohs/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.clone.ohs/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.clone/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.clone/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.clone/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.clone/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.clone/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.clone/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.clone/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.clone/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.clone/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.top/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.top/11.1.1.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.common.top/11.1.1.2.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.doc/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.doc/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.doc/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.jrf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.jrf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.jrf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.common/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.common/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.common/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.common/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.common/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.common/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.mrua.all/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.mrua.all/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade.mrua.all/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.upgrade/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.webtiercd.top/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.webtiercd.top/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.as.webtiercd.top/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.assistants.acf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.assistants.acf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.assistants.acf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.assistants.oemlt/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.assistants.oemlt/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.assistants.oemlt/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.cabo/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.cabo/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.cabo/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.displayFonts/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.displayFonts/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.displayFonts/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.displayFonts/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.displayFonts/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.ewt/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.ewt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.ewt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.help/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.help/4.2.9.0.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.help/4.2.9.0.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.ice/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.ice/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.ice/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.jewt/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.jewt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.jewt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.share/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.share/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.share/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.share/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bali.share/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bpm.mgmt/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bpm.mgmt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bpm.mgmt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bpm.mgmt/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.bpm.mgmt/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.buildtools.common/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.buildtools.common/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.buildtools.common/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.buildtools.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.buildtools.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.buildtools.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.calypso/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.calypso/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.calypso/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dbjava.ic/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dbjava.ic/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dbjava.ic/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dbjava.jdbc/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dmsc/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dmsc/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.dmsc/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig.common/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig.common/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig.common/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig.common/11.1.1.6.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig.common/11.1.1.6.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig.common/11.1.1.6.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.fmwconfig/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.hapowertools/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.hapowertools/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.hapowertools/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.hapowertools/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.hapowertools/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.has.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.has.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.has.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohj/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohj/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohj/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.rcf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.rcf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.rcf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.share/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.share/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.share/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.uix/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.uix/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.ohw.uix/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.share/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.share/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.share/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.share/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.help.share/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.iappserver.security.iau.c_api/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.iappserver.security.iau.c_api/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.iappserver.security.iau.c_api/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.idm.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.idm.rsf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.idm.rsf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jakarta/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jakarta/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jakarta/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jakarta/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jakarta/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jdk/1.6.0.16.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jgroups/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jgroups/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jgroups/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jgroups/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jgroups/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.adfrt/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.adfrt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.adfrt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.applcore/11.1.1.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.appstrace/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.appstrace/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.appstrace/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.appstrace/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.appstrace/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.appstrace/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.as.config/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.as.config/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.as.config/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.askernel/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.askernel/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.askernel/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.askernel/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.askernel/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.datadirect/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.datadirect/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.datadirect/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.datadirect/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.datadirect/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.datadirect/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dfwhealth/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dfwhealth/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dfwhealth/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dfwhealth/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dfwhealth/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dfwhealth/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dms/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dms/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.iau/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.iau/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.iau/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.iau/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.iau/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.iau/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.j2ee/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.j2ee/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.j2ee/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.javacache/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.javacache/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.javacache/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.opss/11.1.1.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.owsm/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.owsm/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.owsm/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.thirdparty.jee/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.thirdparty.jee/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.thirdparty.jee/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.thirdparty.toplink/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.thirdparty.toplink/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.thirdparty.toplink/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.toplink/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.toplink/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jrf.toplink/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jsch/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jsch/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jsch/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jsch/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jsch/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jython/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jython/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.jython/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.owm/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.owm/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.owm/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.rsf.ic/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.rsf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.rsf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.ssl/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.ssl/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ldap.ssl/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.modplsql/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.modplsql/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.modplsql/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.mysqlconn/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.mysqlconn/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.mysqlconn/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.mysqlconn/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.mysqlconn/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.network.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.network.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.network.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.network.ssl/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.network.ssl/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.network.ssl/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf.ic/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf.ic/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf.ic/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf.lbuilder/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nonj2eemanagement/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nonj2eemanagement/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.nonj2eemanagement/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ohs2/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ohs2/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.ohs2/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.oneoffpatches/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.oneoffpatches/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.oneoffpatches/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.opmn/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.opmn/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.opmn/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.oracore.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.oracore.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint.expat/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint.expat/2.0.1.0.1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint.expat/2.0.1.0.1/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint.modules/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint.modules/5.10.0.0.1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint.modules/5.10.0.0.1/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint/5.10.0.0.2/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.perlint/5.10.0.0.2/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.precomp.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.precomp.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rcu.mds/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rcu.mds/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rcu.mds/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rcu.mds/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rcu.mds/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rda/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rda/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rda/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rdbms.rsf.ic/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rdbms.rsf.ic/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rdbms.rsf.ic/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rdbms.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rdbms.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rdbms.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rsf.hybrid/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.slax.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.slax.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.soa.mgmt/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.soa.mgmt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.soa.mgmt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.soa.mgmt/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.soa.mgmt/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sqlplus.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sqlplus.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sqlplus.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup10.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup11.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup12.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup6.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup7.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup8.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.opatch/11.1.0.9.9/1/DataFiles/filegroup9.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/Expanded/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/Expanded/oui/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/Expanded/oui/jlib/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui.core/11.1.0.9.0/1/DataFiles/Expanded/oui/jlib/emocmutl.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/instImages/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/instImages/10gOneClickbusybar.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/instImages/bg.jpg": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/instImages/images.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/instImages/oneclickbg.gif": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.swd.oui/11.1.0.9.0/1/DataFiles/Expanded/oui/instImages/splashScr.gif": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.ccr/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.ccr/10.3.7.0.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.ccr/10.3.7.0.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common.core/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common.core/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common.core/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common.core/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common.core/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common.core/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup10.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup11.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup6.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup7.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup8.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.common/10.2.0.5.6/1/DataFiles/filegroup9.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.db.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.db.rsf/10.2.0.4.1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.db.rsf/10.2.0.4.1/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uias/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uias/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uias/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uias/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uias/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uicommon/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uicommon/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uicommon/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uicommon/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core.uicommon/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.oms.core/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.agent/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.agent/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.agent/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.agent/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.agent/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.oms/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.oms/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.oms/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.wls/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.wls/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.wls/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.wls/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.main.wls/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.soadep/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.soadep/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.soadep/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.soadep/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.ai.soadep/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.common/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.common/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.common/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.common/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.common/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uias/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uias/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uias/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uias/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uias/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uicommon/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uicommon/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uicommon/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.oms.uicommon/11.1.1.7.0/1/DataFiles/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.wls/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.wls/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.wls/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.wls/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.plugin.as.main.wls/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.rcu/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.rcu/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.rcu/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.rcu/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.rcu/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.sysman.rcu/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.pageeditor/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.pageeditor/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.pageeditor/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.pageeditor/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.pageeditor/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.portlet.minimal/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.portlet.minimal/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.portlet.minimal/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.portlet.minimal/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.portlet.minimal/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.skin/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.skin/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.skin/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.skin/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.webcenter.skin/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.wlsplugins/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.wlsplugins/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.wlsplugins/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.parser.java/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.parser.java/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.parser.java/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.rsf/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.xquery/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.xquery/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk.xquery/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Components/oracle.xdk/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Dialogs/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Dialogs/standardDialogs/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Dialogs/standardDialogs/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Dialogs/standardDialogs/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Dialogs/standardDialogs/10.2.0.1.0/1/standardDialogs.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NLSQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NLSQueries/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NLSQueries/11.1.0.7.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NLSQueries/11.1.0.7.0/1/NLSQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NtServicesQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NtServicesQueries/10.2.0.3.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NtServicesQueries/10.2.0.3.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/NtServicesQueries/10.2.0.3.0/1/NtServiceQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RepositoryQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RepositoryQueries/3.0.0.2.23/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RepositoryQueries/3.0.0.2.23/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RepositoryQueries/3.0.0.2.23/1/Queries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RunningProcessQuery/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RunningProcessQuery/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RunningProcessQuery/11.1.0.7.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/RunningProcessQuery/11.1.0.7.0/1/RunningProcessesQuery.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/WindowsGeneralQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/WindowsGeneralQueries/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/WindowsGeneralQueries/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/WindowsGeneralQueries/10.2.0.1.0/1/WindowsGeneralQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/areasQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/areasQueries/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/areasQueries/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/areasQueries/10.2.0.1.0/1/areasQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/ccrQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/ccrQueries/10.3.0.0.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/ccrQueries/10.3.0.0.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/ccrQueries/10.3.0.0.0/1/ccrQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/clusterQueriesEx/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/clusterQueriesEx/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/clusterQueriesEx/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/clusterQueriesEx/10.2.0.1.0/1/clusterQuery.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/dbQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/dbQueries/10.1.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/dbQueries/10.1.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/dbQueries/10.1.0.2.0/1/dbQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/fileQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/fileQueries/10.1.0.3.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/fileQueries/10.1.0.3.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/fileQueries/10.1.0.3.0/1/fileQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/generalQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/generalQueries/10.2.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/generalQueries/10.2.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/generalQueries/10.2.0.2.0/1/generalQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/globalVarQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/globalVarQueries/2.1.0.4.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/globalVarQueries/2.1.0.4.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/globalVarQueries/2.1.0.4.0/1/globalVarQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/netQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/netQueries/10.2.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/netQueries/10.2.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/netQueries/10.2.0.2.0/1/netQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/rgsQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/rgsQueries/10.1.0.3.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/rgsQueries/10.1.0.3.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/rgsQueries/10.1.0.3.0/1/rgsQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/unixQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/unixQueries/10.1.0.2.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/unixQueries/10.1.0.2.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/unixQueries/10.1.0.2.0/1/unixQueries.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/w32RegQueries/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/w32RegQueries/10.2.0.1.0/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/w32RegQueries/10.2.0.1.0/1/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Queries/w32RegQueries/10.2.0.1.0/1/w32RegQueryLib.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/WebTierConfigureOnly.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/WebTierInstallAndConfigure.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/WebTierSoftwareOnly.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/createCentralInventory.sh": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/deinstall_managed_instance.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/deinstall_oh.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/deinstall_unmanaged_instance.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/oracle.as.common.top.Custom.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/oracle.as.webtiercd.top.Custom.rsp": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/Response/staticports.ini": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/ccrQueries.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/commonutils.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/dms.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/engine.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/enginehelp.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/footprint.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/glassfish.jaxb.xjc_1.0.0.0_2-1-12.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/glassfish.jaxb_1.0.0.0_2-1-12.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/install.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/log-config.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/message.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/ojdbc5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/ojdl-log4j.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/ojdl.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/ojdl2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/oneclick.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/oneofftool.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/osdt_core.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/template.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/webtiercd.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/wtinstallhelp.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/xml.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/xmlparserv2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/deinstall/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/deinstall/deinstall.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/dbHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/fileHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/genericHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/homeHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/identitystore.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/identityutils.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/nonj2eembeans.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/ocmHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/txtHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/weblogicHandlers.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/wlclient.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/handlers/wljmxclient.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/patches/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/patches/wlspatch/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/patches/wlspatch/com.bea.cie.paf-client_6.8.0.0.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/ext/jlib/patches/wlspatch/patch.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/globalvariables/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/globalvariables/globalvar.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/globalvariables/variable.properties": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/prereqVersion.properties": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/refhost_Core.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/aix/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/generic_jars/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/generic_jars/compChecks.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/refhost_Core.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpia64/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/refhost_Core.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/hpunix/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/intelsolaris/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/intelsolaris/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/intelsolaris/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/intelsolaris/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/intelsolaris/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/intelsolaris/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/LinuxVendors.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/refhost_Core.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/LinuxVendors.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/refhost_Core.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linux64/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/LinuxVendors.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/linuxS390/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/oui/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/oui/OraPrereqChecks.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/oui/agent_prereq_context.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/oui/memcheck.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/refhost_Core.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/solaris/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/bin/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/bin/win32/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/bin/win32/DHCPPrereq.dll": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win/bin/win32/sidqueries.dll": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/hit_refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/hit_sys_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/ias_prereq.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/knowledgesrc.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/prerequisite.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/refhost.xml": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/rulemap.xml": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/bin/
+bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/bin/win32/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/bin/win32/DHCPPrereq.dll": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/prereq/win64/bin/win32/sidqueries.dll": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk1/stage/sizes/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/sizes/oracle.as.common.top11.1.1.2.0Custom.sizes.properties": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk1/stage/sizes/oracle.as.webtiercd.top11.1.1.7.0Custom.sizes.properties": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/disk.label": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.chgip/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.chgip/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.chgip/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.chgip/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.chgip/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.chgip/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone.ohs/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone.ohs/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone.ohs/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone.ohs/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone.ohs/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.clone/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.doc/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.doc/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.doc/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.doc/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.as.doc/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.assistants.oemlt/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.assistants.oemlt/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.assistants.oemlt/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.assistants.oemlt/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.assistants.oemlt/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.bali.cabo/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.bali.cabo/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.bali.cabo/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.bali.cabo/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.bali.cabo/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.buildtools.common/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.buildtools.common/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.buildtools.common/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.buildtools.common/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.buildtools.common/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.fmwconfig/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.fmwconfig/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.fmwconfig/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.fmwconfig/11.1.1.6.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.fmwconfig/11.1.1.6.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.fmwconfig/11.1.1.6.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohj/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohj/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohj/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohj/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohj/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.rcf/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.rcf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.rcf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.rcf/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.rcf/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.share/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.share/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.share/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.share/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.share/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.uix/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.uix/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.uix/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.uix/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.help.ohw.uix/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.idm.rsf/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.idm.rsf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.idm.rsf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.idm.rsf/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.idm.rsf/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.adfrt/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.adfrt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.adfrt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.adfrt/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.adfrt/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup10.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup11.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup12.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup13.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup6.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup7.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup8.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.dms/11.1.1.7.0/1/DataFiles/filegroup9.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.j2ee/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.j2ee/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.j2ee/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.j2ee/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.j2ee/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.javacache/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.javacache/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.javacache/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.javacache/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.javacache/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.javacache/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.owsm/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.owsm/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.owsm/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.owsm/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.owsm/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.jee/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.jee/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.jee/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.jee/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.jee/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.toplink/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.toplink/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.toplink/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.toplink/11.1.1.6.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.thirdparty.toplink/11.1.1.6.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.toplink/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.toplink/11.1.1.6.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.toplink/11.1.1.6.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.toplink/11.1.1.6.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jrf.toplink/11.1.1.6.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jython/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jython/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jython/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jython/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.jython/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.rsf.ic/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.rsf.ic/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.ssl/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.ssl/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.ssl/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.ssl/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.ldap.ssl/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.modplsql/11.1.1.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.nlsrtl.rsf.ic/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.nlsrtl.rsf.ic/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.nlsrtl.rsf.ic/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.nlsrtl.rsf.ic/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.nlsrtl.rsf.ic/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.oneoffpatches/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.oneoffpatches/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.oneoffpatches/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.oneoffpatches/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.oneoffpatches/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.oneoffpatches/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.perlint.expat/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.perlint.expat/2.0.1.0.1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.perlint.expat/2.0.1.0.1/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.perlint.expat/2.0.1.0.1/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.perlint.expat/2.0.1.0.1/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.perlint.expat/2.0.1.0.1/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.rda/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.rda/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.rda/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.rda/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.rda/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.rda/11.1.1.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.sysman.plugin.ai.main.oms/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.sysman.plugin.ai.main.oms/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.sysman.plugin.ai.main.oms/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.sysman.plugin.ai.main.oms/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.sysman.plugin.ai.main.oms/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.xdk.xquery/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.xdk.xquery/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.xdk.xquery/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.xdk.xquery/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk2/stage/Components/oracle.xdk.xquery/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/disk.label": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.jrf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.jrf/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.jrf/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.jrf/11.1.1.7.0/1/DataFiles/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.upgrade.mrua.all/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.upgrade.mrua.all/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.upgrade.mrua.all/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.upgrade.mrua.all/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.as.upgrade.mrua.all/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ewt/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ewt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ewt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ewt/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ewt/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.help/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.help/4.2.9.0.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.help/4.2.9.0.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.help/4.2.9.0.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.help/4.2.9.0.0/1/DataFiles/ohj.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ice/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ice/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ice/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ice/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.ice/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.jewt/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.jewt/11.1.1.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.jewt/11.1.1.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.jewt/11.1.1.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.bali.jewt/11.1.1.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.buildtools.rsf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.buildtools.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.buildtools.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.buildtools.rsf/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.buildtools.rsf/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.ic/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/Expanded/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/Expanded/filegroup2/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/Expanded/filegroup2/Readme.txt": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/Expanded/filegroup3/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.dbjava.jdbc/11.1.0.7.0/1/DataFiles/Expanded/filegroup3/Readme.txt": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup6.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.has.rsf/11.1.0.7.0/1/DataFiles/filegroup7.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf.lbuilder/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup6.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.nlsrtl.rsf/11.1.0.7.0/1/DataFiles/filegroup7.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.10.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.11.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.12.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.13.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.14.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.15.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.16.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.17.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.18.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.19.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.2.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.20.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.21.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.22.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.23.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.24.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.25.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.26.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.27.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.28.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.3.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.4.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.5.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.6.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.7.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.8.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.9.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.oracore.rsf/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint.modules/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint.modules/5.10.0.0.1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint.modules/5.10.0.0.1/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint.modules/5.10.0.0.1/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint.modules/5.10.0.0.1/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint.modules/5.10.0.0.1/1/DataFiles/filegroup2.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.perlint/5.10.0.0.2/1/DataFiles/filegroup5.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.1.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.10.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.11.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.12.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.13.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.14.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.15.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.16.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.17.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.18.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.19.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.2.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.20.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.21.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.22.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.23.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.24.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.25.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.27.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.28.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.3.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.4.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.5.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.6.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.7.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.8.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.9.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.precomp.rsf/11.1.0.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup10.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup11.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup12.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup13.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup14.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup15.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup16.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup17.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup18.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup19.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup2.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup20.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup21.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup22.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup23.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup24.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup25.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup26.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup27.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup28.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup29.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup3.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup30.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup31.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup32.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup33.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup34.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup35.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup36.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup37.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup38.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup4.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup5.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup6.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup7.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup8.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.rsf.hybrid/11.1.0.7.0/1/DataFiles/filegroup9.jar": Permission denied (13)
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/
+bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/DataFiles/
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/DataFiles/filegroup1.1.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/DataFiles/filegroup1.10.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/DataFiles/filegroup1.11.1.jar": Permission denied (13)
+rsync: send_files failed to open "/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin/unzip_hp64/ohs_patchset/Disk3/stage/Components/oracle.slax.rsf/11.1.0.7.0/1/DataFiles/filegroup1.12.1.jar": Permission denied (13)

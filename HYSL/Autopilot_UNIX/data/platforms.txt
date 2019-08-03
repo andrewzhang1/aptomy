@@ -1,0 +1,17 @@
+# <ap plat>:<bi plat>:<gtlf plat>:
+win32:NT:WINDOWS
+win64:#NA:#NA
+winamd64:WINDOWS.X64:WINDOWS.X64
+aix:#NA:AIX
+aix64:AIX.PPC64:AIX64
+solaris:#NA:SolarisSparc
+solaris64:SOLARIS.SPARC64:SolarisSparc64
+#NA:#NA:SolarisX86
+solaris.x64:SOLARIS.X64:SolarisX86_64
+linux:LINUX:LINUX
+linux64:#NA:#NA
+linuxamd64:LINUX.X64:LINUX.X64
+hpux:#NA:HPUX
+hpux64:HPUX.IA64:HPUX64
+
+

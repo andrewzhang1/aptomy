@@ -1,0 +1,15 @@
+capitest.sh
+agtp70main.sh
+agtpcwmain.sh
+maxlmain.sh
+agtpjvmain.sh
+agtpjymain.sh
+agtpbkmain.sh
+agtpbarmain.sh
+agtpjlmain.sh parallel buffer
+agtpjlmain.sh parallel direct
+agtpjlmain.sh serial direct
+agtpori1.sh
+agtpori2.sh
+agtpjlmain.sh
+agtpukmain.sh

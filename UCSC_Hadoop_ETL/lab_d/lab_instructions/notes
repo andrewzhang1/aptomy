@@ -1,0 +1,128 @@
+Phase A
+=======
+
+Initialization of HDFS and Hive
+
+Step 1 – Create the staging location for
+
+hdfs dfs -mkdir -p /data/raw/nasa_daily
+
+
+Step 2 – Create managed hive table called ‘nasa_daily’.
+
+This table is partitioned by day and is supposed to have fields
+  ip_address STRING, request_time STRING, page_url STRING
+  error_code INT, page_size INT
+
+
+CREATE TABLE nasa_daily (
+  ip_address STRING,
+  request_time STRING,
+  page_url  STRING COMMENT "the page",
+  http_code  STRING,
+  page_size INT
+) 
+PARTITIONED BY(dt_date STRING);
+
+
+
+Step 3. Define the external table.
+
+CREATE EXTERNAL TABLE nasa_raw_1 (
+   IP_ADDRESS STRING,
+   DUMMY_1 STRING, DUMMY_2 STRING,
+   RAW_DATE STRING,  RAW_TIMEZONE STRING, DUMMY_3 STRING,
+   HTML_PAGE STRING,
+   HTTP_VERSION STRING, HTTP_ERROR_CODE STRING,
+   SIZE INT)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY " "
+LOCATION "/data/test";
+
+A better solution:
+
+CREATE EXTERNAL TABLE nasa_raw_2 (
+  FLD_1 STRING,   
+  GET_URL STRING,  
+  FLD_2 STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY "\""
+LOCATION "/data/test";
+
+
+Step 4. Create a select to extract the fields we care.
+
+
+SELECT 
+  regexp_extract(FLD_1, '(.*?) (.*?)', 1) as ip_address,
+  regexp_extract(FLD_1, '(.*?)\\[(.*?) ', 2) as request_time,
+  regexp_extract(GET_URL, 'GET (.*?) (.*?)', 1) as page_url,
+  regexp_extract(FLD_2, '([0-9].*) ([0-9].*)', 1) as error_code,
+  regexp_extract(FLD_2, '([0-9].*) ([0-9].*)', 2) as page_size
+FROM nasa_raw_2
+LIMIT 20;
+
+
+Step 5. Create a INSERT OVERWRITE statement using the select.
+
+INSERT OVERWRITE TABLE nasa_daily 
+PARTITION(dt_date = "1995-07-01") 
+SELECT 
+  regexp_extract(FLD_1, '(.*?) (.*?)', 1) as ip_address,
+  regexp_extract(FLD_1, '(.*?)\\[(.*?) ', 2) as request_time,
+  regexp_extract(GET_URL, 'GET (.*?) (.*?)', 1) as page_url,
+  regexp_extract(FLD_2, '([0-9].*) ([0-9].*)', 1) as error_code,
+  regexp_extract(FLD_2, '([0-9].*) ([0-9].*)', 2) as page_size
+FROM nasa_raw_2;
+
+Use to debug:
+
+SELECT 
+  regexp_extract(GET_URL, 'GET (.*?) (.*?)', 1) as page_url
+FROM nasa_raw_2
+LIMIT 20;
+
+
+Now review the ETL implementation included in the file job_nasa.py
+
+
+PHASE B
+=======
+
+Your Turn!
+
+Step 1. Create report with the counts per day.
+
+
+Step 2. Create report with the counts per day type.
+
+
+Step 3. Create a report with the average size per day type
+
+
+
+Now complete the coding for the ETL implementation in the file job_reports.py
+
+
+
+
+---------------------------------------------------------------
+
+
+PHASE 3
+=======
+
+A solution from PHASE 2.
+
+Step 1. Create report with the counts per day.
+
+SELECT 
+  dt_date, count(*) 
+FROM nasa_daily 
+GROUP BY dt_date
+ORDER BY dt_date;
+
+
+
+
+ 

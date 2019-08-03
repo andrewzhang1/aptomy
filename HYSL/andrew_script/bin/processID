@@ -1,0 +1,5 @@
+ regraz1  6180  6177  0 19:32:09 pts/ta    0:00 grep -i esscmd
+ regraz1  6182  6177  1 19:32:09 pts/ta    0:00 grep -i ESSSVR
+ regraz1 21193   283  0 09:09:53 ?         1:23 /vol1/regraz1/bin/ESSSVR Smlrk MKJJQKIJDCBCF?GN9;@=NH6<JD5D CRE
+ regraz1   351   283  0 06:37:03 ?         0:54 /vol1/regraz1/bin/ESSSVR Agtaiapp MKJJQKIJDCBCF?GN9;@=NH6<JD5D 
+ regraz1   352   283  0 06:37:05 ?        40:11 /vol1/regraz1/bin/ESSSVR Incresa MKJJQKIJDCBCF?GN9;@=NH6<JD5D N

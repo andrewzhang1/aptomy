@@ -1,0 +1,37 @@
+:
+: Micro acceptance
+:
+
+Login "%HOST" "%USR" "%PWD";
+
+qUnlockAllObjects "%APP";
+qDeleteApp        "2" "%APP";
+
+
+output "1" "%OUTF";
+
+: qCreateApp        "2" "%APP";
+CreateApp	"%APP";
+
+: qCreateDbEx "2" "%APP" "%DB" "0" "1" ;
+CreateDB	"%APP" "%DB";
+
+Select "%APP" "%DB" ;
+Openotl 3 1 "Null" "Null" "%OTLF"  "y" "y" 0 ;
+Openotl "2" 1 "%APP" "%DB" "%DB" "y" "y" 1 ;
+Writeotl 0 "2"  1 "%APP" "%DB" "%DB" ;
+Restructotl 1 ;
+CloseOtl 0 ;
+CloseOtl 1 ;
+Unlockobj 1 "%APP" "%DB" "%DB" ;
+
+: Following commands are executed on MaxL shell script
+: import "3" "%DATAF" "4" "n" "y";
+: calcdefault;
+
+: Following test is executed in ESSCMDG script
+: report "<PAGE (Measures, Market)" "South Sales" "<ASYM" "<COLUMN (Scenario, Year)" "Actual Budget" "Jan Feb" "<IDESC 100" "!";
+
+output "3";
+
+LogOut ;

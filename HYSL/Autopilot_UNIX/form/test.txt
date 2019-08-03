@@ -1,0 +1,12 @@
+$LOGNAME yukio.kono@oracle.com
+Test e-mail - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+test e-mail send by framework.
+
+  Machine         = $(hostname):$_PLATNAME
+  Login User      = $LOGNAME
+  Version:Build   = $VERSION:$BUILD
+  Test Script     = $TEST
+
+Thank you,
+Mokeke
+

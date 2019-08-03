@@ -1,0 +1,264 @@
+#!/usr/bin/ksh
+# Display proccess ID and full argument.
+# psu.sh : list all process which owned by you. (No tty)
+# psu.sh <user> : list all process which owned by <user>.
+# psu.sh -a : list all process. In this form, the output include user name at top of the line.
+# psu.sh -ess : list Essbase related process (ESSBASE/ESSSVR/ESSCMD/ESSMSH/ESSCMDQ/ESSCMDG).
+
+####################################################
+# Solaris long ps command
+# usr : display user
+# cmd : args=include all args, other=command only
+#       ess Essbase processes only
+#       app (ess but with appname)
+
+# Need handle this kind case
+#12925 [ esscmd1.sh ]
+#12975 [ esscmd1.sh ]
+#
+sun_ps()
+{
+	if [ -x /usr/ucb/ps ]; then
+		pscmd=/usr/ucb/ps
+	else
+		pscmd=ps
+	fi
+	if [ "$cmd" = "args" ]; then
+		if [ "$usr" = "ALL" ]; then
+			$pscmd auxwww | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\1 \2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\1 \2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\1 \2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\1 \2 \3/g' 
+		else
+			$pscmd auxwww | grep ^$usr\  | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\2 \3/g' 
+		fi
+	elif [ "$cmd" = "essa" ]; then
+		if [ "$usr" = "ALL" ]; then
+			$pscmd auxwww | grep -v "^USER" | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\(ESSSVR\) \([^ ]*\).*\)$/\1 \2 \4 \5/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(.*\)$/___/g' | grep -v "___"
+		else
+			$pscmd auxwww | grep ^$usr\  | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\(ESSSVR\) \([^ ]*\).*\)$/\2 \4 \5/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(.*\)$/___/g' | grep -v "___"
+		fi
+	else	# -c or -ess
+		if [ "$usr" = "ALL" ]; then
+			$pscmd auxwww | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\1 \2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\1 \2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\1 \2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\[ *\([^] ]*\).*\)$/\1 \2 [\4]/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\1 \2 \4/g' 
+		else
+			$pscmd auxwww | grep ^$usr\  | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\[ *\([^] ]*\).*\)$/\2 [\4]/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\2 \4/g' 
+		fi
+	fi
+}
+
+aix_ps()
+{
+	if [ "$cmd" = "args" ]; then
+		if [ "$usr" = "ALL" ]; then
+			ps auxwww | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\1 \2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\1 \2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\1 \2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\1 \2 \3/g' 
+		else
+			ps auxwww | grep ^$usr\  | grep -v "grep ^$usr" | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\2 \3/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\2 \3/g' 
+		fi
+	elif [ "$cmd" = "essa" ]; then
+		if [ "$usr" = "ALL" ]; then
+			ps auxwww | grep -v "^USER" | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\(ESSSVR\) \([^ ]*\).*\)$/\1 \2 \4 \5/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(.*\)$/___/g' | grep -v "___"
+		else
+			ps auxwww | grep ^$usr\  | grep -v "grep ^$usr" | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\(ESSSVR\) \([^ ]*\).*\)$/\2 \4 \5/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(.*\)$/___/g' | grep -v "___"
+		fi
+	else	# -c or -ess
+		if [ "$usr" = "ALL" ]; then
+			ps auxwww | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\1 \2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\1 \2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\1 \2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\[ *\([^] ]*\).*\)$/\1 \2 [\4]/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\1 \2 \4/g' 
+		else
+			ps auxwww | grep ^$usr\  | grep -v "grep ^$usr" | sed \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\)\)$/\2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\([^ ]*\/\([^ \/]*\) .*\)$/\2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\)\)$/\2 \4/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\[ *\([^] ]*\).*\)$/\2 [\4]/g' \
+			-e 's/^\([^ ]*\) *\([0-9][0-9]*\) .* [0-9][0-9]*:[0-9][0-9]* *\(\([^ ]*\) .*\)$/\2 \4/g' 
+		fi
+	fi
+}
+
+[ `uname` = "Windows_NT" -a -z "$LOGNAME" ] && LOGNAME=$USERNAME
+usr=${LOGNAME}
+cmd=args	# List only command option.
+[ "$AP_PSUOLD" = "true" ] && psucmd="old" || psucmd="pulist"
+
+# Parse parameters.
+while [ $# -ne 0 ]; do
+	case $1 in
+		-all|-a|all|ALL)
+			usr=ALL
+			;;
+		-c|-com|command)
+			cmd=comm
+			;;
+		-h|help|-help)
+			echo "psu [-a|-c|-h] <usr>"
+			echo " -a   : display all processes."
+			echo " -c   : display command only."
+			echo " -ess : display essbase related process id."
+			echo " -essa: display ESSSVR with app name."
+			echo " <usr>: The user name for list the processes."
+			echo "        If you skip <usr>, use current login account."
+			exit 0
+			;;
+		-ess)
+			cmd=ess
+			;;
+		-essa)
+			cmd=essa
+			;;
+		*)
+			usr=$1
+			;;
+	esac
+	shift
+done
+
+
+case `uname` in
+	Windows_NT)
+		if [ "$cmd" = "ess" ]; then
+			if [ "$usr" = "ALL" ]; then
+				ps $udef -o user,pid,comm | egrep -i "essbase|esssvr|esscmd|essmsh" | while read usr pid cmds; do
+					echo $usr $pid $cmds
+				done
+			else
+				ps $udef -o pid,comm | egrep -i "essbase|esssvr|esscmd|essmsh" | while read pid cmds; do
+					echo $pid $cmds
+				done
+			fi
+		elif [ "$cmd" = "essa" ]; then
+			if [ "$usr" = "ALL" ]; then
+				ps -e -o user,pid,comm,args | while read usr pid cmds dmy app othr; do
+					[ "$cmds" = "esssvr" -o "$cmds" = "ESSSVR" ] && echo $usr $pid $cmds $app
+				done
+			else
+				ps $udef -o pid,comm,args | while read pid cmds dmy app othr; do
+					[ "$cmds" = "esssvr" -o "$cmds" = "ESSSVR" ] && echo $pid $cmds $app
+				done
+			fi
+		else
+			if [ "$usr" = "ALL" ]; then
+				udef="-e"
+				odef="-o user,pid,$cmd"
+			elif [ "$usr" = "${LOGNAME}" ]; then
+				udef=
+				odef="-o pid,$cmd"
+			else
+				udef="-u $usr"
+				odef="-o pid,$cmd"
+			fi
+			ps $udef $odef | grep -v "PID"
+		fi
+		;;
+
+	HP-UX)
+		export UNIX95=
+		export PATH=/usr/bin/xpg4:$PATH
+		if [ "$cmd" = "essa" ]; then
+			if [ "$usr" = "ALL" ]; then
+				ps -e -o user,pid,args -x | while read usr pid cmds app othr; do
+					cmds=${cmds##*/}
+					[ "$cmds" = "esssvr" -o "$cmds" = "ESSSVR" ] && echo $usr $pid $cmds $app
+				done
+			else
+				ps -u $usr -o pid,args -x | while read pid cmds app othr; do
+					cmds=${cmds##*/}
+					[ "$cmds" = "esssvr" -o "$cmds" = "ESSSVR" ] && echo $pid $cmds $app
+				done
+			fi
+		elif [ "$cmd" = "ess" ]; then
+			if [ "$usr" = "ALL" ]; then
+				ps -e -o user,pid,comm | egrep -i "essbase|esssvr|esscmd|essmsh" | while read usr pid cmds; do
+					echo $usr $pid $cmds
+				done
+			else
+				ps -u $usr -o pid,comm | egrep -i "essbase|esssvr|esscmd|essmsh" | while read pid cmds; do
+					echo $pid $cmds
+				done
+			fi
+		else
+			if [ "$cmd" = "args" ]; then
+				cmd="args -x"
+			fi
+			if [ "$usr" = "ALL" ]; then
+				usr="-e"
+				cmd="user,pid,$cmd"
+				myid="^[^ ][^ ]* *$$"
+			else
+				usr="-u $usr"
+				cmd="pid,$cmd"
+				myid="^$$"
+			fi
+			ps $usr -o $cmd | \
+				sed -e "s/^  *//g" | \
+				sed -e "s/\([^ ][^ ]*\)  */\1 /g" | \
+				grep -v "grep -v" | \
+				grep -v "$myid" | \
+				grep -v "ps $usr -o $cmd" | \
+				grep -v "sed -e" | \
+				grep -v "$0" | \
+				grep -v "PID COMMAND"
+		fi
+		;;
+
+	SunOS)
+		if [ "$cmd" = "ess" ]; then
+			sun_ps | grep -v "\[" | egrep -i "essbase|esssvr|esscmd|essmsh"
+		else
+			sun_ps
+		fi
+		;;
+
+	AIX)
+		export LC_ALL=C
+		if [ "$cmd" = "ess" ]; then
+			aix_ps | grep -v "\[" | egrep -i "essbase|esssvr|esscmd|essmsh"
+		else
+			aix_ps
+		fi
+		;;
+
+	*) # Linux)
+		if [ "$cmd" = "ess" ]; then
+			aix_ps | grep -v "\[" | egrep -i "essbase|esssvr|esscmd|essmsh"
+		else
+			aix_ps
+		fi
+		;;
+
+esac # End case for the `uname`

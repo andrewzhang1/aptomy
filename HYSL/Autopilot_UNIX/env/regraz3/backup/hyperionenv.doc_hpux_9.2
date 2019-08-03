@@ -1,0 +1,9 @@
+HYPERION_HOME=/vol2/regraz3/9.2
+ARBORPATH=/vol2/regraz3/9.2
+ESSLANG=English_UnitedStates.Latin1@Binary
+#SHLIB_PATH=$HYPERION_HOME/common/JRE/HP/1.4.2/lib/PA_RISC2.0/server:$HYPERION_HOME/common/JRE/HP/1.4.2/lib/PA_RISC2.0:$HYPERION_HOME/common/ODBC/Merant/5.1/lib:$ARBORPATH/bin:$SHLIB_PATH
+#Use following if your deployment does not require CDF,CDM,Data mining,Single Sign-on or Triggers
+SHLIB_PATH=$HYPERION_HOME/common/ODBC/Merant/5.1/lib:$ARBORPATH/bin:$SHLIB_PATH
+PATH=$ARBORPATH/bin:$PATH
+ODBCINI=$HYPERION_HOME/common/ODBC/Merant/5.1/odbc.ini
+LD_PRELOAD=$HYPERION_HOME/common/JRE/HP/1.4.2/lib/PA_RISC2.0/server/libjvm.sl

@@ -1,0 +1,23 @@
+load averages:  0.30,  0.19,  0.16    15:02:58
+89 processes:  88 sleeping, 1 on cpu
+
+Memory: 4096M real, 1888M free, 1290M swap in use, 3390M swap free
+
+
+   PID USERNAME THR PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+     9 root      17  59    0   24M   15M sleep  953:36  3.01% svc.configd
+ 14162 regrhv4    1  59    0 1464K 1360K sleep   18:48  0.53% autopilot.sh
+ 14253 regrhv4    1  59    0 1424K 1312K sleep    5:36  0.13% apmon.sh
+  1976 regrtm4   51  47    4  592M  379M sleep  241:27  0.13% java
+ 22983 regraz3    1  59    0 2032K 1528K sleep   20:09  0.12% top
+ 21064 root      23  29   10   86M   28M sleep   67:04  0.09% java
+  2804 regrhv1    1  59    0 1928K 1576K sleep    0:01  0.09% top
+  6570 regrtm4   61  59    0  588M  187M sleep    6:10  0.05% java
+  4094 regraz3    1  49    0 1824K 1456K cpu/0    0:00  0.04% top
+ 17988 regrtm4  103  47    4  369M  235M sleep  128:00  0.03% java
+   321 root       2  59    0   11M 6944K sleep   19.2H  0.02% automountd
+     7 root      12  59    0   32M 5688K sleep   48:17  0.02% svc.startd
+ 23610 oraem      6  59    0   56M   39M sleep    0:12  0.01% emagent
+ 13037 oraem      1  59    0 9072K 3616K sleep   81:46  0.01% perl
+     1 root       1  59    0 2400K  480K sleep  624:54  0.01% init
+

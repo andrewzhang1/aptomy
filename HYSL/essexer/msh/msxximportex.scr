@@ -1,0 +1,14 @@
+Login "%HOST" "%UID" "%PWD" "" "" ;
+Select "%APP" "%DB" ;
+
+goto "%OPT";
+
+:with_rule
+Import %DLOC "%DFILE" %TYPE "Y" %RLOC "%RFILE" "N" "%APP.err";
+LogOut ;
+Exit
+
+:no_rule
+Import %DLOC "%DFILE" %TYPE "N" "N" "%APP.err";
+LogOut ;
+Exit

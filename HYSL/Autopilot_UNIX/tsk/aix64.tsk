@@ -1,0 +1,253 @@
+####################### 11.1.2.6.000 OPACK #######################################
+
+11.1.2.6.000:latest:maxlmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:agsymain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:capitest.sh:opackver(!bi) runplat(regrhv2@staix10) schedule(Tue)
+11.1.2.6.000:latest:prob_main.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:agapmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:agbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:aglgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:apbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:apgdmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:apgemain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:apotmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dcbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dcmpmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dcosmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dcrpmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dctpmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:ddbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:ddldmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:ddximain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dmbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dmccmain.sh:opackver(!bi) runplat(regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dmdcmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dmglmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dmpcmain.sh:opackver(!bi) runplat(regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dmudmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dresmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dxbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dxmdmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dxrrmain.sh:opackver(!bi) runplat(regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:dxssmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:msscmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:sddbmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:sdremain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:sdsvmain.sh:opackver(!bi) runplat(regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:smalmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:smbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:smbumain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:smixmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:smlrmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:smtxmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:accxmain2.sh:opackver(!bi) runplat(regrhv3) schedule(Tue)
+11.1.2.6.000:latest:newfmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:sqldmain.sh:opackver(!bi) runplat(regrhv3) schedule(Tue)
+
+
+####### 11.1.2.6.000 APS Tests ######
+
+11.1.2.6.000:latest:dsapssdqmd_acc_v1.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapdq_reg_v2.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapmd_reg_v2.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapds_reg_v1.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapds_reg_v2.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapprobmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapfusion.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+11.1.2.6.000:latest:dsapbg.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.6.000) schedule(Tue)
+
+####### 11.1.2.6.000 i18n Tests ######
+
+11.1.2.6.000:latest:i18n_j.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv2@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:i18n_j_mlc.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:i18n_i.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:i18n_i_slc.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:i18n_x.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+11.1.2.6.000:latest:i18n_xas.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Tue)
+
+####### 11.1.2.6.000 User Provisioning Test #####
+
+11.1.2.6.000:latest:agssmain.sh:opackver(!bi) secmode(hss) forceInst(true) runplat(regrhv3@olap9 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Tue) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+###### Fusion Security & BI Security tests ######
+
+11.1.2.6.000:latest:agsfmain.sh:opackver(bi) runplat(regrhv3@slc03kvc.us.oracle.com) secmode(fa) schedule(Tue) biimg(/scratch/BISHIPHOME_11.1.1.7.0_AIX64)
+11.1.2.6.000:latest:agsbmain.sh:opackver(bi) runplat(regrhv3@slc03kvc.us.oracle.com) secmode(bi) schedule(Tue) biimg(/scratch/BISHIPHOME_11.1.1.7.0_AIX64) agtStart(true)
+
+
+
+
+####################### 11.1.2.3.500 OPACK #######################################
+
+11.1.2.3.500:latest:maxlmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+
+####### 11.1.2.3.500 APS Tests ######
+
+11.1.2.3.500:latest:dsapssdqmd_acc_v1.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapdq_reg_v2.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv3@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapmd_reg_v2.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapds_reg_v1.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv3@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapds_reg_v2.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapprobmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv3@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapfusion.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapbg.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.500) schedule(Sun Thu)
+
+####### Essbase Regressions ##############
+
+11.1.2.3.500:latest:agsymain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:capitest.sh:opackver(!bi) runplat(regrhv2@staix10) schedule(Sun Thu)
+11.1.2.3.500:latest:prob_main.sh:opackver(!bi) runplat(regrh23@olap9 regrhv2@staix11 regrhv3@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:agapmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:agbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:aglgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:apbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:apgdmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:apgemain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:apotmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dcbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dcmpmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dcosmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dcrpmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dctpmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:ddbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:ddldmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:ddximain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dmbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dmccmain.sh:opackver(!bi) runplat(regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dmdcmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dmglmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dmpcmain.sh:opackver(!bi) runplat(regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dmudmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dresmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dxbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dxmdmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dxrrmain.sh:opackver(!bi) runplat(regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:dxssmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:msscmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:sdatmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:sdbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:sddbmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:sdremain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:sdsvmain.sh:opackver(!bi) runplat(regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:smalmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:smbgmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:smbumain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:smixmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:smlrmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:smtxmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:sqldmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+11.1.2.3.500:latest:accxmain2.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)  DoneMark(%VER|%BLD|%PLAT|%INST)
+
+
+####### 11.1.2.3.500 User Provisioning Test #####
+
+11.1.2.3.500:latest:agssmain.sh:opackver(!bi) secmode(hss) forceInst(true) runplat(regrhv2@olap9 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com) schedule(Sun Thu) 
+
+11.1.2.3.500:latest:newfmain.sh:opackver(!bi) runplat(regrhv2@olap9 regrhv2@staix11 regrhv2@staix12 regrhv2@scl51027.us.oracle.com regrhv2@scl51028.us.oracle.com regrhv2@slc03kvb.us.oracle.com regrhv2@slc03kvc.us.oracle.com regrhv2@slc00gzu.us.oracle.com) schedule(Sun Thu)
+
+###### Fusion Security & BI Security tests ######
+
+11.1.2.3.500:latest:agsfmain.sh:opackver(bi) runplat(regrhv2@slc03kvc.us.oracle.com) secmode(fa) schedule(Sun Thu) biimg(/scratch/BISHIPHOME_11.1.1.7.0_AIX64)
+11.1.2.3.500:latest:agsbmain.sh:opackver(bi) runplat(regrhv2@slc03kvc.us.oracle.com) secmode(bi) schedule(Sun Thu) biimg(/scratch/BISHIPHOME_11.1.1.7.0_AIX64) agtStart(true)
+
+
+
+######################## 11.1.2.3.002 OPACK  ######################################
+#11.1.2.3.002:latest:maxlmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+
+####### 11.1.2.3.002 APS Tests ######
+
+#11.1.2.3.002:latest:dsapssdqmd_acc_v1.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapdq_reg_v2.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapmd_reg_v2.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapds_reg_v1.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapds_reg_v2.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapprobmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapfusion.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+#11.1.2.3.002:latest:dsapbg.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.3.002) schedule(Mon)
+
+############### Essbase regressions ###########
+
+#11.1.2.3.002:latest:agsymain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:capitest.sh:opackver(!bi) runplat(regrhv3@staix10) schedule(Mon)
+#11.1.2.3.002:latest:prob_main.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:agapmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:agbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:aglgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:apbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:apgdmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:apgemain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:apotmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dcbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dcmpmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dcosmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dcrpmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dctpmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:ddbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:ddldmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:ddximain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dmbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dmccmain.sh:opackver(!bi) runplat(regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dmdcmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dmglmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dmpcmain.sh:opackver(!bi) runplat(regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dmudmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dresmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dxbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dxmdmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dxrrmain.sh:opackver(!bi) runplat(regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:dxssmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:msscmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:sdatmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:sdbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:sddbmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:sdremain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:sdsvmain.sh:opackver(!bi) runplat(regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:smalmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:smbgmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:smbumain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:smixmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:smlrmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:smtxmain.sh:opackver(!bi) runplat(regrhv3@olap9 regrhv3@staix11 regrhv3@staix12 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com regrhv3@slc03kvb.us.oracle.com regrhv3@slc03kvc.us.oracle.com regrhv3@slc00gzu.us.oracle.com) schedule(Mon)
+#11.1.2.3.002:latest:accxmain2.sh:opackver(!bi) runplat(regrhv3) schedule(Mon)
+
+####### 11.1.2.3.002 User Provisioning Test #####
+
+#11.1.2.3.002:latest:agssmain.sh:opackver(!bi) secmode(hss) forceInst(true) runplat(regrhv3@olap9 regrhv3@scl51027.us.oracle.com regrhv3@scl51028.us.oracle.com) schedule(Mon) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+###### Fusion Security & BI Security tests ######
+
+#11.1.2.3.002:latest:agsfmain.sh:opackver(bi) runplat(regrhv3@slc03kvc.us.oracle.com) secmode(fa) schedule(Mon) biimg(/scratch/BISHIPHOME_11.1.1.7.0_AIX64)
+#11.1.2.3.002:latest:agsbmain.sh:opackver(bi) runplat(regrhv3@slc03kvc.us.oracle.com) secmode(bi) schedule(Mon) biimg(/scratch/BISHIPHOME_11.1.1.7.0_AIX64) agtStart(true)
+
+
+####################### 11.1.2.1.107 #######################
+
+#11.1.2.1.107:latest:maxlmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:capitest.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv34staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpori1.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpori2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtp70main.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpcwmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpjvmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpbkmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:gtpbarmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpukmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpjymain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpkenmain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtptalleymain.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:prob_main.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh parallel diect:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh serial direct:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh parallel buffer:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:accxmain2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4) schedule(Tue)
+
+###############  11.1.2.1.107 APS tests ####################
+
+#11.1.2.1.107:latest:dsapssdqmd_acc_v1.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:dsapdq_reg_v2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:dsapmd_reg_v2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:dsapds_reg_v1.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue)
+#11.1.2.1.107:latest:dsapds_reg_v2.sh:snapshot(11121x) opackver(!bi) runplat(regrhv4@staix10 regrhv4@staix12 regrhv4@olap9 regrhv4@scl51027.us.oracle.com regrhv4@scl51028.us.oracle.com regrhv4@slc03kvb.us.oracle.com) schedule(Tue) DoneMark(%VER|%BLD|%PLAT|%INST)
+

@@ -1,0 +1,52 @@
+maxlmain.sh
+agsymain.sh
+agapmain.sh
+agbgmain.sh
+aglgmain.sh
+#agsfmain.sh
+#agsbmain.sh
+apbgmain.sh
+apgdmain.sh
+apgemain.sh
+apotmain.sh
+capitest.sh
+dcbgmain.sh
+dcmpmain.sh
+dcosmain.sh
+dcrpmain.sh
+dctpmain.sh
+ddbgmain.sh
+ddldmain.sh
+ddximain.sh
+dmbgmain.sh
+dmccmain.sh
+dmdcmain.sh
+dmglmain.sh
+dmpcmain.sh
+dmudmain.sh
+dresmain.sh
+dxbgmain.sh
+dxmdmain.sh
+dxrrmain.sh
+dxssmain.sh
+msscmain.sh
+prob_main.sh
+sdatmain.sh
+sdbgmain.sh
+sddbmain.sh
+sdremain.sh
+sdsvmain.sh
+smalmain.sh
+smbgmain.sh
+smbumain.sh
+smixmain.sh
+smlrmain.sh
+smtxmain.sh
+dsapssdqmd_acc_v1.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapdq_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapmd_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapds_reg_v1.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapds_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapprobmain.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapfusion.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapbg.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)

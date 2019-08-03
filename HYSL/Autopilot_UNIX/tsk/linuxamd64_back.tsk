@@ -1,0 +1,175 @@
+
+# OEL6 dadvmc0323 (bao)  dadvmn0449: Tuan  dadvmn0760 (andrew)
+
+
+# (SuSE 64 V11, Andrew's regraz3@scl14319
+# hyslinst.sh 11.1.2.2.000 1106
+
+
+
+#2011/07/13: new sample tasks:
+# RedHat AS5
+#11.1.2.2.000:latest:agtpori1.sh runplat(regraz3@scl14351) schedule(Mon)
+
+# tachyon: OEL5
+#11.1.2.2.000:latest:agtpori1.sh runplat(regraz3@tachyon) schedule(Mon)
+
+
+# Hosted Linux (OEL6): dadvmc0323, dadvmn0760, dadvmn0449
+#11.1.2.2.000:latest:agtpori1.sh   runplat(regraz3@dadvmc0323) schedule(Mon)
+#11.1.2.2.000:latest:agtpori2.sh   runplat(regraz3@dadvmn0760) schedule(Mon)
+#11.1.2.2.000:latest:agtpjlmain.sh runplat(regraz3@dadvmn0449) schedule(Mon)
+
+# RedHat AS5
+#11.1.2.2.000:latest:agtpori1.sh runplat(regraz3@scl14351) schedule(Mon)
+
+# SuSE 32 V10: only one Machine: scl14475  (Only 3GB memmory)   (auto mount ok now))
+#11.1.2.2.000:latest:agtpori1.sh runplat(regraz3@scl14475) schedule(Mon)
+
+
+
+# Talleyrand_PS1 on stlx12 and scl14187 on regraz3
+#talleyrand_sp1:hit(latest):capitest.sh:schedule(Mon Wed) runplat(regraz3@stlx12) 
+
+#talleyrand_sp1:hit(latest):capitest.sh:schedule(Mon) runplat(regraz3@scl14187) 
+#talleyrand_sp1:hit(latest):agtpjvmain.sh:schedule(Mon) runplat(regraz3@scl14187)
+#talleyrand_sp1:hit(latest):maxlmain.sh:schedule(Mo) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpjlmain.sh parallel direct:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpjlmain.sh parallel buffer:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpjlmain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpori1.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpjlmain.sh serial direct:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpcwmain.sh:schedule(Mond) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpori2.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtp70main.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpukmain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpjymain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpbkmain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpbarmain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtpkenmain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):agtptalleymain.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+#talleyrand_sp1:hit(latest):prob_main.sh:schedule(Mon) runplat(regraz3) ignplat(tachyon)
+
+#talleyrand_sp1:latest:capitest.sh:schedule(Mon Thu) runplat(regraz3@stlx12) refresh(true)
+
+
+#talleyrand_sp1:latest:capitest.sh:schedule(Mon Tue Wed Thu Fri Sat) 
+#talleyrand_sp1:latest:agtpjvmain.sh:schedule(Mon Tue Wed Thu Fri Sat) 
+#talleyrand_sp1:latest:maxlmain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpjlmain.sh parallel direct:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpjlmain.sh parallel buffer:schedule(Mon Tue Wed Thu Fri Sat)  
+#talleyrand_sp1:latest:agtpjlmain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpori1.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpjlmain.sh serial direct:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpcwmain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpori2.sh:schedule(Mon Tue Wed Thu Fri Sat)  
+#talleyrand_sp1:latest:agtp70main.sh:schedule(Mon Tue Wed Thu Fri Sat)  
+#talleyrand_sp1:latest:agtpukmain.sh:schedule(Mon Tue Wed Thu Fri Sat)  
+#talleyrand_sp1:latest:agtpjymain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpbkmain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpbarmain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtpkenmain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:agtptalleymain.sh:schedule(Mon Tue Wed Thu Fri Sat)   
+#talleyrand_sp1:latest:prob_main.sh:schedule(Mon Tue Wed Thu Fri Sat)  
+
+
+
+#talleyrand_sp1:latest:capitest.sh:priority(999)   
+#talleyrand_sp1:latest:agtpjvmain.sh:priority(999)   
+#talleyrand_sp1:latest:agtp70main.sh:priority(999)  
+#talleyrand_sp1:latest:agtpcwmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpbkmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpbarmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpjlmain.sh parallel direct:priority(999)  
+#talleyrand_sp1:latest:agtpjlmain.sh parallel buffer:priority(999)  
+#talleyrand_sp1:latest:agtpjlmain.sh serial direct:priority(999)  
+#talleyrand_sp1:latest:maxlmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpjymain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpori1.sh:priority(999)  
+#talleyrand_sp1:latest:agtpori2.sh:priority(999)  
+#talleyrand_sp1:latest:agtpukmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpjlmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtpkenmain.sh:priority(999)  
+#talleyrand_sp1:latest:agtptalleymain.sh:priority(999)  
+#talleyrand_sp1:latest:prob_main.sh:priority(999)  
+
+
+# Tachyong runs Sun and Wen only 
+# #######################################3
+
+## talleyrand_sp1:hit(latest):capitest.sh:schedule(Mon Thu) runplat(regraz3@stlx11) 
+####################################################################################33333
+
+# regraz1
+#talleyrand_sp1:latest:agtpori1.sh:schedule(Mon Thu) refresh(true) runplat(regraz1@tachyon) 
+#talleyrand_sp1:latest:capitest.sh:schedule(Mon Thu) refresh(true) runplat(regraz1@tachyon) 
+#talleyrand_sp1:latest:agtpjvmain.sh:schedule(Mon Thu) refresh(true) runplat(regraz1@tachyon) 
+#talleyrand_sp1:latest:agtpukmain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz1@tachyon)
+
+# regraz2
+#talleyrand_sp1:latest:agtpori2.sh:schedule(Mon Thu) refresh(true) refresh(true) runplat(regraz2@tachyon) 
+#talleyrand_sp1:latest:prob_main.sh:schedule(Mon Thu) refresh(true) refresh(true) runplat(regraz2@tachyon) 
+
+
+# regraz3
+#talleyrand_sp1:latest:agtp70main.sh:schedule(Mon Thu) refresh(true) runplat(regraz3@tachyon) 
+#talleyrand_sp1:latest:agtpcwmain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz3@tachyon) 
+#talleyrand_sp1:latest:maxlmain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz3@tachyon) 
+
+# regraz4
+#talleyrand_sp1:latest:agtpjlmain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz4@tachyon)
+#talleyrand_sp1:latest:agtptalleymain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz4@tachyon)
+
+
+# regraz5
+#
+# regraz6
+#talleyrand_sp1:latest:agtpjymain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz6@tachyon) 
+#talleyrand_sp1:latest:agtpbkmain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz6@tachyon) 
+#talleyrand_sp1:latest:agtpkenmain.sh:schedule(Mon Thu) refresh(true) runplat(regraz6@tachyon) 
+
+# regraz7
+#talleyrand_sp1:latest:agtpjlmain.sh parallel buffer:schedule(Mon Thu) refresh(true) runplat(regraz7tachyon) 
+#talleyrand_sp1:latest:agtpjlmain.sh parallel direct:schedule(Mon Thu)  refresh(true) runplat(regraz7@tachyon) 
+#talleyrand_sp1:latest:agtpjlmain.sh serial direct:schedule(Mon Thu)  refresh(true) runplat(regraz7@tachyon) 
+#talleyrand_sp1:latest:agtpjlmain.sh serial direct:schedule(Mon Thu)  refresh(true) runplat(regraz7@tachyon) 
+#talleyrand_sp1:latest:agtpbarmain.sh:schedule(Mon Thu)  refresh(true) runplat(regraz7@tachyon) 
+
+
+# 9.3.3.0.0
+# regraz1
+
+# Regular regression on stlx11: regraz1
+
+#9.3.3.0.0:071:agtpjvmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:071:capitest.sh:schedule(Mon Thu) runplat(regraz1)  ignplat(tachyon)
+#9.3.3.0.0:071:maxlmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:071:agtpjlmain.sh parallel direct:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpjlmain.sh parallel buffer:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpjlmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpori1.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpjlmain.sh serial direct:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpcwmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpori2.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtp70main.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpukmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpjymain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpbkmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+#9.3.3.0.0:agtpbarmain.sh:schedule(Mon Thu) runplat(regraz1) ignplat(tachyon)
+
+###9.3.3.0.0:agtpjvmain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtp70main.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpcwmain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpbkmain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpbarmain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpjlmain.sh parallel direct:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpjlmain.sh parallel buffer:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpjlmain.sh serial direct:priority(999) ignplat(tachyon)
+##9.3.3.0.0:maxlmain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpjymain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpori1.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpori2.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpukmain.sh:priority(999) ignplat(tachyon)
+##9.3.3.0.0:agtpjlmain.sh:priority(999) ignplat(tachyon)
+
+

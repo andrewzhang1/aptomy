@@ -1,0 +1,1 @@
+Those contents are copied from mainline/vobs/essexer/autopilot/bin at May 31, 2013.

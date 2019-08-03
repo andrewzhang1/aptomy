@@ -1,0 +1,1002 @@
+/home/genia/rigdata/aerodactyl/170222_TAG_01_aerodactyl_WAE22R13C08/P_00_170223003001_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/aerodactyl/170222_TAG_01_aerodactyl_WAE22R13C08/P_00_170223003001_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10 2.7235 -61.7417 0.855988 -125.047 216.177 -106.818 193.252 -164.018 16 40.2055 153 363 1539 -14.8285 6.9547 48.3678
+
+Done with anno_path:  /home/genia/rigdata/aerodactyl/170222_TAG_01_aerodactyl_WAE22R13C08/P_00_170223003001_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+/home/genia/rigdata/aerodactyl/170222_TAG_02_aerodactyl_WAE22R13C08/P_00_170223015707_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/aerodactyl/170222_TAG_02_aerodactyl_WAE22R13C08/P_00_170223015707_ggc3-keeper_ac-analysis_v11.22.2 20.911 -107.522 12.6864 -129.17 159.209 1.43991 154.212 -69.7761 3387 41.4696 295 461 559491 -43.1944 11.2833 127.313
+
+Done with anno_path:  /home/genia/rigdata/aerodactyl/170222_TAG_02_aerodactyl_WAE22R13C08/P_00_170223015707_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/alakazam/170222_TAG_02_alakazam_WAE19R05C04/P_00_170223014951_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/alakazam/170222_TAG_02_alakazam_WAE19R05C04/P_00_170223014951_ggc3-keeper_ac-analysis_v11.22.2 19.3101 -103.628 16.6961 -124.58 161.333 1.45942 145.738 -58.0895 4012 38.3302 93 127 125415 -44.6724 12.0237 144.57
+
+Done with anno_path:  /home/genia/rigdata/alakazam/170222_TAG_02_alakazam_WAE19R05C04/P_00_170223014951_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/alakazam/170222_TAG_01_alakazam_WAE19R05C04/P_00_170222231056_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/alakazam/170222_TAG_01_alakazam_WAE19R05C04/P_00_170222231056_ggc3-keeper_ac-analysis_v11.22.2 6.18441 -31.0753 1.46801 -41.3756 189.541 12.446 166.23 -29.985 2500 72.1366 1066 1470 1936364 -7.57686 3.06647 9.40324
+
+Done with anno_path:  /home/genia/rigdata/alakazam/170222_TAG_01_alakazam_WAE19R05C04/P_00_170222231056_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/arbok/170222_PEG-PROD_01_arbok_WAS24R08C09/P_00_170222184223_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/arbok/170222_PEG-PROD_01_arbok_WAS24R08C09/P_00_170222184223_s16-master_ac-analysis_v11.22.2 22.5948 -96.9234 17.7687 -116.061 158.058 -12.5616 141.963 -68.5767 28572 72.1576 794 1059 11633103 -25.6677 7.18164 51.5759
+
+Done with anno_path:  /home/genia/rigdata/arbok/170222_PEG-PROD_01_arbok_WAS24R08C09/P_00_170222184223_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/ash/170222_SIG-A_01_ash_WAT08R03C08/P_00_170222232504_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ash/170222_SIG-A_01_ash_WAT08R03C08/P_00_170222232504_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 4.21216 -28.0756 0.0114768 -44.8073 182.666 10.9077 146.526 -41.9735 3954 78.8037 1387 2106 4498174 -11.3886 2.65539 7.05111
+
+Done with anno_path:  /home/genia/rigdata/ash/170222_SIG-A_01_ash_WAT08R03C08/P_00_170222232504_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/ash/170222_ENG-SYS_01_ash_WAS24R12C09/P_00_170222201851_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ash/170222_ENG-SYS_01_ash_WAS24R12C09/P_00_170222201851_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.8529 -79.8026 13.849 -101.824 141.67 -21.3167 112.207 -72.7138 32422 68.8924 232 288 6263185 -21.2945 6.24533 39.0041
+
+Done with anno_path:  /home/genia/rigdata/ash/170222_ENG-SYS_01_ash_WAS24R12C09/P_00_170222201851_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/augustus/170222_PEG-PROD_01_augustus_WAS24R11C06/P_00_170222184142_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/augustus/170222_PEG-PROD_01_augustus_WAS24R11C06/P_00_170222184142_ggc3-keeper_ac-analysis_v11.22.2 31.1334 -100.369 11.6859 -122.425 159.999 -15.6495 147.91 -78.1315 30409 71.3873 813 1088 13272876 -25.6155 6.56676 43.1223
+
+Done with anno_path:  /home/genia/rigdata/augustus/170222_PEG-PROD_01_augustus_WAS24R11C06/P_00_170222184142_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/bellossom/170222_SAM_01_bellossom_WAS22R07C04/P_00_170222213918_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/bellossom/170222_SAM_01_bellossom_WAS22R07C04/P_00_170222213918_s16pre-master_ac-analysis_v11.22.2 3.40675 -38.3886 -0.592364 -42.2019 193.152 10.5755 175.8 -28.888 3097 77.2991 1218 2049 2780602 -9.59443 2.20171 4.84754
+
+Done with anno_path:  /home/genia/rigdata/bellossom/170222_SAM_01_bellossom_WAS22R07C04/P_00_170222213918_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/blaine/170222_PEG-POL_01_blaine_WAS22R10C09/P_00_170222235400_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/blaine/170222_PEG-POL_01_blaine_WAS22R10C09/P_00_170222235400_s16pre-master_ac-analysis_v11.22.2 7.73058 -21.0835 5.72827 -34.0698 192.295 11.0105 169.911 -43.1007 3984 77.1393 1036 1425 2885184 -4.17084 2.41541 5.83421
+
+Done with anno_path:  /home/genia/rigdata/blaine/170222_PEG-POL_01_blaine_WAS22R10C09/P_00_170222235400_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/blaine/170222_PEG-POL_02_blaine_WAS22R10C09/P_00_170223015515_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/blaine/170222_PEG-POL_02_blaine_WAS22R10C09/P_00_170223015515_s16-master_ac-analysis_v11.22.2 7.90325 -32.3039 3.72333 -37.3261 188.825 8.65502 179.61 -29.8415 2119 77.1663 657 884 1038517 -3.12192 2.7464 7.54272
+
+Done with anno_path:  /home/genia/rigdata/blaine/170222_PEG-POL_02_blaine_WAS22R10C09/P_00_170223015515_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/blastoise/170222_SIG-A_01_blastoise_WAT10R04C13/P_00_170222232736_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/blastoise/170222_SIG-A_01_blastoise_WAT10R04C13/P_00_170222232736_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -5.58197 -31.6961 -8.57663 -53.1292 186.805 -3.92166 148.393 -48.6579 3335 77.6951 990 1447 2760302 -19.104 2.66339 7.09363
+
+Done with anno_path:  /home/genia/rigdata/blastoise/170222_SIG-A_01_blastoise_WAT10R04C13/P_00_170222232736_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/blastoise/170222_ENG-SYS_01_blastoise_WAS24R13C05/P_00_170222201619_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/blastoise/170222_ENG-SYS_01_blastoise_WAS24R13C05/P_00_170222201619_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 23.0742 -70.0747 20.8772 -120.307 133.88 -31.6922 89.1425 -58.0404 33007 63.0418 237 295 6444711 -19.5898 5.93988 35.2822
+
+Done with anno_path:  /home/genia/rigdata/blastoise/170222_ENG-SYS_01_blastoise_WAS24R13C05/P_00_170222201619_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/brock/170222_ENG-SYS_02_brock_WAS24R09C07/P_00_170222202841_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/brock/170222_ENG-SYS_02_brock_WAS24R09C07/P_00_170222202841_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 13.7273 -66.6566 11.7706 -99.3881 131.27 -15.5158 93.3925 -58.3682 28532 57.9266 217 274 4530192 -18.2359 5.15889 26.6142
+
+Done with anno_path:  /home/genia/rigdata/brock/170222_ENG-SYS_02_brock_WAS24R09C07/P_00_170222202841_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/butterfree/170222_TAG_02_butterfree_WAE22R09C15/P_00_170223015905_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/butterfree/170222_TAG_02_butterfree_WAE22R09C15/P_00_170223015905_s16pre-master_ac-analysis_v11.22.2 13.7645 -108.782 12.7645 -138.145 156.261 2.24291 146.893 -70.3653 2040 39.9187 430 608 721874 -47.6512 13.3971 179.481
+
+Done with anno_path:  /home/genia/rigdata/butterfree/170222_TAG_02_butterfree_WAE22R09C15/P_00_170223015905_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/butterfree/170222_TAG_01_butterfree_WAE22R09C15/P_00_170222232626_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/butterfree/170222_TAG_01_butterfree_WAE22R09C15/P_00_170222232626_s16-master_ac-analysis_v11.22.2 7.92537 -28.9299 4.90754 -35.164 191.85 9.40841 175.102 -29.3268 3667 77.6312 929 1288 2382800 -4.22048 2.86529 8.20987
+
+Done with anno_path:  /home/genia/rigdata/butterfree/170222_TAG_01_butterfree_WAE22R09C15/P_00_170222232626_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/caterpie/170222_TAG_02_caterpie_WAE22R08C15/P_00_170223020410_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/caterpie/170222_TAG_02_caterpie_WAE22R08C15/P_00_170223020410_ggc3-keeper_ac-analysis_v11.22.2 16.168 -105.229 9.1612 -136.818 160.242 -0.519703 147.146 -67.5799 1766 39.5635 437 625 644135 -44.6597 13.2821 176.414
+
+Done with anno_path:  /home/genia/rigdata/caterpie/170222_TAG_02_caterpie_WAE22R08C15/P_00_170223020410_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/caterpie/170222_TAG_01_caterpie_WAE22R08C15/P_00_170222231107_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/caterpie/170222_TAG_01_caterpie_WAE22R08C15/P_00_170222231107_ggc3-keeper_ac-analysis_v11.22.2 -1.03676 -37.277 -4.4141 -44.3113 194.552 12.26 187.532 -34.3538 1442 77.5682 890 1290 924150 -13.4117 3.5085 12.3096
+
+Done with anno_path:  /home/genia/rigdata/caterpie/170222_TAG_01_caterpie_WAE22R08C15/P_00_170222231107_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/charizard/170222_ENG-SYS_01_charizard_WAS24R05C07/P_00_170222201631_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/charizard/170222_ENG-SYS_01_charizard_WAS24R05C07/P_00_170222201631_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.2871 -90.7255 11.3983 -104.711 135.948 -17.0269 125.39 -54.263 32641 70.4902 217 278 5955104 -23.4637 6.41936 41.2082
+
+Done with anno_path:  /home/genia/rigdata/charizard/170222_ENG-SYS_01_charizard_WAS24R05C07/P_00_170222201631_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/charizard/170222_SIG-A_01_charizard_WAT08R03C09/P_00_170222233951_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/charizard/170222_SIG-A_01_charizard_WAT08R03C09/P_00_170222233951_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 2.67953 -27.7859 -0.745206 -36.949 184.573 12.4808 148.223 -30.9137 3550 78.7813 1255 1893 3741277 -9.36932 2.5361 6.4318
+
+Done with anno_path:  /home/genia/rigdata/charizard/170222_SIG-A_01_charizard_WAT08R03C09/P_00_170222233951_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/charmeleon/170222_TAG_03_charmeleon_WAS21R05C15/P_00_170223012047_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/charmeleon/170222_TAG_03_charmeleon_WAS21R05C15/P_00_170223012047_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10 0.994419 -62.9455 -0.121387 -75.581 213.676 -104.648 193.418 -115.751 35 66.545 279 573 3348 -12.2834 5.41469 29.3189
+
+Done with anno_path:  /home/genia/rigdata/charmeleon/170222_TAG_03_charmeleon_WAS21R05C15/P_00_170223012047_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+/home/genia/rigdata/chikorita/170222_ENG-BIE_02_chikorita_WAL09R05C11/P_00_170222221341_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/chikorita/170222_ENG-BIE_02_chikorita_WAL09R05C11/P_00_170222221341_ggc3-keeper_ac-analysis_v11.22.2 15.6424 -102.15 14.608 -124.084 152.476 -8.4076 144.61 -62.7075 3 67.4684 456 712 912 -26.1557 15.2776 233.407
+
+Done with anno_path:  /home/genia/rigdata/chikorita/170222_ENG-BIE_02_chikorita_WAL09R05C11/P_00_170222221341_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/chikorita/170222_ENG-BIE_01_chikorita_WAL09R05C11/P_00_170222202145_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/chikorita/170222_ENG-BIE_01_chikorita_WAL09R05C11/P_00_170222202145_s16pre-master_ac-analysis_v11.22.2 14.3032 -150.332 13.3028 -160.043 159.921 -41.991 149.699 -66.8184 117 77.8853 898 1327 64660 -23.9346 14.8078 219.27
+
+Done with anno_path:  /home/genia/rigdata/chikorita/170222_ENG-BIE_01_chikorita_WAL09R05C11/P_00_170222202145_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/chikorita/170222_ENG-BIE_03_chikorita_WAL09R05C11/P_00_170223004533_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/chikorita/170222_ENG-BIE_03_chikorita_WAL09R05C11/P_00_170223004533_s16-master_ac-analysis_v11.22.2 30.7933 -105.267 28.4474 -117.4 155.139 -4.26458 145.732 -67.404 0 nan -1 -1 0 -30.4979 17.6007 309.786
+
+Done with anno_path:  /home/genia/rigdata/chikorita/170222_ENG-BIE_03_chikorita_WAL09R05C11/P_00_170223004533_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/clefairy/170222_TAG_01_clefairy_WAE22R11C16/P_00_170223000303_s16pre-master_ac-analysis_v11.23.0.dev.dropt_pts_10
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/clefairy/170222_TAG_01_clefairy_WAE22R11C16/P_00_170223000303_s16pre-master_ac-analysis_v11.23.0.dev.dropt_pts_10 -0.104902 -66.5617 -0.104902 -90.5908 212.273 -112.477 195.364 -125.511 4 48.5942 61 98 183 -17.7418 7.69319 59.1852
+
+Done with anno_path:  /home/genia/rigdata/clefairy/170222_TAG_01_clefairy_WAE22R11C16/P_00_170223000303_s16pre-master_ac-analysis_v11.23.0.dev.dropt_pts_10
+/home/genia/rigdata/clefairy/170222_TAG_02_clefairy_WAE22R11C16/P_00_170223015956_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/clefairy/170222_TAG_02_clefairy_WAE22R11C16/P_00_170223015956_s16pre-master_ac-analysis_v11.22.2 15.339 -104.22 13.3519 -128.181 150.236 2.49756 145.616 -63.6691 4255 41.1311 405 544 1218362 -41.2197 11.9367 142.486
+
+Done with anno_path:  /home/genia/rigdata/clefairy/170222_TAG_02_clefairy_WAE22R11C16/P_00_170223015956_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle01/P_00_170223033344_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle01/P_00_170223033344_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 6.09424 -105.802 3.67523 -110.893 138.236 -19.4439 129.936 -65.8212 43078 77.6953 481 646 16487122 -26.364 6.97954 48.7139
+
+Done with anno_path:  /home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle01/P_00_170223033344_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle06/P_00_170223101823_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle06/P_00_170223101823_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 0.0215161 -55.918 -8.56372 -78.608 89.3697 25.4573 75.6604 12.1736 0 nan -1 -1 0 -53.9588 21.5043 462.436
+
+Done with anno_path:  /home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle06/P_00_170223101823_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle03/P_00_170223064736_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle03/P_00_170223064736_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 13.5105 -104.439 11.513 -111.737 143.437 -21.6567 132.235 -78.6312 38031 78.1202 495 663 15217080 -29.3401 6.886 47.417
+
+Done with anno_path:  /home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle03/P_00_170223064736_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle04/P_00_170223081844_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle04/P_00_170223081844_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.8947 -100.241 10.895 -104.847 136.122 -32.8029 121.372 -69.9918 34405 77.8919 493 652 14092260 -27.4532 6.93846 48.1422
+
+Done with anno_path:  /home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle04/P_00_170223081844_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle02/P_00_170223051609_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle02/P_00_170223051609_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.98777 -111.142 -1.98769 -113.755 131.359 -0.303193 124.46 -72.5896 40017 78.0065 495 664 16177424 -27.4198 6.91064 47.7569
+
+Done with anno_path:  /home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle02/P_00_170223051609_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle05/P_00_170223092250_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle05/P_00_170223092250_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 21.294 -90.7149 8.48688 -108.578 134.851 -23.3196 107.612 -69.0182 10845 75.888 468 641 4201317 -31.0597 8.01061 64.1698
+
+Done with anno_path:  /home/genia/rigdata/cleffa/170222_ENG-SYS_03_cleffa_WAS24R08C13_cycle05/P_00_170223092250_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/cloyster/170222_ACTG_01_cloyster_WAS02R06C06/P_00_170222182644_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cloyster/170222_ACTG_01_cloyster_WAS02R06C06/P_00_170222182644_s16-master_ac-analysis_v11.22.2 171.266 -140.577 169.726 -144.601 240.691 3.18578 232.502 -22.529 0 nan -1 -1 0 -52.318 68.0637 4632.66
+
+Done with anno_path:  /home/genia/rigdata/cloyster/170222_ACTG_01_cloyster_WAS02R06C06/P_00_170222182644_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/cloyster/170222_ACTG_02_cloyster_WAS02R05C07/P_00_170222235410_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cloyster/170222_ACTG_02_cloyster_WAS02R05C07/P_00_170222235410_s16pre-master_ac-analysis_v11.22.2 36.4481 -115.124 11.8613 -131.577 168.351 2.49233 164.962 -65.5944 0 nan -1 -1 0 -39.7635 15.726 247.308
+
+Done with anno_path:  /home/genia/rigdata/cloyster/170222_ACTG_02_cloyster_WAS02R05C07/P_00_170222235410_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/crobat/170222_SW_02_crobat_WAS22R08C15_cycle01/P_00_170222234233_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/crobat/170222_SW_02_crobat_WAS22R08C15_cycle01/P_00_170222234233_ggc3-keeper_ac-analysis_v11.22.2 2.89325 -95.9287 -0.295493 -99.3785 149.593 -0.180915 146.377 -68.626 24457 61.0788 350 550 4933271 -14.6729 6.0098 36.1177
+
+Done with anno_path:  /home/genia/rigdata/crobat/170222_SW_02_crobat_WAS22R08C15_cycle01/P_00_170222234233_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/crobat/170222_SW_02_crobat_WAS22R08C15_cycle02/P_00_170223010614_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/crobat/170222_SW_02_crobat_WAS22R08C15_cycle02/P_00_170223010614_ggc3-keeper_ac-analysis_v11.22.2 4.68103 -90.9668 -0.559749 -116.407 143.082 -0.558756 141.053 -70.5102 19668 59.2362 272 463 1933388 -13.9859 6.03979 36.4791
+
+Done with anno_path:  /home/genia/rigdata/crobat/170222_SW_02_crobat_WAS22R08C15_cycle02/P_00_170223010614_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/cyndaquil/170222_ENG-BIE_02_cyndaquil_WAS21R09C05/P_00_170222220557_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cyndaquil/170222_ENG-BIE_02_cyndaquil_WAS21R09C05/P_00_170222220557_ggc3-keeper_ac-analysis_v11.22.2 8.38955 -104.087 6.70328 -113.434 158.004 -11.0184 150.573 -66.169 38633 78.3013 1317 1934 27067620 -26.9601 9.98603 99.7208
+
+Done with anno_path:  /home/genia/rigdata/cyndaquil/170222_ENG-BIE_02_cyndaquil_WAS21R09C05/P_00_170222220557_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/cyndaquil/170222_ENG-BIE_03_cyndaquil_WAS21R09C05/P_00_170223003916_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cyndaquil/170222_ENG-BIE_03_cyndaquil_WAS21R09C05/P_00_170223003916_s16-master_ac-analysis_v11.22.2 10.1005 -103.917 8.59988 -112.56 148.302 -2.09326 144.896 -63.5458 33162 78.1851 1384 2010 28100179 -26.3353 9.84584 96.9405
+
+Done with anno_path:  /home/genia/rigdata/cyndaquil/170222_ENG-BIE_03_cyndaquil_WAS21R09C05/P_00_170223003916_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/cyndaquil/170222_ENG-BIE_01_cyndaquil_WAS21R09C05/P_00_170222201446_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/cyndaquil/170222_ENG-BIE_01_cyndaquil_WAS21R09C05/P_00_170222201446_s16-master_ac-analysis_v11.22.2 14.6491 -102.12 8.8684 -122.582 149.311 -18.6108 143.308 -66.1085 42506 77.7587 1229 1829 34727717 -22.6766 6.26615 39.2647
+
+Done with anno_path:  /home/genia/rigdata/cyndaquil/170222_ENG-BIE_01_cyndaquil_WAS21R09C05/P_00_170222201446_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/diglett/170222_TAG_02_diglett_WAE19R07C13/P_00_170223015215_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/diglett/170222_TAG_02_diglett_WAE19R07C13/P_00_170223015215_s16pre-master_ac-analysis_v11.22.2 42.0933 -104.802 38.0941 -128.528 165.135 -0.568466 143.689 -74.5095 6056 39.5638 126 401 580096 -43.5202 11.9624 143.099
+
+Done with anno_path:  /home/genia/rigdata/diglett/170222_TAG_02_diglett_WAE19R07C13/P_00_170223015215_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/diglett/170222_TAG_01_diglett_WAE19R07C13/P_00_170222231446_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/diglett/170222_TAG_01_diglett_WAE19R07C13/P_00_170222231446_s16pre-master_ac-analysis_v11.22.2 1.56141 -40.0291 -1.94823 -45.3187 191.499 7.87918 178.672 -29.3755 3864 78.2868 959 1277 2595103 -10.2649 2.73934 7.504
+
+Done with anno_path:  /home/genia/rigdata/diglett/170222_TAG_01_diglett_WAE19R07C13/P_00_170222231446_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/dragonite/170222_PEG-PORE_02_dragonite_WAE22R06C15/P_00_170223001749_ggc5-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/dragonite/170222_PEG-PORE_02_dragonite_WAE22R06C15/P_00_170223001749_ggc5-keeper_ac-analysis_v11.22.2 13.9526 -104.579 12.1559 -129.861 154.553 0.660617 150.57 -62.3019 7 nan -1 -1 0 -36.1637 12.6263 159.422
+
+Done with anno_path:  /home/genia/rigdata/dragonite/170222_PEG-PORE_02_dragonite_WAE22R06C15/P_00_170223001749_ggc5-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/drowzee/170222_SIG-A_01_drowzee_WAT13R04C07/P_00_170222232319_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/drowzee/170222_SIG-A_01_drowzee_WAT13R04C07/P_00_170222232319_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -4.04728 -25.6541 -8.24559 -35.3642 193.052 7.32061 167.952 -29.0347 402 73.488 601 840 201061 -16.6488 3.13777 9.84561
+
+Done with anno_path:  /home/genia/rigdata/drowzee/170222_SIG-A_01_drowzee_WAT13R04C07/P_00_170222232319_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/dugtrio/170222_ENG-BIE_02_dugtrio_WAL09R06C15/P_00_170222221543_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/dugtrio/170222_ENG-BIE_02_dugtrio_WAL09R06C15/P_00_170222221543_ggc3-keeper_ac-analysis_v11.22.2 23.3262 -108.181 19.9121 -128.333 165.272 -5.67319 152.0 -60.3403 6704 75.6444 1009 1560 4574878 -39.7416 20.2776 411.179
+
+Done with anno_path:  /home/genia/rigdata/dugtrio/170222_ENG-BIE_02_dugtrio_WAL09R06C15/P_00_170222221543_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/dugtrio/170222_ENG-BIE_03_dugtrio_WAL09R06C15/P_00_170223004816_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/dugtrio/170222_ENG-BIE_03_dugtrio_WAL09R06C15/P_00_170223004816_ggc3-keeper_ac-analysis_v11.22.2 24.4889 -104.7 14.2437 -139.908 167.364 -2.99562 157.897 -58.9067 5280 76.6801 894 1366 3083045 -28.6124 19.0804 364.062
+
+Done with anno_path:  /home/genia/rigdata/dugtrio/170222_ENG-BIE_03_dugtrio_WAL09R06C15/P_00_170223004816_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/dugtrio/170222_ENG-BIE_01_dugtrio_WAL09R06C15/P_00_170222202248_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/dugtrio/170222_ENG-BIE_01_dugtrio_WAL09R06C15/P_00_170222202248_s16-master_ac-analysis_v11.22.2 11.4837 -100.382 3.43602 -117.025 155.033 3.10589 142.858 -56.3011 6174 74.4096 1034 1578 4336192 -30.0406 12.8045 163.955
+
+Done with anno_path:  /home/genia/rigdata/dugtrio/170222_ENG-BIE_01_dugtrio_WAL09R06C15/P_00_170222202248_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/eevee/170222_SW_04_eevee_WAS21R05C13/P_01_170223011406_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/eevee/170222_SW_04_eevee_WAS21R05C13/P_01_170223011406_ggc3-keeper_ac-analysis_v11.22.2 1.3895 -34.1848 -5.32104 -40.9792 193.566 15.8505 181.003 -25.2237 1360 72.1944 715 878 710979 -13.2071 2.90363 8.43109
+
+Done with anno_path:  /home/genia/rigdata/eevee/170222_SW_04_eevee_WAS21R05C13/P_01_170223011406_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/eevee/170222_SW_04_eevee_WAS21R05C13/P_00_170223005553_s16pre-master_RFS-v11.23.0.dev
+/home/genia/rigdata/eevee/170222_SW_03_eevee_WAS21R05C13/P_00_170222233811_s16pre-master_RFS-v11.23.0.dev
+/home/genia/rigdata/eevee/170222_SW_03_eevee_WAS21R05C13/P_01_170223000041_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/eevee/170222_SW_03_eevee_WAS21R05C13/P_01_170223000041_ggc3-keeper_ac-analysis_v11.22.2 -0.478384 -36.6393 -4.20433 -46.7884 193.908 9.88672 184.482 -29.6959 763 74.4095 641 830 356244 -14.31 3.4793 12.1055
+
+Done with anno_path:  /home/genia/rigdata/eevee/170222_SW_03_eevee_WAS21R05C13/P_01_170223000041_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/ekans/170222_ENG-BIE_01_ekans_WAS24R04C07/P_00_170222201840_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ekans/170222_ENG-BIE_01_ekans_WAS24R04C07/P_00_170222201840_ggc3-keeper_ac-analysis_v11.22.2 15.0414 -103.767 7.97872 -120.749 153.501 -1.43746 143.161 -63.0655 46076 78.4482 1269 1852 34198172 -23.1364 5.65546 31.9843
+
+Done with anno_path:  /home/genia/rigdata/ekans/170222_ENG-BIE_01_ekans_WAS24R04C07/P_00_170222201840_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/ekans/170222_ENG-BIE_03_ekans_WAS24R04C07/P_00_170223004927_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ekans/170222_ENG-BIE_03_ekans_WAS24R04C07/P_00_170223004927_ggc3-keeper_ac-analysis_v11.22.2 24.0806 -105.157 21.8633 -112.264 162.905 -16.9556 154.937 -60.5569 40660 78.7606 1427 2033 35655961 -26.4439 10.6568 113.568
+
+Done with anno_path:  /home/genia/rigdata/ekans/170222_ENG-BIE_03_ekans_WAS24R04C07/P_00_170223004927_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/electabuzz/170222_PEG-POL_01_electabuzz_WAS22R07C14/P_00_170222235846_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/electabuzz/170222_PEG-POL_01_electabuzz_WAS22R07C14/P_00_170222235846_s16-master_ac-analysis_v11.22.2 8.71594 -34.1019 4.77903 -39.1288 187.317 12.4189 153.011 -30.342 4838 77.4511 1002 1369 3209475 -5.57497 2.33563 5.45519
+
+Done with anno_path:  /home/genia/rigdata/electabuzz/170222_PEG-POL_01_electabuzz_WAS22R07C14/P_00_170222235846_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/electabuzz/170222_PEG-POL_02_electabuzz_WAS22R07C14/P_00_170223015812_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/electabuzz/170222_PEG-POL_02_electabuzz_WAS22R07C14/P_00_170223015812_ggc3-keeper_ac-analysis_v11.22.2 5.40883 -32.4841 2.23774 -39.0589 193.49 12.3764 177.336 -32.5182 2510 78.0218 685 883 1189200 -4.41647 2.59438 6.73082
+
+Done with anno_path:  /home/genia/rigdata/electabuzz/170222_PEG-POL_02_electabuzz_WAS22R07C14/P_00_170223015812_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/exeggcute/170222_PEG-POL_01_exeggcute_WAS24R05C13/P_00_170222235554_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/exeggcute/170222_PEG-POL_01_exeggcute_WAS24R05C13/P_00_170222235554_ggc3-keeper_ac-analysis_v11.22.2 6.05289 -37.6767 2.52975 -42.9858 186.987 12.5246 166.401 -21.28 257 36.8156 57 71 5331 -7.61537 2.62884 6.91078
+
+Done with anno_path:  /home/genia/rigdata/exeggcute/170222_PEG-POL_01_exeggcute_WAS24R05C13/P_00_170222235554_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/exeggcute/170222_PEG-POL_02_exeggcute_WAS24R05C13/P_00_170223015329_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/exeggcute/170222_PEG-POL_02_exeggcute_WAS24R05C13/P_00_170223015329_ggc3-keeper_ac-analysis_v11.22.2 5.06927 -37.3547 1.11986 -41.3738 188.549 4.91815 178.48 -34.8804 2640 77.4185 1001 1260 2019128 -4.90918 2.52009 6.35086
+
+Done with anno_path:  /home/genia/rigdata/exeggcute/170222_PEG-POL_02_exeggcute_WAS24R05C13/P_00_170223015329_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/farfetchd/170222_TAG_02_farfetchd_WAE22R09C18/P_00_170223004218_s16pre-master_ac-analysis_v11.23.0.dev.dropt_pts_10
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/farfetchd/170222_TAG_02_farfetchd_WAE22R09C18/P_00_170223004218_s16pre-master_ac-analysis_v11.23.0.dev.dropt_pts_10 1.50676 -61.2294 -0.158622 -78.9757 210.432 -112.085 202.937 -124.964 117 71.4143 317 548 13953 -14.699 5.53566 30.6436
+
+Done with anno_path:  /home/genia/rigdata/farfetchd/170222_TAG_02_farfetchd_WAE22R09C18/P_00_170223004218_s16pre-master_ac-analysis_v11.23.0.dev.dropt_pts_10
+/home/genia/rigdata/farfetchd/170222_TAG_03_farfetchd_WAS22R09C18/P_00_170223020207_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/farfetchd/170222_TAG_03_farfetchd_WAS22R09C18/P_00_170223020207_ggc3-keeper_ac-analysis_v11.22.2 10.6448 -104.573 9.64472 -119.342 175.387 0.334829 165.315 -63.0524 7802 40.7275 152 499 906291 -43.0953 9.40818 88.5139
+
+Done with anno_path:  /home/genia/rigdata/farfetchd/170222_TAG_03_farfetchd_WAS22R09C18/P_00_170223020207_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/flareon/170222_SIG-A_01_flareon_WAT08R04C11/P_00_170222232256_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/flareon/170222_SIG-A_01_flareon_WAT08R04C11/P_00_170222232256_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -2.96579 -35.7371 -7.41841 -52.4032 174.691 12.7879 147.096 -40.8155 2856 78.3252 1282 1922 3163000 -19.6521 2.68002 7.18251
+
+Done with anno_path:  /home/genia/rigdata/flareon/170222_SIG-A_01_flareon_WAT08R04C11/P_00_170222232256_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/flareon/170222_ENG-SYS_01_flareon_WAS24R09C14/P_00_170222201642_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/flareon/170222_ENG-SYS_01_flareon_WAS24R09C14/P_00_170222201642_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 17.2411 -82.7815 14.1279 -102.114 140.529 -22.1303 114.133 -66.5979 42941 78.9922 234 289 8394716 -24.0713 6.56767 43.1343
+
+Done with anno_path:  /home/genia/rigdata/flareon/170222_ENG-SYS_01_flareon_WAS24R09C14/P_00_170222201642_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/gary/170222_SIG-A_02_gary_WAT12R03C12/P_00_170222231915_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/gary/170222_SIG-A_02_gary_WAT12R03C12/P_00_170222231915_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 2.23902 -30.8387 0.162967 -36.2624 188.379 6.00595 171.037 -32.3975 345 71.9778 638 993 196142 -14.7967 5.38914 29.0428
+
+Done with anno_path:  /home/genia/rigdata/gary/170222_SIG-A_02_gary_WAT12R03C12/P_00_170222231915_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle03/P_00_170223070229_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle03/P_00_170223070229_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 3.29252 -93.0934 -1.1224 -113.772 142.437 -2.46599 116.894 -60.5848 38649 69.7924 498 664 15219671 -26.0692 5.02422 25.2428
+
+Done with anno_path:  /home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle03/P_00_170223070229_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle05/P_00_170223103315_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle05/P_00_170223103315_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.97565 -102.116 8.24605 -109.095 142.536 0.951223 131.822 -55.4223 8051 75.9692 324 521 1517914 -25.712 5.62812 31.6758
+
+Done with anno_path:  /home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle05/P_00_170223103315_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle04/P_00_170223084547_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle04/P_00_170223084547_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 25.5798 -90.3478 21.1466 -108.427 134.638 -6.15142 114.082 -62.44 24065 72.7565 449 643 8521234 -22.2074 5.28129 27.8921
+
+Done with anno_path:  /home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle04/P_00_170223084547_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle01/P_00_170223032557_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle01/P_00_170223032557_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.67265 -88.9551 -3.07097 -110.827 138.305 -1.10934 113.249 -62.8694 31952 64.1243 498 634 12062618 -25.839 5.22584 27.3095
+
+Done with anno_path:  /home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle01/P_00_170223032557_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle02/P_00_170223051528_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle02/P_00_170223051528_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 18.9265 -99.4127 5.65693 -104.884 144.546 -0.963154 134.557 -65.777 34744 65.7083 508 659 14014240 -22.3946 5.30896 28.1851
+
+Done with anno_path:  /home/genia/rigdata/girafarig/170222_ENG-SYS_03_girafarig_WAS24R10C03_cycle02/P_00_170223051528_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/gloom/170222_PEG-POL_01_gloom_WAS24R13C06/P_00_170222235257_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/gloom/170222_PEG-POL_01_gloom_WAS24R13C06/P_00_170222235257_s16-master_ac-analysis_v11.22.2 5.38957 -31.4188 1.73412 -42.1354 183.437 11.7934 151.669 -17.3433 46 40.659 80 95 1601 -7.61349 4.26771 18.2134
+
+Done with anno_path:  /home/genia/rigdata/gloom/170222_PEG-POL_01_gloom_WAS24R13C06/P_00_170222235257_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/goldeen/170222_SAM_01_goldeen_WAS24R07C07/P_00_170222212410_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/goldeen/170222_SAM_01_goldeen_WAS24R07C07/P_00_170222212410_s16pre-master_ac-analysis_v11.22.2 -1.39196 -43.6528 -4.7645 -48.3455 189.162 11.5612 180.72 -10.6509 821 75.1569 1275 2224 825048 -14.4154 3.18873 10.168
+
+Done with anno_path:  /home/genia/rigdata/goldeen/170222_SAM_01_goldeen_WAS24R07C07/P_00_170222212410_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/growlithe/170222_PEG-POL_01_growlithe_WAS24R09C08/P_00_170222235857_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/growlithe/170222_PEG-POL_01_growlithe_WAS24R09C08/P_00_170222235857_s16pre-master_ac-analysis_v11.22.2 2.03591 -36.2997 -2.14495 -44.8409 191.171 -0.284654 156.274 -34.2832 4473 77.4549 1003 1383 3146085 -8.22398 2.1548 4.64315
+
+Done with anno_path:  /home/genia/rigdata/growlithe/170222_PEG-POL_01_growlithe_WAS24R09C08/P_00_170222235857_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/growlithe/170222_PEG-POL_02_growlithe_WAS24R09C08/P_00_170223015454_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/growlithe/170222_PEG-POL_02_growlithe_WAS24R09C08/P_00_170223015454_s16pre-master_ac-analysis_v11.22.2 2.95833 -34.4693 0.958333 -42.362 192.029 1.9214 168.681 -42.5429 2903 76.6927 976 1285 2112438 -7.11295 2.56921 6.60082
+
+Done with anno_path:  /home/genia/rigdata/growlithe/170222_PEG-POL_02_growlithe_WAS24R09C08/P_00_170223015454_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/gyarados/170222_ENG-BIE_03_gyarados_WAS21R12C07/P_00_170223003343_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/gyarados/170222_ENG-BIE_03_gyarados_WAS21R12C07/P_00_170223003343_ggc3-keeper_ac-analysis_v11.22.2 15.5396 -100.843 13.1622 -116.696 150.157 -1.11266 144.063 -72.4727 39039 77.7437 1229 1926 27976495 -27.3472 9.41903 88.7181
+
+Done with anno_path:  /home/genia/rigdata/gyarados/170222_ENG-BIE_03_gyarados_WAS21R12C07/P_00_170223003343_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/gyarados/170222_ENG-BIE_02_gyarados_WAS21R12C07/P_00_170222220046_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/gyarados/170222_ENG-BIE_02_gyarados_WAS21R12C07/P_00_170222220046_ggc3-keeper_ac-analysis_v11.22.2 21.3897 -104.57 19.1248 -113.809 149.868 -13.2788 145.615 -71.3298 39551 77.6983 1281 2018 28210100 -28.3651 10.5121 110.505
+
+Done with anno_path:  /home/genia/rigdata/gyarados/170222_ENG-BIE_02_gyarados_WAS21R12C07/P_00_170222220046_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/gyarados/170222_ENG-BIE_01_gyarados_WAS21R12C07/P_00_170222201035_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/gyarados/170222_ENG-BIE_01_gyarados_WAS21R12C07/P_00_170222201035_s16pre-master_ac-analysis_v11.22.2 23.4208 -99.1503 10.8739 -112.354 150.584 1.08746 143.948 -72.0942 38345 77.5215 1133 1741 25549208 -24.3517 5.9186 35.0298
+
+Done with anno_path:  /home/genia/rigdata/gyarados/170222_ENG-BIE_01_gyarados_WAS21R12C07/P_00_170222201035_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle05/P_00_170223102234_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle05/P_00_170223102234_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 17.695 -95.4966 15.2371 -120.395 140.673 -20.1443 109.746 -78.3529 1402 71.4329 221 342 169484 -26.4517 5.82779 33.9632
+
+Done with anno_path:  /home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle05/P_00_170223102234_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle04/P_00_170223084106_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle04/P_00_170223084106_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 18.1787 -81.4268 9.89781 -109.004 140.702 -15.6162 109.007 -66.5354 5084 71.91 362 564 1392460 -24.9864 6.24445 38.9932
+
+Done with anno_path:  /home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle04/P_00_170223084106_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle01/P_00_170223032619_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle01/P_00_170223032619_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.26497 -95.9167 4.30628 -108.155 140.668 -1.74682 123.208 -64.1086 45517 77.5602 527 702 19301350 -26.1172 6.9159 47.8296
+
+Done with anno_path:  /home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle01/P_00_170223032619_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle03/P_00_170223065748_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle03/P_00_170223065748_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 19.0751 -82.9129 17.0748 -107.744 134.932 -29.2981 118.052 -63.8174 37364 75.0875 490 657 15106517 -26.243 6.09443 37.142
+
+Done with anno_path:  /home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle03/P_00_170223065748_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle02/P_00_170223051417_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle02/P_00_170223051417_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.7471 -87.8832 7.62505 -115.796 131.717 -34.3302 116.273 -76.5174 41135 74.2896 485 653 16502769 -25.5664 6.50555 42.3222
+
+Done with anno_path:  /home/genia/rigdata/hitmonchan/170222_ENG-SYS_02_hitmonchan_WAS24R05C04_cycle02/P_00_170223051417_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/hoothoot/170222_TAG_02_hoothoot_WAE22R11C07/P_00_170223015307_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hoothoot/170222_TAG_02_hoothoot_WAE22R11C07/P_00_170223015307_ggc3-keeper_ac-analysis_v11.22.2 20.3435 -107.759 18.8958 -139.79 154.885 -0.0128509 149.562 -70.766 346 41.2261 331 462 22552 -50.3954 19.5391 381.778
+
+Done with anno_path:  /home/genia/rigdata/hoothoot/170222_TAG_02_hoothoot_WAE22R11C07/P_00_170223015307_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/hoothoot/170222_TAG_01_hoothoot_WAE22R11C07/P_00_170222231538_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hoothoot/170222_TAG_01_hoothoot_WAE22R11C07/P_00_170222231538_ggc3-keeper_ac-analysis_v11.22.2 7.7401 -34.4123 5.11443 -41.4645 190.369 12.3465 169.278 -42.0875 3674 78.2388 932 1280 2380386 -6.53844 3.17279 10.0666
+
+Done with anno_path:  /home/genia/rigdata/hoothoot/170222_TAG_01_hoothoot_WAE22R11C07/P_00_170222231538_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/hoppip/170222_PEG-PORE_02_hoppip_WAS24R07C10/P_00_170223002521_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/hoppip/170222_PEG-PORE_02_hoppip_WAS24R07C10/P_00_170223002521_s16pre-master_ac-analysis_v11.22.2 29.0568 -108.234 26.9944 -124.391 164.953 -0.568657 145.958 -66.3223 24 nan -1 -1 0 -58.0496 18.092 327.32
+
+Done with anno_path:  /home/genia/rigdata/hoppip/170222_PEG-PORE_02_hoppip_WAS24R07C10/P_00_170223002521_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle04/P_00_170223015945_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle04/P_00_170223015945_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 41.6061 -92.038 35.7297 -117.386 137.958 2.72662 123.979 -58.3631 22341 76.9352 506 667 9484756 -26.9876 6.23305 38.8509
+
+Done with anno_path:  /home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle04/P_00_170223015945_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle01/P_01_170223001403_ggc2-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle01/P_01_170223001403_ggc2-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 1.50707 -103.682 -1.4157 -110.067 145.723 5.51269 141.572 -70.7283 15903 78.3902 523 680 6160356 -29.0206 11.0789 122.741
+
+Done with anno_path:  /home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle01/P_01_170223001403_ggc2-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle01/P_00_170222205522_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle01/P_00_170222205522_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 1.50707 -103.682 -1.4157 -110.067 145.723 5.51269 141.572 -70.7283 15903 78.3902 523 680 6160356 -29.0206 11.0789 122.741
+
+Done with anno_path:  /home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle01/P_00_170222205522_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle03/P_00_170223001555_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle03/P_00_170223001555_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 19.3749 -88.2516 12.944 -103.715 136.707 1.6336 115.748 -70.7357 28258 78.2312 506 670 11463472 -27.0623 6.81219 46.406
+
+Done with anno_path:  /home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle03/P_00_170223001555_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle02/P_00_170222222947_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle02/P_00_170222222947_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 6.17265 -85.2893 -2.67548 -105.101 133.072 3.63062 110.941 -78.4342 15605 76.5351 623 825 7253942 -26.2124 8.70738 75.8184
+
+Done with anno_path:  /home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle02/P_00_170222222947_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle05/P_00_170223031946_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle05/P_00_170223031946_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.0394 -77.3499 0.290875 -119.918 139.461 4.97103 94.3095 -80.0537 2378 56.706 129 366 517 -29.6815 14.5978 213.095
+
+Done with anno_path:  /home/genia/rigdata/igglybuff/170222_ENG-SYS_01_igglybuff_WAS22R04C09_cycle05/P_00_170223031946_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/ivysaur/170222_SAM_01_ivysaur_WAE22R07C08/P_00_170222213233_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ivysaur/170222_SAM_01_ivysaur_WAE22R07C08/P_00_170222213233_s16pre-master_ac-analysis_v11.22.2 -0.71356 -30.7603 -3.71354 -43.2961 191.686 -3.21728 165.075 -29.36 3145 76.8906 1015 1795 2435333 -12.011 1.9862 3.945
+
+Done with anno_path:  /home/genia/rigdata/ivysaur/170222_SAM_01_ivysaur_WAE22R07C08/P_00_170222213233_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/jolteon/170222_ENG-SYS_01_jolteon_WAS24R13C08/P_00_170222201717_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/jolteon/170222_ENG-SYS_01_jolteon_WAS24R13C08/P_00_170222201717_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.6841 -90.364 13.7087 -106.719 133.165 -20.7561 127.542 -65.1283 39131 75.128 229 291 7581952 -22.7726 6.40874 41.072
+
+Done with anno_path:  /home/genia/rigdata/jolteon/170222_ENG-SYS_01_jolteon_WAS24R13C08/P_00_170222201717_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/jolteon/170222_SIG-A_01_jolteon_WAT08R04C07/P_00_170222232615_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/jolteon/170222_SIG-A_01_jolteon_WAT08R04C07/P_00_170222232615_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.90536 -24.5496 0.21233 -41.2862 190.025 11.5667 148.796 -41.0418 2938 78.5298 1186 1821 2824271 -9.89447 2.86419 8.20356
+
+Done with anno_path:  /home/genia/rigdata/jolteon/170222_SIG-A_01_jolteon_WAT08R04C07/P_00_170222232615_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/jynx/170222_SIG-A_01_jynx_WAT08R04C13/P_00_170222232452_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/jynx/170222_SIG-A_01_jynx_WAT08R04C13/P_00_170222232452_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.77445 -24.3855 1.61111 -40.2509 182.054 12.1232 146.973 -48.5807 1989 79.3101 1196 1877 1916730 -8.92226 2.90383 8.43223
+
+Done with anno_path:  /home/genia/rigdata/jynx/170222_SIG-A_01_jynx_WAT08R04C13/P_00_170222232452_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/jynx/170222_ENG-SYS_01_jynx_WAS24R12C05/P_00_170222201758_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/jynx/170222_ENG-SYS_01_jynx_WAS24R12C05/P_00_170222201758_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 2.82807 -89.6445 -1.41348 -93.7779 123.363 -2.43274 112.314 -73.8215 37047 68.0712 231 285 6985177 -21.1659 5.83167 34.0084
+
+Done with anno_path:  /home/genia/rigdata/jynx/170222_ENG-SYS_01_jynx_WAS24R12C05/P_00_170222201758_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/kabuto/170222_PEG-PROD_01_kabuto_WAS24R05C05/P_00_170222184001_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/kabuto/170222_PEG-PROD_01_kabuto_WAS24R05C05/P_00_170222184001_s16-master_ac-analysis_v11.22.2 12.7717 -98.3528 10.4682 -124.709 156.022 -1.71727 146.575 -62.6255 30937 71.6478 767 1020 12909400 -26.2081 6.84278 46.8237
+
+Done with anno_path:  /home/genia/rigdata/kabuto/170222_PEG-PROD_01_kabuto_WAS24R05C05/P_00_170222184001_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/kakuna/170222_SIG-A_01_kakuna_WAT13R04C13/P_00_170222233047_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/kakuna/170222_SIG-A_01_kakuna_WAT13R04C13/P_00_170222233047_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -4.39842 -29.7418 -8.99314 -43.2773 195.384 26.8189 158.128 -12.9599 1 48.0777 2167 2167 2167 -17.2697 3.42943 11.761
+
+Done with anno_path:  /home/genia/rigdata/kakuna/170222_SIG-A_01_kakuna_WAT13R04C13/P_00_170222233047_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/koffing/170222_ENG-SYS_01_koffing_WAL07R06C12/P_00_170223010132_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/koffing/170222_ENG-SYS_01_koffing_WAL07R06C12/P_00_170223010132_ggc3-keeper_ac-analysis_v11.22.2 9.02513 -71.4855 -17.3946 -93.1051 122.508 14.4893 82.9775 -57.8943 2 46.8421 172 172 172 -49.6423 12.5458 157.396
+
+Done with anno_path:  /home/genia/rigdata/koffing/170222_ENG-SYS_01_koffing_WAL07R06C12/P_00_170223010132_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/koga/170222_TAG_01_koga_WAE20R05C05/P_00_170222230914_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/koga/170222_TAG_01_koga_WAE20R05C05/P_00_170222230914_ggc3-keeper_ac-analysis_v11.22.2 0.0337612 -28.4588 -2.40063 -39.4774 194.725 13.8813 182.613 -30.1029 1879 78.0618 951 1332 1212657 -10.9227 3.06481 9.39308
+
+Done with anno_path:  /home/genia/rigdata/koga/170222_TAG_01_koga_WAE20R05C05/P_00_170222230914_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/koga/170222_TAG_02_koga_WAE20R05C05/P_00_170223015749_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/koga/170222_TAG_02_koga_WAE20R05C05/P_00_170223015749_ggc3-keeper_ac-analysis_v11.22.2 30.9517 -106.5 20.921 -120.981 155.764 0.2665 146.498 -57.3576 1589 42.9449 355 584 280874 -43.5219 9.78936 95.8315
+
+Done with anno_path:  /home/genia/rigdata/koga/170222_TAG_02_koga_WAE20R05C05/P_00_170223015749_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/krabby/170222_SAM_01_krabby_WAE22R11C09/P_00_170222214550_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/krabby/170222_SAM_01_krabby_WAE22R11C09/P_00_170222214550_ggc3-keeper_ac-analysis_v11.22.2 8.98248 -28.5053 5.98309 -36.4248 185.882 15.8484 160.176 -37.0446 3727 77.1838 1497 2503 4130380 -3.49868 1.93797 3.75571
+
+Done with anno_path:  /home/genia/rigdata/krabby/170222_SAM_01_krabby_WAE22R11C09/P_00_170222214550_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/lickitung/170222_PEG-POL_02_lickitung_WAS22R04C13/P_00_170223015411_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/lickitung/170222_PEG-POL_02_lickitung_WAS22R04C13/P_00_170223015411_s16-master_ac-analysis_v11.22.2 1.02891 -34.8919 -2.19594 -39.7135 189.794 11.0444 171.888 -37.9998 2788 77.3393 1035 1296 2130276 -8.27889 2.75876 7.61075
+
+Done with anno_path:  /home/genia/rigdata/lickitung/170222_PEG-POL_02_lickitung_WAS22R04C13/P_00_170223015411_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/lickitung/170222_PEG-POL_01_lickitung_WAS22R04C13/P_00_170222235125_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/lickitung/170222_PEG-POL_01_lickitung_WAS22R04C13/P_00_170222235125_ggc3-keeper_ac-analysis_v11.22.2 1.84817 -40.57 -0.637195 -58.57 188.652 0.707504 171.448 -23.2868 310 36.641 76 97 5591 -10.0748 2.38899 5.70726
+
+Done with anno_path:  /home/genia/rigdata/lickitung/170222_PEG-POL_01_lickitung_WAS22R04C13/P_00_170222235125_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/machop/170222_TAG_02_machop_WAE19R11C17/P_00_170223020259_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/machop/170222_TAG_02_machop_WAE19R11C17/P_00_170223020259_s16-master_ac-analysis_v11.22.2 22.9813 -103.899 21.9813 -120.895 157.807 -19.4217 147.826 -65.1548 6667 40.7662 255 436 978668 -42.5836 10.6159 112.697
+
+Done with anno_path:  /home/genia/rigdata/machop/170222_TAG_02_machop_WAE19R11C17/P_00_170223020259_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/machop/170222_TAG_01_machop_WAE19R11C17/P_00_170223004137_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/machop/170222_TAG_01_machop_WAE19R11C17/P_00_170223004137_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10 1.90091 -57.2385 0.0548682 -90.8529 215.785 -97.7284 198.568 -127.44 14 42.4379 94 182 759 -13.1497 6.08638 37.0441
+
+Done with anno_path:  /home/genia/rigdata/machop/170222_TAG_01_machop_WAE19R11C17/P_00_170223004137_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+/home/genia/rigdata/magikarp/170222_ENG-BIE_02_magikarp_WAS21R09C17/P_00_170222220035_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magikarp/170222_ENG-BIE_02_magikarp_WAS21R09C17/P_00_170222220035_s16pre-master_ac-analysis_v11.22.2 20.5581 -104.651 18.1124 -108.14 149.537 -1.39189 145.64 -68.7158 32299 77.5899 1329 2089 25135248 -31.2916 11.8838 141.225
+
+Done with anno_path:  /home/genia/rigdata/magikarp/170222_ENG-BIE_02_magikarp_WAS21R09C17/P_00_170222220035_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/magikarp/170222_ENG-BIE_03_magikarp_WAS21R09C17/P_00_170223003454_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magikarp/170222_ENG-BIE_03_magikarp_WAS21R09C17/P_00_170223003454_s16-master_ac-analysis_v11.22.2 19.9386 -101.276 16.6982 -107.381 157.16 -3.29786 147.129 -65.8317 38189 77.6939 1315 2063 32575955 -28.8735 10.0072 100.145
+
+Done with anno_path:  /home/genia/rigdata/magikarp/170222_ENG-BIE_03_magikarp_WAS21R09C17/P_00_170223003454_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/magikarp/170222_ENG-BIE_01_magikarp_WAS21R09C17/P_00_170222200439_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magikarp/170222_ENG-BIE_01_magikarp_WAS21R09C17/P_00_170222200439_ggc3-keeper_ac-analysis_v11.22.2 23.6143 -103.212 19.0822 -119.9 161.581 -4.93343 149.548 -68.8581 47609 77.3039 1153 1785 35628384 -25.5181 6.9109 47.7606
+
+Done with anno_path:  /home/genia/rigdata/magikarp/170222_ENG-BIE_01_magikarp_WAS21R09C17/P_00_170222200439_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/magmar/170222_PEG-POL_01_magmar_WAS22R05C05/P_00_170222235217_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magmar/170222_PEG-POL_01_magmar_WAS22R05C05/P_00_170222235217_s16pre-master_ac-analysis_v11.22.2 1.37965 -34.082 -1.63087 -41.0389 190.16 14.4966 184.112 -28.3525 628 38.8873 100 119 32008 -10.0645 2.81488 7.92355
+
+Done with anno_path:  /home/genia/rigdata/magmar/170222_PEG-POL_01_magmar_WAS22R05C05/P_00_170222235217_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/magmar/170222_PEG-POL_02_magmar_WAS22R05C05/P_00_170223015432_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magmar/170222_PEG-POL_02_magmar_WAS22R05C05/P_00_170223015432_s16-master_ac-analysis_v11.22.2 3.06896 -29.9945 -0.463707 -40.8722 190.123 10.0437 178.514 -45.814 2579 76.9743 1020 1273 1925505 -8.15924 2.88041 8.29679
+
+Done with anno_path:  /home/genia/rigdata/magmar/170222_PEG-POL_02_magmar_WAS22R05C05/P_00_170223015432_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/magnemite/170222_ENG-BIE_02_magnemite_WAS24R10C07/P_00_170222220708_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magnemite/170222_ENG-BIE_02_magnemite_WAS24R10C07/P_00_170222220708_s16-master_ac-analysis_v11.22.2 174.235 -149.323 130.669 -173.652 205.509 -119.889 195.935 -121.977 39178 78.5815 1323 1957 29226306 -28.6328 10.9281 119.424
+
+Done with anno_path:  /home/genia/rigdata/magnemite/170222_ENG-BIE_02_magnemite_WAS24R10C07/P_00_170222220708_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/magnemite/170222_ENG-BIE_01_magnemite_WAS24R10C07/P_00_170222201538_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magnemite/170222_ENG-BIE_01_magnemite_WAS24R10C07/P_00_170222201538_s16pre-master_ac-analysis_v11.22.2 208.013 -144.881 205.637 -175.993 236.299 -128.003 230.516 -176.539 50931 78.4035 1235 1818 34642810 -25.1248 6.84172 46.8091
+
+Done with anno_path:  /home/genia/rigdata/magnemite/170222_ENG-BIE_01_magnemite_WAS24R10C07/P_00_170222201538_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/magnemite/170222_ENG-BIE_03_magnemite_WAS24R10C07/P_00_170223004510_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/magnemite/170222_ENG-BIE_03_magnemite_WAS24R10C07/P_00_170223004510_ggc3-keeper_ac-analysis_v11.22.2 182.209 -169.478 180.691 -170.979 236.013 -132.497 224.153 -134.979 38163 78.7564 1418 2067 33936774 -27.5458 10.703 114.553
+
+Done with anno_path:  /home/genia/rigdata/magnemite/170222_ENG-BIE_03_magnemite_WAS24R10C07/P_00_170223004510_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/mankey/170222_PEG-POL_01_mankey_WAS22R09C18/P_00_170223000543_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/mankey/170222_PEG-POL_01_mankey_WAS22R09C18/P_00_170223000543_ggc3-keeper_ac-analysis_v11.22.2 10.169 -21.8234 6.26192 -38.0474 189.111 14.6921 158.069 -39.4269 317 38.3214 83 117 7621 -2.91061 2.21124 4.8896
+
+Done with anno_path:  /home/genia/rigdata/mankey/170222_PEG-POL_01_mankey_WAS22R09C18/P_00_170223000543_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/mankey/170222_PEG-POL_02_mankey_WAS22R09C18/P_00_170223015800_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/mankey/170222_PEG-POL_02_mankey_WAS22R09C18/P_00_170223015800_ggc3-keeper_ac-analysis_v11.22.2 11.4559 -26.7234 9.3708 -35.271 195.32 10.5476 179.469 -37.4308 2836 77.736 980 1266 1819052 -1.77456 2.78088 7.7333
+
+Done with anno_path:  /home/genia/rigdata/mankey/170222_PEG-POL_02_mankey_WAS22R09C18/P_00_170223015800_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/mareep/170222_PEG-PORE_01_mareep_WAE22R13C11/P_00_170223001958_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/mareep/170222_PEG-PORE_01_mareep_WAE22R13C11/P_00_170223001958_s16pre-master_ac-analysis_v11.22.2 12.415 -106.113 10.4407 -125.368 161.485 0.350401 146.557 -70.4629 12 nan -1 -1 0 -51.4971 18.6518 347.889
+
+Done with anno_path:  /home/genia/rigdata/mareep/170222_PEG-PORE_01_mareep_WAE22R13C11/P_00_170223001958_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/marowak/170222_ENG-BIE_01_marowak_WAL09R05C15/P_00_170222202156_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/marowak/170222_ENG-BIE_01_marowak_WAL09R05C15/P_00_170222202156_s16pre-master_ac-analysis_v11.22.2 4.92314 -96.5797 3.72309 -129.804 150.951 -7.78935 132.263 -60.998 3 nan -1 -1 0 -23.0943 17.0998 292.404
+
+Done with anno_path:  /home/genia/rigdata/marowak/170222_ENG-BIE_01_marowak_WAL09R05C15/P_00_170222202156_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/marowak/170222_ENG-BIE_02_marowak_WAL09R05C15/P_00_170222221725_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/marowak/170222_ENG-BIE_02_marowak_WAL09R05C15/P_00_170222221725_ggc3-keeper_ac-analysis_v11.22.2 25.5391 -103.991 24.1912 -121.47 152.008 -0.627058 140.204 -64.7259 1 nan -1 -1 0 -24.9755 19.657 386.399
+
+Done with anno_path:  /home/genia/rigdata/marowak/170222_ENG-BIE_02_marowak_WAL09R05C15/P_00_170222221725_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/marowak/170222_ENG-BIE_03_marowak_WAL09R05C15/P_00_170223004543_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/marowak/170222_ENG-BIE_03_marowak_WAL09R05C15/P_00_170223004543_s16pre-master_ac-analysis_v11.22.2 40.2421 -106.558 38.249 -142.226 182.476 -0.951437 149.16 -75.6094 2722 77.5081 587 877 1081448 -31.443 24.1696 584.169
+
+Done with anno_path:  /home/genia/rigdata/marowak/170222_ENG-BIE_03_marowak_WAL09R05C15/P_00_170223004543_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/metapod/170222_SAM_01_metapod_WAS21R11C09/P_00_170222213637_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/metapod/170222_SAM_01_metapod_WAS21R11C09/P_00_170222213637_s16pre-master_ac-analysis_v11.22.2 6.16831 -28.0758 3.09736 -33.5875 185.931 11.6255 163.801 -27.0467 3852 77.9694 1703 2546 4957593 -6.65035 2.09066 4.37086
+
+Done with anno_path:  /home/genia/rigdata/metapod/170222_SAM_01_metapod_WAS21R11C09/P_00_170222213637_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/metapod/170222_SAM_02_metapod_WAS21R11C09/P_00_170223020248_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/metapod/170222_SAM_02_metapod_WAS21R11C09/P_00_170223020248_s16-master_ac-analysis_v11.22.2 7.19478 -35.0053 4.58478 -39.5068 193.364 9.14296 167.668 -42.5538 2870 77.3321 1677 2557 3556919 -4.8793 2.7275 7.43926
+
+Done with anno_path:  /home/genia/rigdata/metapod/170222_SAM_02_metapod_WAS21R11C09/P_00_170223020248_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle05/P_00_170223045455_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle05/P_00_170223045455_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 23.5872 -96.6489 15.967 -111.147 141.813 -0.596763 134.586 -69.1872 3884 75.4957 187 269 243099 -25.8203 5.52323 30.5061
+
+Done with anno_path:  /home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle05/P_00_170223045455_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle04/P_00_170223030835_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle04/P_00_170223030835_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.4158 -88.7195 11.1224 -112.079 143.147 -2.03042 120.344 -68.8801 4029 76.094 253 380 495594 -25.7914 5.80832 33.7365
+
+Done with anno_path:  /home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle04/P_00_170223030835_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle03/P_00_170223011325_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle03/P_00_170223011325_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.40364 -98.8145 4.10488 -110.694 141.959 -0.259281 132.954 -66.1075 4383 77.0186 304 469 827133 -25.9474 6.35358 40.3679
+
+Done with anno_path:  /home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle03/P_00_170223011325_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle01/P_00_170222212029_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle01/P_00_170222212029_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.909 -96.9631 10.0177 -120.526 132.513 -0.165291 125.039 -68.0988 2406 76.7146 221 350 227953 -26.2211 6.7304 45.2984
+
+Done with anno_path:  /home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle01/P_00_170222212029_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle01/P_01_170223001315_ggc2-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle01/P_01_170223001315_ggc2-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.909 -96.9631 10.0177 -120.526 132.513 -1.38138 125.039 -68.0988 2577 76.7142 220 349 245570 -26.1869 6.68919 44.7453
+
+Done with anno_path:  /home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle01/P_01_170223001315_ggc2-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle02/P_00_170222231405_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle02/P_00_170222231405_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.43145 -86.0835 2.85299 -111.093 132.621 -4.69369 125.892 -69.4324 4046 76.1582 269 419 526994 -25.0047 6.24712 39.0266
+
+Done with anno_path:  /home/genia/rigdata/miltank/170222_ENG-SYS_01_miltank_WAS24R11C10_cycle02/P_00_170222231405_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/missingno/170222_ENG-BIE_03_missingno_WAS21R05C05/P_00_170223004329_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/missingno/170222_ENG-BIE_03_missingno_WAS21R05C05/P_00_170223004329_ggc3-keeper_ac-analysis_v11.22.2 20.3925 -105.708 18.9186 -125.31 159.829 -3.56951 150.451 -66.222 35940 78.6242 1351 2023 30194691 -25.5889 9.36029 87.615
+
+Done with anno_path:  /home/genia/rigdata/missingno/170222_ENG-BIE_03_missingno_WAS21R05C05/P_00_170223004329_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/missingno/170222_ENG-BIE_02_missingno_WAS21R05C05/P_00_170222221503_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/missingno/170222_ENG-BIE_02_missingno_WAS21R05C05/P_00_170222221503_s16pre-master_ac-analysis_v11.22.2 21.0537 -103.733 20.0538 -120.386 164.259 -21.0762 144.998 -62.5524 36323 78.5345 1301 1946 27355939 -25.5531 8.92257 79.6123
+
+Done with anno_path:  /home/genia/rigdata/missingno/170222_ENG-BIE_02_missingno_WAS21R05C05/P_00_170222221503_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/missingno/170222_ENG-BIE_01_missingno_WAS21R05C05/P_00_170222201457_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/missingno/170222_ENG-BIE_01_missingno_WAS21R05C05/P_00_170222201457_s16-master_ac-analysis_v11.22.2 21.5638 -100.201 20.066 -125.894 160.835 -16.9652 148.172 -63.579 38306 77.9277 1211 1821 28694068 -23.373 7.51094 56.4142
+
+Done with anno_path:  /home/genia/rigdata/missingno/170222_ENG-BIE_01_missingno_WAS21R05C05/P_00_170222201457_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/misty/170222_ENG-SYS_01_misty_WAS24R07C02/P_00_170222201904_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/misty/170222_ENG-SYS_01_misty_WAS24R07C02/P_00_170222201904_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.6742 -73.9103 10.1437 -94.4409 132.983 -16.2082 100.342 -59.3251 30725 58.9943 225 280 5418128 -19.8805 5.46507 29.867
+
+Done with anno_path:  /home/genia/rigdata/misty/170222_ENG-SYS_01_misty_WAS24R07C02/P_00_170222201904_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/mrmime/170222_PEG-POL_01_mrmime_WAS24R07C09/P_00_170222235543_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/mrmime/170222_PEG-POL_01_mrmime_WAS24R07C09/P_00_170222235543_ggc3-keeper_ac-analysis_v11.22.2 8.03215 -26.1886 4.51828 -34.4057 189.305 14.8218 168.088 -33.2534 306 36.3374 72 94 6618 -2.35026 2.43468 5.92766
+
+Done with anno_path:  /home/genia/rigdata/mrmime/170222_PEG-POL_01_mrmime_WAS24R07C09/P_00_170222235543_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/mrmime/170222_PEG-POL_02_mrmime_WAS24R07C09/P_00_170223015124_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/mrmime/170222_PEG-POL_02_mrmime_WAS24R07C09/P_00_170223015124_s16-master_ac-analysis_v11.22.2 17.8543 -23.7407 12.0813 -36.4224 190.118 1.79678 168.552 -39.0208 2821 77.2536 933 1205 1930572 -0.288653 2.51573 6.3289
+
+Done with anno_path:  /home/genia/rigdata/mrmime/170222_PEG-POL_02_mrmime_WAS24R07C09/P_00_170223015124_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/nidoking/170222_ENG-BIE_03_nidoking_WAS21R11C13/P_00_170223004554_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/nidoking/170222_ENG-BIE_03_nidoking_WAS21R11C13/P_00_170223004554_s16pre-master_ac-analysis_v11.22.2 14.0372 -104.601 12.4542 -118.649 149.419 -8.75196 143.469 -68.2551 38788 78.6421 1359 2033 31777018 -25.9269 10.3613 107.357
+
+Done with anno_path:  /home/genia/rigdata/nidoking/170222_ENG-BIE_03_nidoking_WAS21R11C13/P_00_170223004554_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/nidoking/170222_ENG-BIE_02_nidoking_WAS21R11C13/P_00_170222220749_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/nidoking/170222_ENG-BIE_02_nidoking_WAS21R11C13/P_00_170222220749_ggc3-keeper_ac-analysis_v11.22.2 13.1002 -103.385 11.109 -130.095 150.574 -15.8928 143.395 -71.3559 36333 78.3659 1381 2018 29680170 -26.0385 10.2155 104.356
+
+Done with anno_path:  /home/genia/rigdata/nidoking/170222_ENG-BIE_02_nidoking_WAS21R11C13/P_00_170222220749_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/nidoking/170222_ENG-BIE_01_nidoking_WAS21R11C13/P_00_170222201705_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/nidoking/170222_ENG-BIE_01_nidoking_WAS21R11C13/P_00_170222201705_ggc3-keeper_ac-analysis_v11.22.2 32.2781 -112.318 19.5648 -130.774 155.189 -2.04488 147.335 -67.5256 46713 78.4011 1232 1848 35385726 -21.7209 6.13198 37.6012
+
+Done with anno_path:  /home/genia/rigdata/nidoking/170222_ENG-BIE_01_nidoking_WAS21R11C13/P_00_170222201705_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/nidoqueen/170222_ENG-BIE_01_nidoqueen_WAS24R08C07/P_00_170222202207_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/nidoqueen/170222_ENG-BIE_01_nidoqueen_WAS24R08C07/P_00_170222202207_s16-master_ac-analysis_v11.22.2 18.865 -104.747 16.6175 -115.065 150.398 -16.5387 137.384 -55.3153 44232 78.0229 1275 1855 35113010 -24.108 6.02604 36.3132
+
+Done with anno_path:  /home/genia/rigdata/nidoqueen/170222_ENG-BIE_01_nidoqueen_WAS24R08C07/P_00_170222202207_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/nidoqueen/170222_ENG-BIE_03_nidoqueen_WAS24R08C07/P_00_170223005039_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/nidoqueen/170222_ENG-BIE_03_nidoqueen_WAS24R08C07/P_00_170223005039_ggc3-keeper_ac-analysis_v11.22.2 9.79054 -101.49 8.45485 -114.609 163.825 -7.91744 157.739 -66.4307 43857 78.7966 1434 2039 39508491 -25.1468 9.42609 88.8511
+
+Done with anno_path:  /home/genia/rigdata/nidoqueen/170222_ENG-BIE_03_nidoqueen_WAS24R08C07/P_00_170223005039_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/nidoqueen/170222_ENG-BIE_02_nidoqueen_WAS24R08C07/P_00_170222221936_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/nidoqueen/170222_ENG-BIE_02_nidoqueen_WAS24R08C07/P_00_170222221936_s16pre-master_ac-analysis_v11.22.2 10.2353 -103.838 7.757 -121.283 151.027 -4.82265 145.011 -52.4108 37952 78.7057 1416 2076 30713511 -27.2478 10.8381 117.464
+
+Done with anno_path:  /home/genia/rigdata/nidoqueen/170222_ENG-BIE_02_nidoqueen_WAS24R08C07/P_00_170222221936_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/oddish/170222_TAG_01_oddish_WAE22R06C11/P_00_170223001647_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/oddish/170222_TAG_01_oddish_WAE22R06C11/P_00_170223001647_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10 0.577257 -57.32 -0.107952 -67.9131 211.586 -97.8492 192.462 -110.332 18 41.5048 91 131 1103 -14.4918 6.77903 45.9553
+
+Done with anno_path:  /home/genia/rigdata/oddish/170222_TAG_01_oddish_WAE22R06C11/P_00_170223001647_ggc3-keeper_ac-analysis_v11.23.0.dev.dropt_pts_10
+/home/genia/rigdata/oddish/170222_TAG_02_oddish_WAE22R06C11/P_00_170223015626_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/oddish/170222_TAG_02_oddish_WAE22R06C11/P_00_170223015626_ggc3-keeper_ac-analysis_v11.22.2 18.6821 -104.22 17.6821 -114.806 174.762 -2.86091 161.445 -57.7821 4832 41.2849 454 628 1572651 -39.8435 11.1274 123.819
+
+Done with anno_path:  /home/genia/rigdata/oddish/170222_TAG_02_oddish_WAE22R06C11/P_00_170223015626_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/onix/170222_ACTG_04_onix_WAS02R10C11/P_00_170222235532_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/onix/170222_ACTG_04_onix_WAS02R10C11/P_00_170222235532_ggc3-keeper_ac-analysis_v11.22.2 117.819 -132.908 116.426 -134.59 245.242 9.46546 231.996 -60.2847 0 nan -1 -1 0 -47.9492 19.2768 371.595
+
+Done with anno_path:  /home/genia/rigdata/onix/170222_ACTG_04_onix_WAS02R10C11/P_00_170222235532_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/parasect/170222_PEG-POL_01_parasect_WAS24R10C15/P_00_170222235308_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/parasect/170222_PEG-POL_01_parasect_WAS24R10C15/P_00_170222235308_s16-master_ac-analysis_v11.22.2 -2.54417 -32.4122 -5.70216 -43.3509 188.167 12.586 150.376 -34.07 4206 76.4192 872 1270 2416958 -12.7712 2.14757 4.61205
+
+Done with anno_path:  /home/genia/rigdata/parasect/170222_PEG-POL_01_parasect_WAS24R10C15/P_00_170222235308_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/parasect/170222_PEG-POL_02_parasect_WAS24R10C15/P_00_170223014610_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/parasect/170222_PEG-POL_02_parasect_WAS24R10C15/P_00_170223014610_ggc3-keeper_ac-analysis_v11.22.2 -0.657979 -42.5492 -3.5565 -47.7212 191.479 5.52271 167.574 -39.9548 2541 77.3642 720 955 1399097 -11.2423 2.41725 5.84312
+
+Done with anno_path:  /home/genia/rigdata/parasect/170222_PEG-POL_02_parasect_WAS24R10C15/P_00_170223014610_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle04/P_00_170223072251_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle04/P_00_170223072251_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 23.458 -104.419 21.0679 -108.623 156.848 9.52591 152.839 -61.9306 47 60.3057 274 407 9344 -56.1821 22.18 491.954
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle04/P_00_170223072251_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle06/P_00_170223091509_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle06/P_00_170223091509_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.2952 -105.386 11.9117 -115.563 148.817 14.8033 148.816 -18.823 17 57.8472 211 433 1691 -56.1243 25.1273 631.382
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle06/P_00_170223091509_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle05/P_00_170223081925_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle05/P_00_170223081925_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.3614 -102.097 8.6714 -102.81 154.042 10.1443 150.103 -36.1194 10 63.7019 276 477 1934 -49.2334 23.2857 542.226
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle05/P_00_170223081925_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle10/P_00_170223131259_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle10/P_00_170223131259_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 22.7163 -97.9676 20.3583 -116.247 156.401 3.50373 145.787 -31.7229 88 68.1292 124 270 1996 -32.4466 18.0275 324.992
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle10/P_00_170223131259_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle01/P_00_170223033233_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle01/P_00_170223033233_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 14.8264 -105.14 8.21608 -110.382 139.364 -2.66352 130.684 -78.2756 31731 76.0924 509 680 12026885 -25.5333 6.93622 48.1112
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle01/P_00_170223033233_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle02/P_00_170223052901_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle02/P_00_170223052901_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 12.6819 -106.142 4.64653 -108.596 157.816 5.68961 153.828 0.0457414 255 65.8302 389 584 78656 -57.4478 21.0955 445.021
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle02/P_00_170223052901_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle03/P_00_170223062643_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle03/P_00_170223062643_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.4995 -104.629 7.54364 -109.391 156.533 12.6158 151.653 -63.5152 111 61.7809 384 617 28475 -58.2389 21.2307 450.743
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle03/P_00_170223062643_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle09/P_00_170223121352_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle09/P_00_170223121352_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 19.7956 -105.433 17.4068 -106.33 155.674 10.0879 152.714 -47.2313 97 72.4874 187 449 1874 -36.2114 18.0916 327.307
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle09/P_00_170223121352_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle08/P_00_170223111018_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle08/P_00_170223111018_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 22.4608 -106.141 14.5664 -114.25 152.89 8.37608 149.972 -40.596 26 73.7897 200 207 1808 -52.4695 26.8682 721.901
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle08/P_00_170223111018_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle07/P_00_170223100942_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle07/P_00_170223100942_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.8118 -108.532 10.0159 -111.767 152.625 9.02893 147.83 -36.7712 288 69.7846 362 604 32242 -44.4283 18.6299 347.073
+
+Done with anno_path:  /home/genia/rigdata/persian/170222_ENG-SYS_02_persian_WAS24R11C07_cycle07/P_00_170223100942_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/pidgey/170222_PEG-POL_02_pidgey_WAS22R05C10/P_00_170223015319_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/pidgey/170222_PEG-POL_02_pidgey_WAS22R05C10/P_00_170223015319_ggc3-keeper_ac-analysis_v11.22.2 7.15292 -40.7175 3.77182 -45.476 192.219 8.93016 174.875 -38.3617 2423 77.8332 617 828 1137902 -9.42101 2.45982 6.05073
+
+Done with anno_path:  /home/genia/rigdata/pidgey/170222_PEG-POL_02_pidgey_WAS22R05C10/P_00_170223015319_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/pidgey/170222_PEG-POL_01_pidgey_WAS22R05C10/P_00_170222235319_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/pidgey/170222_PEG-POL_01_pidgey_WAS22R05C10/P_00_170222235319_ggc3-keeper_ac-analysis_v11.22.2 -0.0288494 -34.9651 -3.49139 -44.8589 192.248 12.6797 153.962 -30.0551 4346 77.0564 890 1267 2560119 -10.4645 2.09197 4.37635
+
+Done with anno_path:  /home/genia/rigdata/pidgey/170222_PEG-POL_01_pidgey_WAS22R05C10/P_00_170222235319_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/pineco/170222_SAM_03_pineco_WAS22R13C10/P_00_170222215632_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/pineco/170222_SAM_03_pineco_WAS22R13C10/P_00_170222215632_s16pre-master_ac-analysis_v11.22.2 -1.55888 -22.9524 -4.04495 -33.3979 191.053 13.0194 181.395 -26.8297 2208 77.1096 1221 2109 1901878 -10.8692 1.51527 2.29603
+
+Done with anno_path:  /home/genia/rigdata/pineco/170222_SAM_03_pineco_WAS22R13C10/P_00_170222215632_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/politoed/170222_ENG-SYS_03_politoed_WAT10R03C08/P_00_170223033111_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/politoed/170222_ENG-SYS_03_politoed_WAT10R03C08/P_00_170223033111_s16pre-master_ac-analysis_v11.22.2 -0.616295 -76.5487 -15.0779 -106.179 96.4142 13.8681 87.6257 -65.9705 35521 77.9109 733 1063 18990334 -36.3202 3.87836 15.0417
+
+Done with anno_path:  /home/genia/rigdata/politoed/170222_ENG-SYS_03_politoed_WAT10R03C08/P_00_170223033111_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/politoed/170222_ENG-SYS_01_politoed_WAT10R03C08/P_00_170223004605_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/politoed/170222_ENG-SYS_01_politoed_WAT10R03C08/P_00_170223004605_ggc3-keeper_ac-analysis_v11.22.2 -1.75061 -75.2853 -23.1001 -101.688 95.7204 25.9625 86.1053 -62.1638 21872 77.4871 336 416 5357483 -36.7968 6.07367 36.8894
+
+Done with anno_path:  /home/genia/rigdata/politoed/170222_ENG-SYS_01_politoed_WAT10R03C08/P_00_170223004605_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/ponyta/170222_SIG-A_01_ponyta_WAT09R03C09/P_00_170222233740_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ponyta/170222_SIG-A_01_ponyta_WAT09R03C09/P_00_170222233740_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -0.980472 -27.1976 -4.98029 -41.0251 184.234 13.925 176.54 -23.4516 145 74.8047 627 988 73434 -14.9199 3.79321 14.3884
+
+Done with anno_path:  /home/genia/rigdata/ponyta/170222_SIG-A_01_ponyta_WAT09R03C09/P_00_170222233740_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/raichu/170222_SIG-A_01_raichu_WAT08R03C10/P_00_170222232307_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/raichu/170222_SIG-A_01_raichu_WAT08R03C10/P_00_170222232307_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p -3.79561 -34.191 -7.48326 -44.918 184.435 9.9059 157.555 -29.5694 2414 78.52 1148 1735 2112780 -17.9758 2.95538 8.73428
+
+Done with anno_path:  /home/genia/rigdata/raichu/170222_SIG-A_01_raichu_WAT08R03C10/P_00_170222232307_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/raichu/170222_ENG-SYS_01_raichu_WAS24R11C15/P_00_170222201654_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/raichu/170222_ENG-SYS_01_raichu_WAS24R11C15/P_00_170222201654_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 23.6833 -72.2867 20.8399 -101.932 134.638 -32.2673 101.638 -56.236 46076 77.1122 243 297 9438800 -24.107 6.79363 46.1534
+
+Done with anno_path:  /home/genia/rigdata/raichu/170222_ENG-SYS_01_raichu_WAS24R11C15/P_00_170222201654_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/ratatta/170222_TAG_01_ratatta_WAE22R13C06/P_00_170222231527_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ratatta/170222_TAG_01_ratatta_WAE22R13C06/P_00_170222231527_ggc3-keeper_ac-analysis_v11.22.2 4.35072 -33.6607 1.34259 -49.7102 186.408 12.4473 179.895 -38.2431 2430 78.0161 1270 1723 2174514 -9.55458 3.46768 12.0248
+
+Done with anno_path:  /home/genia/rigdata/ratatta/170222_TAG_01_ratatta_WAE22R13C06/P_00_170222231527_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/ratatta/170222_TAG_02_ratatta_WAE22R13C06/P_00_170223015113_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/ratatta/170222_TAG_02_ratatta_WAE22R13C06/P_00_170223015113_s16-master_ac-analysis_v11.22.2 15.6642 -105.458 13.6725 -141.884 161.745 -2.97499 144.663 -67.0483 3718 40.4786 136 256 185004 -45.835 12.2312 149.602
+
+Done with anno_path:  /home/genia/rigdata/ratatta/170222_TAG_02_ratatta_WAE22R13C06/P_00_170223015113_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/sabrina/170222_TAG_01_sabrina_WAE22R09C02/P_00_170222231340_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/sabrina/170222_TAG_01_sabrina_WAE22R09C02/P_00_170222231340_s16-master_ac-analysis_v11.22.2 7.54735 -35.3791 2.36902 -40.6786 195.912 -9.44696 183.84 -24.248 3147 76.9265 902 1270 2067867 -6.49985 2.71121 7.35064
+
+Done with anno_path:  /home/genia/rigdata/sabrina/170222_TAG_01_sabrina_WAE22R09C02/P_00_170222231340_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/seaking/170222_PEG-POL_01_seaking_WAS24R05C11/P_00_170222235136_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/seaking/170222_PEG-POL_01_seaking_WAS24R05C11/P_00_170222235136_ggc3-keeper_ac-analysis_v11.22.2 2.91426 -32.4373 -0.649354 -43.7591 194.408 12.6758 179.253 -34.0467 498 39.3438 99 113 28237 -12.6788 2.92086 8.53141
+
+Done with anno_path:  /home/genia/rigdata/seaking/170222_PEG-POL_01_seaking_WAS24R05C11/P_00_170222235136_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/seaking/170222_PEG-POL_02_seaking_WAS24R05C11/P_00_170223020451_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/seaking/170222_PEG-POL_02_seaking_WAS24R05C11/P_00_170223020451_ggc3-keeper_ac-analysis_v11.22.2 2.72288 -38.2712 -0.410045 -43.7658 191.67 4.49897 178.636 -32.1167 2318 76.9715 962 1218 1619201 -10.8084 2.64278 6.98429
+
+Done with anno_path:  /home/genia/rigdata/seaking/170222_PEG-POL_02_seaking_WAS24R05C11/P_00_170223020451_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/shellder/170222_SAM_01_shellder_WAE19R05C15/P_00_170222213416_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/shellder/170222_SAM_01_shellder_WAE19R05C15/P_00_170222213416_s16-master_ac-analysis_v11.22.2 5.93771 -23.8811 2.8008 -30.3059 191.141 6.51141 169.354 -22.6321 2719 76.8483 1707 2558 3399524 -6.40597 1.81644 3.29946
+
+Done with anno_path:  /home/genia/rigdata/shellder/170222_SAM_01_shellder_WAE19R05C15/P_00_170222213416_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/slowking/170222_ENG-SYS_03_slowking_WAT10R03C11/P_00_170223032608_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/slowking/170222_ENG-SYS_03_slowking_WAT10R03C11/P_00_170223032608_s16-master_ac-analysis_v11.22.2 -0.114824 -78.1398 -16.1663 -101.596 95.6612 15.8285 91.6484 -61.4354 5654 72.4388 196 255 67632 -38.3594 3.60954 13.0288
+
+Done with anno_path:  /home/genia/rigdata/slowking/170222_ENG-SYS_03_slowking_WAT10R03C11/P_00_170223032608_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/slowking/170222_ENG-SYS_01_slowking_WAT10R03C11/P_00_170223004126_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/slowking/170222_ENG-SYS_01_slowking_WAT10R03C11/P_00_170223004126_ggc3-keeper_ac-analysis_v11.22.2 -2.44138 -75.8964 -23.2503 -88.3174 95.3552 19.4256 87.3814 -63.1131 1977 70.3176 145 187 291 -37.2884 3.12339 9.75558
+
+Done with anno_path:  /home/genia/rigdata/slowking/170222_ENG-SYS_01_slowking_WAT10R03C11/P_00_170223004126_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/slowpoke/170222_ACTG_06_slowpoke_WAV08R10C14/P_00_170222232441_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/slowpoke/170222_ACTG_06_slowpoke_WAV08R10C14/P_00_170222232441_ggc3-keeper_ac-analysis_v11.22.2 7.81595 -22.3182 5.7919 -55.0027 117.087 -3.19892 78.1361 -55.5988 1 nan -1 -1 0 -5.45176 6.93514 48.0962
+
+Done with anno_path:  /home/genia/rigdata/slowpoke/170222_ACTG_06_slowpoke_WAV08R10C14/P_00_170222232441_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/slowpoke/170222_ACTG_05_slowpoke_WAE21R04C05/P_00_170222215854_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/slowpoke/170222_ACTG_05_slowpoke_WAE21R04C05/P_00_170222215854_s16pre-master_ac-analysis_v11.22.2 8.53029 -17.7125 5.35461 -26.0876 173.371 2.68308 142.426 -0.642165 3504 78.5854 235 281 635582 -9.24264 2.00739 4.02963
+
+Done with anno_path:  /home/genia/rigdata/slowpoke/170222_ACTG_05_slowpoke_WAE21R04C05/P_00_170222215854_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/spearow/170222_ENG-BIE_02_spearow_WAE22R13C07/P_00_170222215842_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/spearow/170222_ENG-BIE_02_spearow_WAE22R13C07/P_00_170222215842_s16pre-master_ac-analysis_v11.22.2 3.00546 -104.597 0.401234 -112.672 152.97 -0.334392 146.413 -65.0617 39922 77.5632 1249 1914 30923103 -30.8957 9.77041 95.461
+
+Done with anno_path:  /home/genia/rigdata/spearow/170222_ENG-BIE_02_spearow_WAE22R13C07/P_00_170222215842_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/spearow/170222_ENG-BIE_01_spearow_WAE22R13C07/P_00_170222200742_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/spearow/170222_ENG-BIE_01_spearow_WAE22R13C07/P_00_170222200742_ggc3-keeper_ac-analysis_v11.22.2 2.76932 -103.902 -0.470864 -112.211 157.842 0.0320662 137.592 -59.3417 42875 77.7221 1219 1855 30756695 -27.9015 6.32889 40.0548
+
+Done with anno_path:  /home/genia/rigdata/spearow/170222_ENG-BIE_01_spearow_WAE22R13C07/P_00_170222200742_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/steelix/170222_PEG-PORE_01_steelix_WAE22R04C11/P_00_170223002340_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/steelix/170222_PEG-PORE_01_steelix_WAE22R04C11/P_00_170223002340_s16pre-master_ac-analysis_v11.22.2 13.9174 -106.743 11.919 -125.579 166.782 3.72639 153.335 -54.8547 1 nan -1 -1 0 -51.833 18.8217 354.257
+
+Done with anno_path:  /home/genia/rigdata/steelix/170222_PEG-PORE_01_steelix_WAE22R04C11/P_00_170223002340_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle01/P_00_170223033152_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle01/P_00_170223033152_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 5.63207 -107.484 1.83559 -113.43 144.203 3.46422 139.568 -57.6659 43705 74.5619 522 671 18831283 -23.4708 6.87061 47.2053
+
+Done with anno_path:  /home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle01/P_00_170223033152_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle05/P_00_170223110056_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle05/P_00_170223110056_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.59547 -99.6175 6.12742 -112.373 142.095 -3.9078 136.765 -63.7216 44842 77.3472 534 706 18557072 -25.9188 5.72696 32.798
+
+Done with anno_path:  /home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle05/P_00_170223110056_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle02/P_00_170223052751_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle02/P_00_170223052751_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 9.73687 -102.827 1.77199 -111.424 142.256 0.970489 129.023 -73.6035 40397 75.3545 488 627 15199065 -23.7329 6.90396 47.6646
+
+Done with anno_path:  /home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle02/P_00_170223052751_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle06/P_00_170223124636_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle06/P_00_170223124636_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 18.1216 -102.453 15.624 -108.942 142.298 -1.27386 136.547 -65.6431 38073 77.7396 484 667 13413273 -24.4797 6.08455 37.0217
+
+Done with anno_path:  /home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle06/P_00_170223124636_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle04/P_00_170223090758_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle04/P_00_170223090758_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 8.8132 -101.214 5.34119 -121.718 133.931 -1.50736 125.381 -61.7397 44849 77.2687 505 672 19003076 -25.5067 6.78572 46.0459
+
+Done with anno_path:  /home/genia/rigdata/sudowoodo/170222_ENG-SYS_03_sudowoodo_WAS24R09C17_cycle04/P_00_170223090758_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/tangela/170222_ENG-BIE_01_tangela_WAE22R06C09/P_00_170222200520_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/tangela/170222_ENG-BIE_01_tangela_WAE22R06C09/P_00_170222200520_s16pre-master_ac-analysis_v11.22.2 7.06605 -101.797 5.05793 -108.086 144.563 -3.07084 141.783 -70.0687 50326 77.6765 1143 1800 34371763 -26.0121 5.90852 34.9106
+
+Done with anno_path:  /home/genia/rigdata/tangela/170222_ENG-BIE_01_tangela_WAE22R06C09/P_00_170222200520_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/taoros/170222_SAM_01_taoros_WAE22R13C10/P_00_170222214039_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/taoros/170222_SAM_01_taoros_WAE22R13C10/P_00_170222214039_s16-master_ac-analysis_v11.22.2 3.7942 -34.7984 0.794787 -40.836 186.324 15.0705 178.368 -40.5915 3785 77.5715 1680 2535 4235424 -7.98933 1.89751 3.60053
+
+Done with anno_path:  /home/genia/rigdata/taoros/170222_SAM_01_taoros_WAE22R13C10/P_00_170222214039_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/tentacool/170222_PEG-POL_01_tentacool_WAS22R09C06/P_00_170223000052_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/tentacool/170222_PEG-POL_01_tentacool_WAS22R09C06/P_00_170223000052_ggc3-keeper_ac-analysis_v11.22.2 -7.8931 -38.2534 -11.1505 -51.1413 196.229 12.2673 181.524 -22.4251 303 37.1345 82 100 6521 -18.3873 2.6913 7.24308
+
+Done with anno_path:  /home/genia/rigdata/tentacool/170222_PEG-POL_01_tentacool_WAS22R09C06/P_00_170223000052_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/tentacool/170222_PEG-POL_02_tentacool_WAS22R09C06/P_00_170223015443_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/tentacool/170222_PEG-POL_02_tentacool_WAS22R09C06/P_00_170223015443_s16-master_ac-analysis_v11.22.2 -7.4386 -41.0414 -10.8804 -51.2387 189.65 11.949 179.992 -34.3676 2812 77.0966 1022 1270 1904475 -17.1081 2.84339 8.08489
+
+Done with anno_path:  /home/genia/rigdata/tentacool/170222_PEG-POL_02_tentacool_WAS22R09C06/P_00_170223015443_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/unown/170222_PEG-POL_01_unown_WAS22R09C08/P_00_170222235735_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/unown/170222_PEG-POL_01_unown_WAS22R09C08/P_00_170222235735_s16-master_ac-analysis_v11.22.2 5.439 -25.4382 1.6664 -38.7982 195.911 13.9811 176.813 -33.6019 641 39.0574 92 113 30864 -5.21794 2.70868 7.33696
+
+Done with anno_path:  /home/genia/rigdata/unown/170222_PEG-POL_01_unown_WAS22R09C08/P_00_170222235735_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/unown/170222_PEG-POL_02_unown_WAS22R09C08/P_00_170223015256_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/unown/170222_PEG-POL_02_unown_WAS22R09C08/P_00_170223015256_ggc3-keeper_ac-analysis_v11.22.2 9.01257 -25.0475 5.76483 -41.9934 193.756 12.8465 177.345 -42.4983 2156 76.8626 952 1232 1410547 -3.4954 2.79569 7.81588
+
+Done with anno_path:  /home/genia/rigdata/unown/170222_PEG-POL_02_unown_WAS22R09C08/P_00_170223015256_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/venomoth/170222_ACTG_01_venomoth_WAI21R09C09/P_00_170222190115_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/venomoth/170222_ACTG_01_venomoth_WAI21R09C09/P_00_170222190115_ggc3-keeper_ac-analysis_v11.22.2 63.9281 -3.69544 62.9281 -57.1748 63.9281 -1.66807 62.9281 -54.5323 0 nan -1 -1 0 -2.51105 14.5232 210.924
+
+Done with anno_path:  /home/genia/rigdata/venomoth/170222_ACTG_01_venomoth_WAI21R09C09/P_00_170222190115_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/venusaur/170222_SAM_01_venusaur_WAE22R07C07/P_00_170222212551_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/venusaur/170222_SAM_01_venusaur_WAE22R07C07/P_00_170222212551_ggc3-keeper_ac-analysis_v11.22.2 -1.1356 -34.9841 -4.45716 -43.3643 191.331 8.98035 178.552 -33.543 2134 75.7188 1304 2385 1935477 -14.272 2.75377 7.58323
+
+Done with anno_path:  /home/genia/rigdata/venusaur/170222_SAM_01_venusaur_WAE22R07C07/P_00_170222212551_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/vileplume/170222_ENG-BIE_01_vileplume_WAL09R06C03/P_00_170222202400_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/vileplume/170222_ENG-BIE_01_vileplume_WAL09R06C03/P_00_170222202400_s16pre-master_ac-analysis_v11.22.2 12.8142 -100.237 11.3495 -116.885 154.265 4.11 141.175 -62.6615 4942 68.3376 739 1161 2180306 -25.1374 12.3454 152.409
+
+Done with anno_path:  /home/genia/rigdata/vileplume/170222_ENG-BIE_01_vileplume_WAL09R06C03/P_00_170222202400_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/vileplume/170222_ENG-BIE_03_vileplume_WAL09R06C03/P_00_170223004522_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/vileplume/170222_ENG-BIE_03_vileplume_WAL09R06C03/P_00_170223004522_s16-master_ac-analysis_v11.22.2 36.9044 -104.912 34.9455 -129.14 178.274 0.0892042 147.713 -60.6101 7458 77.0169 808 1341 4045601 -37.1811 21.3751 456.895
+
+Done with anno_path:  /home/genia/rigdata/vileplume/170222_ENG-BIE_03_vileplume_WAL09R06C03/P_00_170223004522_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/vileplume/170222_ENG-BIE_02_vileplume_WAL09R06C03/P_00_170222221422_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/vileplume/170222_ENG-BIE_02_vileplume_WAL09R06C03/P_00_170222221422_ggc3-keeper_ac-analysis_v11.22.2 17.8576 -104.657 12.8529 -120.808 163.654 0.245165 146.315 -79.6021 10477 73.1429 1038 1658 6581801 -41.0907 16.4336 270.063
+
+Done with anno_path:  /home/genia/rigdata/vileplume/170222_ENG-BIE_02_vileplume_WAL09R06C03/P_00_170222221422_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/voltorb/170222_ENG-SYS_02_voltorb_WAL07R06C14/P_00_170223005551_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/voltorb/170222_ENG-SYS_02_voltorb_WAL07R06C14/P_00_170223005551_ggc3-keeper_ac-analysis_v11.22.2 -3.57781 -67.4281 -13.5771 -71.1295 119.691 36.9206 113.162 7.09044 0 nan -1 -1 0 -48.9831 12.6709 160.553
+
+Done with anno_path:  /home/genia/rigdata/voltorb/170222_ENG-SYS_02_voltorb_WAL07R06C14/P_00_170223005551_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/weedle/170222_PEG-PROD_01_weedle_WAS24R09C05/P_00_170222183629_s16-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/weedle/170222_PEG-PROD_01_weedle_WAS24R09C05/P_00_170222183629_s16-master_ac-analysis_v11.22.2 21.1242 -104.327 17.2908 -129.793 155.187 -13.216 138.833 -77.2224 31114 71.6065 777 1081 14967163 -27.2047 8.86874 78.6546
+
+Done with anno_path:  /home/genia/rigdata/weedle/170222_PEG-PROD_01_weedle_WAS24R09C05/P_00_170222183629_s16-master_ac-analysis_v11.22.2
+/home/genia/rigdata/weepinbell/170222_SAM_01_weepinbell_WAE19R11C06/P_00_170222213929_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/weepinbell/170222_SAM_01_weepinbell_WAE19R11C06/P_00_170222213929_s16pre-master_ac-analysis_v11.22.2 3.4226 -27.9051 0.0940571 -41.22 182.575 16.7072 152.756 -36.1097 3992 78.125 1792 2627 4876559 -8.05933 1.83926 3.38287
+
+Done with anno_path:  /home/genia/rigdata/weepinbell/170222_SAM_01_weepinbell_WAE19R11C06/P_00_170222213929_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/weezing/170222_PEG-PROD_01_weezing_WAS24R07C05/P_00_170222183851_s16pre-master_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/weezing/170222_PEG-PROD_01_weezing_WAS24R07C05/P_00_170222183851_s16pre-master_ac-analysis_v11.22.2 11.5072 -103.343 9.56751 -137.112 162.733 -2.00131 138.464 -70.0305 35959 71.2666 804 1063 15452686 -25.6194 10.3191 106.485
+
+Done with anno_path:  /home/genia/rigdata/weezing/170222_PEG-PROD_01_weezing_WAS24R07C05/P_00_170222183851_s16pre-master_ac-analysis_v11.22.2
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle04/P_00_170223080332_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle04/P_00_170223080332_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 12.7497 -101.994 10.6452 -118.662 139.404 -28.3863 126.675 -80.9575 15394 65.0557 367 540 4046521 -29.1557 7.60386 57.8188
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle04/P_00_170223080332_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle06/P_00_170223110137_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle06/P_00_170223110137_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.2214 -87.576 11.302 -112.371 139.992 -28.8565 121.695 -68.1403 3581 69.2552 279 447 366495 -27.6564 6.76577 45.7756
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle06/P_00_170223110137_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle05/P_00_170223093601_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle05/P_00_170223093601_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 17.1203 -85.8937 15.5392 -110.24 155.059 -28.6392 123.636 -63.3226 12604 75.0912 372 589 3187810 -26.2834 5.80359 33.6817
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle05/P_00_170223093601_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle07/P_00_170223122425_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle07/P_00_170223122425_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 15.7731 -86.4541 11.5275 -113.696 146.106 -1.47999 124.691 -62.6726 2764 63.3091 174 256 252479 -26.0276 6.47551 41.9322
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle07/P_00_170223122425_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle02/P_00_170223050306_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle02/P_00_170223050306_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 17.1429 -98.6429 10.6382 -113.879 132.78 -1.68139 127.354 -76.3412 584 68.9417 524 727 244951 -27.3285 7.42529 55.1349
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle02/P_00_170223050306_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle03/P_00_170223062854_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle03/P_00_170223062854_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 11.1986 -91.1688 -2.96551 -108.703 145.396 -2.96008 127.15 -79.2012 2211 68.0886 464 630 815344 -29.1961 7.63355 58.2711
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle03/P_00_170223062854_s16-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle01/P_00_170223032800_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle01/P_00_170223032800_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 20.2008 -81.1277 13.8455 -105.504 155.788 -1.96722 110.736 -67.3181 32479 76.2478 473 652 11559872 -24.8843 6.6229 43.8628
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle01/P_00_170223032800_ggc3-keeper_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle08/P_00_170223133140_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle08/P_00_170223133140_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p 13.4738 -92.6328 11.4735 -110.836 142.654 -28.494 118.367 -63.8266 1713 60.5838 146 216 89157 -26.0643 7.84496 61.5434
+
+Done with anno_path:  /home/genia/rigdata/wobbuffet/170222_ENG-SYS_03_wobbuffet_WAS24R03C11_cycle08/P_00_170223133140_s16pre-master_ac-analysis_v11.21.2_oc.loss_lmm.p_dwell.p
+/home/genia/rigdata/wooper/170222_PEG-POL_02_wooper_WAE22R11C15/P_00_170223015823_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wooper/170222_PEG-POL_02_wooper_WAE22R11C15/P_00_170223015823_ggc3-keeper_ac-analysis_v11.22.2 7.28312 -32.7582 3.35675 -41.4111 189.934 4.85553 175.879 -41.6208 2348 76.6778 978 1281 1709891 -2.95094 2.7779 7.71673
+
+Done with anno_path:  /home/genia/rigdata/wooper/170222_PEG-POL_02_wooper_WAE22R11C15/P_00_170223015823_ggc3-keeper_ac-analysis_v11.22.2
+/home/genia/rigdata/wooper/170222_PEG-POL_01_wooper_WAE22R11C15/P_00_170222235451_ggc3-keeper_ac-analysis_v11.22.2
+anno_path 1-neg_high_max 2-neg_high_min 3-neg_low_max 4-neg_low_min 5-pos_high_max 6-pos_high_min 7-pos_low_max 8-pos_low_min 9-num_functional_seq_pores 10-avg_homopolymer_edit_accuracy 11-avg_procession_length 12-N50_procession_length 13-total_procession_length 14-neg_low_mean 15-neg_low_std 16-neg_low_var
+/home/genia/rigdata/wooper/170222_PEG-POL_01_wooper_WAE22R11C15/P_00_170222235451_ggc3-keeper_ac-analysis_v11.22.2 7.58383 -28.5965 4.75774 -33.8669 183.29 6.44184 162.247 -41.412 650 38.9584 92 108 29757 -5.25145 2.88651 8.33194
+
+Done with anno_path:  /home/genia/rigdata/wooper/170222_PEG-POL_01_wooper_WAE22R11C15/P_00_170222235451_ggc3-keeper_ac-analysis_v11.22.2

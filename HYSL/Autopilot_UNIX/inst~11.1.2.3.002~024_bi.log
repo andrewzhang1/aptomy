@@ -1,0 +1,1766 @@
+### normbld.sh -w  11.1.2.3.002 024 = 0
+#----------------------------------------------------#
+Installation of 11.1.2.3.002 build 024 on linuxamd64
+#----------------------------------------------------#
+Terminating Essbase related processes.
+Trying to Clean up Temp Space
+This version is BI OPACK.
+Use "biinst.sh dummy/biimg /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64 -essver 11.1.2.3.002" command.
+### dbreq.sh -n RCU7: return 0
+### - bi_db=ora:slc03jnm:1521:bi1
+### - mds_db=ora:slc03jnm:1521:bi1
+### - bi=B218_BIPLATFORM
+### - bi_pwd=password
+### - mds=B218_MDS
+### - mds_pwd=password
+### - Reset rcu(true)
+# Cleanup Inventory and mw_home, etc...
+# - Re-create /scratch/anzhang/oraInst.loc.
+# - Delete /scratch/anzhang/Inventory.
+# - Delete /scratch/anzhang/oradiag_anzhang.
+rmfld.sh: Directory /scratch/anzhang/oradiag_anzhang not found.
+# - Delete /scratch/anzhang/bi.rsp. # Created by biinst.sh
+# - Delete /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64. # - Installation destination should be empty.
+# Make response file from bi_rep.rsp.
+### biinst.sh:09/24/13_10:16:50 Skip RCU.
+### biinst.sh:09/24/13_10:16:50 Start BISHIPHOME installer
+### - Kill BI releated processes.
+# /scratch/anzhang/bitmp_11.1.1.7.0ln64_release/bishiphome/Disk1/runInstaller -silent -response /scratch/anzhang/bi_rep.rsp -waitforcompletion -invPtrLoc /scratch/anzhang/oraInst.loc
+Starting Oracle Universal Installer...
+
+Checking Temp space: must be greater than 1536 MB.   Actual 113537 MB    Passed
+Checking swap space: must be greater than 500 MB.   Actual 10043 MB    Passed
+Preparing to launch Oracle Universal Installer from /scratch/tmp/OraInstall2013-09-24_10-16-51AM. Please wait ...Log: /scratch/anzhang/Inventory/logs/install2013-09-24_10-16-51AM.log
+Copyright (c) 1999, 2013, Oracle and/or its affiliates. All rights reserved.
+Reading response file..
+Expected result: One of redhat-6,oracle-6,oracle-5.6,enterprise-5.4,enterprise-4,enterprise-5,redhat-5.4,redhat-4,redhat-5,SuSE-10,SuSE-11
+Actual Result: oracle-5.6
+Check complete. The overall result of this check is: Passed
+CertifiedVersions Check: Success.
+Checking for binutils-2.17.50.0.6; found binutils-2.17.50.0.6-20.el5-x86_64.	Passed
+Checking for compat-libstdc++-33-3.2.3-x86_64; found compat-libstdc++-33-3.2.3-61-x86_64.	Passed
+Checking for compat-libstdc++-33-3.2.3-i386; found compat-libstdc++-33-3.2.3-61-i386.	Passed
+Checking for elfutils-libelf-0.125; found elfutils-libelf-0.137-3.el5-x86_64.	Passed
+Checking for elfutils-libelf-devel-0.125; found elfutils-libelf-devel-0.137-3.el5-x86_64.	Passed
+Checking for gcc-4.1.1; found gcc-4.1.2-52.el5-x86_64.	Passed
+Checking for gcc-c++-4.1.1; found gcc-c++-4.1.2-52.el5-x86_64.	Passed
+Checking for glibc-2.5-12-x86_64; found glibc-2.5-81-x86_64.	Passed
+Checking for glibc-2.5-12-i686; found glibc-2.5-81-i686.	Passed
+Checking for glibc-common-2.5; found glibc-common-2.5-81-x86_64.	Passed
+Checking for glibc-devel-2.5-x86_64; found glibc-devel-2.5-81-x86_64.	Passed
+Checking for glibc-devel-2.5-12-i386; found glibc-devel-2.5-81-i386.	Passed
+Checking for libaio-0.3.106-x86_64; found libaio-0.3.106-5-x86_64.	Passed
+Checking for libaio-0.3.106-i386; found libaio-0.3.106-5-i386.	Passed
+Checking for libaio-devel-0.3.106; found libaio-devel-0.3.106-5-x86_64.	Passed
+Checking for libgcc-4.1.1-x86_64; found libgcc-4.1.2-52.el5-x86_64.	Passed
+Checking for libgcc-4.1.1-i386; found libgcc-4.1.2-52.el5-i386.	Passed
+Checking for libstdc++-4.1.1-x86_64; found libstdc++-4.1.2-52.el5-x86_64.	Passed
+Checking for libstdc++-4.1.1-i386; found libstdc++-4.1.2-52.el5-i386.	Passed
+Checking for libstdc++-devel-4.1.1; found libstdc++-devel-4.1.2-52.el5-x86_64.	Passed
+Checking for make-3.81; found make-1:3.81-3.el5-x86_64.	Passed
+Checking for sysstat-7.0.0; found sysstat-7.0.2-11.el5-x86_64.	Passed
+Check complete. The overall result of this check is: Passed
+Packages Check: Success.
+Checking for VERSION=2.6.18; found VERSION=2.6.18-308.4.1.0.1.el5xen.	Passed
+Checking for hardnofiles=4096; found hardnofiles=8192.	Passed
+Checking for softnofiles=4096; found softnofiles=8192.	Passed
+Check complete. The overall result of this check is: Passed
+Kernel Check: Success.
+Expected result: ATLEAST=2.5-12
+Actual Result: 2.5-81
+Check complete. The overall result of this check is: Passed
+GLIBC Check: Success.
+Expected result: 1024MB
+Actual Result: 12400MB
+Check complete. The overall result of this check is: Passed
+TotalMemory Check: Success.
+Expected result: LD_ASSUME_KERNEL environment variable should not be set in the environment.
+Actual Result: Variable Not set.
+Check complete. The overall result of this check is: Passed
+Check Env Variable Check: Success.
+Verifying data......
+Copying Files...
+-----------20%----------40%----------60%----------80%--------100%
+
+[CONFIG] Launching Config Actions....
+Started Configuration:BI Configuration
+[CONFIG]:Creating Domain
+[CONFIG] SUCCESS:Creating Domain
+[CONFIG]:Setting Up Weblogic
+[CONFIG] SUCCESS:Setting Up Weblogic
+[CONFIG]:Deploying Base Setup for Simple Install
+[CONFIG] SUCCESS:Deploying Base Setup for Simple Install
+[CONFIG]:Deploying Base Setup
+[CONFIG] SUCCESS:Deploying Base Setup
+[CONFIG]:Configure OWSM JDBC Datasource
+[CONFIG] SUCCESS:Configure OWSM JDBC Datasource
+[CONFIG]:Configure EPM Registry JDBC Datasource
+[CONFIG] SUCCESS:Configure EPM Registry JDBC Datasource
+[CONFIG]:Deploying BI JEE Applications
+[CONFIG] SUCCESS:Deploying BI JEE Applications
+[CONFIG]:Restarting AdminServer
+[CONFIG] SUCCESS:Restarting AdminServer
+[CONFIG]:Provisioning Core Security Artifacts
+[CONFIG] SUCCESS:Provisioning Core Security Artifacts
+[CONFIG]:Creating Instance
+[CONFIG] SUCCESS:Creating Instance
+[CONFIG]:Setting Up Database Connection
+[CONFIG] SUCCESS:Setting Up Database Connection
+[CONFIG]:Executing: opmnctl start
+[CONFIG] SUCCESS:Executing: opmnctl start
+[CONFIG]:Creating BI Server System Component
+[CONFIG] SUCCESS:Creating BI Server System Component
+[CONFIG]:Provisioning BI Security Artifacts
+[CONFIG] SUCCESS:Provisioning BI Security Artifacts
+[CONFIG]:Creating BI Presentation Services System Component
+[CONFIG] SUCCESS:Creating BI Presentation Services System Component
+[CONFIG]:Creating BI JavaHost System Component
+[CONFIG] SUCCESS:Creating BI JavaHost System Component
+[CONFIG]:Creating BI Scheduler System Component
+[CONFIG] SUCCESS:Creating BI Scheduler System Component
+[CONFIG]:Creating BI Cluster Controller System Component
+[CONFIG] SUCCESS:Creating BI Cluster Controller System Component
+[CONFIG]:Creating Essbase System Component
+[CONFIG] SUCCESS:Creating Essbase System Component
+[CONFIG]:Creating Essbase Studio System Component
+[CONFIG] SUCCESS:Creating Essbase Studio System Component
+[CONFIG]:Merging PolicyStore application stripe
+[CONFIG] SUCCESS:Merging PolicyStore application stripe
+[CONFIG]:Deploying Real Time Decisions JEE Application
+[CONFIG] SUCCESS:Deploying Real Time Decisions JEE Application
+[CONFIG]:Deploying BI Publisher JEE Application
+[CONFIG] SUCCESS:Deploying BI Publisher JEE Application
+[CONFIG]:Deploying Calculation Manager JEE Application
+[CONFIG] SUCCESS:Deploying Calculation Manager JEE Application
+[CONFIG]:Deploying Financial Reporting JEE Application
+[CONFIG] SUCCESS:Deploying Financial Reporting JEE Application
+[CONFIG]:Deploying APS JEE Application
+[CONFIG] SUCCESS:Deploying APS JEE Application
+[CONFIG]:Deploying EPM EAS Application
+[CONFIG] SUCCESS:Deploying EPM EAS Application
+[CONFIG]:Configure BIP JDBC Datasource
+[CONFIG] SUCCESS:Configure BIP JDBC Datasource
+[CONFIG]:Configure Additional BIP Properties
+[CONFIG] SUCCESS:Configure Additional BIP Properties
+[CONFIG]:Configure RTD JDBC Datasource
+[CONFIG] SUCCESS:Configure RTD JDBC Datasource
+[CONFIG]:Configure Additional RTD Properties
+[CONFIG] SUCCESS:Configure Additional RTD Properties
+[CONFIG]:Configure Calculation Manager JDBC Datasource
+[CONFIG] SUCCESS:Configure Calculation Manager JDBC Datasource
+[CONFIG]:Configure Financial Reporting JDBC Datasource
+[CONFIG] SUCCESS:Configure Financial Reporting JDBC Datasource
+[CONFIG]:Configure APS JDBC Datasource
+[CONFIG] SUCCESS:Configure APS JDBC Datasource
+[CONFIG]:Setting Up BI Publisher
+[CONFIG] SUCCESS:Setting Up BI Publisher
+[CONFIG]:Restarting AdminServer
+[CONFIG] SUCCESS:Restarting AdminServer
+[CONFIG]:Configure BI Domain
+[CONFIG] SUCCESS:Configure BI Domain
+[CONFIG]:Restarting JEE Applications
+[CONFIG] SUCCESS:Restarting JEE Applications
+[CONFIG]:Distributing Repository
+[CONFIG] SUCCESS:Distributing Repository
+[CONFIG]:Setting Up BI Publisher Security
+[CONFIG] SUCCESS:Setting Up BI Publisher Security
+[CONFIG]:Setting Up BI Publisher
+[CONFIG] SUCCESS:Setting Up BI Publisher
+[CONFIG]:Setting Up Real Time Decisions Security
+[CONFIG] SUCCESS:Setting Up Real Time Decisions Security
+[CONFIG]:Executing: opmnctl reload
+[CONFIG] SUCCESS:Executing: opmnctl reload
+[CONFIG]:Modifying BI Configuration Files
+[CONFIG] SUCCESS:Modifying BI Configuration Files
+[CONFIG]:Executing: opmnctl start coreapplication_obiccs1
+[CONFIG] SUCCESS:Executing: opmnctl start coreapplication_obiccs1
+[CONFIG]:Executing: opmnctl start coreapplication_obis1
+[CONFIG] SUCCESS:Executing: opmnctl start coreapplication_obis1
+[CONFIG]:Executing: opmnctl start coreapplication_obips1
+[CONFIG] SUCCESS:Executing: opmnctl start coreapplication_obips1
+[CONFIG]:Executing: opmnctl start coreapplication_obijh1
+[CONFIG] SUCCESS:Executing: opmnctl start coreapplication_obijh1
+[CONFIG]:Executing: opmnctl start coreapplication_obisch1
+[CONFIG] SUCCESS:Executing: opmnctl start coreapplication_obisch1
+[CONFIG]:Modifying BI Configuration Files
+[CONFIG] SUCCESS:Modifying BI Configuration Files
+[CONFIG]:Executing: opmnctl start essbaseserver1
+[CONFIG] SUCCESS:Executing: opmnctl start essbaseserver1
+[CONFIG]:Executing: opmnctl start essbasestudio1
+[CONFIG] SUCCESS:Executing: opmnctl start essbasestudio1
+Configuration:BI Configuration completed successfully
+The installation of Oracle AS Common Toplevel Component, Oracle Business Intelligence Shiphome completed successfully.
+### - Stop opmn and Essbase related process
+opmnctl stopall: stopping opmn and all managed processes...
+SVR_GRP =
+Stopping Weblogic Server...
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+Connecting to t3://slc05wic:7001 with userid weblogic ...
+Successfully connected to Admin Server 'AdminServer' that belongs to domain 'bifoundation_domain'.
+
+Warning: An insecure protocol was used to connect to the
+server. To ensure on-the-wire security, the SSL port or
+Admin port should be used instead.
+
+Shutting down the server AdminServer with force=false while connected to AdminServer ...
+Disconnected from weblogic server: AdminServer
+
+
+Exiting WebLogic Scripting Tool.
+
+Done
+Stopping Derby Server...
+# wait for startWebLogic.sh shutdown...
+kill 23097 <none> anzhang /bin/sh /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/bin/startNodeManager.sh
+23097 <none> anzhang /bin/sh /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/bin/startNodeManager.sh
+23129 23097 anzhang /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/bin/java -client -Xms32m -Xmx200m -XX:MaxPermSize=128m -Dbea.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64 -DNodeManagerHome=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/common/nodemanager -DNativeVersionEnabled=true -DStartScriptEnabled=true -DListenPort=5556 -Xverify:none -Djava.security.policy=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/weblogic.policy -Dweblogic.nodemanager.javaHome=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk weblogic.NodeManager -v
+# Make initial instance backup(HH:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1)
+No env file(/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/env/anzhang/11.1.2.3.002_slc05wic) is found.
+## Execute linuxamd64.env2 script.
+## $ORACLE_HOME not defined.
+##   Set $ORACLE_HOME to $HYPERION_HOME
+## $ORACLE_INSTANCE not defined.
+##   Set $ORACLE_INSTANCE to /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1
+## Set Variables for BISHIPHOME configured environment.
+##   Set $SXR_ESSBASE_INST to 2
+##   Set $SXR_USER to weblogic
+##   Set $SXR_PASSWORD to welcome1
+## No $COMPONENT_TYPE defined.
+##   Set $COMPONENT_TYPE to instances
+## No $COMPONENT_NAME defined.
+##   Set $COMPONENT_NAME to essbaseserver1
+## Found opmn.xml file. Set variables from it.
+##   @OPMN:Set $ESSBASEPATH to $ORACLE_HOME/products/Essbase/EssbaseServer
+##   @OPMN:Set $HYPERION_HOME to $ORACLE_HOME
+##   @OPMN:Set $ESSLANG to English_UnitedStates.Latin1@Binary
+##   @OPMN:Append $HYPERION_HOME/common/ODBC/Merant/6.0/lib:$ORACLE_HOME/bifoundation/server/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre/lib/amd64/server:$ESSBASEPATH/bin to $LD_LIBRARY_PATH
+##   @OPMN:Append $ARBORPATH/bin:$ESSBASEPATH/bin to $PATH
+##   @OPMN:Set $ODBCINI to $ARBORPATH/bin/.odbc.ini
+##   @OPMN:Set $ODBCINST to $HYPERION_HOME/common/ODBC/Merant/6.0/odbcinst.ini
+##   @OPMN:Set $ESSBASEEXE to $ESSBASEPATH/bin/ESSBASE
+##   @OPMN:Set $ORACLE_BI_OPMNMANAGED to true
+##   @OPMN:Set $EPM_ORACLE_INSTANCE to $ORACLE_INSTANCE
+##   @OPMN:Set $EPM_ORACLE_HOME to $ORACLE_HOME
+##   @OPMN:Set $ESS_JVM_OPTION1 to -Xmx64M
+##   @OPMN:Set $ESS_CSS_JVM_OPTION3 to -Doracle.security.jps.config=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/jps-config-jse.xml
+##   @OPMN:Set $ESS_CSS_JVM_OPTION4 to -DEPM_ORACLE_HOME=$EPM_ORACLE_HOME
+##   @OPMN:Set $ESS_CSS_JVM_OPTION5 to -DEPM_ORACLE_INSTANCE=$EPM_ORACLE_INSTANCE
+##   @OPMN:Set $ESS_CSS_JVM_OPTION6 to -Doracle.core.ojdl.logging.config.file=$ORACLE_INSTANCE/Essbase/$COMPONENT_NAME/bin/logging.xml
+##   @OPMN:Set $ESS_CSS_JVM_OPTION7 to -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration
+##   @OPMN:Set $DOMAIN_HOME to /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain
+##   @OPMN:Set $ORACLE_THREAD_STACKSIZE to 1048576
+##   @OPMN:Set $HYPERION_LOGHOME to $ORACLE_INSTANCE/diagnostics/logs/$COMPONENT_TYPE/$COMPONENT_NAME
+##   @OPMN:Set $ORACLE_BI_APPLICATION to coreapplication
+##   @OPMN:Set $ESSBASE_CLUSTER_NAME to EssbaseCluster-1
+## $ARBORPATH not defined
+##   Set $ARBORPATH to /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/Essbase/essbaseserver1
+## Found $_SXR_CLIENT_ARBORPATH(clients/epm/Essbase/EssbaseRTC) definition.
+##   Set $SXR_CLIENT_ARBORPATH to $HYPERION_HOME/clients/epm/Essbase/EssbaseRTC
+## No $ODBC_HOME defined
+##   Set $ODBC_HOME to $HYPERION_HOME/common/ODBC/Merant/6.1
+## No $JAVA_HOME defined.
+##   Set $JAVA_HOME to $HYPERION_HOME/jdk/jre
+## Check $LD_LIBRARY_PATH
+##   Insert /usr/lib to $LD_LIBRARY_PATH
+##   Insert $JAVA_HOME/lib/amd64/server to $LD_LIBRARY_PATH
+##   Insert $JAVA_HOME/lib/amd64 to $LD_LIBRARY_PATH
+##   Insert $ODBC_HOME/lib to $LD_LIBRARY_PATH
+##   Insert $HYPERION_HOME/opmn/lib to $LD_LIBRARY_PATH
+##   Insert /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/ohs/opmn/lib to $LD_LIBRARY_PATH
+##   Insert $ARBORPATH/bin to $LD_LIBRARY_PATH
+##   Insert $ESSBASEPATH/bin to $LD_LIBRARY_PATH
+##   Insert $SXR_CLIENT_ARBORPATH/bin to $LD_LIBRARY_PATH
+##   Insert $HYPERION_HOME/lib to $LD_LIBRARY_PATH
+## Check $PATH
+##   Insert /usr/bin to $PATH
+##   Insert $JAVA_HOME/bin to $PATH
+##   Insert /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/bin to $PATH
+##   Insert $HYPERION_HOME/common/bin to $PATH
+##   Insert $ORACLE_INSTANCE/bin to $PATH
+##   Insert $SXR_CLIENT_ARBORPATH/bin to $PATH
+##   Insert $ESSBASEPATH/bin to $PATH
+##   Insert $ARBORPATH/bin to $PATH
+##   Insert $ORACLE_INSTANCE/bin to $PATH
+## No $SXR_AGTCTL_START_SLEEP defined.
+## Set it to 5 seccond according to bug 14769831.
+##   Set $SXR_AGTCTL_START_SLEEP to 5
+## No $SXR_HOME defined
+##   Set $SXR_HOME to /net/nar200/vol/vol3/essbasesxr/11123x/vobs/essexer/latest
+## No $SXR_HOME/bin definition in the $PATH environment variable
+##   Append $SXR_HOME/bin to $PATH
+## No $AP_AGENTPORT defined
+##   anzhang.cfg not found under the snapshot directory.
+##   anzhang entry found in the /net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/data/agentport_list.txt file.
+##   Set $AP_AGENTPORT to 9799
+## $SXR_STA_ACCUMULATED is already defined to "1".
+## No $WEBLOGIC_SERVER is defined.
+##   Set $WEBLOGIC_SERVER to slc05wic:7001
+## No $WL_HOME is defined.
+##   Set $WL_HOME to ${HYPERION_HOME%/*}/wlserver_10.3
+## No $WEBLOGIC_USER is defined.
+##   Set $WEBLOGIC_USER to weblogic
+## No $WEBLOGIC_PASSWORD is defined.
+##   Set $WEBLOGIC_PASSWORD to welcome1
+## No $APIPATH is defined.
+##   Set $APIPATH to $ARBORPATH/api
+## Maintain duplicate or empty entries in PATH and library definitions.
+#     Missing /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/ohs/opmn/lib folder(LD_LIBRARY_PATH).
+#     Duplicated /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre/lib/amd64/server entry(LD_LIBRARY_PATH).
+#     Duplicated /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/EssbaseServer/bin entry(LD_LIBRARY_PATH).
+#     Duplicated /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/bin entry(PATH).
+#     Duplicated /usr/bin entry(PATH).
+#     Duplicated /bin entry(PATH).
+#     Duplicated /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/EssbaseServer/bin entry(PATH).
+### biinst.sh:09/24/13_10:45:05 Done.
+### Stop service.
+opmnctl stopall: opmn is not running.
+SVR_GRP =
+Stopping Weblogic Server...
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+Connecting to t3://slc05wic:7001 with userid weblogic ...
+This Exception occurred at Tue Sep 24 10:45:10 PDT 2013.
+javax.naming.CommunicationException [Root exception is java.net.ConnectException: t3://slc05wic:7001: Destination unreachable; nested exception is:
+java.net.ConnectException: Connection refused; No available router to destination]
+at weblogic.jndi.internal.ExceptionTranslator.toNamingException(ExceptionTranslator.java:40)
+at weblogic.jndi.WLInitialContextFactoryDelegate.toNamingException(WLInitialContextFactoryDelegate.java:788)
+at weblogic.jndi.WLInitialContextFactoryDelegate.getInitialContext(WLInitialContextFactoryDelegate.java:366)
+at weblogic.jndi.Environment.getContext(Environment.java:315)
+at weblogic.jndi.Environment.getContext(Environment.java:285)
+at weblogic.jndi.WLInitialContextFactory.getInitialContext(WLInitialContextFactory.java:117)
+at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+at javax.naming.InitialContext.init(InitialContext.java:223)
+at javax.naming.InitialContext.<init>(InitialContext.java:197)
+at weblogic.management.scripting.WLSTHelper.populateInitialContext(WLSTHelper.java:520)
+at weblogic.management.scripting.WLSTHelper.initDeprecatedConnection(WLSTHelper.java:573)
+at weblogic.management.scripting.WLSTHelper.initConnections(WLSTHelper.java:313)
+at weblogic.management.scripting.WLSTHelper.connect(WLSTHelper.java:203)
+at weblogic.management.scripting.WLScriptContext.connect(WLScriptContext.java:61)
+at weblogic.management.scripting.utils.WLSTUtil.initializeOnlineWLST(WLSTUtil.java:147)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+at org.python.core.PyMethod.__call__(Unknown Source)
+at org.python.core.PyObject.__call__(Unknown Source)
+at org.python.core.PyObject.invoke(Unknown Source)
+at org.python.pycode._pyx4.connect$1(<iostream>:16)
+at org.python.pycode._pyx4.call_function(<iostream>)
+at org.python.core.PyTableCode.call(Unknown Source)
+at org.python.core.PyTableCode.call(Unknown Source)
+at org.python.core.PyFunction.__call__(Unknown Source)
+at org.python.pycode._pyx15.f$0(/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/shutdown.py:6)
+at org.python.pycode._pyx15.call_function(/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/shutdown.py)
+at org.python.core.PyTableCode.call(Unknown Source)
+at org.python.core.PyCode.call(Unknown Source)
+at org.python.core.Py.runCode(Unknown Source)
+at org.python.util.PythonInterpreter.execfile(Unknown Source)
+at weblogic.management.scripting.WLST.main(WLST.java:124)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+at java.lang.reflect.Method.invoke(Method.java:597)
+at weblogic.WLST.main(WLST.java:29)
+Caused by: java.net.ConnectException: t3://slc05wic:7001: Destination unreachable; nested exception is:
+java.net.ConnectException: Connection refused; No available router to destination
+at weblogic.rjvm.RJVMFinder.findOrCreateInternal(RJVMFinder.java:216)
+at weblogic.rjvm.RJVMFinder.findOrCreate(RJVMFinder.java:170)
+at weblogic.rjvm.ServerURL.findOrCreateRJVM(ServerURL.java:153)
+at weblogic.jndi.WLInitialContextFactoryDelegate$1.run(WLInitialContextFactoryDelegate.java:345)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+at weblogic.jndi.WLInitialContextFactoryDelegate.getInitialContext(WLInitialContextFactoryDelegate.java:340)
+... 38 more
+Caused by: java.rmi.ConnectException: Destination unreachable; nested exception is:
+java.net.ConnectException: Connection refused; No available router to destination
+at weblogic.rjvm.ConnectionManager.bootstrap(ConnectionManager.java:470)
+at weblogic.rjvm.ConnectionManager.bootstrap(ConnectionManager.java:321)
+at weblogic.rjvm.RJVMManager.findOrCreateRemoteInternal(RJVMManager.java:254)
+at weblogic.rjvm.RJVMManager.findOrCreate(RJVMManager.java:197)
+at weblogic.rjvm.RJVMFinder.findOrCreateRemoteServer(RJVMFinder.java:238)
+at weblogic.rjvm.RJVMFinder.findOrCreateInternal(RJVMFinder.java:200)
+... 44 more
+Problem invoking WLST - Traceback (innermost last):
+File "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/shutdown.py", line 6, in ?
+File "<iostream>", line 22, in connect
+File "<iostream>", line 646, in raiseWLSTException
+WLSTException: Error occured while performing connect : Error getting the initial context. There is no server running at t3://slc05wic:7001
+Use dumpStack() to view the full stacktrace
+
+Done
+Stopping Derby Server...
+# wait for startWebLogic.sh shutdown...
+Apply OPACK(11.1.2.3.002/024/latest).
+Found bi and linuxamd64 zip files.
+unzipcmd=/usr/bin/unzip
+# OPACK 14114628:server
+### Save $ESSBASEPATH/bin/essbase_sso.cfg.
+OPATCH FOLDER=/scratch/views/anzhang/opack/14114628.
+opackcmd.sh apply "/scratch/views/anzhang/opack/14114628"
+APPLY:./opatch apply /scratch/views/anzhang/opack/14114628 -oh "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1" -jre "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre" -invPtrLoc /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:Oracle Interim Patch Installer version 11.1.0.9.9
+APPLY:Copyright (c) 2012, Oracle Corporation.  All rights reserved.
+APPLY:
+APPLY:
+APPLY:Oracle Home       : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1
+APPLY:Central Inventory : /scratch/anzhang/Inventory
+APPLY:from           : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:OPatch version    : 11.1.0.9.9
+APPLY:OUI version       : 11.1.0.9.0
+APPLY:Log file location : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114628_Sep_24_2013_10_45_26/apply2013-09-24_10-45-26AM_1.log
+APPLY:
+APPLY:
+APPLY:OPatch detects the Middleware Home as "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64"
+APPLY:
+APPLY:Applying interim patch '14114628' to OH '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1'
+APPLY:Verifying environment and performing prerequisite checks...
+APPLY:All checks passed.
+APPLY:Backing up files...
+APPLY:
+APPLY:Patching component oracle.bi.bifndnepm, 11.1.1.7.0...
+APPLY:
+APPLY:Verifying the update...
+APPLY:Patch 14114628 successfully applied
+APPLY:Log file location: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114628_Sep_24_2013_10_45_26/apply2013-09-24_10-45-26AM_1.log
+APPLY:
+APPLY:OPatch succeeded.
+### Restore $ESSBASEPATH/bin/essbase_sso.cfg.
+### Applied (sts=0).
+# OPACK 14114621:rtc
+OPATCH FOLDER=/scratch/views/anzhang/opack/14114621.
+opackcmd.sh apply "/scratch/views/anzhang/opack/14114621"
+APPLY:./opatch apply /scratch/views/anzhang/opack/14114621 -oh "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1" -jre "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre" -invPtrLoc /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:Oracle Interim Patch Installer version 11.1.0.9.9
+APPLY:Copyright (c) 2012, Oracle Corporation.  All rights reserved.
+APPLY:
+APPLY:
+APPLY:Oracle Home       : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1
+APPLY:Central Inventory : /scratch/anzhang/Inventory
+APPLY:from           : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:OPatch version    : 11.1.0.9.9
+APPLY:OUI version       : 11.1.0.9.0
+APPLY:Log file location : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114621_Sep_24_2013_10_45_41/apply2013-09-24_10-45-41AM_1.log
+APPLY:
+APPLY:
+APPLY:OPatch detects the Middleware Home as "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64"
+APPLY:
+APPLY:Applying interim patch '14114621' to OH '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1'
+APPLY:Verifying environment and performing prerequisite checks...
+APPLY:All checks passed.
+APPLY:Backing up files...
+APPLY:
+APPLY:Patching component oracle.bi.bifndnepm, 11.1.1.7.0...
+APPLY:
+APPLY:Verifying the update...
+APPLY:Patch 14114621 successfully applied
+APPLY:Log file location: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114621_Sep_24_2013_10_45_41/apply2013-09-24_10-45-41AM_1.log
+APPLY:
+APPLY:OPatch succeeded.
+### Applied (sts=0).
+# OPACK 14114618:client
+OPATCH FOLDER=/scratch/views/anzhang/opack/14114618.
+opackcmd.sh apply "/scratch/views/anzhang/opack/14114618"
+APPLY:./opatch apply /scratch/views/anzhang/opack/14114618 -oh "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1" -jre "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre" -invPtrLoc /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:Oracle Interim Patch Installer version 11.1.0.9.9
+APPLY:Copyright (c) 2012, Oracle Corporation.  All rights reserved.
+APPLY:
+APPLY:
+APPLY:Oracle Home       : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1
+APPLY:Central Inventory : /scratch/anzhang/Inventory
+APPLY:from           : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:OPatch version    : 11.1.0.9.9
+APPLY:OUI version       : 11.1.0.9.0
+APPLY:Log file location : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114618_Sep_24_2013_10_45_52/apply2013-09-24_10-45-51AM_1.log
+APPLY:
+APPLY:
+APPLY:OPatch detects the Middleware Home as "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64"
+APPLY:
+APPLY:Applying interim patch '14114618' to OH '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1'
+APPLY:Verifying environment and performing prerequisite checks...
+APPLY:All checks passed.
+APPLY:Backing up files...
+APPLY:
+APPLY:Patching component oracle.bi.bifndnepm, 11.1.1.7.0...
+APPLY:
+APPLY:Verifying the update...
+APPLY:Patch 14114618 successfully applied
+APPLY:Log file location: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114618_Sep_24_2013_10_45_52/apply2013-09-24_10-45-51AM_1.log
+APPLY:
+APPLY:OPatch succeeded.
+### Applied (sts=0).
+### Start aps opack. ###
+OPATCH FOLDER=/scratch/views/anzhang/apsopack/14064791.
+opackcmd.sh apply "/scratch/views/anzhang/apsopack/14064791"
+APPLY:./opatch apply /scratch/views/anzhang/apsopack/14064791 -oh "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1" -jre "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre" -invPtrLoc /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:Oracle Interim Patch Installer version 11.1.0.9.9
+APPLY:Copyright (c) 2012, Oracle Corporation.  All rights reserved.
+APPLY:
+APPLY:
+APPLY:Oracle Home       : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1
+APPLY:Central Inventory : /scratch/anzhang/Inventory
+APPLY:from           : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:OPatch version    : 11.1.0.9.9
+APPLY:OUI version       : 11.1.0.9.0
+APPLY:Log file location : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14064791_Sep_24_2013_10_46_03/apply2013-09-24_10-46-03AM_1.log
+APPLY:
+APPLY:
+APPLY:OPatch detects the Middleware Home as "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64"
+APPLY:
+APPLY:Applying interim patch '14064791' to OH '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1'
+APPLY:Verifying environment and performing prerequisite checks...
+APPLY:All checks passed.
+APPLY:Backing up files...
+APPLY:
+APPLY:Patching component oracle.bi.bifndnepm, 11.1.1.7.0...
+APPLY:
+APPLY:Verifying the update...
+APPLY:Patch 14064791 successfully applied
+APPLY:Log file location: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14064791_Sep_24_2013_10_46_03/apply2013-09-24_10-46-03AM_1.log
+APPLY:
+APPLY:OPatch succeeded.
+### Start studio opack. ###
+OPATCH FOLDER=/scratch/views/anzhang/studioopack/14114598.
+opackcmd.sh apply "/scratch/views/anzhang/studioopack/14114598"
+APPLY:./opatch apply /scratch/views/anzhang/studioopack/14114598 -oh "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1" -jre "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre" -invPtrLoc /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:Oracle Interim Patch Installer version 11.1.0.9.9
+APPLY:Copyright (c) 2012, Oracle Corporation.  All rights reserved.
+APPLY:
+APPLY:
+APPLY:Oracle Home       : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1
+APPLY:Central Inventory : /scratch/anzhang/Inventory
+APPLY:from           : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/oraInst.loc
+APPLY:OPatch version    : 11.1.0.9.9
+APPLY:OUI version       : 11.1.0.9.0
+APPLY:Log file location : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114598_Sep_24_2013_10_46_14/apply2013-09-24_10-46-14AM_1.log
+APPLY:
+APPLY:
+APPLY:OPatch detects the Middleware Home as "/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64"
+APPLY:
+APPLY:Applying interim patch '14114598' to OH '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1'
+APPLY:Verifying environment and performing prerequisite checks...
+APPLY:All checks passed.
+APPLY:Backing up files...
+APPLY:
+APPLY:Patching component oracle.bi.bifndnepm, 11.1.1.7.0...
+APPLY:
+APPLY:Verifying the update...
+APPLY:Patch 14114598 successfully applied
+APPLY:Log file location: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/cfgtoollogs/opatch/14114598_Sep_24_2013_10_46_14/apply2013-09-24_10-46-14AM_1.log
+APPLY:
+APPLY:OPatch succeeded.
+opackinst.sh(sts=0)
+### Start service again.
+### cd/hit/bi install status=0 (09/24/13_10:48:18)
+Extracting ESSCMDQ and ESSCMDG to /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/epm/Essbase/EssbaseRTC/bin
+ARBORPATH/bin/ESSCMDG
+ARBORPATH/bin/ESSCMDQ
+ARBORPATH/bin/ESSTESTCREDSTORE
+mv ESSCMDG to /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/epm/Essbase/EssbaseRTC/bin.
+mv ESSCMDQ to /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/epm/Essbase/EssbaseRTC/bin.
+linuxamd64_11.1.2.3.002_024.siz exists.
+Skip compare file structure.
+### HYPEIRON_HOME    : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1
+### ARBORPATH        : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/Essbase/essbaseserver1
+### ESSBASEPATH      : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/EssbaseServer
+### AP_BISHIPHOME    : true
+### AP_SECMODE       : rep
+### SXR_CL_ARBOR     : /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/epm/Essbase/EssbaseRTC
+### SXR_ESSBASE_INST : 2
+### SXR_USER         : weblogic
+### SXR_PASSWORD     : welcome1
+### SXR_DBHOST       :
+# Initialize Essbase.
+# AP_ESSINIT=true
+### Kill Essbase related processes.
+opmnctl stopall: opmn is not running.
+SVR_GRP =
+Stopping Weblogic Server...
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+Connecting to t3://slc05wic:7001 with userid weblogic ...
+Successfully connected to Admin Server 'AdminServer' that belongs to domain 'bifoundation_domain'.
+
+Warning: An insecure protocol was used to connect to the
+server. To ensure on-the-wire security, the SSL port or
+Admin port should be used instead.
+
+Shutting down the server AdminServer with force=false while connected to AdminServer ...
+Disconnected from weblogic server: AdminServer
+
+
+Exiting WebLogic Scripting Tool.
+
+Done
+Stopping Derby Server...
+# wait for startWebLogic.sh shutdown...
+# Found previous instance image(/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances.tar). Extract it.
+# Start WebLogic server.
+SVR_GRP =
+.
+.
+JAVA Memory arguments: -Xms256m -Xmx2048m -XX:MaxPermSize=512m -XX:-UseSSE42Intrinsics
+.
+WLS Start Mode=Production
+.
+CLASSPATH=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.jdbc_11.1.1/ojdbc6dms.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/bifoundation/jdbc/jdk16/bijdbc.jar::/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/patch_wls1035/profiles/default/sys_manifest_classpath/weblogic_patch.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/lib/tools.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/weblogic_sp.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/weblogic.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/modules/features/weblogic.server.modules_10.3.5.0.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/webservices.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/modules/org.apache.ant_1.7.1/lib/ant-all.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/modules/net.sf.antcontrib_1.1.0.0_1-0b2/lib/ant-contrib.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/weblogic.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.dms_11.1.1/dms.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.jmx_11.1.1/jmxframework.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.jmx_11.1.1/jmxspi.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.odl_11.1.1/ojdl.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/soa/modules/commons-cli-1.1.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/soa/modules/oracle.soa.mgmt_11.1.1/soa-infra-mgmt.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.jrf_11.1.1/jrf.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/common/derby/lib/derbyclient.jar:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/xqrl.jar
+.
+PATH=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/eas/server/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/EssbaseServer/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/modules/org.apache.ant_1.7.1/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/Essbase/essbaseserver1/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/EssbaseServer/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/epm/Essbase/EssbaseRTC/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/common/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/bin:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre/bin:/usr/bin:/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/dev:/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/bin:.:/bin:/usr/sbin:/usr/X11R6/bin:/etc:/usr/local/bin:/net/nar200/vol/vol2/pre_rel/essbase/builds/common/bin:/net/nar200/vol/vol3/essbasesxr/11123x/vobs/essexer/latest/bin
+.
+***************************************************
+*  To start WebLogic Server, use a username and   *
+*  password assigned to an admin-level user.  For *
+*  server administration, use the WebLogic Server *
+*  console at http://hostname:port/console        *
+***************************************************
+starting weblogic with Java version:
+java version "1.6.0_35"
+Java(TM) SE Runtime Environment (build 1.6.0_35-b52)
+Java HotSpot(TM) 64-Bit Server VM (build 20.10-b01, mixed mode)
+Starting WLS with line:
+/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/bin/java -server   -Xms256m -Xmx2048m -XX:MaxPermSize=512m -XX:-UseSSE42Intrinsics -Dweblogic.Name=AdminServer -Djava.security.policy=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/weblogic.policy  -Dweblogic.ProductionModeEnabled=true   -da -Dplatform.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3 -Dwls.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server -Dweblogic.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server  -Dcommon.components.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common -Djrf.version=11.1.1 -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.Jdk14Logger -Ddomain.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain -Djrockit.optfile=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.jrf_11.1.1/jrocket_optfile.txt -Doracle.server.config.dir=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/servers/AdminServer -Doracle.domain.config.dir=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig  -Digf.arisidbeans.carmlloc=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/carml  -Digf.arisidstack.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/arisidprovider -Doracle.security.jps.config=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/jps-config.xml -Doracle.deployed.app.dir=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user -Doracle.deployed.app.ext=/- -Dweblogic.alternateTypesDirectory=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.ossoiap_11.1.1,/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.oamprovider_11.1.1,/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/modules/oracle.jps_11.1.1 -Djava.protocol.handler.pkgs=oracle.mds.net.protocol  -Dweblogic.jdbc.remoteEnabled=false -Dbi.oracle.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1 -DEPM_ORACLE_HOME=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1 -Dweblogic.MaxMessageSize=50000000 -DEPM_ORACLE_HOME=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1 -DHYPERION_HOME=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1 -DEPM_ORACLE_INSTANCE=novalue -Dhyperion.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1 -DEPM_REG_PROPERTIES_PATH=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig -Depm.useApplicationContextId=false -Doracle.biee.search.bisearchproperties=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/bifoundation/jee/BISearchConfig.properties -Dweblogic.management.clearTextCredentialAccessEnabled=true -Doracle.notification.filewatching.interval=2000 -Dweblogic.security.SSL.ignoreHostnameVerification=true -Dweblogic.security.SSL.enableJSSE=true -Dfile.encoding=utf-8 -Doracle.ecsf.security.service=oracle.biee.search.security.BISearchSecurityService -Doracle.ecsf.configuration.class=oracle.biee.search.services.BISearchServiceConfiguration -Dxdo.server.config.dir=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/bipublisher -DXDO_FONT_DIR=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/common/fonts -DESS_ES_HOME=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/aps -Daps.property.file=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/aps/bin/essbase.properties -DEAS_HOME=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/eas  -Drtd.instanceName=RTD_AdminServer -Drtd.rpcReadyDeadlineSec=300 -Dem.oracle.home=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common -Djava.awt.headless=true -Dweblogic.management.discover=true  -Dwlw.iterativeDev=false -Dwlw.testConsole=false -Dwlw.logErrorsToConsole=false -Dweblogic.ext.dirs=/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/patch_wls1035/profiles/default/sysext_manifest_classpath  weblogic.Server
+<Sep 24, 2013 10:50:05 AM PDT> <Info> <Security> <BEA-090905> <Disabling CryptoJ JCE Provider self-integrity check for better startup performance. To enable this check, specify -Dweblogic.security.allowCryptoJDefaultJCEVerification=true>
+<Sep 24, 2013 10:50:06 AM PDT> <Info> <Security> <BEA-090906> <Changing the default Random Number Generator in RSA CryptoJ from ECDRBG to FIPS186PRNG. To disable this change, specify -Dweblogic.security.allowCryptoJDefaultPRNG=true>
+<Sep 24, 2013 10:50:06 AM PDT> <Info> <WebLogicServer> <BEA-000377> <Starting WebLogic Server with Java HotSpot(TM) 64-Bit Server VM Version 20.10-b01 from Sun Microsystems Inc.>
+<Sep 24, 2013 10:50:07 AM PDT> <Info> <Management> <BEA-141107> <Version: WebLogic Server 10.3.5.0  Fri Apr 1 20:20:06 PDT 2011 1398638 >
+<Sep 24, 2013 10:50:08 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STARTING>
+<Sep 24, 2013 10:50:08 AM PDT> <Info> <WorkManager> <BEA-002900> <Initializing self-tuning thread pool>
+<Sep 24, 2013 10:50:08 AM PDT> <Notice> <Log Management> <BEA-170019> <The server log file /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/logs/AdminServer.log is opened. All server side log events will be written to this file.>
+<Sep 24, 2013 10:50:15 AM PDT> <Notice> <Security> <BEA-090082> <Security initializing using security realm myrealm.>
+<Sep 24, 2013 10:50:15 AM PDT> <Notice> <Security> <BEA-090083> <Storing boot identity in the file: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/security/boot.properties>
+Sep 24, 2013 10:50:25 AM oracle.bi.management.bidomain.mbeans.RPDConfigMXBeanImpl rpdZipFileReloaded
+INFO: BIEE Data Zip file biee-data.zip has been changed; detecting whether to push changes down ...
+Sep 24, 2013 10:50:25 AM oracle.bi.management.bidomain.mbeans.ConfigMBeanNotifier notifyConfigChanged
+INFO: ConfigMBeanNotifier; notifyConfigChanged; file biee-data.zip ...
+Sep 24, 2013 10:50:25 AM oracle.bi.management.bidomain.mbeans.ConfigMBeanNotifier notifyConfigChanged
+INFO: ConfigMBeanNotifier: current principal: null
+Sep 24, 2013 10:50:25 AM oracle.bi.management.bidomain.mbeans.BIDomainConfigMXBeanImpl configObjectReloaded
+INFO: Central config file biee-domain.xml has been changed; detecting whether to push changes down ...
+Sep 24, 2013 10:50:25 AM oracle.bi.management.bidomain.mbeans.ConfigMBeanNotifier notifyConfigChanged
+INFO: ConfigMBeanNotifier; notifyConfigChanged; file biee-domain.xml ...
+Sep 24, 2013 10:50:25 AM oracle.bi.management.bidomain.mbeans.ConfigMBeanNotifier notifyConfigChanged
+INFO: ConfigMBeanNotifier: current principal: null
+<Sep 24, 2013 10:50:27 AM PDT> <Warning> <oracle.jps.common> <JPS-00167> <Invalid xml content was found. SchemaLocation: schemaLocation value = 'http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd' must have even number of URI's. Location: line 2 column 272 of file:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/mbeans/../jps-config-jse.xml.>
+<Sep 24, 2013 10:50:27 AM PDT> <Warning> <oracle.jps.common> <JPS-00167> <Invalid xml content was found. SchemaLocation: schemaLocation value = 'http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd' must have even number of URI's. Location: line 2 column 272 of file:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/mbeans/../jps-config-jse.xml.>
+<Sep 24, 2013 10:50:27 AM PDT> <Warning> <oracle.jps.common> <JPS-00167> <Invalid xml content was found. SchemaLocation: schemaLocation value = 'http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd' must have even number of URI's. Location: line 2 column 272 of file:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/mbeans/../jps-config-jse.xml.>
+<Sep 24, 2013 10:50:28 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STANDBY>
+<Sep 24, 2013 10:50:28 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STARTING>
+<Sep 24, 2013 10:50:30 AM PDT> <Warning> <oracle.jps.common> <JPS-00167> <Invalid xml content was found. SchemaLocation: schemaLocation value = 'http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd' must have even number of URI's. Location: line 2 column 272 of file:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/mbeans/../jps-config-jse.xml.>
+<Sep 24, 2013 10:50:30 AM PDT> <Warning> <oracle.jps.common> <JPS-00167> <Invalid xml content was found. SchemaLocation: schemaLocation value = 'http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd' must have even number of URI's. Location: line 2 column 272 of file:/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/config/fmwconfig/mbeans/../jps-config-jse.xml.>
+<Sep 24, 2013 10:50:35 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/oracle_common/atgpf/modules/oracle.applcore.model_11.1.1/oracle.applcore.model.stub.ear/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:36 AM PDT> <Warning> <Security> <BEA-090668> <Ignored deployment of role "Admin" for resource "type=<url>, application=DMS Application#11.1.1.1.0, contextPath=/dms, uri=/">
+<Sep 24, 2013 10:50:38 AM PDT> <Warning> <Connector> <BEA-190155> <Compliance checking/validation of the resource adapter /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/ESSAPP/z68zjr/stub-ess-ra.rar resulted in the following warnings:
+The ra.xml <resourceadapter-class> class 'oracle.as.scheduler.adapter.ra.RAImpl' should implement java.io.Serializable but does not.>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <J2EE> <BEA-160140> <Unresolved optional package references (in META-INF/MANIFEST.MF): [Extension-Name: com/oracle/adfm, Specification-Version: 1, referenced from: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/bicomposer_11.1.1/ajbl01]. Make sure the referenced optional package has been deployed as a library.>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <oracle.jps.credstore> <JPS-01033> <Cannot set credential. Reason oracle.security.jps.service.credstore.CredentialAlreadyExistsException: JPS-01007: The credential with map jdevadf-4786 and key anonymous#bi-default already exists..>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <oracle.jps.upgrade> <JPS-06003> <Cannot migrate credential folder/key jdevadf-4786/anonymous#bi-default.Reason oracle.security.jps.service.credstore.CredentialAlreadyExistsException: JPS-01007: The credential with map jdevadf-4786 and key anonymous#bi-default already exists..>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <oracle.jps.credstore> <JPS-01033> <Cannot set credential. Reason oracle.security.jps.service.credstore.CredentialAlreadyExistsException: JPS-01007: The credential with map bireportwizard-4786 and key anonymous#bi-default already exists..>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <oracle.jps.upgrade> <JPS-06003> <Cannot migrate credential folder/key bireportwizard-4786/anonymous#bi-default.Reason oracle.security.jps.service.credstore.CredentialAlreadyExistsException: JPS-01007: The credential with map bireportwizard-4786 and key anonymous#bi-default already exists..>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <oracle.jps.credstore> <JPS-01033> <Cannot set credential. Reason oracle.security.jps.service.credstore.CredentialAlreadyExistsException: JPS-01007: The credential with map bicomposer and key anonymous#bi-default already exists..>
+<Sep 24, 2013 10:50:40 AM PDT> <Warning> <oracle.jps.upgrade> <JPS-06003> <Cannot migrate credential folder/key bicomposer/anonymous#bi-default.Reason oracle.security.jps.service.credstore.CredentialAlreadyExistsException: JPS-01007: The credential with map bicomposer and key anonymous#bi-default already exists..>
+<Sep 24, 2013 10:50:44 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/oracle.applcore.model/hgwjiy/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:44 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/oracle.applcore.model/hgwjiy/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:45 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element web-app in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/bilocaladmin_11.1.1/1wfist/biconfigmbeans.war/WEB-INF/web.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:45 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element web-app in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/biadminservices_11.1.1/stq6lw/biadminservices.war/WEB-INF/web.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:48 AM PDT> <Warning> <EJB> <BEA-010001> <While deploying EJB 'AsyncAdminService_AsyncRequestProcessorMDB', class oracle.j2ee.ws.server.jaxws.AsyncRequestProcessorMDB was loaded from the system classpath. As a result, this class cannot be reloaded while the server is running. To prevent this behavior in the future, make sure the class is not located in the server classpath.>
+<Sep 24, 2013 10:50:48 AM PDT> <Warning> <EJB> <BEA-010001> <While deploying EJB 'AsyncAdminService_AsyncResponseProcessorMDB', class oracle.j2ee.ws.server.jaxws.AsyncResponseProcessorMDB was loaded from the system classpath. As a result, this class cannot be reloaded while the server is running. To prevent this behavior in the future, make sure the class is not located in the server classpath.>
+<Sep 24, 2013 10:50:49 AM PDT> <Warning> <J2EE> <BEA-160195> <The application version lifecycle event listener oracle.security.jps.wls.listeners.JpsAppVersionLifecycleListener is ignored because the application em is not versioned.>
+<Sep 24, 2013 10:50:52 AM PDT> <Warning> <J2EE> <BEA-160140> <Unresolved optional package references (in META-INF/MANIFEST.MF): [Extension-Name: oracle.rules, referenced from: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/emai/xalnv4]. Make sure the referenced optional package has been deployed as a library.>
+<Sep 24, 2013 10:50:53 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/oracle.applcore.model/hgwjiy/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:53 AM PDT> <Warning> <J2EE> <BEA-160140> <Unresolved optional package references (in META-INF/MANIFEST.MF): [Extension-Name: oracle.apps.fod.virusScan.biAdapter, referenced from: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/bipublisher_11.1.1/6uc731], [Extension-Name: oracle.apps.fod.virusScan.core, referenced from: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/bipublisher_11.1.1/6uc731], [Extension-Name: oracle.apps.fod.virusScan.commandLineAdapter, referenced from: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/bipublisher_11.1.1/6uc731]. Make sure the referenced optional package has been deployed as a library.>
+<Sep 24, 2013 10:50:57 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/aps/redist/aps.ear/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:57 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/APS_11.1.1/tvy1yq/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:57 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/oracle.applcore.model/hgwjiy/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:50:57 AM PDT> <Warning> <J2EE> <BEA-160140> <Unresolved optional package references (in META-INF/MANIFEST.MF): [Extension-Name: epm-webservice-libraries, referenced from: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/APS_11.1.1/tvy1yq]. Make sure the referenced optional package has been deployed as a library.>
+<Sep 24, 2013 10:50:57 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/tmp/_WL_user/oracle.applcore.model/hgwjiy/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+<Sep 24, 2013 10:51:00 AM PDT> <Error> <org.apache.beehive.netui.pageflow.internal.AdapterManager> <BEA-000000> <ServletContainerAdapter manager not initialized correctly.>
+<Sep 24, 2013 10:51:02 AM PDT> <Warning> <oracle.dms.collector> <DMS-50966> <Metric table "webcache:request_filter_denied_stats" has no key column.  It will not be collected.>
+<Sep 24, 2013 10:51:03 AM PDT> <Warning> <oracle.dms.collector> <DMS-50966> <Metric table "reports:Reports_Server_Information" has no key column.  It will not be collected.>
+<Sep 24, 2013 10:51:03 AM PDT> <Warning> <oracle.dms.collector> <DMS-50966> <Metric table "reports:Reports_Server_Performance" has no key column.  It will not be collected.>
+<Sep 24, 2013 10:51:03 AM PDT> <Warning> <oracle.dms.collector> <DMS-50966> <Metric table "reports:Reports_Server_Response" has no key column.  It will not be collected.>
+<Sep 24, 2013 10:51:03 AM PDT> <Warning> <oracle.dms.collector> <DMS-50966> <Metric table "reports:Reports_Servlet_Response" has no key column.  It will not be collected.>
+<Sep 24, 2013 10:51:03 AM PDT> <Warning> <oracle.dms.collector> <DMS-50966> <Metric table "reports:Remote_Bridge_Elements" has no key column.  It will not be collected.>
+<Sep 24, 2013 10:51:18 AM PDT> <Warning> <oracle.jps.idmgmt> <JPS-01520> <Cannot initialize identity store, cause: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].>
+<Sep 24, 2013 10:51:18 AM PDT> <Error> <oracle.adf.mbean.share.connection.ConnectionsHelper> <BEA-000000> <Failed to get credentials for alias ADF and connection name bi-default
+java.lang.RuntimeException: java.security.PrivilegedActionException: oracle.security.jps.service.idstore.IdentityStoreException: JPS-01520: Cannot initialize identity store, cause: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:386)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: java.security.PrivilegedActionException: oracle.security.jps.service.idstore.IdentityStoreException: JPS-01520: Cannot initialize identity store, cause: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:381)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: oracle.security.jps.service.idstore.IdentityStoreException: JPS-01520: Cannot initialize identity store, cause: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].
+at oracle.security.jps.internal.idstore.util.IdentityStoreUtil.getIdentityStoreFactory(IdentityStoreUtil.java:189)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmFactory(AbstractIdmIdentityStore.java:273)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.initStore(AbstractIdmIdentityStore.java:157)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmStore(AbstractIdmIdentityStore.java:132)
+at oracle.adf.share.security.providers.jps.actions.IdmStoreAction.run(IdmStoreAction.java:46)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:381)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused]
+at oracle.security.idm.providers.stdldap.TestConnectionPool.execute(LDIdentityStoreFactory.java:1026)
+at oracle.security.idm.providers.stdldap.LDIdentityStoreFactory.setupConnPool(LDIdentityStoreFactory.java:620)
+at oracle.security.idm.providers.stdldap.LDIdentityStoreFactory.setup(LDIdentityStoreFactory.java:333)
+at oracle.security.idm.providers.ovd.OVDIdentityStoreFactory.<init>(OVDIdentityStoreFactory.java:59)
+at oracle.security.idm.providers.wlsldap.WLSLDAPIdentityStoreFactory.<init>(WLSLDAPIdentityStoreFactory.java:45)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+at oracle.security.idm.IdentityStoreFactoryBuilder.getIdentityStoreFactory(IdentityStoreFactoryBuilder.java:128)
+at oracle.security.jps.internal.idstore.util.IdentityStoreUtil.getIdentityStoreFactory(IdentityStoreUtil.java:185)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmFactory(AbstractIdmIdentityStore.java:273)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.initStore(AbstractIdmIdentityStore.java:157)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmStore(AbstractIdmIdentityStore.java:132)
+at oracle.adf.share.security.providers.jps.actions.IdmStoreAction.run(IdmStoreAction.java:46)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:381)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused]
+at com.sun.jndi.ldap.Connection.<init>(Connection.java:209)
+at com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:116)
+at com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1580)
+at com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2678)
+at com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:296)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:175)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:193)
+at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:136)
+at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:66)
+at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+at javax.naming.InitialContext.init(InitialContext.java:223)
+at javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:134)
+at oracle.security.idm.providers.stdldap.TestConnectionPool.run(LDIdentityStoreFactory.java:1006)
+Caused By: java.net.ConnectException: Connection refused
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+at java.net.Socket.connect(Socket.java:529)
+at java.net.Socket.connect(Socket.java:478)
+at java.net.Socket.<init>(Socket.java:375)
+at java.net.Socket.<init>(Socket.java:189)
+at com.sun.jndi.ldap.Connection.createSocket(Connection.java:351)
+at com.sun.jndi.ldap.Connection.<init>(Connection.java:186)
+at com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:116)
+at com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1580)
+at com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2678)
+at com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:296)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:175)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:193)
+at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:136)
+at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:66)
+at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+at javax.naming.InitialContext.init(InitialContext.java:223)
+at javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:134)
+at oracle.security.idm.providers.stdldap.TestConnectionPool.run(LDIdentityStoreFactory.java:1006)
+>
+<Sep 24, 2013 10:51:18 AM PDT> <Warning> <oracle.jps.idmgmt> <JPS-01520> <Cannot initialize identity store, cause: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].>
+<Sep 24, 2013 10:51:18 AM PDT> <Error> <oracle.adf.mbean.share.connection.ConnectionsHelper> <BEA-000000> <Failed to get credentials for alias ADF and connection name bi-default
+java.lang.RuntimeException: java.security.PrivilegedActionException: oracle.security.jps.service.idstore.IdentityStoreException: JPS-01520: Cannot initialize identity store, cause: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:386)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: java.security.PrivilegedActionException: oracle.security.jps.service.idstore.IdentityStoreException: JPS-01520: Cannot initialize identity store, cause: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:381)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: oracle.security.jps.service.idstore.IdentityStoreException: JPS-01520: Cannot initialize identity store, cause: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused].
+at oracle.security.jps.internal.idstore.util.IdentityStoreUtil.getIdentityStoreFactory(IdentityStoreUtil.java:189)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmFactory(AbstractIdmIdentityStore.java:273)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.initStore(AbstractIdmIdentityStore.java:157)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmStore(AbstractIdmIdentityStore.java:132)
+at oracle.adf.share.security.providers.jps.actions.IdmStoreAction.run(IdmStoreAction.java:46)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:381)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: oracle.security.idm.ConfigurationException: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused]
+at oracle.security.idm.providers.stdldap.TestConnectionPool.execute(LDIdentityStoreFactory.java:1026)
+at oracle.security.idm.providers.stdldap.LDIdentityStoreFactory.setupConnPool(LDIdentityStoreFactory.java:620)
+at oracle.security.idm.providers.stdldap.LDIdentityStoreFactory.setup(LDIdentityStoreFactory.java:333)
+at oracle.security.idm.providers.ovd.OVDIdentityStoreFactory.<init>(OVDIdentityStoreFactory.java:59)
+at oracle.security.idm.providers.wlsldap.WLSLDAPIdentityStoreFactory.<init>(WLSLDAPIdentityStoreFactory.java:45)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+at oracle.security.idm.IdentityStoreFactoryBuilder.getIdentityStoreFactory(IdentityStoreFactoryBuilder.java:128)
+at oracle.security.jps.internal.idstore.util.IdentityStoreUtil.getIdentityStoreFactory(IdentityStoreUtil.java:185)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmFactory(AbstractIdmIdentityStore.java:273)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.initStore(AbstractIdmIdentityStore.java:157)
+at oracle.security.jps.internal.idstore.AbstractIdmIdentityStore.getIdmStore(AbstractIdmIdentityStore.java:132)
+at oracle.adf.share.security.providers.jps.actions.IdmStoreAction.run(IdmStoreAction.java:46)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:381)
+at oracle.adf.share.security.providers.jps.JpsUtil.getDefaultIdentityStore(JpsUtil.java:363)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:272)
+at oracle.adf.share.security.providers.jps.JpsUtil.getUserUniqueIdentifier(JpsUtil.java:233)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.getCurrentUserUniqueID(CSFCredentialStore.java:1245)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:481)
+at oracle.adf.share.security.providers.jps.CSFCredentialStore.fetchCredential(CSFCredentialStore.java:645)
+at oracle.adf.share.security.credentialstore.CredentialStore.fetchCredential(CredentialStore.java:187)
+at oracle.adf.mbean.share.connection.ConnectionsHelper.getCredentials(ConnectionsHelper.java:208)
+at oracle.adf.mbean.share.connection.ReferenceHelper.getCredentials(ReferenceHelper.java:325)
+at oracle.adf.mbean.share.connection.ReferenceHelper.createReference(ReferenceHelper.java:290)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.registerBean(ConnectionsRuntimeMXBeanImpl.java:494)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.createConnection(ConnectionsRuntimeMXBeanImpl.java:572)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.configObjectReloaded(ConnectionsRuntimeMXBeanImpl.java:773)
+at oracle.adf.mbean.share.connection.ConnectionsRuntimeMXBeanImpl.postRegister(ConnectionsRuntimeMXBeanImpl.java:1084)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.doPostRegister(OracleStandardEmitterMBean.java:551)
+at oracle.adf.mbean.share.AdfMBeanInterceptor.internalPostRegister(AdfMBeanInterceptor.java:223)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor$4.run(JpsJmxInterceptor.java:523)
+at java.security.AccessController.doPrivileged(Native Method)
+at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+at oracle.security.jps.ee.util.JpsPlatformUtil.runJaasMode(JpsPlatformUtil.java:460)
+at oracle.security.jps.ee.jmx.JpsJmxInterceptor.internalPostRegister(JpsJmxInterceptor.java:539)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.ContextClassLoaderMBeanInterceptor.internalPostRegister(ContextClassLoaderMBeanInterceptor.java:167)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.generic.spi.interceptors.DefaultMBeanInterceptor.internalPostRegister(DefaultMBeanInterceptor.java:87)
+at oracle.as.jmx.framework.generic.spi.interceptors.AbstractMBeanInterceptor.doPostRegister(AbstractMBeanInterceptor.java:204)
+at oracle.as.jmx.framework.standardmbeans.spi.OracleStandardEmitterMBean.postRegister(OracleStandardEmitterMBean.java:516)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.postRegisterInvoke(DefaultMBeanServerInterceptor.java:1035)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:974)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:917)
+at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:312)
+at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:482)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:714)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.mbeanservers.internal.JMXContextInterceptor.registerMBean(JMXContextInterceptor.java:445)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase$27.run(WLSMBeanServerInterceptorBase.java:712)
+at java.security.AccessController.doPrivileged(Native Method)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServerInterceptorBase.registerMBean(WLSMBeanServerInterceptorBase.java:709)
+at weblogic.management.jmx.mbeanserver.WLSMBeanServer.registerMBean(WLSMBeanServer.java:462)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor$1.run(PrivilegedMBeanServerInterceptor.java:55)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+at oracle.as.jmx.framework.wls.spi.security.PrivilegedMBeanServerInterceptor.registerMBean(PrivilegedMBeanServerInterceptor.java:60)
+at oracle.adf.mbean.share.connection.ADFConnectionLifeCycleCallBack.contextInitialized(ADFConnectionLifeCycleCallBack.java:111)
+at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:481)
+at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:181)
+at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1872)
+at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3153)
+at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1508)
+at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:482)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.ScopedModuleDriver.start(ScopedModuleDriver.java:200)
+at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:247)
+at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:425)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:119)
+at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:27)
+at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:636)
+at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:52)
+at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:205)
+at weblogic.application.internal.EarDeployment.activate(EarDeployment.java:58)
+at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:161)
+at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:79)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:184)
+at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:361)
+at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:51)
+at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:200)
+at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:30)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:261)
+at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:220)
+at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:169)
+at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:123)
+at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:180)
+at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:96)
+at weblogic.t3.srvr.SubsystemRequest.run(SubsystemRequest.java:64)
+at weblogic.work.ExecuteThread.execute(ExecuteThread.java:209)
+at weblogic.work.ExecuteThread.run(ExecuteThread.java:178)
+Caused By: javax.naming.CommunicationException: 2606:b400:2010:6058:216:3eff:fe79:694c:7001 [Root exception is java.net.ConnectException: Connection refused]
+at com.sun.jndi.ldap.Connection.<init>(Connection.java:209)
+at com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:116)
+at com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1580)
+at com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2678)
+at com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:296)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:175)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:193)
+at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:136)
+at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:66)
+at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+at javax.naming.InitialContext.init(InitialContext.java:223)
+at javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:134)
+at oracle.security.idm.providers.stdldap.TestConnectionPool.run(LDIdentityStoreFactory.java:1006)
+Caused By: java.net.ConnectException: Connection refused
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+at java.net.Socket.connect(Socket.java:529)
+at java.net.Socket.connect(Socket.java:478)
+at java.net.Socket.<init>(Socket.java:375)
+at java.net.Socket.<init>(Socket.java:189)
+at com.sun.jndi.ldap.Connection.createSocket(Connection.java:351)
+at com.sun.jndi.ldap.Connection.<init>(Connection.java:186)
+at com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:116)
+at com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1580)
+at com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2678)
+at com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:296)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:175)
+at com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:193)
+at com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:136)
+at com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:66)
+at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+at javax.naming.InitialContext.init(InitialContext.java:223)
+at javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:134)
+at oracle.security.idm.providers.stdldap.TestConnectionPool.run(LDIdentityStoreFactory.java:1006)
+>
+<Sep 24, 2013 10:51:18 AM PDT> <Warning> <oracle.as.jmx.framework.MessageLocalizationHelper> <J2EE JMX-46041> <The resource for bundle "oracle.adf.mbean.share.connection.bi.soap.resources.BISoapMBeanBundle_en" with key "ATR_STATIC_RESOURCES_LOCATION_AUTOMATIC" cannot be found.>
+<Sep 24, 2013 10:51:18 AM PDT> <Warning> <oracle.as.jmx.framework.MessageLocalizationHelper> <J2EE JMX-46041> <The resource for bundle "oracle.adf.mbean.share.connection.bi.soap.resources.BISoapMBeanBundle_en" with key "ATTR_ADF_COOKIES_TO_SKIP" cannot be found.>
+<Sep 24, 2013 10:51:18 AM PDT> <Warning> <oracle.as.jmx.framework.MessageLocalizationHelper> <J2EE JMX-46041> <The resource for bundle "oracle.adf.mbean.share.connection.bi.soap.resources.BISoapMBeanBundle_en" with key "ATTR_BI_COOKIES_TO_MAINTAIN" cannot be found.>
+<Sep 24, 2013 10:51:18 AM PDT> <Warning> <oracle.as.jmx.framework.MessageLocalizationHelper> <J2EE JMX-46041> <The resource for bundle "oracle.adf.mbean.share.connection.bi.soap.resources.BISoapMBeanBundle_en" with key "ATTR_BI_COOKIES_TO_SKIP" cannot be found.>
+<Sep 24, 2013 10:51:20 AM PDT> <Warning> <oracle.adfinternal.view.faces.partition.FeatureUtils> <ADF_FACES-30130> <Ignoring feature-dependency on feature "AdfDvtCommon".  No such feature exists.>
+FUSION mode detected, skipping all update logic
+CSSSystemFactory: creation FusionSystem
+Calling FusionSystem.getInstance
+FusionProvider BIPlatformProvider security version 2
+
+
+Essbase® Administration Services - Version  11.1.2.2.200.5024
+Copyright © 1991, 2013 Oracle and/or its affiliates. All rights reserved. Oracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners. No portion hereof may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording, or information storage and retrieval systems, for any purpose other than the recipient's personal use, without the express written permission of Oracle.
+US Patent Number 5,359,724
+US Patent Number 6,317,750
+Current time stamp: Tue Sep 24 10:51:23 PDT 2013
+
+
+Server started successfully
+Waiting for client requests
+
+REGISTERED oracle.biee.local:type=DomainConfigProxy,group=Config
+<Sep 24, 2013 10:51:28 AM PDT> <Error> <javax.enterprise.resource.webcontainer.jsf.application> <BEA-000000> <JSF1030: The specified InjectionProvider implementation 'com.bea.faces.WeblogicInjectionProvider' cannot be loaded.>
+<Sep 24, 2013 10:51:29 AM PDT> <Warning> <oracle.mapviewer.logger> <BEA-000000> <destroying ALL mapmaker instances.>
+<Sep 24, 2013 10:51:29 AM PDT> <Warning> <oracle.mapviewer.logger> <BEA-000000> <will use 96 as default dpi.>
+contextPath has been resolved from 'BI_ORACLE_HOME/products/epmstatic' to '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/epmstatic'
+contextPath has been resolved from 'BI_ORACLE_HOME/products/epmstatic/bpmui' to '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/epmstatic/bpmui'
+contextPath has been resolved from 'BI_ORACLE_HOME/products/epmstatic/calcmgr/docs' to '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/epmstatic/calcmgr/docs'
+contextPath has been resolved from 'BI_ORACLE_HOME/clients/bipublisher' to '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/bipublisher'
+contextPath has been resolved from 'BI_ORACLE_HOME/products/epmstatic/wspace' to '/scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/epmstatic/wspace'
+The BI Content Server has been initialised.
+log4j:WARN No appenders could be found for logger (org.quartz.simpl.SimpleThreadPool).
+log4j:WARN Please initialize the log4j system properly.
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090171> <Loading the identity certificate and private key stored under the alias DemoIdentity from the jks keystore file /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/DemoIdentity.jks.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090169> <Loading trusted certificates from the jks keystore file /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/wlserver_10.3/server/lib/DemoTrust.jks.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090169> <Loading trusted certificates from the jks keystore file /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/jdk/jre/lib/security/cacerts.>
+<Sep 24, 2013 10:51:35 AM PDT> <Alert> <Security> <BEA-090152> <Demo trusted CA certificate is being used in production mode: [
+[
+Version: V3
+Subject: CN=CACERT, OU=FOR TESTING ONLY, O=MyOrganization, L=MyTown, ST=MyState, C=US
+Signature Algorithm: MD5withRSA, OID = 1.2.840.113549.1.1.4
+
+Key:  Sun RSA public key, 512 bits
+modulus: 9550192877869244258838480703390456015046425375252278279190673063544122510925482179963329236052146047356415957587628011282484772458983977898996276815440753
+public exponent: 65537
+Validity: [From: Thu Mar 21 12:12:27 PST 2002,
+To: Tue Mar 22 13:12:27 PDT 2022]
+Issuer: CN=CACERT, OU=FOR TESTING ONLY, O=MyOrganization, L=MyTown, ST=MyState, C=US
+SerialNumber: [    33f10648 fcde0deb 4199921f d64537f4]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+Key_CertSign
+]
+
+]
+Algorithm: [MD5withRSA]
+Signature:
+0000: 9D 26 4C 29 C8 91 C3 A7   06 C3 24 6F AE B4 F8 82  .&L)......$o....
+0010: 80 4D AA CB 7C 79 46 84   81 C4 66 95 F4 1E D8 C4  .M...yF...f.....
+0020: E9 B7 D9 7C E2 23 33 A4   B7 21 E0 AA 54 2B 4A FF  .....#3..!..T+J.
+0030: CB 21 20 88 81 21 DB AC   90 54 D8 7D 79 63 23 3C  .! ..!...T..yc#<
+
+] The system is vulnerable to security attacks, since it trusts certificates signed by the demo trusted CA.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=Entrust Root Certification Authority - G2,OU=(c) 2009 Entrust\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\, Inc.,C=US". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=thawte Primary Root CA - G3,OU=(c) 2008 thawte\, Inc. - For authorized use only,OU=Certification Services Division,O=thawte\, Inc.,C=US". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=T-TeleSec GlobalRoot Class 3,OU=T-Systems Trust Center,O=T-Systems Enterprise Services GmbH,C=DE". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=T-TeleSec GlobalRoot Class 2,OU=T-Systems Trust Center,O=T-Systems Enterprise Services GmbH,C=DE". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R3". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "OU=Security Communication RootCA2,O=SECOM Trust Systems CO.\,LTD.,C=JP". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=VeriSign Universal Root Certification Authority,OU=(c) 2008 VeriSign\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=KEYNECTIS ROOT CA,OU=ROOT,O=KEYNECTIS,C=FR". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+<Sep 24, 2013 10:51:35 AM PDT> <Notice> <Security> <BEA-090898> <Ignoring the trusted CA certificate "CN=GeoTrust Primary Certification Authority - G3,OU=(c) 2008 GeoTrust Inc. - For authorized use only,O=GeoTrust Inc.,C=US". The loading of the trusted certificate list raised a certificate parsing exception PKIX: Unsupported OID in the AlgorithmIdentifier object: 1.2.840.113549.1.1.11.>
+PostInstallConfigIntegration:oracle_ias_farm target auth registration is done.
+<Sep 24, 2013 10:51:48 AM PDT> <Warning> <oracle.adfinternal.view.faces.partition.FeatureUtils> <ADF_FACES-30130> <Ignoring feature-dependency on feature "AdfDvtCommon".  No such feature exists.>
+<Sep 24, 2013 10:51:48 AM PDT> <Warning> <org.apache.myfaces.trinidadinternal.config.GlobalConfiguratorImpl> <BEA-000000> <Configurator services already initialized.>
+<Sep 24, 2013 10:51:53 AM PDT> <Warning> <WorkManager> <BEA-002919> <Unable to find a WorkManager with name ESSRAWM. Dispatch policy ESSRAWM will map to the default WorkManager for the application bipublisher#11.1.1>
+<Sep 24, 2013 10:51:53 AM PDT> <Warning> <EJB> <BEA-014014> <The message driven bean (MDB) named "ESSAppEndpoint" has a dispatch policy "ESSRAWM" that refers to an unknown work manager. The default work manager will be used instead.>
+FUSION mode detected, skipping all update logic
+Hyperion Provider Services - Release 11.1.2.3.002.028
+Copyright (c) 1991, 2013 Oracle and / or its affiliates. All rights reserved.
+connection mode : HTTP
+java System properties -DESS_ES_HOME: /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/user_projects/domains/bifoundation_domain/servers/AdminServer/aps
+FUSION mode detected, skipping all update logic
+CSSSystemFactory: creation FusionSystem
+Calling FusionSystem.getInstance
+FusionProvider BIPlatformProvider security version 2
+INFO: Found persistence provider "org.eclipse.persistence.jpa.PersistenceProvider". OpenJPA will not be used.
+FUSION mode detected, skipping all update logic
+CSSSystemFactory: creation FusionSystem
+Calling FusionSystem.getInstance
+FusionProvider BIPlatformProvider security version 2
+Mode: Fusion read from Registry
+HRContextListener::contextInitialized
+CSSSystemFactory: creation FusionSystem
+Calling FusionSystem.getInstance
+FusionProvider BIPlatformProvider security version 2
+<Sep 24, 2013 10:52:00 AM PDT> <Notice> <Log Management> <BEA-170027> <The Server has established connection with the Domain level Diagnostic Service successfully.>
+<Sep 24, 2013 10:52:00 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to ADMIN>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to RESUMING>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <Server> <BEA-002613> <Channel "Default[1]" is now listening on 10.249.128.232:7001 for protocols iiop, t3, ldap, snmp, http.>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <Server> <BEA-002613> <Channel "Default" is now listening on 2606:b400:2010:6058:216:3eff:fe79:694c:7001 for protocols iiop, t3, ldap, snmp, http.>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <Server> <BEA-002613> <Channel "Default[4]" is now listening on 0:0:0:0:0:0:0:1:7001 for protocols iiop, t3, ldap, snmp, http.>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <Server> <BEA-002613> <Channel "Default[3]" is now listening on 127.0.0.1:7001 for protocols iiop, t3, ldap, snmp, http.>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <Server> <BEA-002613> <Channel "Default[2]" is now listening on fe80:0:0:0:216:3eff:fe79:694c:7001 for protocols iiop, t3, ldap, snmp, http.>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <WebLogicServer> <BEA-000329> <Started WebLogic Admin Server "AdminServer" for domain "bifoundation_domain" running in Production Mode>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to RUNNING>
+<Sep 24, 2013 10:52:01 AM PDT> <Notice> <WebLogicServer> <BEA-000360> <Server started in RUNNING mode>
+opmnctl stopall: opmn is not running.
+# Edit opmn.xml file at /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/Essbase/essbaseserver1/../../config/OPMN/opmn folder.
+### Edit /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/instances/instance1/Essbase/essbaseserver1/bin/essbase.cfg and /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/clients/epm/Essbase/EssbaseRTC/bin/essbase.cfg.
+opmnctl startall: starting opmn and all managed processes...
+Restructuring in progress (Hit <Esc> key to cancel).
+Restructuring completed
+
+Essbase Command Mode Interface 64-bit - Release 11.1.2 (ESB11.1.2.3.002B024)
+Copyright (c) 1991, 2013, Oracle and/or its affiliates. All rights reserved.
+
+U.S. Patent Number 5,359,724
+U.S. Patent Number 6,317,750
+
+
+Login:
+
+
+[Tue Sep 24 10:52:16 2013]Local////Info(1051034)
+Logging in user [weblogic]
+
+qUnLockAllObjects:
+
+
+
+[Tue Sep 24 10:52:16 2013]localhost///weblogic/Error(1053003)
+Application directory does not exist: Microacc
+
+Command Failed. Return Status = 1053003
+
+qDeleteApp:
+
+
+[Tue Sep 24 10:52:16 2013]localhost///weblogic/Error(1051030)
+Application Microacc does not exist
+
+Command Failed. Return Status = 1051030
+
+Output:
+
+End output file:
+
+Logout:
+
+
+[Tue Sep 24 10:52:23 2013]localhost/Microacc/Basic/weblogic/Info(1051037)
+Logging out user [weblogic], active for 0 minutes
+
+
+Essbase MaxL Shell 64-bit - Release 11.1.2 (ESB11.1.2.3.002B024)
+Copyright (c) 2000, 2013, Oracle and/or its affiliates.
+All rights reserved.
+
+MAXL> login 'weblogic' identified by 'welcome1' on 'localhost';
+
+OK/INFO - 1051034 - Logging in user [weblogic].
+OK/INFO - 1241001 - Logged in to Essbase.
+
+MAXL> import database 'Microacc'.'Basic' data from local text data_file '/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX/acc/Calcdat.txt' on error abort;
+
+OK/INFO - 1003040 - Parallel dataload enabled: [1] block prepare threads, [1] block write threads..
+OK/INFO - 1003037 - Data Load Updated [67176] cells.
+OK/INFO - 1003024 - Data Load Elapsed Time : [0.63] seconds.
+OK/INFO - 1241113 - Database import completed ['Microacc'.'Basic'].
+
+MAXL> execute calculation default on 'Microacc'.'Basic';
+
+OK/INFO - 1012675 - Commit Blocks Interval for the calculation is [3000].
+OK/INFO - 1012684 - Multiple bitmap mode calculator cache memory usage has a limit of [50000] bitmaps..
+OK/INFO - 1012669 - Calculating [ Measures(All members) Year(All members) Scenario(All members) Product(All members) Market(All members)].
+OK/INFO - 1012677 - Calculating in serial.
+OK/INFO - 1012550 - Total Calc Elapsed Time : [0.06] seconds.
+OK/INFO - 1013274 - Calculation executed.
+
+MAXL> logout;
+
+User weblogic is logged out
+
+
+MaxL Shell completed
+
+opmnctl stopall: stopping opmn and all managed processes...
+# chk_essinit.sh sts=0
+opmnctl stopall: opmn is not running.
+SVR_GRP =
+Stopping Weblogic Server...
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+Connecting to t3://slc05wic:7001 with userid weblogic ...
+<Sep 24, 2013 10:52:52 AM PDT> <Warning> <Munger> <BEA-2156203> <A version attribute was not found in element application in the deployment descriptor in /scratch/anzhang/hyperion/11-1-2-3-002_BI_AMD64/Oracle_BI1/products/Essbase/aps/redist/aps.ear/META-INF/application.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.>
+Successfully connected to Admin Server 'AdminServer' that belongs to domain 'bifoundation_domain'.
+
+Warning: An insecure protocol was used to connect to the
+server. To ensure on-the-wire security, the SSL port or
+Admin port should be used instead.
+
+Shutting down the server AdminServer with force=false while connected to AdminServer ...
+<Sep 24, 2013 10:52:54 AM PDT> <Alert> <WebLogicServer> <BEA-000396> <Server shutdown has been requested by weblogic>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to SUSPENDING>
+[JCABindingManager] : This operation is not supported for JCA based MDB
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to ADMIN>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to SHUTTING_DOWN>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <Server> <BEA-002607> <Channel "Default" listening on 2606:b400:2010:6058:216:3eff:fe79:694c:7001 was shutdown.>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <Server> <BEA-002607> <Channel "Default[1]" listening on 10.249.128.232:7001 was shutdown.>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <Server> <BEA-002607> <Channel "Default[2]" listening on fe80:0:0:0:216:3eff:fe79:694c:7001 was shutdown.>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <Server> <BEA-002607> <Channel "Default[3]" listening on 127.0.0.1:7001 was shutdown.>
+<Sep 24, 2013 10:52:54 AM PDT> <Notice> <Server> <BEA-002607> <Channel "Default[4]" listening on 0:0:0:0:0:0:0:1:7001 was shutdown.>
+HRContextListener::contextDestroyed
+<Sep 24, 2013 10:52:58 AM PDT> <Error> <oracle.mapviewer.logger> <BEA-000000> <!!! Oracle FOI server destroyed. !!!>
+<Sep 24, 2013 10:52:58 AM PDT> <Warning> <oracle.mapviewer.logger> <BEA-000000> <destroying ALL mapmaker instances.>
+<Sep 24, 2013 10:52:58 AM PDT> <Warning> <oracle.mapviewer.logger> <BEA-000000> <Oracle MapViewer shut down.>
+Disconnected from weblogic server: AdminServer
+<Sep 24, 2013 10:52:58 AM PDT> <Warning> <oracle.mapviewer.logger> <BEA-000000> <!!! Tile task scheduler shut down. !!!>
+<Sep 24, 2013 10:52:58 AM PDT> <Error> <oracle.mapviewer.logger> <BEA-000000> <!!! Oracle MapTileServer destroyed. !!!>
+<Sep 24, 2013 10:52:58 AM PDT> <Error> <oracle.mapviewer.logger> <BEA-000000> <!!! Oracle Web Map Server destroyed. !!!>
+<Sep 24, 2013 10:52:58 AM PDT> <Warning> <oracle.mapviewer.logger> <BEA-000000> <mbean server is null.>
+
+
+Exiting WebLogic Scripting Tool.
+
+UNREGISTERED oracle.biee.local:type=DomainConfigProxy,group=Config
+Stopping DAO factory!
+Done
+Stopping Derby Server...
+# wait for startWebLogic.sh shutdown...
+<Sep 24, 2013 10:54:01 AM PDT> <Warning> <Common> <BEA-000632> <Resource Pool "rtd_datasource" shutting down, ignoring 1 resources still in use by applications..>

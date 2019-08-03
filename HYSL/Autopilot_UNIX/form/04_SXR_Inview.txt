@@ -1,0 +1,12 @@
+$LOGNAME $AP_ALTEMAIL EnvNotify
+Autopilot Notification (SXR_INVIEW) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+You might be in SXR view(\$SXR_INVIEW=$SXR_INVIEW).
+
+  Machine         = $(hostname):$_PLATNAME
+  Login User      = $LOGNAME
+  Version:Build   = $VERSION:$BUILD
+  Test Script     = $TEST
+
+Autopilot is moving to PAUSE mode.
+Please check the target environment of this machine.
+

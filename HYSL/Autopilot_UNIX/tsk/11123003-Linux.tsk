@@ -1,0 +1,70 @@
+
+# For 11.1.2.3.003 oapck
+################################
+####### #11.1.2.3.003 APS Test #####
+dsapdq_reg_v2.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapds_reg_v1.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapds_reg_v2.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapmd_reg_v2.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapprobmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapfusion.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapbg.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+
+## 43 main tests ###################
+maxlmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+agsymain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+agapmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+agbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+aglgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+apbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+apgdmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+apgemain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+apotmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+capitest.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dcbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dcmpmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dcosmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dcrpmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dctpmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+ddbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+ddldmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+ddximain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dmbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dmccmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dmdcmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dmglmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dmpcmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dmudmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dresmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dxbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dxmdmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dxrrmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+dxssmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+msscmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+sdatmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+sdbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+sddbmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+sdremain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+sdsvmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+smalmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+smbgmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+smbumain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+smixmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+smlrmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+smtxmain.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+prob_main.sh:opackver(epm) runplat(regraz1@slc00too hvuggumu@slc00tbz)
+  
+
+####### #11.1.2.3.001 User Provisioning Test #####
+agssmain.sh:opackver(epm) secmode(hss) forceInst(true) runplat(hvuggumu@slc05wic)
+
+## FA and BI ####
+agsbmain.sh:secmode(bi) biimg($HOME/bitmp_11.1.1.7.0ln64_release) opackver(bi) agtStart(true) runplat(hvuggumu@slc05wic)
+agsfmain.sh:secmode(fa) biimg($HOME/bitmp_11.1.1.7.0ln64_release) opackver(bi) runplat(hvuggumu@slc05wic)
+
+
+
+
+
+

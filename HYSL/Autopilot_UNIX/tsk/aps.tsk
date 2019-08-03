@@ -1,0 +1,5 @@
+dsapssdqmd_acc_v1.sh:setEnv(APS_BUILD=017 APS_VERSION=11.1.2.1.104) snapshot(qacleanup)
+dsapdq_reg_v2.sh:setEnv(APS_BUILD=017 APS_VERSION=11.1.2.1.104) snapshot(qacleanup)
+dsapmd_reg_v2.sh:setEnv(APS_BUILD=017 APS_VERSION=11.1.2.1.104) snapshot(qacleanup)
+dsapds_reg_v1.sh:setEnv(APS_BUILD=017 APS_VERSION=11.1.2.1.104) snapshot(qacleanup)
+dsapds_reg_v2.sh:setEnv(APS_BUILD=017 APS_VERSION=11.1.2.1.104) snapshot(qacleanup)

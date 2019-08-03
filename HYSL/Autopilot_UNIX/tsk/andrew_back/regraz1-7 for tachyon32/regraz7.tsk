@@ -1,0 +1,6 @@
+# on tachyon for linux32
+tachyon:talleyrand_sp1:latest:agtpbarmain.sh:schedule(Sun Wed) refresh(true) arch(32)
+tachyon:talleyrand_sp1:latest:agtpjlmain.sh parallel buffer:schedule(Sun Wed) refresh(true) arch(32)
+tachyon:talleyrand_sp1:latest:agtpjlmain.sh parallel direct:schedule(Sun Wed) refresh(true) arch(32)
+tachyon:talleyrand_sp1:latest:agtpjlmain.sh serial direct:schedule(Sun Wed) refresh(true) arch(32)
+

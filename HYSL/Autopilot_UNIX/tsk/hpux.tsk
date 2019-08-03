@@ -1,0 +1,22 @@
+# #9.3.3.0.0
+# regraz1
+
+# Regular regression
+#9.3.3.0.0:071:capitest.sh:schedule(Mon Thu) runplat(regraz3@sthp16)
+#9.3.3.0.0:071:agtpjvmain.sh:schedule(Mon Thu) runplat(regraz1@sthp16) 
+#9.3.3.0.0:071:maxlmain.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpjlmain.sh parallel direct:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpjlmain.sh parallel buffer:schedule(Mon Thu)  runplat(regraz1@sthp16)
+#9.3.3.0.0:071:agtpjlmain.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpori1.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpjlmain.sh serial direct:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpcwmain.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpori2.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtp70main.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpukmain.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpjymain.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpbkmain.sh:schedule(Mon Thu) runplat(regraz1)
+#9.3.3.0.0:071:agtpbarmain.sh:schedule(Mon Thu) runplat(regraz1)
+
+
+

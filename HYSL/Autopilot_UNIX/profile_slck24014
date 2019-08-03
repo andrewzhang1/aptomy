@@ -1,0 +1,173 @@
+#!/bin/ksh
+
+# Note: Hosted linux does not seem to need to set the ulimit
+#       The fault ulimit:
+#                 ulimit -n 8192 
+#                 ulimit -u 124928
+#       check by: ulimit -a
+# However, I don't set any ulimit, the ulimit -u is 1024?
+
+
+echo 'Running profile for this exalytics bix: slck24014'
+sleep 1
+
+set -o vi
+# set default access to read write execute for all newly created directories.
+umask 000
+
+# Set some user related variables
+
+export HOME=/u01/$LOGNAME
+
+####################
+# For Remote machine:
+#########################
+#export NETHOME=/nfshome/$LOGNAME
+#export NFSHOME=$HOME
+#export HOME=/vol1/$LOGNAME
+#    cd $HOME
+#      if ( test -f "./.profile" )
+#       then
+#         . ./.profile
+#       fi
+
+
+# Original settings:
+#########################
+#export BUILD_ROOT=/mnt1/pre_rel/essbase/builds
+export BUILD_ROOT=/net/nar200/vol/vol2/pre_rel/essbase/builds
+
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/essbasesxr/11122x/vobs/essexer/latest
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/essbasesxr/talleyrand/vobs/essexer/latest
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/essbasesxr/zola/vobs/essexer/latest
+
+export ESSLANG=English_UnitedStates.Latin1@Binary
+#export SXR_MLCAPP=1
+#export ESSCMDQ_UTF8MODE=1
+stty erase ^H
+stty intr ^C
+stty erase ^?
+export PATH=\
+/bin:\
+/usr/bin:\
+/usr/sbin:\
+/usr/X11R6/bin:\
+/etc:\
+/usr/local/bin:\
+/usr/ucb:\
+/usr/atria/bin:\
+${BUILD_ROOT}/common/bin
+
+#HOSTNAME=`/usr/bin/uname -n`
+#TTY=`tty | tr "/" "-"`
+
+# Don't export PS1 under SunOS, because if a Bourne shell is subsequently
+# spawned, then the prompt will be literally be "${LOGNAME}@${HO ..." rather
+# than the expansion of those variables.
+#
+
+export PS1="
+\$PWD
+($LOGNAME@`uname -n`)\>"
+
+export TERM=vt100
+#resize
+
+export HISTFILE=${HOME}/history/.${HOSTNAME}${TTY}.sh_history
+
+alias myterm='/usr/X11R6/bin/xterm -bg black -fg green -fn 8x13 -sb -sl 1200 -title "stnti8" &'
+alias ct=cleartool
+
+# Increase shell max limits
+
+# For Linux specificily:
+ulimit -n 8192 
+ulimit -u 4096 
+
+stty erase ^H
+stty intr ^C
+stty erase ^?
+
+ESSLANG=English_UnitedStates.Latin1@Binary
+
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias h=history
+
+alias cfg='cat $ARBORPATH/bin/essbase.cfg'
+
+# For auto pilot test:
+alias regress='cd $VIEW_PATH/autoregress'
+
+export PATH=".:$HOME/autoregress:$HOME/bin:$PATH"
+
+alias acfg='cd ~/autop_cfg'
+
+# For new autopilot  by rumitkar 2006.4
+
+alias arbor='cd $AUTOPILOT/env/$LOGNAME'
+
+select arch in "AMD 64 bit" "64 bit" "32 bit"; do
+  if [ "$arch" = "64 bit" ]; then
+    export ARCH="64"
+    break
+  elif [ "$arch" = "32 bit" ]; then
+    export ARCH="32"
+    break
+  elif [ "$arch" = "AMD 64 bit" ]; then
+    export ARCH="AMD64"
+    break
+  fi
+done
+echo "\$ARCH=$ARCH"
+
+#export TMP=/home/tmp
+#export TEMP=/home/tmp
+#export TMPDIR=/home/tmp
+
+##########################
+# Autopilot Related
+#########################
+export AUTOPILOT=/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX
+
+#on Hosted linux:
+#################
+export TMP=/u01/tmp
+export TEMP=/u01/tmp
+export TMPDIR=/u01/tmp
+
+# To set HOME to the local home
+
+export AP_NOPLAT=false
+export PROD_ROOT=/u01/$LOGNAME/hyperion
+export VIEW_PATH=/u01/views/$LOGNAME
+
+# On hosted linux:
+#####################
+#export PROD_ROOT=/scratch/$LOGNAME/hyperion
+
+export AP_KEEPWORK=1
+export AP_CLEANUPVIEWFOLDERS=false
+export SXR_STA_ACCUMULATED=1
+
+#export HIT_ROOT=/mnt/hit
+export HIT_ROOT=/net/slcnas502/export/bishiphome_qa2_essbasesxr/regressions/Autopilot_UNIX/hit
+
+export AP_LOGTO=$HOME/${LOGNAME}@$(hostname).log
+
+# For Pion
+#export AP_HITCACHE=/scratch/vraid01/hitcache
+
+# For tachyon:
+#export AP_HITCACHE=/mnt/TachyonRaid/diskarray/hitcache 
+
+# For 
+# Kono: I think those name are:
+# LinuxAMD64 on Exalytics is linuxx64exa.tsk with ARCH=AMD64EXA.
+# Solaris64 on Exalytics is solaris64exa.tsk with ARCH=64EXA.
+
+export AP_ESSBASECFG=/scratch/share/${LOGNAME}.cfg
+export ARCH=AMD64EXA
+
+#export SXR_PLATFORM=linuxexa
+

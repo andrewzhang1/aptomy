@@ -1,0 +1,137 @@
+### Linux --------------------------------------------------------------------
+
+#####################################
+# stlx8
+#####################################
+stlx8:9.3.1.3.0:015:agtpbarmain.sh
+stlx8:9.3.1.3.0:015:agtpbkmain.sh
+stlx8:9.3.1.3.0:015:maxlmain.sh 
+stlx8:9.3.1.3.0:015:agtp70main.sh
+stlx8:9.3.1.3.0:015:agtpjymain.sh
+stlx8:9.3.1.3.0:015:agtpori1.sh
+
+#####################################
+# stlx9
+#####################################
+stlx9:9.3.1.3.0:015:agtpori2.sh
+stlx9:9.3.1.3.0:015:agtpjlmain.sh
+ 
+
+
+####################################### 
+# stlx10
+######################################
+#stlx11:9.3.1.3.0:015:agtpjvmain.sh:priority(1)
+stlx10:9.3.1.3.0:015:agtpbarmain.sh
+
+
+
+####################################### 
+# stlx11
+######################################
+#stlx11:9.3.1.3.0:015:agtpjvmain.sh:priority(1)
+stlx11:9.3.1.3.0:015:agtpbarmain.sh
+
+
+### Hpux -----------------------------------------------------------------------
+#####################################
+# emchpux2          
+#####################################
+emchpux2:9.3.1.3.0:138:agtpbarmain.sh
+#emchpux2:9.3.1.3.0:138:agtpbkmain.sh
+#emchpux2:9.3.1.3.0:138:agtpori1.sh
+#emchpux2:9.3.1.3.0:138:agtpjlmain.sh parallel buffer
+
+#####################################
+# sthp8          
+#####################################
+sthp8:9.3.1.3.0:015:agtpbkmain.sh
+sthp8:9.3.1.3.0:015:maxlmain.sh 
+sthp8:9.3.1.3.0:015:agtp70main.sh
+sthp8:9.3.1.3.0:015:agtpjymain.sh
+sthp8:9.3.1.3.0:015:agtpori1.sh
+
+
+#####################################
+# sthp10
+#####################################
+sthp10:9.3.1.3.0:015:agtpori2.sh
+sthp10:9.3.1.3.0:015:agtpjlmain.sh
+sthp10:9.3.1.3.0:015:agtpcwmain.sh
+sthp10:9.3.1.3.0:015:agtpori2.sh
+sthp10:9.3.1.3.0:015:agtpbarmain.sh
+
+ 
+#####################################
+# sthp16
+#####################################
+#sthp16:9.3.1.3.0:015:agtpjvmain.sh:priority(1)
+sthp16:9.3.1.3.0:015:agtpukmain.sh
+sthp16:9.3.1.3.0:015:agtpcwmain.sh
+sthp16:9.3.1.3.0:015:agtpjlmain.sh serial direct
+sthp16:9.3.1.3.0:015:agtpjlmain.sh parallel buffer
+sthp16:9.3.1.3.0:015:agtpjlmain.sh parallel direct
+
+###  Sun ----------------------------------------------------------------------
+
+#####################################
+# stsun8
+#####################################
+stsun8:9.3.1.3.0:015:agtpbkmain.sh
+stsun8:9.3.1.3.0:015:maxlmain.sh 
+stsun8:9.3.1.3.0:015:agtp70main.sh
+stsun8:9.3.1.3.0:015:agtpjymain.sh
+stsun8:9.3.1.3.0:015:agtpori1.sh
+
+
+#####################################
+# stsun11
+#####################################
+stsun11:9.3.1.3.0:015:agtpori2.sh
+stsun11:9.3.1.3.0:015:agtpjlmain.sh
+
+#####################################
+# stsun14
+#####################################
+stsun14:9.3.1.3.0:015:agtpukmain.sh
+stsun14:9.3.1.3.0:015:agtpcwmain.sh
+stsun14:9.3.1.3.0:015:agtpjlmain.sh serial direct
+stsun14:9.3.1.3.0:015:agtpjlmain.sh parallel buffer
+stsun14:9.3.1.3.0:015:agtpjlmain.sh parallel direct
+
+
+#####################################
+# emc-sun2
+#####################################
+emc-sun2:9.3.1.3.0:015:agtpjvmain.sh:priority(1)
+emc-sun2:9.3.1.3.0:015:agtpukmain.sh
+emc-sun2:9.3.1.3.0:015:agtpcwmain.sh
+emc-sun2:9.3.1.3.0:015:agtpjlmain.sh serial direct
+emc-sun2:9.3.1.3.0:015:agtpjlmain.sh parallel buffer
+emc-sun2:9.3.1.3.0:015:agtpjlmain.sh parallel direct
+
+
+
+
+hyslinst.sh 9.3.1.3.0 115
+
+# hyslinst.sh 9.3.1.3.0 118  --> OK
+# hyslinst.sh 9.2/9.2.0.3.0 115 --> Ok!
+
+autopilot.sh stop
+autopilot.sh start -noinst
+ 
+autopilot.sh stop
+autopilot.sh start
+ 
+ 
+ refresh 9.3.1.3.0:146
+
+#####################################
+# emc-aix2
+#####################################
+emc-aix2:beckett:318:agtpjvmain.sh  
+staix10. 
+
+
+#stsun8:9.3.1.3.0:015:regress_sb.sh

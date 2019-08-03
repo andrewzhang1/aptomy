@@ -1,0 +1,203 @@
+#####################################
+# stlx8:
+#####################################
+stlx8:talleyrand:latest:agtpori2.sh:schedule(Mon Thu)
+stlx8:talleyrand:latest:agtpjlmain.sh:schedule(Mon Thu)
+stlx8:talleyrand:latest:agtp70main.sh:schedule(Mon Thu)
+
+#####################################
+# stlx9: (Oracle Linux 32 bits)
+# /vol1/regraz3/talleyrand --> regraz3
+#####################################
+stlx9:talleyrand:latest:agtpukmain.sh:schedule(Mon Thu)
+stlx9:talleyrand:latest:agtpcwmain.sh:schedule(Mon Thu)
+stlx9:talleyrand:latest:maxlmain.sh:schedule(Mon Thu)
+#stlx9:talleyrand:latest:agtpjvmain.sh:schedule(Mon Thu)
+stlx9:talleyrand:latest:agtpjymain.sh:schedule(Mon Thu)
+
+#####################################
+# stlx10: (RedHat Linux 32 bits)
+#######################################
+stlx10:talleyrand:latest:agtpori1.sh:schedule(Mon Thu)
+stlx10:talleyrand:latest:agtpbarmain.sh:schedule(Mon Thu)
+
+####################################### 
+# stlx11:
+# /vol3/regraz3/talleyrand --> regraz3
+# for c-api
+######################################
+stlx11:talleyrand:latest:agtpbkmain.sh:schedule(Mon Thu)
+stlx11:talleyrand:latest:agtpjlmain.sh serial direct:schedule(Mon Thu)
+stlx11:talleyrand:latest:agtpjlmain.sh parallel direct:schedule(Mon Thu)
+stlx11:talleyrand:latest:agtpjlmain.sh parallel buffer:priority:schedule(Mon Thu)
+stlx11:talleyrand:latest:agtpbarmain.sh:schedule(Mon Thu)
+stlx11:talleyrand:latest:agtpkenmain.sh:schedule(Mon Thu)
+
+####################################### 
+# dom1 - (Oracle VMware)
+# ssh from stlx11:
+# ssh root@10.148.179.10
+# ssh azhang@10.148.179.10
+# ssh regraz3@10.148.179.10
+# mount ovm1 to stublnx1 from stlx11
+# ovm1
+# 1)	make a folder on 
+#  /vol4/vol1/regraz3/ovm1
+# (regraz3@stublnx1.us.oracle.com)\>ls
+# 2) mount stublnx1:/vol4/vol1/regraz3/ovm1 /mnt/stublnx1_vol4
+#############################################################
+dom1.us.oracle.com:dickens:hit(1988):agtpori1.sh
+dom1.us.oracle.com:dickens:hit(1988):agtpori2.sh
+dom1.us.oracle.com:dickens:hit(1988):agtpjlmain.sh:priority
+#dom1.us.oracle.com:dickens:hit(1988):agtp70main.sh
+dom1.us.oracle.com:dickens:hit(1988):agtpukmain.sh
+
+dom1.us.oracle.com:dickens:hit(1988):agtpcwmain.sh
+dom1.us.oracle.com:dickens:hit(1988):maxlmain.sh
+#dom1.us.oracle.com:dickens:hit(1988):agtpjvmain.sh:priority(1)
+dom1.us.oracle.com:dickens:hit(1988):agtpjymain.sh
+dom1.us.oracle.com:dickens:hit(1988):agtpbkmain.sh
+
+dom1.us.oracle.com:dickens:hit(1988):agtpjlmain.sh serial direct
+dom1.us.oracle.com:dickens:hit(1988):agtpjlmain.sh parallel direct
+dom1.us.oracle.com:dickens:hit(1988):agtpjlmain.sh parallel buffer:priority
+dom1.us.oracle.com:dickens:hit(1988):agtpbarmain.sh
+dom1.us.oracle.com:dickens:hit(1988):prob_main.sh
+dom1.us.oracle.com:dickens:hit(1988):agtpkenmain.sh
+
+#############################################################
+# stlx12
+#############################################################
+#stlx12:11.1.1.2.1:004:capitest.sh
+#stlx12:11.1.1.2.1:004:93130main.sh
+#stlx12:11.1.1.2.1:004:agtpori1.sh
+
+#stlx12:11.1.1.2.1:170:agtpori2.sh
+#stlx12:11.1.1.2.1:170:agtpjlmain.sh
+#stlx12:11.1.1.2.1:170:agtp70main.sh
+#stlx12:11.1.1.2.1:170:agtpukmain.sh
+
+#stlx12:11.1.1.2.1:170:agtpcwmain.sh
+#stlx12:11.1.1.2.1:170:maxlmain.sh
+#stlx12:11.1.1.2.1:170:agtpjvmain.sh:schedule(Mon Thu):priority(1)
+#stlx12:11.1.1.2.1:170:agtpjymain.sh:schedule(Mon Thu)
+#stlx12:11.1.1.2.1:170:agtpbkmain.sh:schedule(Mon Thu)
+
+#stlx12:11.1.1.2.1:170:agtpjlmain.sh serial direct:schedule(Mon Thu)
+#stlx12:11.1.1.2.1:170:agtpjlmain.sh parallel direct:schedule(Mon Thu)
+#stlx12:11.1.1.2.1:170:agtpjlmain.sh parallel buffer:priority:schedule(Mon Thu)
+#stlx12:11.1.1.2.1:170:agtpbarmain.sh:schedule(Mon Thu)
+#stlx12:11.1.1.2.1:170:agtpkenmain.sh:schedule(Mon Thu)
+
+
+
+#stlx12:talleyrand:170:agtpori1.sh
+#stlx12:talleyrand:170:agtpori2.sh
+#stlx12:talleyrand:170:agtpjlmain.sh
+#stlx12:talleyrand:170:agtp70main.sh
+#stlx12:talleyrand:170:agtpukmain.sh
+
+
+#stlx12:talleyrand:184:capitest.sh:schedule(Tue) schedule(Thu)
+#stlx12:talleyrand:184:agtpori1.sh:schedule(Tue Thu)
+#stlx12:talleyrand:184:agtpori2.sh:schedule(Tue Thu)
+#stlx12:talleyrand:184:agtpjlmain.sh:schedule(Tue Fri)
+#stlx12:talleyrand:184:agtp70main.sh:schedule(Tue Fri)
+#stlx12:talleyrand:184:agtpukmain.sh:schedule(Tue Fri)
+#stlx12:talleyrand:184:agtpcwmain.sh:schedule(Tue Fri)
+#stlx12:talleyrand:184:maxlmain.sh:schedule(Tue Fri)
+#stlx12:talleyrand:184:agtpjvmain.sh:schedule(Tue Fri)
+stlx12:talleyrand:184:agtpjymain.sh:schedule(Tue Fri)
+stlx12:talleyrand:184:agtpbkmain.sh:schedule(Tue Fri)
+
+stlx12:talleyrand:184:agtpjlmain.sh serial direct:schedule(Tue Fri)
+stlx12:talleyrand:184:agtpjlmain.sh parallel direct:schedule(Tue Fri)
+stlx12:talleyrand:184:agtpjlmain.sh parallel buffer:priority:schedule(Tue Fri)
+stlx12:talleyrand:184:agtpbarmain.sh:schedule(Tue Fri)
+stlx12:talleyrand:184:agtpkenmain.sh:schedule(Tue Fri)
+
+
+#####################################
+# sthp8:
+#####################################
+
+# Not run for sthp8 for Talleyrand
+
+###################################################
+# sthp9: agtpori1.sh on this box only get 1974 *suc 
+# 2008/04/22 ukmain.sh failed on sthp16, reurn now
+###################################################
+sthp9:talleyrand:latest:agtpori1.sh:schedule(Mon Thu)
+sthp9:talleyrand:latest:agtpori2.sh:schedule(Mon Thu)
+sthp9:talleyrand:latest:agtpjlmain.sh:schedule(Mon Thu)
+
+#####################################################################
+# sthp10: - agtpori1.sh should be run on this box
+# "agtpjlmain.sh parallel buffer" and pd should be run on this one 
+# /vol2/regraz3/kennedy --> regraz3
+# /vol2/regraz2/9.3.1.1.0 --> regraz2
+  # on sthp10: Suc: 2019 Dif: 1
+#####################################################################
+sthp10:talleyrand:latest:agtpcwmain.sh:schedule(Mon Thu)
+sthp10:talleyrand:latest:agtpjymain.sh:schedule(Mon Thu)
+sthp10:talleyrand:latest:agtpbkmain.sh:schedule(Mon Thu)
+sthp10:talleyrand:latest:agtpbarmain.sh:schedule(Mon Thu)
+sthp10:talleyrand:latest:agtpukmain.sh:schedule(Mon Thu)
+
+#####################################
+# sthp16: for c-api
+#####################################
+sthp16:talleyrand:latest:agtp70main.sh:schedule(Mon Thu)
+sthp16:talleyrand:latest:maxlmain.sh:schedule(Mon Thu)
+#sthp16:talleyrand:latest:agtpjvmain.sh:schedule(Mon Thu)
+#sthp16:talleyrand:latest:capitest.sh:schedule(Mon Thu)
+sthp16:talleyrand:latest:agtpjlmain.sh serial direct:schedule(Mon Thu)
+sthp16:talleyrand:latest:agtpjlmain.sh parallel direct:schedule(Mon Thu)
+sthp16:talleyrand:latest:agtpjlmain.sh parallel buffer:schedule(Mon Thu)
+sthp16:talleyrand:latest:agtpkenmain.sh:schedule(Mon Thu)
+
+####################################
+# stsun8 - or1.sh had problem
+# for c-api
+#####################################
+#stsun8:talleyrand:latest:capitest.sh:schedule(Mon Thu)
+
+#####################################
+# stsun11 - or1.sh had problem
+#####################################
+stsun11:talleyrand:latest:agtpori1.sh:schedule(Mon Thu)
+stsun11:talleyrand:latest:agtpjlmain.sh:schedule(Mon Thu)
+
+############################################
+# emc-sun1: - rerun bkmain on this machine for 181build
+# /vol1/regraz2/9.3.1.1.0_32 --> regraz2
+# /vol2/regraz3/kennedy_32  --> regraz3
+###############################################
+emc-sun1:talleyrand:latest:agtpcwmain.sh:schedule(Mon Thu)
+emc-sun1:talleyrand:latest:agtpjymain.sh:schedule(Mon Thu)
+emc-sun1:talleyrand:latest:agtpbkmain.sh:schedule(Mon Thu)
+emc-sun1:talleyrand:latest:agtpori2.sh:schedule(Mon Thu)
+emc-sun1:talleyrand:latest:agtpbarmain.sh:schedule(Mon Thu)
+
+# For emc-sun2:
+#emc-sun1:talleyrand:latest:maxlmain.sh
+# For stsun8
+#emc-sun1:talleyrand:latest:agtpukmain.sh
+#emc-sun1:talleyrand:latest:agtp70main.sh
+
+#####################################
+# emc-sun2 - rerun bkmain on this machine for 181build
+# /vol1/regraz2/9.3.1.1.0_32 --> regraz2
+# /vol2/regraz3/kennedy_32  --> regraz3
+#emc-sun2:kennedy:470:agtpjvmain.sh
+#emc-sun2:kennedy2:hit(887):agtpbarmain.sh
+#####################################
+emc-sun2:talleyrand:latest:agtp70main.sh:schedule(Mon Thu)
+emc-sun2:talleyrand:latest:maxlmain.sh:schedule(Mon Thu)
+#emc-sun2:talleyrand:latest:agtpjvmain.sh:schedule(Mon Thu)
+
+emc-sun2:talleyrand:latest:agtpukmain.sh :schedule(Mon Thu)
+emc-sun2:talleyrand:latest:agtpjlmain.sh serial direct:schedule(Mon Thu)
+emc-sun2:talleyrand:latest:agtpjlmain.sh parallel direct:schedule(Mon Thu)
+emc-sun2:talleyrand:latest:agtpjlmain.sh parallel buffer:schedule(Mon Thu)
+emc-sun2:talleyrand:latest:agtpkenmain.sh:schedule(Mon Thu)

@@ -1,0 +1,189 @@
+### Linux --------------------------------------------------------------------
+
+#####################################
+# stlx8
+#####################################
+stlx8:9.3.1.6.0:011:agtpori1.sh
+stlx8:9.3.1.6.0:011:agtpori2.sh
+stlx8:9.3.1.6.0:011:agtpjlmain.sh
+
+# For stlx10
+#stlx8:9.3.1.6.0:011:agtpjymain.sh
+#stlx8:9.3.1.6.0:011:agtpbkmain.sh
+#stlx8:9.3.1.6.0:011:agtpjlmain.sh serial direct
+#stlx8:9.3.1.6.0:011:agtpjlmain.sh parallel direct
+#stlx8:9.3.1.6.0:011:agtpjlmain.sh parallel buffer
+
+
+#####################################
+# stlx9
+#####################################
+#stlx9:9.3.1.6.0:011:capitest.sh
+stlx9:9.3.1.6.0:011:agtp70main.sh
+stlx9:9.3.1.6.0:011:agtpukmain.sh
+stlx9:9.3.1.6.0:011:agtpcwmain.sh
+stlx9:9.3.1.6.0:011:maxlmain.sh
+
+
+# for stlx10:
+#stlx9:9.3.1.6.0:011:agtpjlmain.sh parallel buffer
+
+####################################### 
+# stlx10
+######################################
+#stlx10:9.3.1.6.0:011:agtpjymain.sh
+#stlx10:9.3.1.6.0:011:agtpbkmain.sh
+#stlx10:9.3.1.6.0:011:agtpjlmain.sh serial direct
+#stlx10:9.3.1.6.0:011:agtpjlmain.sh parallel direct
+#stlx10:9.3.1.6.0:011:agtpjlmain.sh parallel buffer
+
+# for stlx11
+#stlx10:9.3.1.6.0:011:capitest.sh:priority(1)
+stlx10:9.3.1.6.0:011:agtpjvmain.sh:priority(2)
+
+
+####################################### 
+# stlx11
+######################################
+stlx11:9.3.1.6.0:011:capitest.sh:priority(1)
+#stlx11:9.3.1.6.0:011:agtpjvmain.sh:priority(2)
+stlx11:9.3.1.6.0:011:agtpbarmain.sh
+
+####################################### 
+# stlx12
+######################################
+#stlx12:9.3.1.6.0:011:capitest.sh:priority(1)
+#stlx12:9.3.1.6.0:011:agtpori1.sh
+#stlx12:9.3.1.6.0:011:agtpori2.sh
+#stlx12:9.3.1.6.0:011:agtpjlmain.sh
+#stlx12:9.3.1.6.0:011:agtp70main.sh
+#stlx12:9.3.1.6.0:011:agtpukmain.sh
+
+#stlx12:9.3.1.6.0:011:agtpcwmain.sh
+#stlx12:9.3.1.6.0:011:maxlmain.sh
+#stlx12:9.3.1.6.0:011:agtpjvmain.sh:priority(1)
+#stlx12:9.3.1.6.0:011:agtpjymain.sh
+#stlx12:9.3.1.6.0:011:agtpbkmain.sh
+
+#stlx12:9.3.1.6.0:011:agtpjlmain.sh serial direct
+#stlx12:9.3.1.6.0:011:agtpjlmain.sh parallel direct
+#stlx12:9.3.1.6.0:011:agtpjlmain.sh parallel buffer
+#stlx12:9.3.1.6.0:011:agtpbarmain.sh
+
+
+#############################################################
+# stlx12
+#############################################################
+#stlx12:talleyrand:344:capitest.sh:schedule(Mon) schedule(Thu):priority(1)
+#stlx12:talleyrand:344:agtpori1.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpori2.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpjlmain.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtp70main.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpukmain.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpcwmain.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:maxlmain.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpjvmain.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpjymain.sh:schedule(Mon Thu)
+#stlx12:talleyrand:344:agtpbkmain.sh:schedule(Mon Thu)
+stlx12:talleyrand:344:agtpjymain.sh:schedule(Mon Wed)
+stlx12:talleyrand:344:agtpbkmain.sh:schedule(Mon Wed)
+stlx12:talleyrand:344:agtpjlmain.sh serial direct:schedule(Mon Wed)
+stlx12:talleyrand:344:agtpjlmain.sh parallel direct:schedule(Mon Wed)
+stlx12:talleyrand:344:agtpjlmain.sh parallel buffer:priority:schedule(Mon Wed)
+stlx12:talleyrand:344:agtpbarmain.sh:schedule(Mon Wed)
+stlx12:talleyrand:344:agtpkenmain.sh:schedule(Mon Wed)
+
+
+
+#############################################################
+# dscgaw06
+#############################################################
+
+dscgaw06:9.3.1.6.0:011:agtpjvmain.sh:priority(2)
+
+
+
+### Hpux -----------------------------------------------------------------------
+
+#####################################
+# sthp8          
+#####################################
+sthp8:9.3.1.6.0:011:agtpori1.sh
+sthp8:9.3.1.6.0:011:agtpjlmain.sh
+
+#####################################
+# sthp9:  
+# should run agtpbkmain:  hpux --> dmcc*dif intermitantly happens on sthp16/sthp10: 
+#        old issues from 9.3.1.0; re-run on sthp9 passed:
+# + dmcc433rfcb.sh 246:11:54:50 Elapsed sec:    244 Suc: 6 Dif: 0
+#####################################
+sthp9:9.3.1.6.0:011:agtp70main.sh
+sthp9:9.3.1.6.0:011:agtpcwmain.sh
+sthp9:9.3.1.6.0:011:maxlmain.sh
+sthp9:9.3.1.6.0:011:agtpbkmain.sh
+
+#####################################
+# sthp10: dctp11_aso.sh (ukmain) sometime caused dif on sthp16.
+#####################################
+#sthp10:9.3.1.6.0:011:agtpori1.sh
+#sthp10:9.3.1.6.0:011:agtpjlmain.sh
+#sthp10:9.3.1.6.0:011:agtpjlmain.sh serial direct
+#sthp10:9.3.1.6.0:011:agtpjlmain.sh parallel direct
+#sthp10:9.3.1.6.0:011:agtpjlmain.sh parallel buffer
+sthp10:9.3.1.6.0:011:agtpjymain.sh
+
+# for sthp16:
+#sthp10:9.3.1.6.0:011:agtpori2.sh
+
+#####################################
+# sthp16
+#####################################
+#sthp16:9.3.1.6.0:011:agtpjvmain.sh:priority(1)
+sthp16:9.3.1.6.0:011:capitest.sh:priority(1)
+sthp16:9.3.1.6.0:011:agtpukmain.sh
+#sthp16:9.3.1.6.0:011:agtpori2.sh
+sthp16:9.3.1.6.0:011:agtpbarmain.sh
+
+###  Sun ----------------------------------------------------------------------
+
+#####################################
+# stsun8
+#####################################
+#stsun8:9.3.1.6.0:011:capitest.sh:priority(1)
+stsun8:9.3.1.6.0:011:agtpjvmain.sh:priority(2)
+#stsun8:9.3.1.6.0:011:maxlmain.sh
+#stsun8:9.3.1.6.0:011:agtpbkmain.sh
+
+#####################################
+# stsun11: 
+# 1) should run  maxlmain.sh (seems failing for some test on emc-sun1)
+# 2) Also should run agtpbkmain (dmccrc01.sh  failed on emc-sun1/stsun8)
+#####################################
+#stsun11:9.3.1.6.0:011:agtpori2.sh
+#stsun11:9.3.1.6.0:011:agtp70main.sh
+#stsun11:9.3.1.6.0:011:agtpcwmain.sh
+
+# for:
+stsun11:9.3.1.6.0:011:agtpori1.sh
+stsun11:9.3.1.6.0:011:agtpjlmain.sh
+
+
+ 
+#####################################
+# issol13
+#####################################
+#issol13:9.3.1.6.0:011:agtpori1.sh
+#issol13:9.3.1.6.0:011:agtpukmain.sh
+#issol13:9.3.1.6.0:011:agtpjlmain.sh
+issol13:9.3.1.6.0:011:agtpjymain.sh
+#issol13:9.3.1.6.0:011:agtpjlmain.sh serial direct
+#issol13:9.3.1.6.0:011:agtpjlmain.sh parallel direct
+#issol13:9.3.1.6.0:011:agtpjlmain.sh parallel buffer
+#issol13:9.3.1.6.0:011:agtpbarmain.sh
+
+#for stsun8
+
+issol13:9.3.1.6.0:011:agtpbkmain.sh
+
+
+

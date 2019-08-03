@@ -1,0 +1,47 @@
+# Environment setup template for HP-UX64
+# _JAVA_HOME=Relative path for the JAVA directory from $HYPERION_HOME
+# _ODBC_HOME=Relative path for the ODBC directory from $HYPERION_HOME
+# _PATHLIST
+# _LIBLIST
+# If you don't need that definition on some version, please define it empty like *)
+
+unset _JAVA_HOME _ODBC_HOME
+unset _PATHLIST _LIBLIST
+unset _EXTRA_VARS
+
+export _LIBPATH="SHLIB_PATH"
+
+export _JAVA_HOME="$_JAVA_HOME ../jdk160_21/jre"
+export _JAVA_HOME="$_JAVA_HOME ../jdk160_20/jre"
+export _JAVA_HOME="$_JAVA_HOME ../jdk160_18/jre"
+export _JAVA_HOME="$_JAVA_HOME common/JRE-IA64/HP/1.6.0 common/JRE-64/HP/1.6.0"
+export _JAVA_HOME="$_JAVA_HOME common/JRE-IA64/HP/1.5.0 common/JRE-64/HP/1.5.0"
+export _JAVA_HOME="$_JAVA_HOME common/JRE-IA64/HP/1.4.2 common/JRE-64/HP/1.4.2"
+
+export _ODBC_HOME="$_ODBC_HOME common/ODBC-IA64/Merant/6.0 common/ODBC-64/Merant/6.0"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC-IA64/Merant/5.3 common/ODBC-64/Merant/5.3"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC-IA64/Merant/5.2 common/ODBC-64/Merant/5.2"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC-IA64/Merant/5.1 common/ODBC-64/Merant/5.1"
+export _ODBC_HOME="$_ODBC_HOME common/ODBC-IA64/Merant/4.2 common/ODBC-64/Merant/4.2"
+
+export _LIBLIST="$_LIBLIST \$ODBC_HOME/lib"
+export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/IA64W/server"
+export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/IA64W"
+export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+export _LIBLIST="$_LIBLIST /lib"				# C API
+export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+export _LIBLIST="$_LIBLIST /usr/lib/hpux64"	# C API
+
+export _PATHLIST="$_PATHLIST \$JAVA_HOME/bin/IA64W"
+
+export _EXTRA_VARS="$_EXTRA_VARS SXR_AGTCTL_LD_PRELOAD"
+export _SXR_AGTCTL_LD_PRELOAD="\$JAVA_HOME/lib/IA64W/server/libjvm.sl"
+
+# for C API
+export _EXTRA_VARS="$_EXTRA_VARS APIPATH LPATH"
+export _PATHLIST="/usr/bin $_PATHLIST"
+export _PATHLIST="/opt/aCC/bin $_PATHLIST"
+[ -n "$_ESSCDIR" ] \
+	&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+	|| export _APIPATH="\$ARBORPATH/bin"
+export _LPATH="\$SHLIB_PATH"

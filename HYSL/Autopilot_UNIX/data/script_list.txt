@@ -1,0 +1,379 @@
+# History
+# Last modified 2013/05/03 by esmadja to clean up list based on new 43 main script model
+
+62agsysecshort.sh		Christina
+accxrlmd.sh			Nhan / Van
+agaplogenh.sh			Xuesong / Van
+agaplogenh3.sh			Xuesong / Van
+agapun00.sh  			Christina
+agbg134340383.sh		Van			# Jan. 23, 2008 by Y.Kono
+agbg28271.sh			Van
+aglgport.sh   			Christina
+agsy29188.sh 			Christina
+agsycssparts.sh			Nhan / Van		# Nov. 20, 2007 by Andrew's request
+agsycssxref.sh			Nhan / Van		# Nov. 20, 2007 by Andrew's request
+agsyexauth.sh			BaoAlbert
+agsyexauthAD.sh   		Bao
+agsyloginbytoken1_J13.sh	Andrew
+agsymdsec.sh			Andrew
+agsymdsecmain_aso.sh		Xuesong / Van
+agsymsglog.sh			Andrew
+agsyportulog.sh			Andrew
+agsyprevcorp.sh			Andrew
+agsypwdencryp.sh		Andrew
+agsysec31001.sh   		Andrew
+agsysecaso.sh			Christina
+agsyskfltr.sh			Jock
+agsysmaso01.sh   		Nhan / Van
+agsyuagentmain.sh		BaoAlbert
+agsyva.sh			Van
+agsyvamain.sh			Van
+agtaimain.sh 			BaoAlbert
+agtaimain_msh.sh		Joseph
+agtp70main.sh			Van			# Apr. 02, 2009 by Hima's request
+agtpbarmain.sh			Van
+agtpjvmain.sh			Andrew
+apbg85650cc1.sh			Van
+apbg85650main.sh		Van
+apbg85988.sh			Bao			# July 16, 2008 by Kono
+apgeaso.sh   			Christina
+apjvaccmain.sh			Tuan
+apottbasomain.sh		Bao			# esmadja 2013/05/03 assigned Bao Nguyen Time Balance and Flow script
+dcbg27460.sh			Van
+dcbg43403.sh			Van
+dclnsmky.sh			Jock
+dcmpcldr.sh			Nhan / Van
+dcrpsmky.sh			Jock
+dctpmain_aso.sh			Xuesong / Van
+ddlddnmain.sh			Van
+ddlddpnmaso2.sh			Van
+ddldincrstrmain.sh		Van			# Apr. 1, 2008 by Y.Kono
+ddldincsnd.sh			Van
+ddldmainASO.sh			Van
+ddldmtaso.sh 			Bao
+ddximainimport1.sh		Andrew			# esmadja 2013/05/03 assigned Andrew Zhang MaxL Data Import script run in maxlmain.sh
+ddximainimport.sh		Andrew			# esmadja 2013/05/03 assigned Andrew Zhang MaxL Data Import script run in maxlmain.sh
+ddximainexport.sh		Andrew			# esmadja 2013/05/03 assigned Andrew Zhang MaxL Data Export script run in maxlmain.sh
+dmbg26930.sh			Bao
+dmccmiblock.sh   		Andrew			# esmadja 2013/05/03 assigned Andrew Zhang DataCopy Set Missing Block script
+dmccmtaso.sh 			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a Multi-Thread ASO script
+dmccsca01.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a Varying Attribute script
+dmccsca02.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a Varying Attribute script
+dmccsca03.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a Varying Attribute script
+dmccsca04.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a Varying Attribute script
+dmccvsel00.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a View Selection ASO script
+dmccvsel01.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen (from Xuesong Yang) is a View Selection ASO script
+dmccvsel02.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen (from Xuesong Yang) is a View Selection ASO script
+dmccvselpr.sh			BaoAlbert		# esmadja 2013/05/03 assigned Bao Nguyen is a View Selection ASO script
+dmpccalc.sh   			Bao
+dmpcccrmat.sh			Christina
+dmpcccrmcc.sh			Christina
+dmpckcsv.sh  			Bao
+dmpckdlsv.sh			Bao
+dmpcmultmain.sh  		Bao
+dmpcpdl.sh   			Bao
+dmududf62_J14.sh		Andrew			# Aug. 25, 2008 by Andrew's request
+dxbg29503.sh			Bao
+dxbg522073261.sh		Van
+dxlgbound.sh 			Xuesong / Van
+dxlgmain.sh 			Xuesong / Van
+dxmdacc.sh			Xuesong / Van
+dxmdmainaso.sh   		Bao
+dxmdmdxrank.sh			Bao			#Jun 8, 2010 by Eric Smadja removed Saugata
+dxrrcldr.sh			Nhan / Van	 	# 06/09/08 by Hima's request
+dxrrlvs.sh			Xuesong / Van
+dxrrmthex.sh			Xuesong / Van
+dxrrsamplingmain.sh		BaoAlbert
+dxrrsca01.sh			BaoAlbert
+dxrrsca02.sh			BaoAlbert
+dxsscldr.sh			Nhan / Van
+dxssqmain.sh 			Christina
+maxlmdxmain.sh			Xuesong			# Apr. 02, 2009 by Hima's request
+maxlnumb.sh			Jock
+msscmain.sh			Van			# Oct. 18, 2007 by Hima's request
+msxxcompaso.sh			Nhan / Van
+mxlscalc2.sh			Nhan / Van
+mxlscalc3.sh			Nhan / Van
+mxlsmain.sh			Nhan / Van
+mxlsnumbers1.sh			Nhan / Van
+mxlssetmsglev.sh		Nhan / Van		# July 16, 2008 by Kono
+psdatcalc.sh			Van
+sdatcalc.sh			Van
+sdatcomp.sh			Christina
+sdbg8572826757.sh		Van			# Apr. 06, 2009 by Hima's request
+sddbasorstrctmain.sh		Van
+sddbcmpotlmain.sh		Van
+sddbdnmain.sh			Van
+Sddbemptyotlmain.sh		Van
+sddbmainaso.sh			Van
+sddbnubso01.sh			BaoGuibin
+sddbnubso02.sh			Jock
+sddbnulldelfuncgenbs.sh		Van			# Jul. 28, 2008 by Fa's request
+sddbnulldelfunclevbs.sh		Van			# May 22, 2008 by Hima's request
+sddbrestr.sh			Xuesong / Van
+sddbsmaso15cpc02.sh  BaoMelisse
+sddbsmasogen01.sh		BaoMelisse
+sddbsmasogen02.sh		BaoMelisse
+sddbsmasogen04.sh		BaoMelisse
+sddbsmasopc01.sh 		BaoMelisse
+sddbsmasopc02.sh 		BaoMelisse
+sddbsmasopc03.sh 		BaoMelisse
+sddbsmasopc04.sh 		BaoMelisse
+sddbsmasoqry.sh  		BaoMelisse
+sddbsmasosb01.sh 		BaoMelisse
+smalcomp.sh			Van
+smalisms.sh			Van
+smastblsp.sh 			Van Christina
+smbg76958.sh			Nhan / Van		# Oct. 19, 2007 by Hima's request
+smftms02.sh   			Bao
+smftms04.sh   			Bao
+smftms08.sh   			Bao
+smftms16.sh   			Bao
+smldmainaso.sh			Van
+smlrk00.sh			Van Christina
+smlrk00zlib.sh   		Van Christina
+
+# Following definitions are for I18N regression
+i18n_j.sh			I18N
+i18n_j_mlc.sh			I18N
+i18n_i.sh			I18N
+i18n_i_slc.sh			I18N
+i18n_x.sh			I18N
+i18n_xas.sh			I18N
+
+# By Hima's request on 03/03/2010
+partition.sh			SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+prt_disp.sh			SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+tstpart.sh			SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+dcmpmainprt_disp.sh		SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+dcmpmainpartition.sh		SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+partition04.sh			SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+refresh.sh      		SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+dcmprefresh2.sh 		SAKULA 		# esmadja 2013/05/02 changed Tuan to SAKULA /Govi since partition changed ownership
+
+# Added By Vipin on 28 Oct 2010
+sqdl_sqlifcmain.sh		Idcqe / vbhaskar
+
+# By Hima, data import/export belongs to Andrew.
+import1.sh			Andrew
+export.sh			Andrew
+
+# Hima, 09/28/11
+mlbg1.sh			Tuan
+
+# New main suites assignment - 2012.09.06 YK
+# test name		QE Dev
+agapmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+agbgmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+aglgmain.sh		QA_Nhan_Nguyen<nhan.nguyen@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+agsfmain.sh		QA_Chinta_Pardha<chinta.pardha.saradhi@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+agsbmain.sh		QA_Jock_Chau<jock.chau@oracle.com> /QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+agsycasmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+agssmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+agsymain.sh		QA_Nhan_Nguyen<nhan.nguyen@oracle.com> DEV_Alik_Reyzblat<alik.reyzblat@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+apbgmain.sh		QA_Jock_Chau<jock.chau@oracle.com> DEV_Satish_Ramanavarapu<satish.ramanavarapu@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+apgdmain.sh		QA_Jock_Chau<jock.chau@oracle.com> DEV_Natasha_Reichman<natasha.reichman@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+apgemain.sh		QA_Jock_Chau<jock.chau@oracle.com> DEV_Melisse_Leib<melisse.leib@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+apotmain.sh		QA_Jock_Chau<jock.chau@oracle.com> DEV_Melisse_Leib<melisse.leib@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+capitest.sh		QA_Jock_Chau<jock.chau@oracle.com> DEV_Satish_Ramanavarapu<satish.ramanavarapu@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dcbgmain.sh		QA_Sameera_Akula<sameera.akula@oracle.com> MissingAddr /QA_Hema_Gogineni<hema.gogineni@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dcmpmain.sh		QA_Sameera_Akula<sameera.akula@oracle.com> MissingAddr /QA_Hema_Gogineni<hema.gogineni@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dcosmain.sh		QA_Sameera_Akula<sameera.akula@oracle.com> MissingAddr /QA_Hema_Gogineni<hema.gogineni@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dcrpmain.sh		QA_Sameera_Akula<sameera.akula@oracle.com> MissingAddr /QA_Hema_Gogineni<hema.gogineni@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dctpmain.sh		QA_Sameera_Akula<sameera.akula@oracle.com> MissingAddr /QA_Hema_Gogineni<hema.gogineni@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+ddbgmain.sh		QA_Andrew_Zhang<andrew.zhang@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+ddldmain.sh		QA_Andrew_Zhang<andrew.zhang@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+ddximain.sh		QA_Andrew_Zhang<andrew.zhang@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmbgmain.sh		QA_Chi_Nguyen<chi.b.nguyen@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmccmain.sh		QA_Chi_Nguyen<chi.b.nguyen@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmdcmain.sh		QA_Chi_Nguyen<chi.b.nguyen@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmglmain.sh		QA_Chi_Nguyen<chi.b.nguyen@oracle.com> DEV_Biswajit_Das<biswajit.d.das@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmpcmain.sh		QA_Chi_Nguyen<chi.b.nguyen@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmudmain.sh		QA_Van_Gee<van.gee@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dresmain.sh		QA_Van_Gee<van.gee@oracle.com> DEV_Albert_Ng<albert.ng@oracle.com> QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dxbgmain.sh		QA_Xuesong_Yang<xuesong.yang@oracle.com> DEV_Natasha_Reichman<natasha.reichman@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dxmdmain.sh		QA_Xuesong_Yang<xuesong.yang@oracle.com> DEV_Natasha_Reichman<natasha.reichman@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3)  QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dxrrmain.sh		QA_Hima_Vuggumudi<hima.vuggumudi@oracle.com> DEV_Natasha_Reichman<natasha.reichman@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dxssmain.sh		QA_Xuesong_Yang<xuesong.yang@oracle.com> DEV_Natasha_Reichman<natasha.reichman@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+maxlmain.sh		QA_Hima_Vuggumudi<hima.vuggumudi@oracle.com> DEV_Albert_Ng<albert.ng@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+msscmain.sh		QA_Van_Gee<van.gee@oracle.com> DEV_Albert_Ng<albert.ng@oracle.com> QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+sdatmain.sh		QA_Jobun_Rin<jobun.rin@oracle.com> DEV_Melisse_Leib<melisse.leib@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+sdbgmain.sh		QA_Miyuki_Iwata-Goldman<miyuki.iwata-goldman@oracle.com> DEV_Melisse_Leib<melisse.leib@oracle.com> /QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+sddbmain.sh		QA_Miyuki_Iwata-Goldman<miyuki.iwata-goldman@oracle.com> DEV_Priyatham_Pamu<priyatham.pamu@oracle.com> /QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+sdremain.sh		QA_Miyuki_Iwata-Goldman<miyuki.iwata-goldman@oracle.com> DEV_Melisse_Leib<melisse.leib@oracle.com> /QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+sdsvmain.sh		QA_Jobun_Rin<jobun.rin@oracle.com> DEV_Vinod_Menon<vinod.x.menon@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+smalmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Haritha_Gongalore<haritha.gongalore@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+smbgmain.sh		QA_Jock_Chau<jock.chau@oracle.com> DEV_Haritha_Gongalore<haritha.gongalore@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+smbumain.sh		QA_Nhan_Nguyen<nhan.nguyen@oracle.com> DEV_Haritha_Gongalore<haritha.gongalore@oracle.com> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+smixmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Haritha_Gongalore<haritha.gongalore@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+smlrmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Shubhagam_Gupta<shubhagam.gupta@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+smtxmain.sh		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Haritha_Gongalore<haritha.gongalore@oracle.com> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+regress.sh     		QA_Bao_Nguyen<bao.nguyen@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapssdqmd_acc_v1.sh	QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapdq_reg_v2.sh	QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapmd_reg_v2.sh	QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapds_reg_v1.sh	QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapds_reg_v2.sh	QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapprobmain.sh		QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dsapfusion.sh		QA_Tuan_Mai<tuan.mai@oracle.com> DEV_Unknown<unknown> /QA_Eric_Smadja<eric.smadja@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+dmbg10253010.sh		QA_Chi_Nguyen<chi.b.nguyen@oracle.com>  DEV_Unknown<unknown> /QA_Van_Gee<van.gee@oracle.com>(3) QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+sqldmain.sh             QA_Vitaliy_Vysotskiy<vitaliy.vysotskiy@oracle.com> DEV_Unknown<unknown> /QA_Christina_Tuner<christina.turner@oracle.com>(3) QA_Yuki_Hashimoto<yuki.hashimoto@oracle.com>(3)
+
+# aglgasess.sh			Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since aplgmain is defined above
+# aglgasmisc.sh			Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since aplgmain is defined above
+# aglgasmxl.sh			Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since aplgmain is defined above
+# Aglglmn.sh			Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since aplgmain is defined above
+# apbg66011.sh			Jock			# esmadja 2013/05/03 there is no need for this entry since apbgmain is defined above
+# apbg9319424.sh		Jock			# esmadja 2013/05/03 there is no need for this entry since apbgmain is defined above
+# apgdmain.sh  			JockAbhijeet		# esmadja 2013/05/03 there is no need for this entry since apgdmain is defined above and should be assigned to Jock Chau
+# apgdnusk.sh			JockAbhijeet		# esmadja 2013/05/03 there is no need for this entry since apgdmain is defined above and should be assigned to Jock Chau
+# apgemain.sh			JockVlad		# esmadja 2013/05/03 there is no need for this entry since apgemain is defined above and should be assigned to Jock Chau
+# apotmainaso.sh		Van			# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotnu_aso01.sh		Jock			# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above
+# apotnumb.sh			Jock			# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above
+# apotimpsh.sh			Jock			# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above
+# apotaormain.sh		Van			# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotrstrasomain.sh		Van			# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotcldrmain.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotsmaso01.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotsmaso02.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotsmdso2aso01.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotsmdso2aso02.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# apotsmdso2aso03.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since apotmain is defined above and should be assigned to Jock Chau
+# capimain.sh			Jock			# esmadja 2013/05/03 there is no need for this entry since capitest is defined above and should be assigned to Jock Chau
+# capitest.sh			Jock Chau		# esmadja 2013/05/03 there is no need for this entry since capitest is defined above and should be assigned to Jock Chau
+# dcmpvamain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since dcmpmain is defined above and should be assigned to Sameera Akula
+# dcosmain.ksh			Van			# esmadja 2013/05/03 there is no need for this entry since dcosmain is defined above and should be assigned to Sameera Akula
+# dctp_main_aso_sm.sh		Tuan			# esmadja 2013/05/02 there is no need for this entry since dctpmain is defined above and should be assigned to Sameera Akula
+# dcbgmain.sh			Tuan			# esmadja 2013/05/02 there is no need for this entry since dcbgmain is defined above and should be assigned to Sameera Akula
+# dcpt_aso_main.sh		Tuan			# esmadja 2013/05/02 there is no need for this entry since dcmpmain is defined above and should be assigned to Sameera Akula
+# dcrpmain.sh			Tuan			# esmadja 2013/05/02 there is no need for this entry since dcrpmain is defined above and should be assigned to Sameera Akula
+# dctpmain.sh			Tuan			# esmadja 2013/05/02 there is no need for this entry since dctpmain is defined above and should be assigned to Sameera Akula
+# ddbgmain.sh			Joseph			# esmadja 2013/05/03 there is no need for this entry since ddbgmain is defined above and should be assigned to Andrew Zhang
+# ddldmain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since ddldmain is defined above and should be assigned to Andrew Zhang
+# ddxi2gigcon.sh   		Andrew			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above
+# ddxicalc101.sh		Andrew			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above
+# ddxicalc102.sh		Andrew			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above
+# ddxicalc602.sh		Andrew			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above
+# ddxicalcmain.sh		Andrew			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above
+# Ddximain.sh			Andrew			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above
+# ddxidpnmmain.sh		Van			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above and should be assigned to Andrew Zhang
+# ddximainaso.sh		Van			# esmadja 2013/05/03 there is no need for this entry since ddximain is defined above and should be assigned to Andrew Zhang
+# dmbgmain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above and should be assigned to Chi Nguyen
+# dmccemain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccexclmain.sh		Van			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccnamain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccrc01.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccrc02.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccrc03.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccxref_rfcb.sh		Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccalis.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmcccboe.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmcce28.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccestm.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccfx.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmcclgt.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmain.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmdxf.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmdxf7.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmdxf8.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmdxf9.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmsum.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccmsumx.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccpf.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmcckenn.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmccenv1.sh			Van 			# esmadja 2013/05/03 there is no need for this entry since dmccmain is defined above and should be assigned to Chi Nguyen
+# dmdcmain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since dmdcmain is defined above and should be assigned to Chi Nguyen
+# dmglal1.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglal2.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglcc2.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglcc3.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglex3.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglex4.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglex1.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmglex1b.sh			Chi 			# esmadja 2013/05/03 there is no need for this entry since dmglmain is defined above
+# dmgl9407213.sh		Chi 			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above renamed dmgl## scripts to dmbg##
+# dmgl9434915.sh		Chi 			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above renamed dmgl## scripts to dmbg##
+# dmgl9526148.sh		Chi 			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above renamed dmgl## scripts to dmbg##
+# dmgl9762781.sh		Chi 			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above renamed dmgl## scripts to dmbg##
+# dmgl9792941.sh		Chi 			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above renamed dmgl## scripts to dmbg##
+# dmgl9973706.sh		Chi 			# esmadja 2013/05/03 there is no need for this entry since dmbgmain is defined above renamed dmgl## scripts to dmbg##
+# dresmain.sh			Christina		# esmadja 2013/05/03 there is no need for this entry since dresmain is defined above and should be assigned to Van Gee
+# dxbg29068.sh			XuesongRam		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6578831.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6869642.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6965944.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg7014326.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6769131.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6589205.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6907483.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6980386.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg7117197.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6918558.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg7005856.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6587643.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6671760.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6792756.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6904113.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6590975.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6689458.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6810771.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6592801.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6745026.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6877083.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg6651002.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbg29771.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbgmain.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxbgmain is defined above
+# dxbgmain02.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdmain.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdxha.sh			Xuesong			# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdxlvs.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdxnoeptsb.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdxnumb.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdxnumb_aso.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxmdxlinkmbr.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxmdmain is defined above
+# dxssacce_numb.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxssmain is defined above
+# dxssftmain.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxssmain is defined above
+# dxssmain_aso.sh		Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxssmain is defined above
+# dxssnumb.sh			Xuesong / Van		# esmadja 2013/05/03 there is no need for this entry since dxssmain is defined above
+# maxlmain.sh			Hima			# esmadja 2013/05/03 there is no need for this entry since maxlmain is defined above
+# sdbgmain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since sdbgmain is defined above and should be assigned to Miyuki Goldman
+# sddbmain.sh			Van			# esmadja 2013/05/03 there is no need for this entry since sddbmain is defined above and should be assigned to Miyuki Goldman
+# sdreincresa.sh   		Van Christina		# esmadja 2013/05/03 there is no need for this entry since sdremain is defined above and should be assigned to Miyuki Goldman
+# sdreincresb.sh   		Van Christina		# esmadja 2013/05/03 there is no need for this entry since sdremain is defined above and should be assigned to Miyuki Goldman
+# sdrezlib.sh  			Van Christina		# esmadja 2013/05/03 there is no need for this entry since sdremain is defined above and should be assigned to Miyuki Goldman
+# sdrenumb.sh			JockMelisse		# esmadja 2013/05/03 there is no need for this entry since sdremain is defined above and should be assigned to Miyuki Goldman
+# sdsvmain.sh			Lyuda / Van		# esmadja 2013/05/03 there is no need for this entry since sdsvmain is defined above and should be assigned to Jobun Rin
+# smbgmain.sh			Bao			# esmadja 2013/05/03 there is no need for this entry since smbgmain is defined above and should be assigned to Jock Chau
+# smbumain.sh			Jock			# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above and should be assigned to Nhan Nguyen
+# smbuardess1.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smbuardmxl1.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smbuardess2.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smbuardmxl2.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smbuardparts.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smbuardxref.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptess1.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptmxl1.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptess2.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptmxl2.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptess3.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptmxl3.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptess4.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptmxl4.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptess5.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptmxl5.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptess6.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smburptmxl6.sh		Nhan / Van		# esmadja 2013/05/03 there is no need for this entry since smbumain is defined above
+# smixiomain.sh			Bao			# esmadja 2013/05/03 there is no need for this entry since smixmain is defined above
+# smlrmain.sh  			Bao			# esmadja 2013/05/03 there is no need for this entry since smlrmain is defined above
+# smtxafttrgmain.sh		Van			# esmadja 2013/05/03 there is no need for this entry since smtxmain is defined above and should be assigned to Bao Nguyen
+# smtxtrgmain.sh		BaoAlbert		# esmadja 2013/05/03 there is no need for this entry since smtxmain is defined above and should be assigned to Bao Nguyen
+# smtxlogvaltrg.sh		Bao			# esmadja 2013/05/03 there is no need for this entry since smtxmain is defined above and should be assigned to Bao Nguyen
+# smtxshrd.sh			Van			# esmadja 2013/05/03 there is no need for this entry since smtxmain is defined above and should be assigned to Bao Nguyen
+# svds_form.sh			Lyuda / Van		# esmadja 2013/05/03 there is no need for this entry since sdsvmain is defined above and should be assigned to Jobun Rin
+# svds_form.sh			Lyuda / Van		# esmadja 2013/05/03 there is no need for this entry since sdsvmain is defined above and should be assigned to Jobun Rin
+# svfltr_main.sh		Lyuda / Van		# esmadja 2013/05/03 there is no need for this entry since sdsvmain is defined above and should be assigned to Jobun Rin
+# svpart_main.sh		Lyuda / Van		# esmadja 2013/05/03 there is no need for this entry since sdsvmain is defined above and should be assigned to Jobun Rin
+# svrules_main.sh		Lyuda / Van		# esmadja 2013/05/03 there is no need for this entry since sdsvmain is defined above and should be assigned to Jobun Rin
+accxmain2.sh	Christina	# ykono 2013/10/22 by Hima's request
+

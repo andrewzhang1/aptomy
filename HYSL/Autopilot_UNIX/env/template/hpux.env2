@@ -1,0 +1,236 @@
+# Environment setup template for HP-UX
+# _JAVA_HOME=Relative path for the JAVA directory from $HYPERION_HOME
+# _ODBC_HOME=Relative path for the ODBC directory from $HYPERION_HOME
+# _LIBLIST
+# _PATHLIST
+# If you don't need that definition on some version, please define it empty like *)
+unset _JAVA_HOME _ODBC_HOME
+unset _PATHLIST _LIBLIST
+unset _EXTRA_VARS
+export _LIBPATH="SHLIB_PATH"
+
+if [ $# -eq 1 ]
+then
+	case $1 in
+		talleyrand_sp1|11.1.2.1.*|talleyrand|11.1.2.0.*)
+			export _JAVA_HOME="common/JRE/HP/1.6.0 common/JRE/HP/1.5.0"
+			export _ODBC_HOME="common/ODBC/Merant/6.0 common/ODBC/Merant/5.3 common/ODBC/Merant/5.2"
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="SXR_AGTCTL_LD_PRELOAD SXR_AGTCTL_START_SLEEP SXR_AGTCTL_STOP_SLEEP ESS_JVM_OPTION1 APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _SXR_AGTCTL_LD_PRELOAD="\$JAVA_HOME/lib/PA_RISC2.0W/server/libjvm.sl"	# ??
+			export _ESS_JVM_OPTION1=-Djava.compiler=NONE
+			export _SXR_AGTCTL_START_SLEEP=5
+			export _SXR_AGTCTL_STOP_SLEEP=5
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		dickens|zola|11.1.1.2.*|11.1.1.3.*)
+			export _JAVA_HOME=common/JRE/HP/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="SXR_AGTCTL_LD_PRELOAD SXR_AGTCTL_START_SLEEP SXR_AGTCTL_STOP_SLEEP ESS_JVM_OPTION1 APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _SXR_AGTCTL_LD_PRELOAD="\$JAVA_HOME/lib/PA_RISC2.0W/server/libjvm.sl"	# ??
+			export _ESS_JVM_OPTION1=-Djava.compiler=NONE
+			export _SXR_AGTCTL_START_SLEEP=5
+			export _SXR_AGTCTL_STOP_SLEEP=5
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		kennedy2|11.1.1.1.*)
+			export _JAVA_HOME=common/JRE/HP/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="SXR_AGTCTL_LD_PRELOAD APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _SXR_AGTCTL_LD_PRELOAD="\$JAVA_HOME/lib/PA_RISC2.0/server/libjvm.sl"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		kennedy|9.5*|11.1.1.0.*)
+			export _JAVA_HOME=common/JRE/HP/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="SXR_AGTCTL_LD_PRELOAD APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _SXR_AGTCTL_LD_PRELOAD="\$JAVA_HOME/lib/PA_RISC2.0W/server/libjvm.sl"	# ??
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		9.3.*)	# Barnes 9.3.1.* before
+			export _JAVA_HOME=common/JRE/HP/1.5.0
+			export _ODBC_HOME="common/ODBC/Merant/6.0 common/ODBC/Merant/5.2"
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="SXR_AGTCTL_LD_PRELOAD SXR_AGTCTL_START_SLEEP SXR_AGTCTL_STOP_SLEEP ESS_JVM_OPTION1 APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _SXR_AGTCTL_LD_PRELOAD="\$JAVA_HOME/lib/PA_RISC2.0W/server/libjvm.sl"	# ??
+			export _ESS_JVM_OPTION1=-Djava.compiler=NONE
+			export _SXR_AGTCTL_START_SLEEP=5
+			export _SXR_AGTCTL_STOP_SLEEP=5
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		9.3.0.1.0|beckett) # Beckett - 9.3.0
+			export _JAVA_HOME=common/JRE/HP/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		9.2.1.*)
+			export _JAVA_HOME=common/JRE/HP/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		9.2.0*) # Conrad
+			export _JAVA_HOME=common/JRE/HP/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		7.1.6*)
+			export _JAVA_HOME=common/JRE/HP/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		7.1*)
+			export _JAVA_HOME=common/JRE/HP/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/4.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/lib/PA_RISC2.0/server"
+			export _LIBLIST="$_LIBLIST \$ARBORPATH/bin"	# C API
+			export _LIBLIST="$_LIBLIST /lib"				# C API
+			export _LIBLIST="$_LIBLIST /usr/lib"			# C API
+			export _LIBLIST="$_LIBLIST /usr/lib/hpux"		# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+		*)
+			export _JAVA_HOME=
+			export _ODBC_HOME=
+			export _LIBLIST="/lib $_LIBLIST"				# C API
+			export _LIBLIST="/usr/lib $_LIBLIST"			# C API
+			export _LIBLIST="/usr/lib/hpux $_LIBLIST"		# C API
+			export _LIBLIST="\$ARBORPATH/bin $_LIBLIST"	# C API
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/bin $_PATHLIST"		# C API
+			export _PATHLIST="/opt/aCC/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH LPATH"
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/bin"
+			export _LPATH="\$SHLIB_PATH"
+			;;
+	esac
+fi

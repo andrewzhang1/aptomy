@@ -1,0 +1,76 @@
+########################################################################
+# I18N regression test tasks
+########################################################################
+
+
+########################################################################
+# AIX64 
+########################################################################
+
+##### staix12(ykono) #####
+
+
+########################################################################
+# AIX32 
+########################################################################
+
+##### staix12(hhashimo) #####
+# staix12:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# staix12:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+
+########################################################################
+# HPUX64
+########################################################################
+
+#### stiahp3(ykono) ####
+
+
+########################################################################
+# HPUX32
+########################################################################
+
+#### sthp16(ykono) ####
+
+
+########################################################################
+# Solaris64 
+########################################################################
+
+##### issol13(ykono) #####
+
+
+########################################################################
+# SOLARIS32 
+########################################################################
+
+##### issol13(hhashimo) #####
+
+# issol13:9.3.3.0.0:latest:i18n_j.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_j_mlc.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_i.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_i_slc.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_x.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:i18n_xas.sh:schedule(Mon Thu)
+# issol13:9.3.3.0.0:latest:xprobmain.sh:schedule(Mon Thu)
+
+
+########################################################################
+# WIN32
+########################################################################
+
+##### hhashim3(hhashimo) #####
+# Yuki's machine
+# yhashi3:9.3.3.0.0:latest:i18n_j.sh:i18ngrep($AUTOPILOT/data/grep61.exe) schedule(Mon Thu)
+# yhashi3:9.3.3.0.0:latest:i18n_j_mlc.sh:i18ngrep($AUTOPILOT/data/grep61.exe) schedule(Mon Thu)
+# yhashi3:9.3.3.0.0:latest:i18n_i.sh:i18ngrep($AUTOPILOT/data/grep61.exe) schedule(Mon Thu)
+# yhashi3:9.3.3.0.0:latest:i18n_i_slc.sh:i18ngrep($AUTOPILOT/data/grep61.exe) schedule(Mon Thu)
+# yhashi3:9.3.3.0.0:latest:i18n_x.sh:i18ngrep($AUTOPILOT/data/grep61.exe) schedule(Mon Thu)
+# yhashi3:9.3.3.0.0:latest:i18n_xas.sh:i18ngrep($AUTOPILOT/data/grep61.exe) schedule(Mon Thu)
+# yhashi3:9.3.3.0.0:latest:xprobmain.sh:i18ngrep($AUTOPILOT/data/grep61.exe):schedule(Mon Thu)
+

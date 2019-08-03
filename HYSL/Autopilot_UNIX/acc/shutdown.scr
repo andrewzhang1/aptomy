@@ -1,0 +1,10 @@
+:
+: shutdownserver
+:
+
+output "1" "%OUTF";
+
+shutdownserver "%HOST" "%USR" "%PWD";
+
+output "3";
+

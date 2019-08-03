@@ -1,0 +1,5 @@
+apgdmain.sh:snapshot(qacleanup) runplat(regrhv3@slc02iad)
+ddldmain.sh:snapshot(qacleanup) runplat(regrhv3@slc02iad)
+dmudmain.sh:snapshot(qacleanup) runplat(regrhv3@slc02iad)
+dcosmain.sh:snapshot(qacleanup) runplat(regrhv3@slc02iad)
+

@@ -1,0 +1,13 @@
+$LOGNAME InstNotify $AP_ALTEMAIL
+Autopilot Notification (Initialization Error) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Essbase initialization failed. Skip this test.
+
+  Machine        = $(hostname):$_PLATNAME
+  Login User     = $LOGNAME
+  Install Status = $_inst_err
+  Version:Build  = $VERSION:$BUILD
+  Test Script    = $TEST
+  ARBORPATH      = $ARBORPATH
+  HYPERION_HOME  = $HYPERION_HOME
+  SXR_HOME       = $SXR_HOME
+

@@ -1,0 +1,5 @@
+#export AP_SNAPROOT=/mnt/TachyonRaid/diskarray
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/11121x/vobs/essexer/latest
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/qacleanup/vobs/essexer/latest
+#export SXR_HOME=/net/nar200/vol/vol3/essbasesxr/mainline/vobs/essexer/latest
+

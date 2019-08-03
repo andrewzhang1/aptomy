@@ -1,0 +1,2 @@
+ls -F | grep / | sed '/\//s///g'
+ls -F | grep -v / | sed '/\*/s///g' | sed '/\@/s///g'

@@ -1,0 +1,380 @@
+##############################
+#### 11.1.2.3.500 latest #####
+##############################
+
+11.1.2.3.500:latest:maxlmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+
+### APS ###
+11.1.2.3.500:latest:dsapdq_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapds_reg_v1.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapds_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapmd_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapprobmain.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapfusion.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapbg.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+
+## 42 main tests#######
+11.1.2.3.500:latest:agsymain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:agapmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:agbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:aglgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:apbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:apgdmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:apgemain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:apotmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:capitest.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dcbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dcmpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dcosmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dcrpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dctpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:ddbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:ddldmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:ddximain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dmbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dmccmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dmdcmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dmglmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dmpcmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dmudmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dresmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dxbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dxmdmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dxrrmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:dxssmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:msscmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:sdatmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:sdbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:sddbmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:sdremain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:sdsvmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:smalmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:smbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:smbumain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:smixmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:smlrmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:smtxmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu) 
+11.1.2.3.500:latest:smtxmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:prob_main.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+
+11.1.2.3.500:latest:accxmain2.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+#11.1.2.3.500:latest:newfmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+11.1.2.3.500:latest:sqldmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun Thu)
+
+
+
+### USER provision ###
+11.1.2.3.500:latest:agssmain.sh:secmode(hss) forceInst(true) runplat(anzhang@slc00tbz) opackver(epm) schedule(Sun Thu) 
+
+## FA and BI ####
+
+11.1.2.3.500:latest:agsbmain.sh:secmode(bi) biimg($HOME/bitmp_11.1.1.7.0ln32_release) opackver(bi) agtStart(true) schedule(Sun Thu) runplat(anzhang@slc00tbz)
+11.1.2.3.500:latest:agsfmain.sh:secmode(fa) biimg($HOME/bitmp_11.1.1.7.0ln32_release) opackver(bi) schedule(Sun Thu) runplat(anzhang@slc00tbz) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+
+# for  11.1.2.3.003 005
+###########################
+#start_regress.sh 11.1.2.3.003 005 agsbmain.sh -o "biimg(/vol1/bitmp_11.1.1.7.0ln32_release) agtStart(true)  opackver(bi) secmode(bi)"; \
+#start_regress.sh 11.1.2.3.003 005 agsfmain.sh -o "biimg(/vol1/bitmp_11.1.1.7.0ln32_release) opackver(bi) secmode(fa)"; \
+#start_regress.sh 11.1.2.3.003 005 agssmain.sh -o "opackver(epm) secmode(hss)" &
+
+
+
+#### 11.1.2.6.000  #####
+########################
+11.1.2.6.000:latest:maxlmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+
+### APS ###
+11.1.2.6.000:latest:dsapdq_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapds_reg_v1.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapds_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapmd_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapprobmain.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapfusion.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapbg.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+
+### 42 main tests #########
+
+11.1.2.6.000:latest:accxmain2.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+
+11.1.2.6.000:latest:agsymain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:agapmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:agbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:aglgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apgdmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apgemain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apotmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:capitest.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcmpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcosmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcrpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dctpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:ddbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:ddldmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:ddximain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmccmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmdcmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmglmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmpcmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmudmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dresmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxmdmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxrrmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxssmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:msscmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdatmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sddbmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdremain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdsvmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smalmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smbumain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smixmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smlrmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smtxmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue) 
+11.1.2.6.000:latest:smtxmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:prob_main.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Tue)
+ 
+11.1.2.6.000:latest:newfmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Thu)
+11.1.2.6.000:latest:sqldmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Thu)
+
+####### 11.1.2.6.000 i18n Tests ######
+11.1.2.6.000:latest:i18n_j.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+11.1.2.6.000:latest:i18n_j_mlc.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+11.1.2.6.000:latest:i18n_i.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+11.1.2.6.000:latest:i18n_i_slc.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+11.1.2.6.000:latest:i18n_x.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+11.1.2.6.000:latest:i18n_xas.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+
+### USER provision ###
+11.1.2.6.000:latest:agssmain.sh:secmode(hss) forceInst(true) runplat(anzhang@slc00tbz) opackver(epm) schedule(Tue) 
+
+## FA and BI ####
+
+11.1.2.6.000:latest:agsbmain.sh:secmode(bi) biimg($HOME/bitmp_11.1.1.7.0ln32_release) opackver(bi) agtStart(true) schedule(Tue) runplat(anzhang@slc00tbz)
+11.1.2.6.000:latest:agsfmain.sh:secmode(fa) biimg($HOME/bitmp_11.1.1.7.0ln32_release) opackver(bi) schedule(Tue) runplat(anzhang@slc00tbz) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+#start_regress.sh 11.1.2.6.000 019 agsbmain.sh -o "biimg($HOME/bitmp_11.1.1.7.0ln32_release) agtStart(true)  opackver(bi) secmode(bi)"
+#start_regress.sh 11.1.2.6.000 019 agssmain.sh -o "opackver(epm) secmode(hss)"
+
+##11.1.2.1.107 
+
+#11.1.2.1.107:latest:maxlmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+
+#APS
+#11.1.2.1.107:latest:dsapssdqmd_acc_v1.sh:setEnv(APS_BUILD=latest APS_VERSION=#11.1.2.1.107) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:dsapdq_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=#11.1.2.1.107) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:dsapmd_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=#11.1.2.1.107) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:dsapds_reg_v1.sh:setEnv(APS_BUILD=latest APS_VERSION=#11.1.2.1.107) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:dsapds_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=#11.1.2.1.107) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+
+#11.1.2.1.107:latest:accxmain2.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Thu)
+
+#11.1.2.1.107:latest:agtpjlmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpori1.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpori2.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtp70main.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpukmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpcwmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpjvmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpjymain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpbkmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh serial direct:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh parallel buffer:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpjlmain.sh parallel direct:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpbarmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:capitest.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtpkenmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agtptalleymain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:prob_main.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) schedule(Tue)
+#11.1.2.1.107:latest:agssmain.sh:secmode(hss) schedule(Tue)
+
+#HSS 
+#11.1.2.1.107:latest:agssmain.sh:secmode(hss) forceInst(true) runplat(anzhang@slc00tbz) opackver(epm) schedule(Tue) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+
+#DoneMark(%VER|%BLD|%PLAT|%INST)
+
+#11.1.2.2.103:latest:maxlmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:agapmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:agbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:aglgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:agsymain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:apbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:apgdmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:apgemain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:apotmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:capitest.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dcbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dcmpmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dcosmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dcrpmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dctpmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:ddbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:ddldmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:ddximain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dmbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dmccmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dmdcmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dmglmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dmpcmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dmudmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dresmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dxbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dxmdmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dxrrmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:dxssmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:msscmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:prob_main.sh: runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:sdatmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:sdbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:sddbmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:sdremain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:sdsvmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:smalmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:smbgmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:smbumain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:smixmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:smlrmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi)
+#11.1.2.2.103:latest:smtxmain.sh:runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu) opackver(!bi) 
+
+### APS test ###
+#11.1.2.2.103:latest:dsapdq_reg_v2.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+#11.1.2.2.103:latest:dsapds_reg_v1.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+#11.1.2.2.103:latest:dsapds_reg_v2.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+#11.1.2.2.103:latest:dsapmd_reg_v2.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+#11.1.2.2.103:latest:dsapssdqmd_acc_v1.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+#11.1.2.2.103:latest:dsapprobmain.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+
+#### 11.1.2.2.103 User Provisioning Test ####
+#11.1.2.2.103:latest:agssmain.sh:opackver(!bi) secmode(hss) forceInst(true) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) schedule(Thu)
+
+#11.1.2.2.103:latest:dsapbg.sh:opackver(!bi) runplat(regraz3@scl14181 regraz3@scl14182 anzhang@slc01eft) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.103) schedule(Thu)
+
+
+
+#11.1.2.2.200:latest:agsymain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:maxlmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:capitest.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dxmdmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dmccmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dmbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:agbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dcbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dcrpmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dctpmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dxssmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:apgdmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:sddbmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dmdcmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:ddldmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:ddbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dmpcmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:smbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:smlrmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:apbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:apgemain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dresmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:msscmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:sdbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:sdremain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:sdsvmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:smbumain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:agapmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:aglgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dcmpmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dmglmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dmudmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dxrrmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:sdatmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:smalmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:smixmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:smtxmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:apotmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dcosmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:ddximain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:agssmain.sh:secmode(hss) essinit(true) opackver(!bi)schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0) 
+#11.1.2.2.200:latest:dxbgmain.sh:opackver(!bi) schedule(Wed) runplat(regraz1@scl14181 regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+
+#11.1.2.2.200:latest:dsapssdqmd_acc_v1.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dsapdq_reg_v2.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dsapmd_reg_v2.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dsapds_reg_v1.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dsapds_reg_v2.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dsapds_reg_v2.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+#11.1.2.2.200:latest:dsapprobmain.sh:setEnv(APS_BUILD=5017 APS_VERSION=11.1.2.2.200) opackver(!bi) schedule(Wed) runplat(regraz3@scl14182) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)
+
+
+
+##############################
+#### 11.1.2.2.105 OPACK  #####
+##############################
+
+#11.1.2.2.105:latest:maxlmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:agsymain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:agapmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:agbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:aglgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apgdmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apgemain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apotmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:capitest.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcmpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcosmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcrpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dctpmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:ddbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:ddldmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:ddximain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmccmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmdcmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmglmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmpcmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmudmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dresmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxmdmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxrrmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxssmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:msscmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdatmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sddbmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdremain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdsvmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smalmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smbgmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smbumain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smixmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smlrmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smtxmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun) 
+#11.1.2.2.105:latest:smtxmain.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:prob_main.sh:runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) opackver(epm) schedule(Sun)
+
+### APS ###
+#11.1.2.2.105:latest:dsapdq_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapds_reg_v1.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapds_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapmd_reg_v2.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapprobmain.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapfusion.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapbg.sh:opackver(epm) runplat(regraz1@slc01eft regraz1@slc00too anzhang@slc00tbz) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+
+### USER provision ###
+#11.1.2.2.105:latest:agssmain.sh:secmode(hss) forceInst(true) runplat(anzhang@slc00tbz) opackver(epm) schedule(Sun) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+## FA and BI ####
+#11.1.2.2.105:latest:agsbmain.sh:secmode(bi) biimg($HOME/bitmp_11.1.1.7.0ln32_release) opackver(bi) agtStart(true) schedule(Sun) runplat(anzhang@slc00tbz)
+#11.1.2.2.105:latest:agsfmain.sh:secmode(fa) biimg($HOME/bitmp_11.1.1.7.0ln32_release) opackver(bi) schedule(Sun) runplat(anzhang@slc00tbz)
+

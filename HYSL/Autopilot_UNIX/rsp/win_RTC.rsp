@@ -1,0 +1,225 @@
+################################################################################
+#
+# InstallShield Options File
+#
+# Wizard name: Install
+# Wizard source: setup.jar
+# Created on: Thu Jun 04 14:32:38 JST 2009
+# Created by: InstallShield Options File Generator
+#
+# This file contains values that were specified during a recent execution of
+# Install. It can be used to configure Install with the options specified below
+# when the wizard is run with the "-options" command line option. Read each
+# setting's documentation for information on how to change its value.
+# 
+# A common use of an options file is to run the wizard in silent mode. This lets
+# the options file author specify wizard settings without having to run the
+# wizard in graphical or console mode. To use this options file for silent mode
+# execution, use the following command line arguments when running the wizard:
+# 
+#    -options "C:/RTC.rsp" -silent
+#
+################################################################################
+
+
+################################################################################
+#
+# User Input Field - countryList
+#
+#
+
+
+-W bean4.countryList="US"
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I &AGREE" will be selected
+#    2 - "I &DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I &DO NOT AGREE",
+# use
+# 
+#    -W bean5.selection=2
+#
+
+
+-W bean5.selection=1
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "Yes" will be selected
+#    2 - "No " will be selected
+# 
+# For example, to configure the panel to initially display "No ", use
+# 
+#    -W chkOldInstallationApprovalbean.selection=2
+#
+
+
+-W chkOldInstallationApprovalbean.selection=2
+
+
+################################################################################
+#
+# Select the Hyperion Home directory
+#
+# <html>The required common components for the product will be installed to the
+# specified location.</html>
+#
+
+
+-W bean.hyperionHome=HYPERION_HOME_CHANGE
+
+
+################################################################################
+#
+# Essbase Client Install Location
+#
+# The install location of the product. Specify a valid directory into which the
+# product should be installed. If the directory contains spaces, enclose it in
+# double-quotes. For example, to install the product to C:\Program Files\My
+# Product, use
+# 
+#    -P installLocation="C:\Program Files\My Product"
+#
+
+
+-P installLocation="ARBORPATH_CHANGE"
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "Yes" will be selected
+#    2 - "No" will be selected
+# 
+# For example, to configure the panel to initially display "No", use
+# 
+#    -W Approval.selection=2
+#
+
+
+-W Approval.selection=1
+
+
+################################################################################
+#
+# Setup Type
+#
+# The setup type to be used when installing the product. Legal values are:
+# 
+#    typical - Typical: The program will be installed with the suggested
+#              configuration. Recommended for most users.
+#    custom  - Custom: The program will be installed with the features you
+#              choose. Recommended for advanced users.
+# 
+# For example, to specify that the "Typical" setup type is selected, use
+# 
+#    -W setupTypesSuite.selectedSetupTypeId=typical
+# 
+# You may also set the setup type to nothing by using
+# 
+#    -W setupTypesSuite.selectedSetypTypeId=
+# 
+# This clears the current setup type and prevents any changes to the set of
+# selected features. Use this option whenever you set feature active states in
+# this options file. If you do not clear the selected setup type, the setup type
+# panel will override any changes you make to feature active states using this
+# file.
+#
+
+
+-W setupTypesSuite.selectedSetupTypeId=custom
+
+
+################################################################################
+#
+# "Runtime Client" Feature
+#
+# The selection state of the "Runtime Client" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Runtime Client" for installation, use
+# 
+#    -P essbaseClient7_0_0Reference_clientRuntime7_0_0Feature.active=true
+#
+
+
+-P essbaseClient7_0_0Reference_clientRuntime7_0_0Feature.active=true
+
+
+################################################################################
+#
+# "Essbase Spreadsheet Add-in" Feature
+#
+# The selection state of the "Essbase Spreadsheet Add-in" feature. Legal values
+# are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Essbase Spreadsheet Add-in" for installation, use
+# 
+#    -P
+#    essbaseClient7_0_0Reference_excelSpreadSheetAddIn7_0_0Feature.active=tru
+#    e
+#
+
+
+-P essbaseClient7_0_0Reference_excelSpreadSheetAddIn7_0_0Feature.active=false
+
+
+################################################################################
+#
+# "Essbase API" Feature
+#
+# The selection state of the "Essbase API" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Essbase API" for installation, use
+# 
+#    -P essbaseClient7_0_0Reference_essbaseAPI7_0_0Feature.active=true
+#
+
+
+-P essbaseClient7_0_0Reference_essbaseAPI7_0_0Feature.active=false
+
+
+################################################################################
+#
+# User Input Field - field1
+#
+#
+
+
+-W getEsslangValue.field1="English_UnitedStates.Latin1@Binary"
+
+
+################################################################################
+#
+# User Input Field - updateEnvironment
+#
+#
+
+
+-W updatePath.updateEnvironment="item1"

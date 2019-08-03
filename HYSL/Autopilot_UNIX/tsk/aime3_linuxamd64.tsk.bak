@@ -1,0 +1,3 @@
+####### adc2190380 #####
+#adc2190380:11.1.2.2.000:1206:sqdl_sqlifcmain.sh:refresh(true)
+adc2190380:11.1.2.2.000:1219:regress.sh:refresh(true)

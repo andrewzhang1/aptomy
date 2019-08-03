@@ -1,0 +1,333 @@
+agsyloginbytoken1_J13.sh	Andrew
+agsymdsec.sh			Andrew
+agsymsglog.sh			Andrew
+agsyportulog.sh			Andrew
+agsyprevcorp.sh			Andrew
+agsypwdencryp.sh		Andrew
+agsysec31001.sh   		Andrew
+agtpjvmain.sh			Andrew
+ddxi2gigcon.sh   		Andrew
+ddxicalc101.sh			Andrew
+ddxicalc102.sh			Andrew
+ddxicalc602.sh			Andrew
+ddxicalcmain.sh			Andrew
+dmccmiblock.sh   		Andrew Mike
+agsyexauthAD.sh   		Bao
+dmbg26930.sh			Bao Mike
+dmpckcsv.sh  			Bao
+dmpckdlsv.sh			Bao
+dxbg29503.sh			Bao
+smbgmain.sh				Bao
+smftms02.sh   			Bao
+smftms04.sh   			Bao
+smftms08.sh   			Bao
+smftms16.sh   			Bao
+smlrmain.sh   			Bao
+agsyexauth.sh			BaoAlbert
+dmccsca01.sh			BaoAlbert Mike
+dmccsca02.sh			BaoAlbert Mike
+dmccsca03.sh			BaoAlbert Mike
+dmccsca04.sh			BaoAlbert Mike
+dmpcmain.sh  			BaoAlbert
+dxrrsamplingmain.sh		BaoAlbert
+dxrrsca01.sh			BaoAlbert
+dxrrsca02.sh			BaoAlbert
+smtxtrgmain.sh			BaoAlbert
+ddldmtaso.sh 			BaoEric
+dmccmtaso.sh 			BaoEric Mike
+dmccvsel00.sh			BaoEric Mike
+dmccvselpr.sh			BaoEric Mike
+dmpcmultmain.sh  		BaoEric
+sddbnubso01.sh			BaoGuibin
+sddbsmaso15cpc02.sh  	BaoKaj
+sddbsmasogen01.sh		BaoKaj
+sddbsmasogen02.sh		BaoKaj
+sddbsmasogen04.sh		BaoKaj
+sddbsmasopc01.sh 		BaoKaj
+sddbsmasopc02.sh 		BaoKaj
+sddbsmasopc03.sh 		BaoKaj
+sddbsmasopc04.sh 		BaoKaj
+sddbsmasoqry.sh  		BaoKaj
+sddbsmasosb01.sh 		BaoKaj
+dmpccalc.sh   			Bao Mike
+dmpcpdl.sh   			Bao Mike
+apottbasomain.sh		BaoRam
+dxmdmainaso.sh   		BaoRam
+smixiomain.sh			BaoRam
+dxmdmdxrank.sh			BaoRam		#Jun 8, 2010 by Eric Smadja removed Saugata
+agsyuagentmain.sh		BaoAlbert
+agtaimain.sh 			BaoAlbert
+62agsysecshort.sh		Christina
+agapun00.sh  			Christina
+aglgport.sh   			Christina
+agsy29188.sh 			Christina
+agsysecaso.sh			Christina
+apgeaso.sh   			Christina
+dmpcccrmat.sh			Christina
+dmpcccrmcc.sh			Christina
+dresmain.sh				Christina
+dxssqmain.sh 			Christina
+sdatcomp.sh				Christina
+sdreincresa.sh   		Van Christina
+sdreincresb.sh   		Van Christina
+sdrezlib.sh  			Van Christina
+smastblsp.sh 			Van Christina
+smlrk00.sh				Van Christina
+smlrk00zlib.sh   		Van Christina
+capitest.sh				Fa
+capimain.sh			Fa
+smbumain.sh				Fa
+apgdmain.sh   			FaAbhijeet
+apgdnusk.sh				FaAbhijeet
+Apotmain.sh   			FaKaj
+sdrenumb.sh				FaKaj
+agsyskfltr.sh			FaPamu
+apotnu_aso01.sh			FaPamu
+apotnumb.sh				FaPamu
+dclnsmky.sh				FaPamu
+dcrpsmky.sh				FaPamu
+maxlnumb.sh				FaPamu
+sddbnubso02.sh			FaPamu
+maxlmain.sh				Hima
+maxlmdxmain.sh   		Hima
+apgemain.sh				FaVlad
+agsyva.sh				Van
+agsyvamain.sh			Van
+apbg85650cc1.sh			Van
+apbg85650main.sh		Van
+apbg9207.sh				Van
+apotaormain.sh			Van
+apotrstrasomain.sh		Van
+dcmpvamain.sh			Van
+dctp_main_aso_sm.sh		Tuan
+ddlddnmain.sh			Van
+ddlddpnmaso2.sh			Van
+ddldmainASO.sh			Van
+sdbgmain.sh				Van
+sddbasorstrctmain.sh	Van
+sddbcmpotlmain.sh		Van
+sddbdnmain.sh			Van
+Sddbemptyotlmain.sh		Van
+sddbmain.sh				Van
+sdremain.sh				Van
+smldmainaso.sh			Van
+smtxafttrgmain.sh		Van
+smtxlogvaltrg.sh		Van
+smtxshrd.sh				Van
+agtaimain_msh.sh		Joseph
+ddbgmain.sh				Joseph
+ddldmain.sh				Van
+Ddximain.sh				Andrew
+dcbgmain.sh				Tuan
+dcosmain.ksh			Van
+dcpt_aso_main.sh		Tuan
+dcrpmain.sh				Tuan
+dctpmain.sh				Tuan
+sdsvmain.sh				Lyuda / Van
+svds_form.sh			Lyuda / Van
+svds_form.sh			Lyuda / Van
+svfltr_main.sh			Lyuda / Van
+svpart_main.sh			Lyuda / Van
+svrules_main.sh			Lyuda / Van
+accxrlmd.sh				Nhan / Van
+aglgasess.sh			Nhan / Van
+aglgasmisc.sh			Nhan / Van
+aglgasmxl.sh			Nhan / Van
+Aglglmn.sh				Nhan / Van
+agsysmaso01.sh   		Nhan / Van
+apotcldrmain.sh			Nhan / Van
+apotsmaso01.sh			Nhan / Van
+apotsmaso02.sh			Nhan / Van
+apotsmdso2aso01.sh		Nhan / Van
+apotsmdso2aso02.sh		Nhan / Van
+apotsmdso2aso03.sh		Nhan / Van
+dcmpcldr.sh				Nhan / Van
+dxmdacc.sh				Xuesong / Van
+dxmdmain.sh				Xuesong / Van
+dxrrcldr.sh				Nhan  / Van # 06/09/08 by Hima's request
+dxsscldr.sh				Nhan / Van
+msxxcompaso.sh			Nhan / Van
+mxlscalc2.sh			Nhan / Van
+mxlscalc3.sh			Nhan / Van
+mxlsmain.sh				Nhan / Van
+mxlsnumbers1.sh			Nhan / Van
+apjvaccmain.sh			Tuan
+dmccemain.sh			Van Mike
+dmccexclmain.sh			Van Mike
+dmccnamain.sh			Van Mike
+dmccrc01.sh				Van Mike
+dmccrc02.sh				Van Mike
+dmccrc03.sh				Van Mike
+dmccxref_rfcb.sh		Van Mike
+agbg28271.sh			Van
+apotmainaso.sh			Van
+dcbg27460.sh			Van
+dcbg43403.sh			Van
+ddxidpnmmain.sh			Van
+ddximainaso.sh			Van
+dmbgmain.sh				Van Mike
+dmdcmain.sh				Van
+dxbg522073261.sh		Van
+psdatcalc.sh			Van
+sdatcalc.sh				Van
+sddbmainaso.sh			Van
+smalcomp.sh				Van
+smalisms.sh				Van
+dmccalis.sh				Van Mike
+dmcccboe.sh				Van Mike
+dmcce28.sh				Van Mike
+dmccestm.sh				Van Mike
+dmccfx.sh				Van Mike
+dmcclgt.sh				Van Mike
+dmccmain.sh				Van Mike
+dmccmdxf.sh				Van Mike
+dmccmdxf7.sh			Van Mike
+dmccmdxf8.sh			Van Mike
+dmccmdxf9.sh			Van Mike
+dmccmsum.sh				Van Mike
+dmccmsumx.sh			Van Mike
+dmccpf.sh				Van Mike
+agaplogenh.sh			Xuesong / Van
+agaplogenh3.sh			Xuesong / Van
+agsymdsecmain_aso.sh	Xuesong / Van
+dctpmain_aso.sh			Xuesong / Van
+dmccvsel01.sh			Xuesong  Mike / Van
+dmccvsel02.sh			Xuesong  Mike / Van
+dxbg29771.sh			Xuesong / Van
+dxbgmain.sh				Xuesong / Van
+dxbgmain02.sh			Xuesong / Van
+dxlgbound.sh 			Xuesong / Van
+dxlgmain.sh 			Xuesong / Van
+dxmdxlvs.sh				Xuesong / Van
+dxmdxnoeptsb.sh			Xuesong / Van
+dxmdxnumb.sh			Xuesong / Van
+dxmdxnumb_aso.sh		Xuesong / Van
+dxmdxlinkmbr.sh			Xuesong / Van
+dxrrmthex.sh			Xuesong / Van
+dxrrlvs.sh				Xuesong / Van
+Dxrrmain.ksh			Xuesong / Van
+Dxrrmain_aso.sh			Xuesong / Van
+dxrrmain1_aso.ksh		Xuesong / Van
+dxrrnumb.sh				Xuesong / Van
+dxssacce_numb.sh		Xuesong / Van
+dxssftmain.sh			Xuesong / Van
+dxssmain.sh				Xuesong / Van
+dxssmain_aso.sh			Xuesong / Van
+dxssnumb.sh				Xuesong / Van
+sddbrestr.sh			Xuesong / Van
+ddldincsnd.sh			Van
+ddldincrstrmain.sh		Van	# Apr. 1, 2008 by Y.Kono
+msscmain.sh				Van		# Oct. 18, 2007 by Hima's request
+smbg76958.sh			Nhan / Van	# Oct. 19, 2007 by Hima's request
+agsycssparts.sh			Nhan / Van	# Nov. 20, 2007 by Andrew's request
+agsycssxref.sh			Nhan / Van	# Nov. 20, 2007 by Andrew's request
+agbg134340383.sh		Van	# Jan. 23, 2008 by Y.Kono
+apbg66011.sh			Fa		# Jan. 23, 2008 by Y.Kono
+sddbnulldelfunclevbs.sh	Van	# May 22, 2008 by Hima's request
+sddbnulldelfuncgenbs.sh	Van	# Jul. 28, 2008 by Fa's request
+mxlssetmsglev.sh		Nhan / Van	# July 16, 2008 by Kono
+apbg85988.sh			Bao		# July 16, 2008 by Kono
+dmududf62_J14.sh		Andrew	# Aug. 25, 2008 by Andrew's request
+agtp70main.sh			Van		# Apr. 02, 2009 by Hima's request
+maxlmdxmain.sh			Van		# Apr. 02, 2009 by Hima's request
+sdbg8572826757.sh		Van	# Apr. 06, 2009 by Hima's request
+dxbg29068.sh			XuesongRam	# Jun 8, 2010 by Eric Smadja
+
+
+agtpbarmain.sh			Van
+
+dxmdxha.sh		Xuesong	# Sep. 04, 2009 by Fa/Andrew's request
+
+# for Kennedy main (agtpkenmain.sh) Added Dec. 19, 2008 by Y.Kono
+dmcckenn.sh		Van Mike
+dmccenv1.sh		Van Mike
+smbuardess1.sh	Nhan / Van
+smbuardmxl1.sh	Nhan / Van
+smbuardess2.sh	Nhan / Van
+smbuardmxl2.sh	Nhan / Van
+smbuardparts.sh	Nhan / Van
+smbuardxref.sh	Nhan / Van
+smburptess1.sh	Nhan / Van
+smburptmxl1.sh	Nhan / Van
+smburptess2.sh	Nhan / Van
+smburptmxl2.sh	Nhan / Van
+smburptess3.sh	Nhan / Van
+smburptmxl3.sh	Nhan / Van
+smburptess4.sh	Nhan / Van
+smburptmxl4.sh	Nhan / Van
+smburptess5.sh	Nhan / Van
+smburptmxl5.sh	Nhan / Van
+smburptess6.sh	Nhan / Van
+smburptmxl6.sh	Nhan / Van
+dxsmtlist.sh	Xuesong / Van
+dxssmdxsca.sh	Xuesong / Van
+apotimpsh.sh	Fa
+dxbg6591350.sh	Van
+dxbg7013843.sh	Van
+dxbg6578831.sh	Xuesong / Van
+dxbg6869642.sh	Xuesong / Van
+dxbg6965944.sh	Xuesong / Van
+dxbg7014326.sh	Xuesong / Van
+dxbg6769131.sh	Xuesong / Van
+dxbg6589205.sh	Xuesong / Van
+dxbg6907483.sh	Xuesong / Van
+dxbg6980386.sh	Xuesong / Van
+dxbg7117197.sh	Xuesong / Van
+dxbg6918558.sh	Xuesong / Van
+dxbg7005856.sh	Xuesong / Van
+dxbg6587643.sh	Xuesong / Van
+dxbg6671760.sh	Xuesong / Van
+dxbg6792756.sh	Xuesong / Van
+dxbg6904113.sh	Xuesong / Van
+dxbg6590975.sh	Xuesong / Van
+dxbg6689458.sh	Xuesong / Van
+dxbg6810771.sh	Xuesong / Van
+dxbg6592801.sh	Xuesong / Van
+dxbg6745026.sh	Xuesong / Van
+dxbg6877083.sh	Xuesong / Van
+dxbg6651002.sh	Xuesong / Van
+accxmain.sh     saileela
+
+# Following definitions are for I18N regression
+i18n_j.sh		I18N
+i18n_j_mlc.sh	I18N
+i18n_i.sh		I18N
+i18n_i_slc.sh	I18N
+i18n_x.sh		I18N
+i18n_xas.sh		I18N
+
+# By Hima's request on 03/03/2010
+partition.sh	Tuan
+prt_disp.sh	Tuan
+tstpart.sh	Tuan
+dcmpmainprt_disp.sh	Tuan
+dcmpmainpartition.sh	Tuan
+partition04.sh	Tuan
+
+# By Hima's request on 01/24/2011
+dmglal1.sh	Chi
+dmglal2.sh	Chi
+dmglcc2.sh	Chi
+dmglcc3.sh	Chi
+dmgl9407213.sh	Chi
+dmgl9434915.sh	Chi
+dmgl9526148.sh	Chi
+dmgl9762781.sh	Chi
+dmgl9792941.sh	Chi
+dmgl9973706.sh	Chi
+dmglex3.sh	Chi
+dmglex4.sh	Chi
+dmglex1.sh	Chi
+dmglex1b.sh	Chi
+
+# Added By Vipin on 28 Oct 2010
+sqdl_sqlifcmain.sh	Idcqe / vbhaskar
+
+# By Hima's request on 16 Feb 2011
+apbg9319424.sh	Fa
+
+# By Hima, data import/export belongs to Andrew.
+ddximainimport1.sh    Andrew
+ddximainimport.sh     Andrew
+ddximainexport.sh     Andrew
+

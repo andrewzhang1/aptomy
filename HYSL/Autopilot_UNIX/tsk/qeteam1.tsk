@@ -1,0 +1,18 @@
+pion.us.oracle.com:talleyrand_sp1:284:agtpori1.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpori2.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpjlmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtp70main.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpcwmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpjymain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpbkmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpbarmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpkenmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtptalleymain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpukmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:maxlmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpjvmain.sh:refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpjlmain.sh:parallel buffer refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpjlmain.sh:serial direct refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+pion.us.oracle.com:talleyrand_sp1:284:agtpjlmain.sh:parallel direct refresh(true) runplat(qeteam1@pion.us.oracle.com) verbose(false)
+
+

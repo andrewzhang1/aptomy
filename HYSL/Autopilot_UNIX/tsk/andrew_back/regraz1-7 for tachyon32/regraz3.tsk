@@ -1,0 +1,8 @@
+# on tachyon for linux32
+tachyon:talleyrand_sp1:latest:agtp70main.sh:schedule(Sun Wed) refresh(true) arch(32)
+tachyon:talleyrand_sp1:latest:agtpcwmain.sh:schedule(Sun Wed) refresh(true) arch(32)
+tachyon:talleyrand_sp1:latest:maxlmain.sh:schedule(Sun Wed) refresh(true) arch(32)
+tachyon:talleyrand_sp1:latest:prob_main.sh:schedule(Sun Wed) refresh(true) arch(32)
+
+
+ 

@@ -1,0 +1,22 @@
+export HYPERION_HOME=/vol1/regraz3/kennedy2
+export ARBORPATH=$HYPERION_HOME
+
+export SXR_HOME=/net/nar200/vol/vol3/essbasesxr/kennedy/vobs/essexer/latest
+
+export JAVA_HOME="${HYPERION_HOME}/common/JRE-IA64/HP/1.5.0"
+export ODBC_HOME="${HYPERION_HOME}/common/ODBC-IA64/Merant/5.2"
+
+export SHLIB_PATH=$ODBC_HOME/lib:$ARBORPATH/bin:$SHLIB_PATH
+export SHLIB_PATH=$JAVA_HOME/bin:$JAVA_HOME/lib:$JAVA_HOME/lib/IA64W/server:$SHLIB_PATH
+
+export PATH="${SXR_HOME}/bin:$PATH"
+export PATH=$ARBORPATH/bin:$JAVA_HOME/bin:$PATH
+
+export ESSLANG=English_UnitedStates.Latin1@Binary
+
+export ODBCINI=$ODBC_HOME/odbc.ini
+export AP_AGENTPORT=4122
+
+export ESSBASEPATH="$ARBORPATH"
+cd $ARBORPATH
+

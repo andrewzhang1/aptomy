@@ -1,0 +1,282 @@
+### NEW FEATURE OF THIS VERSION ###
+# Version : 0.1.2.0
+98) 04/04/2013 YKono - BUG 16602243 - AUTOPILOT NEEDS TO SUPPORT SOLARIS EXALYTICS 
+	mod: get_platform.sh
+97) 03/26/2013 YKono - Bug 15985737 - EXECUTE TESTS EVEN IF ESSBASESXR DOESN'T HAVE MORE THAN 10GB
+	mod: start_regress.sh
+96) 03/26/2013 YKono - Bug 16356258 - COMMAND TO KILL ALL THE RUNS AND REMOVE TASKS FROM QUEUE
+	add: reset_all.sh
+95) 03/26/2013 YKono - Bug 16369254 - NEW SET UP TO RUN ESSBASE INSTALLED BY BI INSTALLER IN NATIVE MODE
+	mod: se.sh/ap_essinit.sh
+94) 03/26/2013 YKono - Bug 16472865 - DIR COMPARISION SHOULD BE TAKEN OUT BEFORE COPY ANY FILES.
+	mod: mk_basefile.sh
+93) 03/22/2013 YKono - BUG 16538459 - CONSECUTIVE DIF NOTIFICATION NEEDS TO BE SENT TO SCRIPT OWNER 
+        mod: start_regress.sh
+92) 03/19/2013 YKono - Bug 16494870 - AUTOPILOT NEEDS TO DELETE ESSCLSN.DLL IN ESSBASE SERVER BIN
+        mod: hitinst.sh
+92) 03/18/2013 YKono - Check the current installation is HIT or not. And if required version is HIT
+        and installed version is not HIT, autopilot ignore current installation and will install HIT.
+        mod: start_regress.sh
+# Version : 0.1.2.0_beta
+91) 02/17/2013 YKono - Bug 16358515 - ADDTSK_ALL.SH TO HAVE AN OPTION TO SPECIFY OS PLATFORMS
+	mod: addtsk_all.sh
+# Version : 0.1.1.1
+90) 02/08/2013 YKono - Bug 16304560 - AUTOPILOT FRAMEWORK NEED TO CHECK FIND COMMAND FROM MKS TOOLKIT
+        mod: $AUTOPILOT/cbin/ap.sh
+# Version : 0.1.1.0
+89) 01/17/2013 YKono - Bug 16186568 - START AND END TIMES IN RESULT RTF FILE DOESN'T SHOWUP THE TIME ZONE
+	mod: $AUTOPILOT/form/ana.txt
+88) 01/17/2013 YKono - Bug 16187011 - RTF FILE DISPLAY WRONG TIME STAMP FOR THE SNAPSHOT.
+	new: get_snapshot_ts.sh
+	mod: start_regress.sh ckresults2.sh
+87) 12/31/2012 YKono - Support BI/FA mode on linuxamd64.
+# Version : 0.1.0.7
+86) 10/19/2012 YKono - Bug 14781172 - ADD KILLED KIND TO THE SUBJECT OF HANGING UP NOTIFICATION.
+	regmon.sh
+85) 10/19/2012 YKono - Bug 14780983 - SUPPORT AIME* USER IN THE E-MAIL TARGET.
+	start_regress.sh, regmon.sh, simpmail.sh, send_email.sh
+84) 09/11/2012 YKono - BUG 14606359 - NEED TO ADD SUC COUNT FROM #: SUC: FILED FROM TEST SCRIPT
+	send_result.sh
+83) 08/30/2012 YKono - BUG 14545624 - NEED EXTRA INFO ON REGRESSION RUN IN NEW RESULTS.WSP3 FILE
+       send_result.sh
+82) 08/21/2012 YKono - Bug 14521531 - ADD PROVIDER INFORMATION TO HSS SERVER
+# Version : 0.1.0.6
+81) 08/17/2012 YKono - Bug 14510052 - CHANGE USER/PASSWORD OF BI INSTALLATION TO DEFAULT ONE
+# Version : 0.1.0.5
+80) 07/20/2012 YKono - Support HSS security mode.
+        ap_essinit.sh, chk_essinst.sh, cmdgqinst.sh, cssprov.sh, hitinst.sh,
+	hyslinst.sh, opackcmd.sh, opackinst.sh, kill_essprocs.sh, kill_regress.sh,
+        se.sh, ssconf.sh, ver_setenv.sh, start_regress.sh
+# Version : 0.1.0.4
+79) 06/07/2012 YKono - Eliminate Essbase initialize function
+        ap_essinit.sh, chk_essinst.sh, data/vardef.txt(AP_ESSINIT)
+78) 06/07/2012 YKono - Put GTLF testunit to RTF file
+        get_gtlftu.sh, gtlf.sh, start_regress.sh send_result.sh, ckresults2.sh
+77) 06/05/2012 YKono - Support DoneMark() task option.
+        start_regress.sh, data/vardef.txt(AP_DMFILE)
+76) 05/24/2012 YKono - Add uploading feature to gtlf.sh
+        gtlf.sh -upld <ver> <bld> <tst> -> Make GTLF xml file and upload
+        gtlf.sh -upldz <ver> <bld> <tst> -> Make GTLF xml file and upload when 0 diff.
+        gtlf.sh <xml> -> Upload <xml> file.(Need java in $PATH)
+75) 05/23/2012 YKono - Support AP_PLATGROUP definition for runplat() and ignplat() options.
+        ckmytsk.sh
+74) 05/23/2012 YKono - Change runid format of GTLF file.
+        gtlf.sh
+73) 05/23/2012 YKono - Fix remained platform read lock
+        autopilot.sh, ckmytsk.sh
+72) 05/22/2012 YKono - Support new task option GTLFRelease() and fixed selecting JAVA program.
+	gtlf.sh, start_regress.sh, kill_regress.sh, recover_crrtsk.sh, autopilot.sh
+71) 05/17/2012 YKono - Add AP_LOGTO option
+        autopilot.sh, aplog.sh
+70) 05/11/2012 YKono - Change GTLF platform definition
+        gtlf.sh, data/platforms.txt
+69) 05/10/2012 YKono - Suport BISHIPHOME/refresh-bin combination.
+        Support BI(<BI-branch>/<BI-label>) for Essbase build.
+        start_regress.sh, hyslinst.sh, srch_bi.sh, ckbibin.sh, biinst.sh,
+        normbld.sh, parse_one_task.sh, ext_bi.sh, hitinst.sh
+# Version : 0.1.0.3
+68) 04/18/2012 YKono - Fix opack problem on aix64 and linuxamd64.
+	opackinst.sh, opackcmd.sh
+	New task option and installer option: opackVer(<ver-filt>)
+	If target opack contains multiple versions of opack, this version filter
+	choose which opack to apply. i.e.) 11.1.1.3.502 has two opack sets for
+	zola and 11.1.1.4. (esb11.1.1.3.502_hpux64_server.zip, esb11.1.1.4_hpux64_server.zip...)
+	If you want to use 11.1.1.4 zip files, please define opackVer(11.1.1.4) for this option.
+	opackint.sh use a mask, "*${ver_filt}_*${thisplat}*.zip" for unzip opack.
+67) 03/28/2012 YKono - Implement BUG 13894473 PASS -DGTLF.ENV.OS= TO GTLF UTILS
+	gtlf.sh, start_regress.sh
+        New task option: GTLFRelease(), GTLFOS(), GTLFLoad(), GTLFTestUnit()
+66) 03/28/2012 YKono - Implement BUG 13893774 NOTIFICATION EMAIL CONTAINS NAME OF RECEIPIENTS
+	start_regress.sh, send_email.sh
+65) 03/28/2012 YKono - Implement BUG 13889218 AUTOPILOT FRAMEWORK CHECK THE OS FREE MEMORY BEFORE RUNNING TEST
+	get_freemem.sh(new), start_regress.sh
+	New task option: FreeMem(####MB)
+64) 03/08/2012 YKono Add GTLF_testunit tag in gtlf.sh
+63) 03/06/2012 YKono Move dev binaries into the 11122x snapshot.
+	And change the dev version number to 0.1.0.3
+# Version : 0.1.0.2
+62) 02/08/2012 YKono Add HIT installation check.
+61) 01/19/2012 YKono Add NoBuildCheck() and NoInst() task option.
+        Modified start_regress.sh and parse_one_task.sh.
+60) 01/17/2012 YKono Support BISHIPHOME installation.
+	Add -bi option to se.sh
+	Add -bi option and BI installation to hyslinst.sh
+	Support bi(true) task option in start_regress.sh
+	Support AP_BISHIPHOME variable in setchk_env.sh
+59) 11/09/2011 YKono logto.sh for logging to network location.
+58) 10/04/2011 YKono Support 11.1.2.1.000_12962507 type opack
+	modify opackinst.sh, get_opackbase.sh
+57) 09/25/2011 YKono Bug 13027223 - No email on prob_main.sh
+56) 08/24/2011 YKono Bug 12904974 - ADD OS REVISION TO RTF
+	Modify get_platform.sh to support revision number.
+	Modify form/ana.txt
+	Modify start_regress.sh to add the revision variable.
+55) 08/18/2011 Add ap.sh and ap.bat to support common/bin scripts.
+	Bug 12855719 - SCRIPT TO SETUP AUTOPILOT RUNNING ENV IN COMMON/BIN
+54) 08/02/2011 Add chkcrr.sh script.
+        BUG 12748255 - LSTSK.SH RETURNS THE CURRENTLY RUNNING TASKS
+53) 08/02/2011 Add version test after installation. (start_regress.sh)
+        BUG 12742271 - CHECK VERSION AFTER INSTALL ESSBASE 
+52) 08/01/2011 Add binary compare and dup-check functions. (opackinst.sh)
+	BUG 12742290 - COMPARE COPIES OF DUPLICATE FILES 
+	BUG 12742203 - COMPARE OPATCH FILES BEFORE APPLYING
+51) 07/28/2011 Add ver.sh
+50) 07/27/2011 Add ver.sh to display autopilot framwork version.
+49) 07/27/2011 Add embeded link to the zip file in dif notification e-mail.
+	Bug 12766109 - EMBED THE ZIP LINK IN DIF NOTIFICATION EMAIL
+# Version : 0.1.0.1
+48) 07/27/2011 Use the version in the inventory file in opackinst.sh
+	BUG 12742343 - USE THE BASE VERSION IN THE INVENTORY FILE FOR OPACTH IN OPACKINST.SH 
+#   Version	: Pre 0.1.0.0
+47) 07/06/2011 Add/modify following features:
+	1) Move EssbaseRTC at end of library path definition
+		ver_setenv.sh, setchk_env.sh, each .env2 files.
+46) 06/10/2011 Add following features:
+	1) Support AP_HITCACHE and AP_SNAPROOT
+	2) Keep all applicaiton logs into *.tar.Z file.
+45) 02/16/2011 Add tag() option to send_result.sh
+44) 02/16/2011 Add ODBCINST setting for GL test to setchk_env.sh
+43) 02/03/2011 YKono Debug on SuSE Linux 11
+	Change autopilot.sh script not make deep nesting.
+42) 01/24/2011 YKono Support AP_HITLOC and AP_HITPREFIX variable to use another HIT installer
+	localted at non-prodpost location like syspost/talleyrand_sp1/dtop28_6725 installer.
+41) 10/15/2010 YKono Add Ignore CM acceptance option to hyslinst.sh, normbld.sh, parse_one_task.sh and start_regress.sh.
+40) 09/30/2010 YKono:
+	09/30/2010 YKono Add new regression monitor.
+39) 08/06/2010 YKono:
+	08/06/2010 YKono Change .RTF name including nth counter and remove
+	                 user name. - start_regress.sh
+	08/06/2010 YKono When someone lock read/parse, wait it. - rmtsk.sh
+38) 08/04/2010 YKono Add below changes and move to production.
+	07/30/2010 YKono Rewrite filesize.sh using Perl. And add attribute dump function. - filesize.pl
+	08/02/2010 YKono Remove extacting client DLL and libraries from cmdgqinst.sh - Only extract ESSCMDQ and ESSCMDG
+	08/02/2010 YKono Also run delegate.sh in the autopilotbg.sh
+	08/02/2010 YKono Add calling lock.sh to autopilot.sh
+	08/02/2010 YKono Add calling lock.sh to start_regress.sh
+	08/02/2010 YKono Use lock.sh for locking HIT lock state file.
+	08/02/2010 YKono Debug filesize.pl. When the file name include $, cksum failed to run.
+	08/02/2010 YKono Change chk_filesize.sh to copy the previous base file when the current base file is missing.
+	08/03/2010 YKono Use filesize.pl in the mk_filesize.sh
+	08/03/2010 YKono Use filesize.pl in the mk_basefile.sh
+	08/03/2010 YKono Change output of filesize.pl to ARBOR from $ARBOR
+	08/04/2010 YKono Change task lock file location from tsk fodler to lck folder.
+37) 07/30/2010 Minor bug fix and change by Yuki's request - Add re-run number to .rtf filename
+	#07/28/2010 YKono when the build is "latest", ignore that add-task in parse_one_task.sh
+	#07/28/2010 YKono Change the .rtf name with nth count. send_result.sh
+	#07/28/2010 YKono Trust parameter when send_results.sh is called from autopilot.
+36) 07/21/2010 YK Add autotest.bat into bin and altbin.
+	WIN: A batch file to set up Autopilot, so that anyone just runs it and doesn't 
+	have to manually set up Autopilot.  (VIEW_HOME cannot be under HOME.)
+35) 07/14/2010 YK Add following features:
+	Autopilot runs scheduled tasks only when the Acceptance test passes.
+	addtsk.sh takes the latest build when build# is skipped.
+34) 07/13/2010 YK Add running command files between tests.
+	Being able to re-initialize the Autopilot environment without stopping it.
+33) 07/13/2010 YK Add backup same contents into backup work folder like tar file.
+	Autopilot only keeps ceratin files (such as sog) in the backed-up work directories.  It needs to match what we currently archive in the zip file.
+32) 07/12/2010 If an Autopilot instance is stopped for some reason, the real time status should change the status from PREPARATION to something
+	06/30/2010 YK Start to implement feature.
+	06/30/2010 YK Move cmpstr into apinc.sh.
+	06/30/2010 YK Remove cmpstr from addtsk.s, ap_essinit.sh, cdinst.sh, srch_basehit.sh, start_regress.sh.
+	06/30/2010 YK Move wrtcrr into apinc.sh from start_regress.sh
+	07/12/2010 YK Added expor VERSION, BUILD, TEST,st_datetime in start_regress.sh to put message correctly by wrtcrr()
+			when called from hyslinst.sh.
+31) 06/30/2010 Autopilot logs user overwirtten variables in the RTF file, so we can tell which variable was overwritten in the result log/RTF file.
+
+30) 07/08/2009 Add lsver.sh for removing specific version record from
+               $AUTOPILOT/res and $AUTOPILOT/dif folder.
+
+29) 07/05/2009 Add AP format output for lstsk.sh, rmtsk.sh and addtsk.sh.
+               Add chgtsk.sh
+
+28) 05/05/2009 Add Memory Peak monitor feature (WIndows only)
+
+27) 04/09/2009 Add task order priority
+
+26) 02/27/2009 Add Consecutive Dif Notification.
+
+### VERSION HISTORY ###
+
+25) 02/17/2009 Add installer information into results.wsp2
+
+24) 02/05/2009 Put analyzed dif record into .rtf file
+
+23) 01/20/2009 Clean up sxrview fodlers before running the test
+
+22) 01/14/2009 Add check for the Version and build number and
+               check the test script exists.
+
+21) 12/24/2008 Add DiffCntNotify() task option
+
+20) 12/05/2008 Add AP_UNCOMMENTJVM option
+
+19) Add setenv(), setenv2() and snapshot() task option.
+
+18) Add Dickens information
+
+17) Add hitunzip.sh and hitcmptest.sh for the server installation test.
+
+16) Change to ignore invalid build of HIT like build_900 to get_hitlatest.sh
+
+15) Add AP_ALTSETUP, AP_ALTESETENV, AP_RESFOLDER and AP_RESSCRIPT env
+	variable handling and altSetup(<script>), altSetEnv(<script>),
+	resFolder(<folder name>) and resScript(<script>) task options.
+	for APS regression test.
+
+14) Move version related settings into ver_*.sh.
+    So, when add new version, the administrator for autopilot framework
+    just udpate those files.
+
+13) Support Linuxamd64 platform.
+
+12) Add background mode
+	autopilotbg.sh	# run autopilot.sh in background
+	aplog.sh		# peek current execution
+
+11) Add ignore case on the keyword into chk_para.sh
+	You can use any case on the keyword field.
+	ex.) $> chk_para.sh Abc "abc[123] Abc[456] ABC(789)"
+         123 456 789
+         $>
+
+10) Allow "[" and "]" in the chk_para.sh instead of "(" and ")".
+
+9) Separate ESSCMDQ/G installer to cmdgqinst.sh from cdinst.sh and hitinst.sh
+
+8) 6/25/08 YK - Support Kennedy2
+
+7) Change the search location for .xcp and .log to $HYPERION_HOME/logs/essbase if exist.
+
+# New task option
+priority(0..99)		# Task priority
+igndone(true|false)	# Ignore a done task. Even if previously executed, add this task to queue.
+verbose(true|false)	# When set to false, won't send e-mail notification and any report ouput.
+runplat(<platname> 	# Run this task on those platforms.
+ignplat(<platname>)	# Don't run this task on those platforms
+
+6) Support "hit(###)" or "hit(latest)" for the build number field in the task definition
+
+5) Support $AP_NOPLAT environment. 05/22/08
+	When define $AP_NOPLAT=true, the autopilot framework won't execute the platfrom
+	specific task. It only run the specific user and specific machine task only.
+	i.e. *~<user>@<hostname>.tsk
+
+4) Better sizediff resposne
+
+3) Using HIT installer(hitinst.sh)
+	Using HIT installer, then CD installer and refresh command.
+	Update setchk_env.sh to add the $HYPERION_HOME/products/Essbase/EssbaseClient/bin
+	to $PATH environment variable.(make sure ESSCMDG can be executable) 
+
+2) Add more information to the CRR file for the real time regression monitor.
+	- Add sub-script time stamp to *.crr file (regmon.sh)
+	- Add finished or PAUSE/KILL status to *.crr file. (regmon.sh autopilot.sh)
+
+1) Implement the queued version of task handling.
+	- apmon.sh			# autopilot monitor. This monitor the autopilot.sh condition and kick task_parser.sh periodicaly.
+	- task_parser.sh	# Task parser. This script parse the *.tsk file and store each task into queue.
+	- lstsk.sh			# List tasks in the queue.
+	- rmtsk.sh			# Remove task from the queue.
+	- addtsk.sh			# Add new task to the queue.
+	- autopilot.sh		# New autopilot framework. It won't read task file any more.
+						# This file just scan the task queue and if there is target task, just execute it.

@@ -1,0 +1,4 @@
+regress.sh parallel direct:snapshot(11123x) opackver(!bi) runplat(regraz1@slc01eft)
+regress.sh parallel buffer:snapshot(11123x) opackver(!bi) runplat(regraz1@slc00too) 
+regress.sh serial buffer:snapshot(11123x) opackver(!bi) runplat(anzhang@slc00tbz) 
+#regress.sh serial direct:snapshot(11123x) opackver(!bi) runplat(regrhv3@slc02iad)

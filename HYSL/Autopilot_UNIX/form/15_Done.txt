@@ -1,0 +1,2 @@
+DoneNotify $AP_ALTEMAIL
+Autopilot Notification (Done) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}

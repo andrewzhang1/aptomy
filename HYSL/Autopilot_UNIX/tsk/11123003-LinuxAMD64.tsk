@@ -1,0 +1,70 @@
+
+# For 11.1.2.3.003 oapck
+################################
+####### #11.1.2.3.003 APS Test #####
+dsapdq_reg_v2.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapds_reg_v1.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapds_reg_v2.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapmd_reg_v2.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapssdqmd_acc_v1.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapprobmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapfusion.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+dsapbg.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv) setEnv(APS_BUILD=003 APS_VERSION=11.1.2.3.003) GTLFPrefix(AUTO_APSservices-)
+
+## 43 main tests ###################
+maxlmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+agsymain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+agapmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+agbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+aglgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+apbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+apgdmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+apgemain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+apotmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+capitest.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dcbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dcmpmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dcosmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dcrpmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dctpmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+ddbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+ddldmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+ddximain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dmbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dmccmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dmdcmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dmglmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dmpcmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dmudmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dresmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dxbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dxmdmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dxrrmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+dxssmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+msscmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+sdatmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+sdbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+sddbmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+sdremain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+sdsvmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+smalmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+smbgmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+smbumain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+smixmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+smlrmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+smtxmain.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+prob_main.sh:opackver(epm) runplat(hvuggumu@slc05wet hvuggumu@slc04kzx hvuggumu@slc03qtl hvuggumu@slc03riv)
+  
+
+####### #11.1.2.3.001 User Provisioning Test #####
+agssmain.sh:opackver(epm) secmode(hss) forceInst(true) runplat(hvuggumu@slc05wic)
+
+## FA and BI ####
+agsbmain.sh:secmode(bi) biimg($HOME/bitmp_11.1.1.7.0ln64_release) opackver(bi) agtStart(true) runplat(hvuggumu@slc05wic)
+agsfmain.sh:secmode(fa) biimg($HOME/bitmp_11.1.1.7.0ln64_release) opackver(bi) runplat(hvuggumu@slc05wic)
+
+
+
+
+
+

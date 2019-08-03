@@ -1,0 +1,110 @@
+[ENGINE]
+
+#DO NOT CHANGE THIS.
+Response File Version=1.0.0.0.0
+
+[GENERIC]
+
+#Set this to true if you wish to specify a directory where latest updates are downloaded. This option would use the software updates from the specified directory
+SPECIFY_DOWNLOAD_LOCATION=false
+
+#
+SKIP_SOFTWARE_UPDATES=true
+
+#If the Software updates are already downloaded and available on your local system, then specify the path to the directory where these patches are available and set SPECIFY_DOWNLOAD_LOCATION to true
+SOFTWARE_UPDATES_DOWNLOAD_LOCATION=
+
+#Install Software and Configure Components for Express Install. Installs and Configures components with default settings. Installs the light-weight WebLogic Server and creates a new domain.
+INSTALL_FOR_DEVELOPMENT_TYPE=true
+
+#Install and Configure Software Components and Applications. Installs binaries in an ORACLE_HOME and configures working instances in an INSTANCE_HOME.
+INSTALL_AND_CONFIGURE_TYPE=false
+
+#Install Software Components and Applications. Installs binaries in an ORACLE_HOME, but do not configure working instances of installed components.
+INSTALL_AND_CONFIGURE_LATER_TYPE=false
+
+#Specify the Middleware Home location.
+MW_HOME=/scratch/ykono/view_storage/WORK/MID
+
+#Specify the administrator username.
+ADMIN_USER_NAME=weblogic
+
+#Specify the administrator password.
+ADMIN_PASSWORD=<SECURE VALUE>
+
+#Specify the administrator confirmation password
+ADMIN_CONFIRM_PASSWORD=<SECURE VALUE>
+
+#Format: hostname:port:servicename. For Application Cluster Database: host1:port1^host2:port2@servicename
+DATABASE_CONNECTION_STRING_BI=scl14152.us.oracle.com:1521:biinst
+
+#Enter the BIPLATFORM schema username.
+DATABASE_SCHEMA_USER_NAME_BI=DEV_BIPLATFORM
+
+#Enter the BIPLATFORM schema password.
+DATABASE_SCHEMA_PASSWORD_BI=<SECURE VALUE>
+
+#Select the database type in which the BIPLATFORM schema exists. Supported database types are Oracle Database, Microsoft SQL Server, IBM DB2.
+DATABASE_TYPE_BI=Oracle Database
+
+#Format: hostname:port:servicename. For Application Cluster Database: host1:port1^host2:port2@servicename
+DATABASE_CONNECTION_STRING_MDS=scl14152.us.oracle.com:1521:biinst
+
+#Enter the MDS schema username.
+DATABASE_SCHEMA_USER_NAME_MDS=DEV_MDS
+
+#Enter the MDS schema password.
+DATABASE_SCHEMA_PASSWORD_MDS=<SECURE VALUE>
+
+#Select the database type in which the MDS schema exists. Supported database types are Oracle Database, Microsoft SQL Server, IBM DB2.
+DATABASE_TYPE_MDS=Oracle Database
+
+#Provide the My Oracle Support Username. If you wish to ignore Oracle Configuration Manager configuration provide empty string for user name.
+MYORACLESUPPORT_USERNAME=
+
+#Provide the My Oracle Support Password
+MYORACLESUPPORT_PASSWORD=<SECURE VALUE>
+
+#Set this to true if you wish to decline the security updates. Setting this to true and providing empty string for My Oracle Support username will ignore the Oracle Configuration Manager configuration
+DECLINE_SECURITY_UPDATES=true
+
+#Set this to true if My Oracle Support Password is specified
+SECURITY_UPDATES_VIA_MYORACLESUPPORT=false
+
+#Provide the Proxy Host
+PROXY_HOST=
+
+#Provide the Proxy Port
+PROXY_PORT=
+
+#Provide the Proxy Username
+PROXY_USER=
+
+#Provide the Proxy Password
+PROXY_PWD=<SECURE VALUE>
+
+#Type String (URL format) Indicates the OCM Repeater URL which should be of the format [scheme[Http/Https]]://[repeater host]:[repeater port]
+COLLECTOR_SUPPORTHUB_URL=
+
+
+[SYSTEM]
+
+
+[APPLICATIONS]
+
+#Set to true to configure Oracle Business Intelligence Enterprise Edition. Otherwise set to false.
+CONFIGURE_BI=false
+
+#Set to true to configure Oracle Business Intelligence Publishing and Reporting. Otherwise set to false.
+CONFIGURE_BIP=false
+
+#Set to true to configure Oracle Real-Time Decisions. Otherwise set to false.
+CONFIGURE_RTD=false
+
+#Set to true to configure Oracle Essbase. Otherwise set to false.
+CONFIGURE_ESSBASE=true
+
+
+[RELATIONSHIPS]
+
+

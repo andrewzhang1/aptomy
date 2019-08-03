@@ -1,0 +1,84 @@
+### Linux --------------------------------------------------------------------
+
+#####################################
+# stnti8
+#####################################
+stnti8:9.2/9.2.0.2.0:048:agtpjymain.sh
+# Hang at  apgb85650lpaa1.sh
+
+#stnti8:9.2/9.2.0.2.0:048:agtpori1.sh
+
+
+#####################################
+# stlx9
+#####################################
+#for stnti8
+#stlx9:9.2/9.2.0.2.0:048:agtpcwmain.sh
+#stlx9:9.2/9.2.0.2.0:048:agtp70main.sh
+stlx9:9.2/9.2.0.2.0:048:agtpjymain.sh
+
+#stlx9:9.2/9.2.0.2.0:048:maxlmain.sh
+#stlx9:9.2/9.2.0.2.0:048:agtpukmain.sh
+#stlx9:9.2/9.2.0.2.0:048:agtpjlmain.sh  parallel buffer
+
+#Run for stnti8 as ori1 was hanging there
+#stlx9:9.2/9.2.0.2.0:048:agtpori1.sh
+
+
+####################################### 
+# stlx11     
+######################################
+#stlx11:9.2/9.2.0.2.0:048:agtpjvmain.sh
+#stlx11:9.2/9.2.0.2.0:048:agtpori2.sh
+#stlx11:9.2/9.2.0.2.0:048:agtpjlmain.sh
+
+#stlx11:9.2/9.2.0.2.0:048:agtpjvmain.sh
+stlx11:9.2/9.2.0.2.0:048:agtpori1.sh
+
+### Hpux -----------------------------------------------------------------------
+
+#####################################
+# emchpux1
+#####################################
+#emchpux1:9.2/9.2.0.2.0:048:agtpori1.sh
+#emchpux1:9.2/9.2.0.2.0:048:agtpcwmain.sh
+#Build_027 hang at: dctp11_aso_sm.sh
+
+#emchpux1:9.2/9.2.0.2.0:048:agtpjlmain.sh parallel direct
+#emchpux1:9.2/9.2.0.2.0:048:agtpjlmain.sh  parallel buffer
+emchpux1:9.2/9.2.0.2.0:048:agtpjlmain.sh serial direct
+emchpux1:9.2/9.2.0.2.0:048:agtpcwmain.sh
+
+
+#####################################
+# emchpux2
+#####################################
+emchpux2:9.2/9.2.0.2.0:048:agtpori1.sh
+#emchpux1:9.2/9.2.0.2.0:048:agtpcwmain.sh
+#emchpux2:9.2/9.2.0.2.0:048:agtpjlmain.sh parallel direct
+#emchpux2:9.2/9.2.0.2.0:048:agtpjlmain.sh  parallel buffer
+#emchpux2:9.2/9.2.0.2.0:048:agtpjlmain.sh serial direct
+
+#####################################
+# sthp8              
+#####################################
+#sthp8:9.2/9.2.0.2.0:048:agtpjymain.sh
+#sthp8:9.2/9.2.0.2.0:048:agtp70main.sh 
+#sthp8:9.2/9.2.0.2.0:048:maxlmain.sh 
+sthp8:9.2/9.2.0.2.0:048:agtpori1.sh
+
+
+#####################################
+# sthp10
+#####################################
+#sthp10:9.2/9.2.0.2.0:048:agtpjvmain.sh
+sthp10:9.2/9.2.0.2.0:048:agtpori2.sh
+sthp10:9.2/9.2.0.2.0:048:agtpjlmain.sh  
+sthp10:9.2/9.2.0.2.0:048:agtpukmain.sh 
+
+#Build_027 hang at: dctp12_aso.sh 
+
+#send_result.sh 9.2/9.2.0.2.0 048 agtpjvmain 
+# start_regress.sh beckett 263 regress_sb.sh
+# start_regress.sh 9.2/9.2.0.2.0 034 ori1.sh
+#send_result.sh 9.2/9.2.0.2.0 034 ori1

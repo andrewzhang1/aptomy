@@ -1,0 +1,15 @@
+agsyloginbytoken1_J13.sh	Andrew
+agsymdsec.sh	Andrew
+agsymsglog.sh	Andrew
+agsyportulog.sh	Andrew
+agsyprevcorp.sh	Andrew
+agsypwdencryp.sh	Andrew
+agsysec31001.sh   	Andrew
+agtpjvmain.sh	Andrew
+ddxi2gigcon.sh   	Andrew
+ddxicalc101.sh	Andrew
+ddxicalc102.sh	Andrew
+ddxicalc602.sh	Andrew
+ddxicalcmain.sh	Andrew
+dmccmiblock.sh   	Andrew
+dmududf62_J14.sh	Andrew	# Aug. 25, 2008 by Andrew;s request

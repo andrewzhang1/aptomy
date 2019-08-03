@@ -1,0 +1,249 @@
+#!/usr/bin/ksh
+
+#
+# Essexer. The command processor. The single entry point into Essexer.
+#
+# 26/mar/98 igor   Back out a recent change whereby log files were not scanned
+#                  for carriage returns during check-in.
+# 7/may/98  igor   Began massive changes for 2.8
+# 
+# 1/oct/98  igor   Fixed local installation
+#
+# 20/oct/98 igor   Support for QAP parner command.
+#
+###########################################################################
+#                       UTILITY FUNCTIONS                                 #
+###########################################################################
+
+
+print_synopsis()
+{
+  $SXR_HOME/bin/sxr man synops
+}
+
+
+assert_in_view()
+{
+  if ( test ! -n "$SXR_INVIEW" )
+  then
+    print -u2 "sxr $1: Must be inside of an Essexer view."
+    exit 2
+  fi
+}
+
+
+assert_not_in_view()
+{
+  if ( test -n "$SXR_INVIEW" )
+  then
+    print -u2 "sxr $1: Already in view $SXR_INVIEW."
+    exit 2
+  fi
+}
+
+
+header()
+{
+  export SXR_LOG_LMARGIN="${1}${SXR_LOG_LMARGIN}"
+  shift
+  echo "$SXR_LOG_LMARGIN"
+  echo "$SXR_LOG_LMARGIN $@"
+  echo "$SXR_LOG_LMARGIN Essexer ${SXR_VERSION} on `date`"
+  echo "$SXR_LOG_LMARGIN"
+  echo ""
+}
+
+
+#############################################################################
+#                      OFF-LINE COMMAND IMPLEMENTOR                         #
+#############################################################################
+
+off_line_command()
+{
+
+  command_name="$1"
+  shift
+
+  case "${command_name}" in
+
+    goview|newview)
+      assert_not_in_view ${command_name} ;;
+    *)
+      assert_in_view ${command_name} ;;
+  
+  esac
+
+  #
+  # If we're running a perl command, we really want to call shell.sh with
+  # -perl flag.
+  # We have to execute the implementor in this shell so that it can manipulate
+  # environment variables.  To correctly prapagade their return status,
+  # implementors must use return statement instead of exit.
+  #
+
+  if (test ${command_name} = "perl")
+  then
+    command="$SXR_HOME/bin/shell.sh -perl"
+  elif (test ${command_name} = "agtctl")
+  then
+    command="${command_name}.sh"
+  else
+    command="$SXR_HOME/bin/${command_name}.sh"
+  fi
+
+  . ${command} "$@"
+  exit $?
+}
+
+
+#############################################################################
+#                      IN-LINE COMMAND IMPLEMENTORS                         #
+#############################################################################
+
+#
+# Help.
+#
+
+help_command()
+{
+ shift
+
+  if ( test ! -n "$1")
+  then
+    print_synopsis
+  elif ( test -f $SXR_HOME/man/$1.txt )
+  then
+    clear
+    more $SXR_HOME/man/$1.txt
+  else
+    print -u2 "sxr: $1: No help available."
+  fi
+}
+
+
+inview_command()
+{
+	echo $SXR_INVIEW
+}
+
+
+which_command()
+{
+	assert_in_view which
+	shift
+
+	if ( test "${1#-}" = "$1" )
+	then
+		# Flag omitted, assuming `-sh'
+		flag="-sh"
+	else
+		flag=$1
+		shift
+	fi
+
+        ${SXR_HOME}/bin/pathlkup.sh $flag "$@"
+
+	#
+	# If Error -- propagade it
+	#
+
+	exit $?
+}
+
+
+
+#
+# Main
+#
+
+if (test ! -n "$SXR_HOME")
+then
+  print -u2 "sxr: \$SXR_HOME must be set."
+  exit 1
+fi
+
+if (test ! -n "$SXR_PLATFORM")
+then
+	case `uname` in
+ 
+	SunOS)          export SXR_PLATFORM='solaris' ;;
+	HP-UX)          export SXR_PLATFORM='hpux' ;;
+	AIX)            export SXR_PLATFORM='aix' ;;
+	Windows_NT)     if ( test "$PROCESSOR_ARCHITECTURE" = "ALPHA" )
+	                then
+        	                export SXR_PLATFORM='nta'
+                	else
+                        	export SXR_PLATFORM='nti'
+                	fi ;;
+	Windows_95)     export SXR_PLATFORM='win95' ;;
+	OS/2)           export SXR_PLATFORM='os2' ;;
+	*)      	export SXR_PLATFORM='unknown'
+		        print -u2 "sxr: `uname`: Unsupported platform."
+		        exit 1 ;;
+	esac
+fi
+
+case $SXR_PLATFORM in
+
+  solaris | hpux | aix )
+    export SXR_SHCMD='/usr/bin/ksh'
+    export SXR_NULLDEV='/dev/null'
+    ;;           
+  nti | nta | win95 | os2 )
+    export SXR_SHCMD="sh"
+    export SXR_NULLDEV="$TEMP/null"
+    ;;
+esac
+
+if ( test $# -eq 0 )
+then
+	print_synopsis
+	exit 1	
+fi
+
+case $1 in 
+
+  agtctl)       off_line_command "$@" ;;
+  help | man)   help_command     "$@" ;;
+  bdiff)        off_line_command "$@" ;;
+  bytereader)   off_line_command "$@" ;;
+  checkapp)     off_line_command "$@" ;;
+  cin)          off_line_command "$@" ;;
+  clone)        off_line_command "$@" ;;
+  convertfile)  off_line_command "$@" ;;
+  cout)         off_line_command "$@" ;;
+  diff)         off_line_command "$@" ;;
+  diffex)       off_line_command "$@" ;;
+  emailrslt)    off_line_command "$@" ;;
+  enc)          off_line_command "$@" ;;
+  esscmd)       off_line_command "$@" ;;
+  essinit)      off_line_command "$@" ;;
+  essinitex)    off_line_command "$@" ;;
+  fcopy)        off_line_command "$@" ;;
+  fcopyex)      off_line_command "$@" ;;
+  ffetch)       off_line_command "$@" ;;
+  goview)       off_line_command "$@" ;;
+  getaplog)     off_line_command "$@" ;;
+  getutf8)      off_line_command "$@" ;;
+  inview)       inview_command   "$@" ;;
+  isutf8file)   off_line_command "$@" ;;
+  killps)       off_line_command "$@" ;;
+  mcin)         off_line_command "$@" ;;
+  mcout)        off_line_command "$@" ;;
+  msh)          off_line_command "$@" ;;
+  newapp)       off_line_command "$@" ;;
+  newdb)        off_line_command "$@" ;;
+  newview)      off_line_command "$@" ;;
+  partner)      off_line_command "$@" ;;
+  perl)         off_line_command "$@" ;;
+  runrept)      off_line_command "$@" ;;
+  replace)	off_line_command "$@" ;;
+  sh*)		shift; off_line_command  "shell" "$@" ;;
+  sxragent)     off_line_command "$@" ;;
+  which)        which_command   "$@" ;;
+
+  *)              print -u2 "sxr: $1: Bad command."
+		exit 1
+esac
+
+exit 0

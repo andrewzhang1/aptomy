@@ -1,0 +1,10 @@
+# This is a workaround to send result for FA test
+# On the command line, inside the view:
+# ./send_result_FA.sh test_name: "./send_result_FA.sh apbgmain.sh"
+cd work.$1
+export SXR_WORK=/scratch/views/anzhang/FA_main_11122200/work.$1
+cp  FA_main2.sta $1.sta
+#send_result.sh -fromap 11.1.2.2.200 5016 $1.sh -o "tag(_bi)"
+send_result.sh -fromap 11.1.2.2.200 5027 $1.sh -o "tag(_11.1.1.7.0_FA)"
+
+mv work.$1 work_sent

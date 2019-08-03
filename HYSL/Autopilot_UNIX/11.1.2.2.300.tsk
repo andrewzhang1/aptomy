@@ -1,0 +1,6 @@
+
+
+time hyslinst.sh 11.1.2.3.000 4241  -o "opackver(!bi) secMode(hss)"  2>&1 | tee inst_HSS_300_4241.log
+
+#regraz3@scl14351
+http://scl14351:11052/interop/index.jsp

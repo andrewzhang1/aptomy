@@ -1,0 +1,96 @@
+essmsh(1)
+
+NAME
+     essmsh -- MaxL Shell
+
+SYNOPSIS
+     essmsh [-hlsmup] [-a | -i | file] [arguments...]
+
+DESCRIPTION
+     This document describes the invocation of the MaxL Shell.
+     The shell, invoked and nicknamed essmsh, takes input in the following
+     ways: interactively (from the keyboard), standard input (piped from another 
+     program), or file input (taken from file specified on the command line).
+     The MaxL Shell also accepts any number of command-line arguments, 
+     which can be used to represent any name.
+
+OPTIONS
+     essmsh accepts the following options on the command line:
+
+     -h
+      Prints this help.
+
+     -l <user> <pwd>
+      Logs in a user name and password to the local Essbase
+      server instance.
+
+     -u <user>
+      Specifies a user to be logged in to Essbase server instance.
+      If it's omitted but the '-p' or '-s' flags are there, will
+      prompt for the username.
+
+     -p <pwd>
+      Specifies a password of the user set by the '-u' option to
+      be logged in to Essbase server instance. If it's omitted,
+      will prompt for the password, password will be hidden on the screen.
+
+     -s <server>
+      Used with '-l' or [-u -p], logs the specified user into a named
+      server. When omitted, localhost is implied.
+
+     -m <msglevel>
+      Sets the level of messages returned by the shell. Values for <msglevel>
+      are: default, all (the default), warning, error, and fatal.
+
+     -i
+      Starts a MaxL session which reads from <STDIN>, piped in from another 
+      program.
+      The end of the session is signalled by the EOF character in that program.
+
+     -a 
+      Allows a string of command-line arguments to be referenced from within the
+      subsequent INTERACTIVE session. These arguments can be referenced with 
+      positional parameters, such as $1, $2, $3, etc. Note: omit the -a when 
+      using arguments with a file-input session.
+
+NOTES
+      
+     No option is required to pass a filename to essmsh.
+
+     Arguments passed to essmsh can represent anything: for example, a 
+     user name, an application name, or a filter name. Arguments must appear at 
+     the end of the invocation line, following '-a', '-i', or filename.
+
+EXAMPLES
+
+     Interactive session, simplest case:
+        essmsh
+
+     Interactive session, logging in a user:
+        essmsh -l user pwd
+
+     Interactive session, logging user in to a server:
+        essmsh -l user pwd -s server
+
+     Interactive session, logging in with two command-line arguments
+     (referenced thereafter at the keyboard as $1 and $2):
+        essmsh -l user pwd -a argument1 argument2
+
+     Interactive session, with setting the message level:
+        essmsh -m error
+
+     Interactive session, hiding the password:
+        essmsh -u user1
+     Enter Password > ******
+
+     File-input session, simplest case:
+        essmsh filename
+     
+     File-input session, with three command-line arguments 
+     (referenced anonymously in the file as $1, $2, and $3):
+        essmsh filename argument1 argument2 argument3
+
+     Session reading from <STDIN>, logging into a server with two
+     command-line arguments:
+        essmsh -l user pwd -s server -i argument1 argument2
+

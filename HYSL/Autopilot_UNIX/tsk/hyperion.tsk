@@ -1,0 +1,46 @@
+
+#####################################
+# Venu : Runnin with installtion of essabse
+# Dec 11 07 : 
+#####################################
+hdc-sv240:9.3.1.1.0:065:agtpori1.sh
+
+
+
+####################################### 
+# stlx12
+# /vol1/regraz2/9.3.1.1.0 --> regraz2
+######################################
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpjvmain.sh
+stlx12.hyperion.com:9.3.1.1.0:065:agtpbarmain.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpbkmain.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:maxlmain.sh 
+#stlx12.hyperion.com:9.3.1.1.0:065:agtp70main.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpjymain.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpori1.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpori2.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpjlmain.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpcwmain.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpukmain.sh
+#stlx12.hyperion.com:9.3.1.1.0:065:agtpjlmain.sh parallel buffer
+
+####################################### 
+# pserv0204.us.oracle.com
+# /vol1/regraz2/9.3.1.1.0 --> regraz2
+######################################
+#pserv0204:9.3.1.1.0:061:agtpjvmain.sh
+#pserv0204:9.3.1.1.0:061:agtpbarmain.sh
+#pserv0204:9.3.1.1.0:061:agtpbkmain.sh
+#pserv0204:9.3.1.1.0:061:maxlmain.sh 
+#pserv0204:9.3.1.1.0:061:agtp70main.sh
+#pserv0204:9.3.1.1.0:061:agtpjymain.sh
+#pserv0204:9.3.1.1.0:061:agtpori1.sh
+#pserv0204:9.3.1.1.0:061:agtpori2.sh
+#pserv0204:9.3.1.1.0:061:agtpjlmain.sh
+#pserv0204:9.3.1.1.0:061:agtpcwmain.sh
+#pserv0204:9.3.1.1.0:061:agtpukmain.sh
+#pserv0204:9.3.1.1.0:061:agtpjlmain.sh parallel buffer
+
+autopilot.sh stop
+#autopilot3.sh start -noinst
+  

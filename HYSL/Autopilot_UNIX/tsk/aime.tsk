@@ -1,0 +1,24 @@
+####### dadvmg0084 #####
+#dadvmg0084:11.1.2.2.000:1206:sqdl_sqlifcmain.sh:refresh(true)
+#adc2190380:11.1.2.2.000:1219:regress.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpori1.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpori2.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpjlmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtp70main.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpukmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpcwmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:maxlmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpjvmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpjymain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpbkmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpjlmain.sh serial direct:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpjlmain.sh parallel buffer:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpjlmain.sh parallel direct:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpbarmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:capitest.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtpkenmain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:agtptalleymain.sh:refresh(true)
+dadvmg0084:11.1.2.2.000:1188:prob_main.sh:refresh(true)
+
+## slc03qcc
+#slc03qcc:11.1.2.2.200:5013:dresmain

@@ -1,0 +1,16 @@
+############ staix1 ###########
+sc-staix1:talleyrand:latest:dmpcmult5.sh
+
+############ staix11 ###########
+staix11:talleyrand:latest:dmpcmult5.sh
+
+######## tcsun2 ########
+tcsun2:9.3.1.4.0:022:agtpjlmain.sh parallel buffer
+
+
+########## stsun15 #######
+stsun15:9.3.1.3.8:002:agtp70main.sh
+stsun15:9.3.1.3.8:002:agtpcwmain.sh
+stsun15:9.3.1.3.8:002:agtpbkmain.sh
+stsun15:9.3.1.3.8:002:maxlmain.sh
+stsun15:9.3.1.3.8:002:agtpukmain.sh

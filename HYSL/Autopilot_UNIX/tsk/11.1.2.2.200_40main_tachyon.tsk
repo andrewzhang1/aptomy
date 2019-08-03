@@ -1,0 +1,522 @@
+addtsk.sh -i 11.1.2.2.200 5014	agapmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	agbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	aglgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	agsymain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	apbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	apgdmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	apgemain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	apotmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	capitest.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dcbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dcmpmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dcosmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dcrpmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dctpmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	ddbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	ddldmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	ddximain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)" 
+addtsk.sh -i 11.1.2.2.200 5014	dmbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dmccmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dmdcmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dmglmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dmpcmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dmudmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dresmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dxbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dxmdmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dxrrmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	dxssmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	maxlmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	msscmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	sdatmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	sdbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	sddbmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	sdremain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	sdsvmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	smalmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	smbgmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	smbumain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	smixmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	smlrmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014	smtxmain.sh -o "runplat(pion) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+addtsk.sh -i 11.1.2.2.200 5014 dsapdq_reg_v2.sh -o "runplat(pion) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.200 GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014 dsapds_reg_v1.sh -o "runplat(pion) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.200 GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014 dsapds_reg_v2.sh -o "runplat(pion) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.200 GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014 dsapmd_reg_v2.sh -o "runplat(pion) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.200 GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5014 dsapssdqmd_acc_v1.sh -o "runplat(pion) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.200 GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+Run agsfmain.sh and agssmain.sh maually seperately after made sure installation successfully
+
+
+
+ 
+ 
+addtsk.sh -i 11.1.2.2.200 5013	agapmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	agbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	aglgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	agsymain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	apbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	apgdmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	apgemain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	apotmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	capitest.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dcbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dcmpmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dcosmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dcrpmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dctpmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	ddbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	ddldmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	ddximain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)" 
+addtsk.sh -i 11.1.2.2.200 5013	dmbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmccmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmdcmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmglmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmpcmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmudmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dresmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dxbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dxmdmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dxrrmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dxssmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	maxlmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	msscmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sdatmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sdbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sddbmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sdremain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sdsvmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smalmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smbgmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smbumain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smixmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smlrmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smtxmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+
+addtsk.sh -i 11.1.2.2.102 015 dsapdq_reg_v2.sh -o "runplat(regraz2@tachyon) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102)"
+addtsk.sh -i 11.1.2.2.102 015 dsapds_reg_v1.sh -o "runplat(regraz2@tachyon) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102)"
+addtsk.sh -i 11.1.2.2.102 015 dsapds_reg_v2.sh -o "runplat(regraz2@tachyon) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102)"
+addtsk.sh -i 11.1.2.2.102 015 dsapmd_reg_v2.sh -o "runplat(regraz2@tachyon) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102)"
+addtsk.sh -i 11.1.2.2.102 015 dsapssdqmd_acc_v1.sh -o "runplat(regraz2@tachyon) snapshot(qacleanup) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102)"
+
+
+
+
+
+
+
+
+
+11.1.2.2.102:latest:dsapdq_reg_v2.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102) schedule(Mon Thu)
+11.1.2.2.102:latest:.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102) schedule(Mon Thu)
+11.1.2.2.102:latest:.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102) schedule(Mon Thu)
+11.1.2.2.102:latest:.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102) schedule(Mon Thu)
+11.1.2.2.102:latest:.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.102) schedule(Mon Thu)
+
+
+addtsk.sh -i 11.1.2.2.102 023	maxlmain.sh -o "runplat(regraz5@tachyon snapshot(qacleanup)"
+
+
+OEL6 scl14200 caused problem:
+#Re-run: 10/12:
+
+addtsk.sh -i 11.1.2.2.200 5013	agapmain.sh -o "runplat(regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	apotmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dcbgmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dcmpmain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	ddldmain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+addtsk.sh -i 11.1.2.2.200 5013	ddximain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmccmain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sdbgmain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	sdremain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+addtsk.sh -i 11.1.2.2.200 5013	aglgmain.sh -o "runplat(regraz3@scl14200 regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	agsymain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dmdcmain.sh -o "runplat(regraz3@scl14200 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dxbgmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	dxrrmain.sh -o "runplat(regraz3@scl14351 regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013	smbumain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+
+addtsk.sh -i 11.1.2.2.200 5013	dmdcmain.sh -o "runplat(regraz3@scl14200) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+addtsk.sh -i 11.1.2.2.200 5013	dxbgmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+ 
+
+agsymain
+ 
+
+smbumain
+ 
+
+
+
+dmccmain
+ 
+ 
+ 
+autopilotbg.sh -noinst start
+
+agapmain
+ 
+
+
+# Re-run some of the test which had more difs than build 5012
+addtsk.sh -i 11.1.2.2.200 5013 sdremain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013 dmccmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013 maxlmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013 dmbgmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013 dmglmain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i 11.1.2.2.200 5013 smbumain.sh -o "runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon snapshot(qacleanup) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+
+
+
+sdremain	293/23	293	23
+dmccmain	3221/8	3221	8
+maxlmain	529/14	529	14
+dmbgmain	323/3	323	3
+dmglmain	410/2	410	2
+smbumain	435/1	435	1
+
+
+
+
+addtsk.sh  11.1.2.2.200 5013  
+  
+#addtsk.sh -i 11.1.2.2.200 5010	agssmain.sh -o "runplat(azhang@scl14351 snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0) secmode(hss)"
+
+# addtsk.sh -i 11.1.2.2.200 5010  agsycasmain.sh -o "runplat(azhang@scla4351 snapshot(qacleanup) secmode(hss)”
+
+addtsk.sh -i 11.1.2.2.200 5012	smixmain.sh -o "runplat(regraz3@tachyon snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+
+
+It is same as other task options.
+11.1.2.2.101:latest:dsapssdqmd_acc_v1.sh:snapshot(qacleanup) opackver(!bi) runplat(regrhv2@scl59181 regrhv2@scl59182) scheduler(Mon) setEnv(APS_BUILD=002 APS_VERSION=11.1.2.1.104)
+
+
+addtsk.sh -i 11.1.2.2.200 5012	dmudmain.sh -o "runplat(regraz3@tachyon snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+
+send_result.sh –fromap 11.1.2.2.102 015 maxlmain.sh
+
+
+send_result.sh -fromap 11.1.2.2.200 5014 agsymain.sh  -o "GTLFLoad(RC1) GTLFRelease(11.1.1.7.0)"
+
+
+11.1.2.2.102B025
+
+
+send_result.sh -fromap 11.1.2.2.200 5014 agsfmain.sh -o "GTLFLoad(RC1) GTLFRelease(11.1.1.7.0)"
+
+
+send_result.sh -fromap 11.1.2.2.200 5012 agssmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+send_result.sh -fromap 11.1.2.2.200 5012 agsfmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 smixmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 dxssmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+send_result.sh -fromap 11.1.2.2.200 5012 smbumain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+send_result.sh -fromap 11.1.2.2.200 5012 apotmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 sdbgmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+send_result.sh -fromap 11.1.2.2.200 5012 dmccmain.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+JAPI:
+send_result.sh -fromap 11.1.2.2.200 5012 dsapdq_reg_v2.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 dsapds_reg_v1.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+send_result.sh -fromap 11.1.2.2.200 5012 dsapds_reg_v2.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+send_result.sh -fromap 11.1.2.2.200 5012 dsapmd_reg_v2.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 dsapssdqmd_acc_v1.sh -o "GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+
+send_result.sh -fromap 11.1.2.2.200 5012 smixmain.sh 
+send_result.sh -fromap 11.1.2.2.200 5012 smbgmain.sh 
+
+
+send_result.sh -fromap 11.1.2.2.102 023 agssmain.sh
+
+
+
+
+
+gtlf.sh 11.1.2.2.200 5012 smixmain $SXR_work
+
+gtlf.sh 11.1.2.2.200 5012 smixmain $SXR_WORK -o "GTLFTestunit(Index_Manager) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+gtlf.sh 11.1.2.2.200 5012 apotmain $SXR_WORK -o "GTLFTestunit(Outline_API) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+gtlf.sh 11.1.2.2.200 5012 smbumain $SXR_WORK -o "GTLFTestunit(Backup) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+gtlf.sh 11.1.2.2.200 5012 sdbgmain $SXR_WORK -o "GTLFTestunit(Scheme_Definition_Bugs) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+gtlf.sh 11.1.2.2.200 5012 dxssmain $SXR_WORK -o "GTLFTestunit(Spreadsheet_Extractor) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+gtlf.sh 11.1.2.2.200 5012 dmccmain $SXR_WORK -o "GTLFTestunit(Calculator) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+gtlf.sh 11.1.2.2.200 5012 agfsmain $SXR_WORK -o "GTLFTestunit(Fusion_Security) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+gtlf.sh 11.1.2.2.200 5012 agssmain $SXR_WORK -o "GTLFTestunit(ESS_User_Provisioning) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+PM:
+
+gtlf.sh 11.1.2.2.200 5012 agbgmain $SXR_WORK -o "GTLFTestunit(Agent_Bugs) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 dmdcmain.sh
+gtlf.sh 11.1.2.2.200 5012 dmdcmain $SXR_WORK -o "GTLFTestunit(Dynamic_Calculator) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+send_result.sh -fromap 11.1.2.2.200 5012 smtxmain.sh 
+gtlf.sh 11.1.2.2.200 5012 smtxmain $SXR_WORK -o "GTLFTestunit(Transaction_Manager) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+
+#build 5013:
+
+send_result.sh -fromap 11.1.2.2.200 5013 agsfmain.sh
+gtlf.sh 11.1.2.2.200 5012 agsfmain $SXR_WORK -o "GTLFTestunit(Transaction_Manager) GTLFLoad(7) GTLFRelease(11.1.1.7.0)"
+
+
+
+
+Fusion_Security
+mgoldens
+
+
+11.1.2.2.200_5012_linuxamd64_agssmain_ESS_User_Provisioning.gtlf.xml
+
+
+dmccmain
+
+dsapdq_reg_v2.sh
+dsapds_reg_v1.sh
+dsapds_reg_v2.sh
+dsapmd_reg_v2.sh
+dsapssdqmd_acc_v1.sh
+
+
+11.1.2.2.500:latest:dsapdq_reg_v2.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.500) schedule(Wed)
+11.1.2.2.500:latest:dsapds_reg_v1.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.500) schedule(Wed)
+11.1.2.2.500:latest:dsapds_reg_v2.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.500) schedule(Wed)
+11.1.2.2.500:latest:dsapmd_reg_v2.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.500) schedule(Wed)
+11.1.2.2.500:latest:dsapssdqmd_acc_v1.sh:snapshot(qacleanup) opackver(!bi) runplat(regraz2@tachyon regraz3@tachyon regraz4@tachyon) setEnv(APS_BUILD=latest APS_VERSION=11.1.2.2.500) schedule(Wed)
+
+
+
+
+dmccmain
+
+opackinst.sh 11.1.2.2.200 5013 -o "opackver(!bi)"
+cmdgqinst.sh 11.1.2.2.200 5010
+
+ 
+
+#2012/08/07 Install 11.1.2.2.500 hss mode and add providers: 
+time hyslinst.sh 11.1.2.2.500 4173 -o "opackver(!bi) secMode(hss)"  2>&1 | tee inst.log
+
+hyslinst.sh 11.1.2.2.500 4173 -o "opackver(!bi) secMode(hss)"  2>&1 | tee inst.log
+
+
+hyslinst.sh 11.1.2.2.200 5015 -o "opackver(!bi)"
+
+
+
+/net/nar200/vol/vol3/essbasesxr/regressions/file_azhang
+(regraz9@tachyon)>  cssprov.sh all_provider_password.xml
+
+
+hyslinst.sh 11.1.2.2.101 013 -o "opackver(!bi)"
+
+time hyslinst.sh 11.1.2.3.000 4250 -o "opackver(!bi)"
+
+time hyslinst.sh 11.1.2.2.200 5010 -o "opackver(!bi)" 2>&1 | tee inst.log
+
+  
+# From Hima to Priyanka:
+
+1.	Login to slc01gmv using regrhv1/password accout
+2.	Upon login, choose 64 for architecture 
+3.	Run ‘ap.sh’
+4.	Run ‘. se.sh 11.1.2.2.500’
+5.	cd $AUTOPILOT/tsk
+6.	Add task using this command: addtsk.sh -i -f ./JAPI.tsk 11.1.2.2.500 4125 -o noinst[true]
+7.	autopilot.sh start
+You should now see the test running.
+
+
+
+# Use user regraz6, regraz7,and regraz8
+# Installation first:
+kill_regress.sh
+resetque.sh
+ps -u $LOGNAME 
+autopilotbg.sh -noinst start
+
+
+addtsk.sh 11.1.2.2.200 5102 ddldmain.sh -o "runplat(regryh2@scl012345)"
+
+#installation: 
+
+hyslinst.sh 11.1.2.2.200 5010 -o "opackver(!bi)"
+
+/home/regraz6
+(regraz6@tachyon)>echo $AP_HITCACHE
+/mnt/TachyonRaid/diskarray/hitcache
+
+
+time hyslinst.sh 11.1.2.2.200 5010 -o "opackver(!bi)"
+
+
+
+
+
+opackinst.sh 11.1.2.2.200 5010 -o "opackver(!bi)"
+
+cmdgqinst.sh 11.1.2.2.200 5010
+
+
+ 
+
+/home/regraz9
+(regraz9@tachyon)>time hyslinst.sh 11.1.2.2.500 4173 -o "opackver(!bi) secMode(hss)"  2>&1 | tee inst.log
+
+
+
+
+
+
+addtsk.sh -i 11.1.2.2.200 5010	agsycasmain.sh -o "runplat(azhang@scl14351 snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+
+  
+
+  
+  
+Use:
+addtsk.sh -i regraz4@tachyon 11.1.2.2.200 5008smtxmain.sh -o "snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0)" –o refresh[true]
+
+hyslinst.sh    11.1.2.2.200 5008  | tee  >  11.1.2.2.500_4125.log
+kill_regress.sh
+resetque.sh
+rm $HOME/$LOGNAME@tachyon.log
+autopilotbg.sh
+
+
+addtsk.sh linux 11.1.2.2.200 5008 smtxmain.sh -o "runplat[regraz2@tachyon] snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0) doneMark(%VER|%BLD|%PLAT|%INST)"
+
+Thank you,
+Yuki
+
+
+On Jun 12, 2012, at 4:57 PM, Andrew Zhang wrote:
+
+
+Sure I will try that syntax. Just to confirm: I only need for “doneMark” on only one of task:
+ 
+addtsk.sh linux 11.1.2.2.200 5008 agsymain.sh -o "runplat[regraz2@tachyon] snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0) "
+….
+ 
+addtsk.sh linux 11.1.2.2.200 5008 smtxmain.sh -o "runplat[regraz2@tachyon] snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0) doneMark(11.1.2.2.500|4107|linux|EPM)"
+ 
+
+
+
+kill_regress.sh 
+autopilotbg.sh -noinst start
+
+addtsk.sh -i regraz3@tachyon 11.1.2.2.200 5008	dmudmain.sh -o "snapshot(qacleanup) GTLFLoad(5) GTLFRelease(11.1.1.7.0)"
+
+
+
+# Re run 
+kill_regress.sh 
+autopilotbg.sh -noinst start
+addtsk.sh -i azhang@scl14351 11.1.2.2.500 4084	dxrrmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4084	dmudmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	dxrrmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+kill_regress.sh 
+autopilotbg.sh -noinst start
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4084	capitest.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4084	apotmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	dcosmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0)"
+
+
+
+
+
+dxssmain.sh and dmudmain.sh 
+
+addtsk.sh -i regraz2@tachyon 11.1.2.2.500 4084	agsymain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+addtsk.sh -i regraz3@tachyon 11.1.2.2.500 4084	dxmdmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	sddbmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	dmudmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) NoBuildCheck(true)"
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	maxlmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) ignCM(true)"
+
+
+addtsk.sh -i regraz4@tachyon 11.1.2.2.500 4084	accxmain.sh -o "snapshot(qacleanup) GTLFLoad(3) GTLFRelease(11.1.1.7.0) NoBuildCheck(true)"
+
+
+
+NoBuildCheck(true) 
+
+
+
+
+1066/183              11.1.2.2.500_4084_linuxamd64_agsymain_Security.gtlf.xml
+3646/61                11.1.2.2.500_4084_linuxamd64_dxmdmain_MDX.gtlf.xml
+525/18                  11.1.2.2.500_4084_linuxamd64_maxl_Maxl_Tests.gtlf.xml
+3404/101              11.1.2.2.500_4084_linuxamd64_sddbmain_Dimension_Build.gtlf.xml
+
+While the web results page show the dmudmain script as run, I don’t see a gtlf file for the same
+
+
+
+
+# regraz2: 9
+
+# regraz2: 15
+
+# regraz4: 17
+
+
+kill_regress.sh 
+autopilotbg.sh -noinst start
+
+   
+##################################
+# Run Autopilot with ????main.sh
+
+# After Van fixed some test:
+##################################
+11.1.2.2.500
+
+
+start_regress.sh 11.1.2.2.200 5015 dsapmd_reg_v2.sh -o "noinst(true) setEnv(APS_BUILD=5015 APS_VERSION=11.1.2.2.200) runplat(test1@pion.us.oracle.com) GTLFLoad(RC2) GTLFRelease(11.1.1.7.0)" 2>&1 | tee agapmain.log &
+
+sxr sh dsapssdqmd_acc_v1.sh
+mv $SXR_VIEWHOME/work $SXR_VIEWHOME/work_dsapssdqmd_acc_v1
+mkdir $SXR_VIEWHOME/work
+
+sxr sh dsapdq_reg_v2.sh
+mv $SXR_VIEWHOME/work $SXR_VIEWHOME/work_dsapdq_reg_v2
+mkdir $SXR_VIEWHOME/work
+
+sxr sh dsapmd_reg_v2.sh
+mv $SXR_VIEWHOME/work $SXR_VIEWHOME/work_dsapmd_reg_v2
+mkdir $SXR_VIEWHOME/work
+
+sxr sh dsapds_reg_v1.sh
+mv $SXR_VIEWHOME/work $SXR_VIEWHOME/work_dsapds_reg_v1
+mkdir $SXR_VIEWHOME/work
+
+sxr sh dsapds_reg_v2.sh
+mv $SXR_VIEWHOME/work $SXR_VIEWHOME/work_dsapds_reg_v2
+mkdir $SXR_VIEWHOME/work
+

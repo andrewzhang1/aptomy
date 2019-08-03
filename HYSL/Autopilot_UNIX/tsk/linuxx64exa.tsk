@@ -1,0 +1,237 @@
+#### 11.1.2.3.500 latest #####
+
+11.1.2.3.500:latest:maxlmain.sh:snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+
+### APS ###
+11.1.2.3.500:latest:dsapdq_reg_v2.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapds_reg_v1.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapds_reg_v2.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapmd_reg_v2.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapssdqmd_acc_v1.sh:opackver(epm) snapshot(11123500)runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapprobmain.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapfusion.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+11.1.2.3.500:latest:dsapbg.sh:opackver(epm) snapshot(11123500) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Sun Thu)
+
+## 42 main tests ####
+11.1.2.3.500:latest:agsymain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:agapmain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:agbgmain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:aglgmain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:apbgmain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:apgdmain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:apgemain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:apotmain.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:capitest.sh:snapshot(11123500) runplat(regress2@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+
+11.1.2.3.500:latest:dcbgmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dcmpmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dcosmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dcrpmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dctpmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:ddbgmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:ddldmain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:ddximain.sh:snapshot(11123500) runplat(regress3@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+
+11.1.2.3.500:latest:dmbgmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dmccmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dmdcmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dmglmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dmpcmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dmudmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dresmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dxbgmain.sh:snapshot(11123500) runplat(regress4@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+
+11.1.2.3.500:latest:dxmdmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dxrrmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:dxssmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:msscmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:sdatmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:sdbgmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:sddbmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:sdremain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:sdsvmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:smalmain.sh:snapshot(11123500) runplat(regress5@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+
+11.1.2.3.500:latest:smbgmain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:smbumain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:smixmain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:smlrmain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:smtxmain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat) 
+11.1.2.3.500:latest:smtxmain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:prob_main.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+
+11.1.2.3.500:latest:accxmain2.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+#11.1.2.3.500:latest:newfmain.sh:snapshot(11123500) runplat(regress6@slck24014) opackver(epm) schedule(Sun Mon Wed Thu Fri Sat)
+11.1.2.3.500:latest:sqldmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+
+
+### USER provision ###
+11.1.2.3.500:latest:agssmain.sh:snapshot(11123500) secmode(hss) forceInst(true) snapshot(11123500) runplat(regress1@slck24014) opackver(epm) schedule(Sun Thu) 
+
+
+
+## FA and BI ####
+11.1.2.3.500:latest:agsbmain.sh:snapshot(11123500) secmode(bi) biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) agtStart(true) snapshot(11123500) runplat(regress1@slck24014) schedule(Sun Thu) 
+11.1.2.3.500:latest:agsfmain.sh:snapshot(11123500) secmode(fa) biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) snapshot(11123500) runplat(regress1@slck24014) schedule(Sun Thu) DoneMark(%VER|%BLD|%PLAT|%INST)
+
+
+# start_regress.sh 11.1.2.3.001 077 agsbmain.sh -o "biimg(/u01/bitmp_11.1.1.7.0ln64_release) agtStart(true)  opackver(bi) secmode(bi)"; \
+# start_regress.sh 11.1.2.3.001 077 agsfmain.sh -o "biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) secmode(fa)"; \
+# start_regress.sh 11.1.2.3.001 077 agssmain.sh -o "opackver(epm) secmode(hss)” &
+
+# for  11.1.2.3.003 005
+###########################
+#start_regress.sh 11.1.2.3.003 005 agsbmain.sh -o "biimg(/u01/bitmp_11.1.1.7.0ln64_release) agtStart(true)  opackver(bi) secmode(bi)"; \
+#start_regress.sh 11.1.2.3.003 005 agsfmain.sh -o "biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) secmode(fa)"; \
+#start_regress.sh 11.1.2.3.003 005 agssmain.sh -o "opackver(epm) secmode(hss)" &
+
+
+
+
+
+#### 11.1.2.6.000 latest #####
+##############################
+11.1.2.6.000:latest:maxlmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+
+### APS ###
+11.1.2.6.000:latest:dsapdq_reg_v2.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapds_reg_v1.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapds_reg_v2.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapmd_reg_v2.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapprobmain.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapfusion.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+11.1.2.6.000:latest:dsapbg.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=latest APS_VERSION=$VERSION) schedule(Tue)
+
+## 42 main tests #############
+11.1.2.6.000:latest:maxlmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:agsymain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:agapmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:agbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:aglgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apgdmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apgemain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:apotmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:capitest.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcmpmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcosmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dcrpmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dctpmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:ddbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:ddldmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:ddximain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmccmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmdcmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmglmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmpcmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dmudmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dresmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxmdmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxrrmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:dxssmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:msscmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdatmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sddbmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdremain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sdsvmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smalmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smbumain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smixmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smlrmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:smtxmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue) 
+11.1.2.6.000:latest:smtxmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:prob_main.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:accxmain2.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+
+11.1.2.6.000:latest:newfmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+11.1.2.6.000:latest:sqldmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Tue)
+
+
+####### 11.1.2.6.000 i18n Tests ######
+11.1.2.6.000:latest:i18n_j.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) schedule(Tue)
+11.1.2.6.000:latest:i18n_j_mlc.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) schedule(Tue)
+11.1.2.6.000:latest:i18n_i.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) schedule(Tue)
+11.1.2.6.000:latest:i18n_i_slc.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) schedule(Tue)
+11.1.2.6.000:latest:i18n_x.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) schedule(Tue)
+11.1.2.6.000:latest:i18n_xas.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) schedule(Tue)
+
+
+### USER provision ###
+11.1.2.6.000:latest:agssmain.sh:secmode(hss) forceInst(true) runplat(regress1@slck24014) opackver(epm) schedule(Tue) 
+
+## FA and BI ####
+11.1.2.6.000:latest:agsbmain.sh:secmode(bi) biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) agtStart(true) runplat(regress1@slck24014) schedule(Tue) 
+11.1.2.6.000:latest:agsfmain.sh:secmode(fa) biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) runplat(regress1@slck24014) schedule(Tue)  
+
+
+##############################
+#### #11.1.2.2.105 latest #####
+##############################
+### APS ###
+#11.1.2.2.105:latest:dsapdq_reg_v2.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapds_reg_v1.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapds_reg_v2.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapmd_reg_v2.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapssdqmd_acc_v1.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapprobmain.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapfusion.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+#11.1.2.2.105:latest:dsapbg.sh:opackver(epm) runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) setEnv(APS_BUILD=046 APS_VERSION=11.1.2.2.104) schedule(Sun)
+
+### 42 main ####
+#11.1.2.2.105:latest:maxlmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:agsymain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:agapmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:agbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:aglgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apgdmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apgemain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:apotmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:capitest.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcmpmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcosmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dcrpmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dctpmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:ddbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:ddldmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:ddximain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmccmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmdcmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmglmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmpcmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dmudmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dresmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxmdmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxrrmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:dxssmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:msscmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdatmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sddbmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdremain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:sdsvmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smalmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smbgmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smbumain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smixmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smlrmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:smtxmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun) 
+#11.1.2.2.105:latest:smtxmain.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+#11.1.2.2.105:latest:prob_main.sh:runplat(regress2@slck24014 regress3@slck24014 regress4@slck24014 regress5@slck24014 regress6@slck24014) opackver(epm) schedule(Sun)
+
+
+### USER provision ###
+#11.1.2.2.105:latest:agssmain.sh:secmode(hss) forceInst(true) runplat(regress1@slck24014) opackver(epm) schedule(Sun) 
+
+## FA and BI ####
+#11.1.2.2.105:latest:agsbmain.sh:secmode(bi) biimg(/u01/bitmp_11.1.1.6.0Ln64_120105.0840) opackver(bi) agtStart(true) runplat(regress1@slck24014) schedule(Sun) DoneMark(%VER|%BLD|%PLAT|%INST)
+#11.1.2.2.105:latest:agsfmain.sh:secmode(fa) biimg(/u01/bitmp_11.1.1.7.0ln64_release) opackver(bi) runplat(regress1@slck24014) schedule(Sun)  

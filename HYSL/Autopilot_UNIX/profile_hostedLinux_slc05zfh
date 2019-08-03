@@ -1,0 +1,181 @@
+#!/bin/ksh
+
+# Note: Hosted linux does not seem to need to set the ulimit
+#       The fault ulimit"
+#                 ulimit -n 8192 
+#                 ulimit -u 124928
+#       check by: ulimit -a
+# However, I don't set any ulimit, the ulimit -u is 1024?
+
+
+echo 'Running linuxgenericprof.'
+set -o vi
+# set default access to read write execute for all newly created directories.
+umask 000
+
+# Set some user related variables
+
+export HOME=/scratch/$LOGNAME
+
+####################
+# For Remote machine:
+#########################
+#export NETHOME=/nfshome/$LOGNAME
+#export NFSHOME=$HOME
+#export HOME=/vol1/$LOGNAME
+#    cd $HOME
+#      if ( test -f "./.profile" )
+#       then
+#         . ./.profile
+#       fi
+
+
+# Original settings:
+#########################
+#export BUILD_ROOT=/mnt1/pre_rel/essbase/builds
+export BUILD_ROOT=/net/nar200/vol/vol2/pre_rel/essbase/builds
+
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/essbasesxr/11122x/vobs/essexer/latest
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/essbasesxr/talleyrand/vobs/essexer/latest
+#export SXR_HOME=/mnt/TachyonRaid/diskarray/essbasesxr/zola/vobs/essexer/latest
+
+export ESSLANG=English_UnitedStates.Latin1@Binary
+#export SXR_MLCAPP=1
+#export ESSCMDQ_UTF8MODE=1
+stty erase ^H
+stty intr ^C
+stty erase ^?
+export PATH=\
+/bin:\
+/usr/bin:\
+/usr/sbin:\
+/usr/X11R6/bin:\
+/etc:\
+/usr/local/bin:\
+/usr/ucb:\
+/usr/atria/bin:\
+${BUILD_ROOT}/common/bin
+
+#HOSTNAME=`/usr/bin/uname -n`
+#TTY=`tty | tr "/" "-"`
+
+# Don't export PS1 under SunOS, because if a Bourne shell is subsequently
+# spawned, then the prompt will be literally be "${LOGNAME}@${HO ..." rather
+# than the expansion of those variables.
+#
+
+export PS1="
+\$PWD
+($LOGNAME@`uname -n`)\>"
+
+export TERM=vt100
+#resize
+
+export HISTFILE=${HOME}/history/.${HOSTNAME}${TTY}.sh_history
+
+alias myterm='/usr/X11R6/bin/xterm -bg black -fg green -fn 8x13 -sb -sl 1200 -title "stnti8" &'
+alias ct=cleartool
+
+# Increase shell max limits
+# Set max number of file descriptors to at least 4096
+#ulimit -n 4096
+#ulimit -u 4096
+
+# For Linux specificily:
+#ulimit -s  392192 
+#ulimit -s  unlimited
+
+stty erase ^H
+stty intr ^C
+stty erase ^?
+
+ESSLANG=English_UnitedStates.Latin1@Binary
+
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias h=history
+
+alias cfg='cat $ARBORPATH/bin/essbase.cfg'
+
+# For auto pilot test:
+alias regress='cd $VIEW_PATH/autoregress'
+
+export PATH=".:$HOME/autoregress:$HOME/bin:$PATH"
+
+alias acfg='cd ~/autop_cfg'
+
+# For new autopilot  by rumitkar 2006.4
+
+alias arbor='cd $AUTOPILOT/env/$LOGNAME'
+
+select arch in "AMD 64 bit" "64 bit" "32 bit"; do
+  if [ "$arch" = "64 bit" ]; then
+    export ARCH="64"
+    break
+  elif [ "$arch" = "32 bit" ]; then
+    export ARCH="32"
+    break
+  elif [ "$arch" = "AMD 64 bit" ]; then
+    export ARCH="AMD64"
+    break
+  fi
+done
+echo "\$ARCH=$ARCH"
+
+#export TMP=/home/tmp
+#export TEMP=/home/tmp
+#export TMPDIR=/home/tmp
+
+##########################
+# Autopilot Related
+#########################
+export AUTOPILOT=/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX
+
+#on Hosted linux:
+#################
+export TMP=/scratch/tmp
+export TEMP=/scratch/tmp
+export TMPDIR=/scratch/tmp
+
+# To set HOME to the local home
+
+export AP_NOPLAT=false
+export PROD_ROOT=/scratch/$LOGNAME/hyperion
+export VIEW_PATH=/scratch/views/$LOGNAME
+
+# On hosted linux:
+#####################
+#export PROD_ROOT=/scratch/$LOGNAME/hyperion
+
+export AP_KEEPWORK=1
+export AP_CLEANUPVIEWFOLDERS=false
+export SXR_STA_ACCUMULATED=1
+
+#export HIT_ROOT=/mnt/hit
+export HIT_ROOT=/net/nar200/vol/vol3/hit
+
+export AP_LOGTO=$HOME/${LOGNAME}@$(hostname).log
+
+# For Pion
+#export AP_HITCACHE=/scratch/vraid01/hitcache
+
+# For tachyon:
+#export AP_HITCACHE=/mnt/TachyonRaid/diskarray/hitcache 
+
+# For BI installation:
+###########################
+export AP_ADEROOT=/ade_autofs/ade_generic3
+
+# this is for FA regression:
+#################################
+#export HYPERION_HOME=/scratch/anzhang/oracle/Oracle_BI1
+#export AP_AGENTPORT=9799
+#export SXR_USER=weblogic
+#export SXR_USER_BAK=weblogic
+#export SXR_PASSWOR=welcome1
+#export SXR_PASSWORD_BAK=welcome1
+
+# As per Christina:
+export LD_BIND_NOW=1
+
+cd $HOME

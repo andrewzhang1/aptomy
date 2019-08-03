@@ -1,0 +1,9 @@
+Login "%HOST" "%UID" "%PWD"
+Select "%APP" "%DB" ;
+RunDefaultCalc :
+OutPut 1 "%APP.out" ;
+GetDbStats "%APP" "%DB" ;
+OutPut 3 ; 
+LogOut ;
+Exit
+

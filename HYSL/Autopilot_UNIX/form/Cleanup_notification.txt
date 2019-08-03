@@ -1,0 +1,17 @@
+CleanupNotify $AP_ALTEMAIL
+Please clean up your files on $tmp_hostname:${tmp_platform}
+Hi All,
+
+There is no sufficient free space at $_sv$dskloc on $tmp_hostname.
+Current free size is ${CURRFREE} KB.
+Essbase server regression team uses this machine
+for the automated regression test.
+And it require at least $expfree KB free space.
+
+Could you clean up your files on $tmp_hostname ?
+
+Best regards,
+$LOGNAME.
+
+PS. This e-mail is sent by autopilot framework.
+

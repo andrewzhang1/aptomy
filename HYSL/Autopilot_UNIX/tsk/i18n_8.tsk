@@ -1,0 +1,4 @@
+i18n_x.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+i18n_xas.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+xprobmain.sh:i18ngrep($AUTOPILOT/data/grep61.exe)
+

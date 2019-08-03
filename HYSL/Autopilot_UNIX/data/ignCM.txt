@@ -1,0 +1,2 @@
+# Ignore CM acceptance test.
+# When you define <ver> in this text file, normbld.sh ignore the CM acceptance result.

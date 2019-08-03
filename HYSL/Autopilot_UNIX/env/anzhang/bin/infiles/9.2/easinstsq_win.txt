@@ -1,0 +1,176 @@
+################################################################################
+#
+# InstallShield Options File
+#
+# Wizard name: Install
+# Wizard source: setup.jar
+# Created on: Mon Mar 27 17:06:12 PST 2006
+# Created by: InstallShield Options File Generator
+#
+# This file contains values that were specified during a recent execution of
+# Install. It can be used to configure Install with the options specified below
+# when the wizard is run with the "-options" command line option. Read each
+# setting's documentation for information on how to change its value.
+# 
+# A common use of an options file is to run the wizard in silent mode. This lets
+# the options file author specify wizard settings without having to run the
+# wizard in graphical or console mode. To use this options file for silent mode
+# execution, use the following command line arguments when running the wizard:
+# 
+#    -options "/vol1/eas1lnx/easinstallJava" -silent
+#
+################################################################################
+
+
+################################################################################
+#
+# User Input Field - countryList
+#
+#
+
+
+-W bean3.countryList="US"
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "I AGREE" will be selected
+#    2 - "I DO NOT AGREE" will be selected
+# 
+# For example, to configure the panel to initially display "I DO NOT AGREE", use
+# 
+#    -W bean4.selection=2
+#
+
+
+-W bean4.selection=1
+
+
+################################################################################
+#
+# Approval State
+#
+# The initial state of the Approval panel. Legal values are:
+# 
+#    0 - Nothing will be selected
+#    1 - "Yes" will be selected
+#    2 - "No" will be selected
+# 
+# For example, to configure the panel to initially display "No", use
+# 
+#    -W recommendPreviousUninstall.selection=2
+#
+
+
+-W recommendPreviousUninstall.selection=1
+
+
+################################################################################
+#
+# User Input Field - languageSelectionList
+#
+#
+
+
+-W languageSelectionBean.languageSelectionList="en_US"
+
+
+################################################################################
+#
+# Analytic Administration Services 9.2.0.0 Install Location
+#
+# The install location of the product. Specify a valid directory into which the
+# product should be installed. If the directory contains spaces, enclose it in
+# double-quotes. For example, to install the product to C:\Program Files\My
+# Product, use
+# 
+#    -P installLocation="C:\Program Files\My Product"
+#
+
+
+-P installLocation="F:\tmai\Hyperion\AdminServices"
+
+
+################################################################################
+#
+# Select the Hyperion Home Directory
+#
+# <html>The required common components for the application will be<br>installed
+# to the identified location.<br></html>
+#
+
+
+-W setHyperionHome.hyperionHome=F:\tmai\Hyperion
+
+
+################################################################################
+#
+# Setup Type
+#
+# The setup type to be used when installing the product. Legal values are:
+# 
+#    typical - Typical: The program will be installed with the suggested
+#              configuration. Recommended for most users.
+#    custom  - Custom: The program will be installed with the features you
+#              choose. Recommended for advanced users.
+# 
+# For example, to specify that the "Typical" setup type is selected, use
+# 
+#    -W setupTypes.selectedSetupTypeId=typical
+# 
+# You may also set the setup type to nothing by using
+# 
+#    -W setupTypes.selectedSetypTypeId=
+# 
+# This clears the current setup type and prevents any changes to the set of
+# selected features. Use this option whenever you set feature active states in
+# this options file. If you do not clear the selected setup type, the setup type
+# panel will override any changes you make to feature active states using this
+# file.
+#
+
+
+-W setupTypes.selectedSetupTypeId=typical
+
+
+################################################################################
+#
+# "Server" Feature
+#
+# The selection state of the "Server" feature. Legal values are:
+# 
+#    true  - Indicates that the feature is selected for installation
+#    false - Indicates that the feature is not selected for installation
+# 
+# For example, to select "Server" for installation, use
+# 
+#    -P eAS7_0_0Reference_eas_server7_0_0FeatureBean.active=true
+#
+
+
+-P eAS7_0_0Reference_eas_server7_0_0FeatureBean.active=true
+
+
+################################################################################
+#
+# User Input Field - EsslangList
+#
+#
+
+
+-W esslangPanel.EsslangList="English_UnitedStates.Latin1@Binary"
+
+
+################################################################################
+#
+# User Input Field - field2
+#
+#
+
+
+-W bean5.field2=""

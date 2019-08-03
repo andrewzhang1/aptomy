@@ -1,0 +1,9 @@
+alias arbor='cd /net/nar200/vol/vol3/essbasesxr/regressions/old'
+
+alias regress='cd /scratch/vraid01/$LOGNAME/views/autoregress'
+alias cfg='cat $ARBORPATH/bin/essbase.cfg'
+
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias h=history
+

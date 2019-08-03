@@ -1,0 +1,164 @@
+# Environment setup template for AIX
+# _JAVA_HOME=Relative path for the JAVA directory from $HYPERION_HOME
+# _ODBC_HOME=Relative path for the ODBC directory from $HYPERION_HOME
+# _OLIB=Relative path for the ODBC library from $HYPERION_HOME/common/$_ODBC_HOME
+# _JLIB1=Relative path for the JRE library from $HYPERION_HOME/common/$_JAVA_HOME
+# _JLIB2=Relative path for the JRE library from $HYPERION_HOME/common/$_JAVA_HOME
+# If you don't need that definition on some version, please define it empty like *)
+
+unset _JAVA_HOME _ODBC_HOME
+unset _PATHLIST _LIBLIST
+unset _EXTRA_VARS
+export _LIBPATH="LIBPATH"
+
+if [ $# -eq 1 ]
+then
+	case $1 in
+		talleyrand_sp1|11.1.2.1.*|talleyrand|11.1.2.0.*)
+			export _JAVA_HOME="common/JRE/IBM/1.6.0 common/JRE/IBM/1.5.0"
+			export _ODBC_HOME="common/ODBC/Merant/6.0 common/ODBC/Merant/5.3 common/ODBC/Merant/5.2"
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		dickens|zola)
+			export _JAVA_HOME=common/JRE/IBM/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="\$JAVA_HOME/bin"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		kennedy2)
+			export _JAVA_HOME=common/JRE/IBM/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		kennedy|9.5*)
+			export _JAVA_HOME=common/JRE/IBM/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.3.1.0.0)	# Barnes
+			export _JAVA_HOME=common/JRE/IBM/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.3.*)	# Barnes 9.3.1.* before
+			export _JAVA_HOME=common/JRE/IBM/1.5.0
+			export _ODBC_HOME="common/ODBC/Merant/6.0 common/ODBC/Merant/5.2"
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.3.0.1.0|beckett) # Beckett - 9.3.0
+			export _JAVA_HOME=common/JRE/IBM/1.5.0
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.2.1.*)
+			export _JAVA_HOME=common/JRE/IBM/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/5.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		9.2.0*) # Conrad
+			export _JAVA_HOME=common/JRE/IBM/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		7.1.6.1|7.1.6.0)
+			export _JAVA_HOME=common/JRE/IBM/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/4.2
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		7.1.6*)
+			export _JAVA_HOME=common/JRE/IBM/1.4.2
+			export _ODBC_HOME=common/ODBC/Merant/5.1
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+		*)
+			export _JAVA_HOME=
+			export _ODBC_HOME=
+			export _LIBLIST="\$ODBC_HOME/lib"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin"
+			export _LIBLIST="$_LIBLIST \$JAVA_HOME/bin/classic"
+			export _PATHLIST="/usr/vac/bin $_PATHLIST"	# C API
+			export _EXTRA_VARS="APIPATH"				# C API
+			[ -n "$_ESSCDIR" ] \
+				&& export _APIPATH="\$HYPERION_HOME/$_ESSCDIR/api" \
+				|| export _APIPATH="\$ARBORPATH/api"
+			;;
+	esac
+fi

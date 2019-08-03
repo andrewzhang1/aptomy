@@ -1,0 +1,93 @@
+#!/bin/ksh
+
+echo 'Running linuxgenericprof.'
+set -o vi
+# set default access to read write execute for all newly created directories.
+umask 000
+
+# Set some user related variables
+
+export ESSLANG=English_UnitedStates.Latin1@Binary
+#export SXR_MLCAPP=1
+#export ESSCMDQ_UTF8MODE=1
+stty erase ^H
+stty intr ^C
+stty erase ^?
+export PATH=\
+/bin:\
+/usr/bin:\
+/usr/sbin:\
+/usr/X11R6/bin:\
+/etc:\
+/usr/local/bin:\
+/usr/ucb:\
+/usr/atria/bin:\
+${HOME}/bin:\
+${SXR_HOME}/bin:\
+${BUILD_ROOT}/common/bin:\
+${JRE_HOME}/bin
+
+#HOSTNAME=`/usr/bin/uname -n`
+#TTY=`tty | tr "/" "-"`
+
+# Don't export PS1 under SunOS, because if a Bourne shell is subsequently
+# spawned, then the prompt will be literally be "${LOGNAME}@${HO ..." rather
+# than the expansion of those variables.
+#
+
+
+export PS1="
+\$PWD
+($LOGNAME@`uname -n`)\>"
+
+export TERM=vt100
+#resize
+
+export HISTFILE=${HOME}/history/.${HOSTNAME}${TTY}.sh_history
+
+alias myterm='/usr/X11R6/bin/xterm -bg black -fg green -fn 8x13 -sb -sl 1200 -title "stnti8" &'
+
+
+# Increase shell max limits
+# Set max number of file descriptors to 1024
+ulimit -n 4096
+
+# For Linux specificily:
+#ulimit -s  392192 
+ulimit -s  unlimited
+
+stty erase ^H
+stty intr ^C
+stty erase ^?
+
+ESSLANG=English_UnitedStates.Latin1@Binary
+
+# For autopilot test
+
+export PATH=$HOME/autoregress:$PATH
+
+# For auto pilot test:
+
+export BUILD_ROOT=/raid0/regression/mnt/pre_rel/essbase/builds
+export HIT_ROOT=/raid0/regression/mnt/nar200_vol3
+
+export TMP=/raid0/regression/tmp
+export TEMP=/raid0/regression/tmp
+export TMPDIR=/raid0/regression/tmp
+
+export VIEW_PATH=/raid0/regression/views/$LOGNAME
+
+# Before copy from the network:
+export AUTOPILOT=/net/nar200/vol/vol3/essbasesxr/regressions/Autopilot_UNIX
+export PATH=$AUTOPILOT/bin:$PATH
+
+export SXR_HOME=/raid0/regression/mnt/talleyrand/vobs/essexer/latest
+export PATH="${SXR_HOME}/bin:$PATH"
+
+
+alias regress='cd /vol1/views/$LOGNAME/autoregress'
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias h=history
+alias cfg='cat $ARBORPATH/bin/essbase.cfg'
+

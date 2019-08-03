@@ -1,0 +1,17 @@
+:
+: clean up app/db and shutdownserver
+:
+
+output "1" "%OUTF";
+
+Login "%HOST" "%USR" "%PWD";
+
+qUnlockAllObjects "%APP";
+qDeleteApp        "2" "%APP";
+
+LogOut ;
+
+shutdownserver "%HOST" "%USR" "%PWD";
+
+output "3";
+

@@ -1,0 +1,23 @@
+dxssmain.sh
+sddbmain.sh
+smlrmain.sh
+apbgmain.sh
+apgemain.sh 
+dresmain.sh
+sdbgmain.sh
+sdremain.sh
+smbumain.sh
+agapmain.sh
+aglgmain.sh 
+dcmpmain.sh 
+dmglmain.sh 
+dmudmain.sh 
+dxrrmain.sh
+ddximain.sh
+dxbgmain.sh
+agsfmain.sh
+dsapssdqmd_acc_v1.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapmd_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapds_reg_v2.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapfusion.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)
+dsapbg.sh:setEnv(APS_BUILD=latest APS_VERSION=$VERSION)

@@ -1,0 +1,10 @@
+$LOGNAME Admin $AP_ALTEMAIL
+Autopilot Notification (No Test Script) - ${VERSION} ${BUILD} - $(hostname):${_PLATNAME} ${TEST}
+Target test script(${TEST%% *}) not found.
+
+  Machine       = $(hostname):$_PLATNAME
+  User          = ${LOGNAME}
+  Version:Build = $VERSION:$BUILD
+  TEST          = ${TEST}
+  _OPTION       = ${_OPTION}
+
