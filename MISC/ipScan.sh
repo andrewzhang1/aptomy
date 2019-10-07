@@ -9,7 +9,7 @@ BASE_IP=172.16.36
 
 ping 172.16.36.157
 
-exit
+# exit
 
 for IP in {150..160}
 do

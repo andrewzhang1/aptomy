@@ -1,0 +1,132 @@
+
+
+"""
+Example of finding word palindromes in all files in a directory tree
+Uses: module packaging, directory walking, file I/O, exception handling, string manipulation
+"""
+
+
+# OS level preparation to import modules in directory tree search
+#   current directory is location of this script
+#       C:/Users/E1HL/Python/exercises/hw11_3/application/driver
+#   search root will be
+#       C:/Users/E1HL/Python/exercises/hw11_3/application
+#   create a file __init__.py in subdirectories from search root
+#   to directories containing modules to be imported
+#       C:/Users/E1HL/Python/exercises/hw11_3/application/utils
+
+import sys
+
+# set search root in sys.path
+#       C:/Users/E1HL/Python/exercises/hw11_3/application
+# which is '..' relative to current directory
+sys.path.insert( 0, '..')
+
+import utils.hw11_2 as pallib
+
+import os
+
+
+def StartDir():
+    """
+    Input:   interactively, get starting directory
+    Returns: directory path entered or None if user escaped
+    """
+
+    while True:
+        try:
+            dpath = raw_input( "Enter directory path (or null to quit): ")
+            if dpath:
+                if not os.path.isdir( dpath):
+                    print "%s is not a valid directory path" % (dpath)
+                else:
+                    return dpath
+            else:
+                sys.exit()
+        except (KeyboardInterrupt, EOFError):
+            sys.exit()
+
+
+def FilePaths( dpath):
+    """
+    Input:   a directory path
+    Returns: list of files in directory tree from input start directory
+    """
+
+    # callback function for os.path.walk()
+    # first argument fpaths is a list to accumulate file paths
+    def AddFilePaths( fpaths, dname, fnames):
+        for fname in fnames:
+            fpath = os.path.join( dname, fname)
+            if os.path.isfile( fpath):
+                fpaths.append( fpath)
+
+    fpaths = []
+    os.path.walk( dpath, AddFilePaths, fpaths)
+
+    return fpaths
+
+
+def Words( fpath):
+    """
+    Input:   a file path
+    Returns: list of words in file path
+    """
+
+    if fpath:
+        words = []
+        try:
+            fobj = file( fpath)
+            text = fobj.read()
+        except (NameError, IOError):
+            print "Error opening or reading file %s" % (fpath)
+        except:
+            print "Unexpected error: ", sys.exc_info()[0]
+            raise
+        finally:
+            fobj.close()
+    else:
+        return None
+
+    return text.split()
+
+ 
+def main():
+    """
+    Prompt user for a starting directory.
+    Search the directory tree, read files, find words that are palindromes
+    """
+
+    # local function to select words for palindrome checking
+    # filter out uninteresting words like: docstring quotes, '<<<', '==='
+    # or quoted strings like: "'123.321'"
+    # while allowing words like: "123.321" (the unquoted number 123.321)
+    def Filtered( word):
+        good_chars = "."
+        poor_chars = '"<=' + "'"
+
+        for i in range( len( word)):
+            if (word[i].isalnum() or word[i] in good_chars) and word[i] not in poor_chars:
+                return True
+            else:
+                return False
+
+    for fpath in FilePaths( StartDir()):
+        for word in Words( fpath):
+            if Filtered( word):
+                if pallib.Palindromize( word):
+                    print "File %s has palindrome word '%s' " % (fpath, word)
+
+
+if __name__ == '__main__':
+    main()
+
+
+"""
+>>> 
+ RESTART: C:\Users\E1HL\Python\exercises\hw11_3\application\driver\hw11_3.py 
+Enter directory path (or null to quit): C:\Users\E1HL\Python\exercises\hw11_3\application
+File C:\Users\E1HL\Python\exercises\hw11_3\application\driver\hw11_3.py has palindrome word 'level' 
+File C:\Users\E1HL\Python\exercises\hw11_3\application\driver\hw11_3.py has palindrome word 'sys' 
+>>> 
+"""

@@ -6,7 +6,7 @@ public class Vee_CalculateSumNumbersInString {
     public static void main(String[] args) {
 
         //String a = "jklmn489pjro635ops";
-        String a = "jklmn41pjro5ops";
+        String a = "jklmn41pj8ro5ops";
 
         int sum = 0;
         String num = "";

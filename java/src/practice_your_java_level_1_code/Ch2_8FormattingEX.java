@@ -4,7 +4,7 @@ public class Ch2_8FormattingEX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int var01=2;
+		int var01 = 2;
 		System.out.printf("%d", var01);
 		
 		double var02=2.55;

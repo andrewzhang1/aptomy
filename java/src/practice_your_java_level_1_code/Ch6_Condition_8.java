@@ -6,18 +6,18 @@ public class Ch6_Condition_8 {
 
 		int x =4;
 		//int y = 18;
-		int z1 = 0;
-		int z2 = 6;
+		int z1 = 80;
+		int z2 = 96;
 
 		if ( (x > 5) || (z1 ==0) ^ (z2 == 9)) //(^ XOR: only one condiftion can be true)
 		{
-			System.out.print("got some result");
+			System.out.print("got some result\n");
 		}
 
 
 		//String customerLevel = "gold";
-		String customerLevel = "silver";
-		//String customerLevel = "bronze";
+		//String customerLevel = "gold";
+		String customerLevel = "bronze";
 		//String customerLevel = "wrong";
 		customerLevel = customerLevel.toLowerCase();
 

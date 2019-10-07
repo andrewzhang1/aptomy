@@ -7,7 +7,7 @@ public class Cis36AFall2014AndrewZhangLab1Ex1 {
 	 */
 	public static void main(String[] args) {
 		
-		// JT_25_Public_Private_Protected.Test adding tasks
+		// JT_25_Public_Private_Protected.PrintName adding tasks
 		int agz =16;
 		
 		System.out.println("CIS 36A Java Programming");

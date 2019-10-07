@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class Ch16_Exceptions_2 {
 	public static void main(String[] args) {
 		float a = 5;
-		int b = 10;
+		int b = 0;
 
 		try{
 			System.out.println(a / b);
@@ -15,9 +15,6 @@ public class Ch16_Exceptions_2 {
 		}
 
 		System.out.println("After the calcuation");
-
-
-
 
 	}
 }

@@ -1,0 +1,77 @@
+
+
+"""
+Provides a function IsValidIdentifier that checks whether a string is a valid identifier:
+Input:   a string
+Returns: a tuple (True|False, reason)
+"""
+
+import keyword
+
+
+def IsValidIdentifier (string):
+    """
+    Validations are:
+    1. first character  must be alphabetic or underscore
+    2. later characters must be alphabetic or underscore or numeric
+    3. string must not be a keyword
+    """
+    
+    allowed_first_char = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz'
+    allowed_later_char = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz'
+
+    if string[0] not in allowed_first_char:
+        return (False, "Invalid: first symbol must be alphabetic or underscore.")
+
+    for char in string:
+        if char not in allowed_later_char:
+            return (False, "Invalid: '%s' is not allowed." %(char))
+
+    if string in keyword.kwlist:
+        return (False, "Invalid: this is a keyword!")
+
+    return (True, "Valid!")
+
+
+if __name__ == '__main__':
+    DATA = ('x', '_x', '2x', 'x,y', 'yield', 'is_this_good')
+
+    for string in DATA:
+        (valid, reason) = IsValidIdentifier (string)
+        print "%12s -> %s" %(string, reason)
+
+
+"""
+>>> 
+==== RESTART: C:/Users/E1HL/Python/exercises/hw07_1.py ====
+           x -> Valid!
+          _x -> Valid!
+          2x -> Invalid: first symbol must be alphabetic or underscore.
+         x,y -> Invalid: ',' is not allowed.
+       yield -> Invalid: this is a keyword!
+is_this_good -> Valid!
+
+>>> import hw07_1
+>>> help(hw07_1)
+Help on module hw07_1:
+
+NAME
+    hw07_1
+
+FILE
+    c:\users\e1hl\python\exercises\hw07_1.py
+
+DESCRIPTION
+    Provides a function IsValidIdentifier that checks whether a string is a valid identifier:
+    Input:    a string
+    Returns:  a tuple (True|False, reason)
+
+FUNCTIONS
+    IsValidIdentifier(string)
+        Validations are:
+        1.  first character must be alphabetic or underscore
+        2.  later characters may be alphabetic or underscore or numeric
+        3.  string must not be a keyword
+
+>>>
+"""

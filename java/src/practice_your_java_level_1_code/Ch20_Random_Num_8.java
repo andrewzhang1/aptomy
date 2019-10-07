@@ -6,6 +6,9 @@ public class Ch20_Random_Num_8 {
     public static void main(String[] args) {
         double nextRandomValue;
         Random randomGenerator = new Random();
+
+
+
         for (int count = 0; count < 10; count++) {
             nextRandomValue = 1 + randomGenerator.nextGaussian();
             System.out.println(nextRandomValue);

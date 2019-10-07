@@ -1,0 +1,11 @@
+
+Regular expressions for finding:
+
+numbers         : \d+\.\d*|\d*\.\d+|\d+
+
+email addresses : [\s,:;(<\['\"]+([^@\s,;:\"]+)@([^@\-\s,:;>\)'\"]+\.[a-z,A-Z]{2,3})[\s,;:\"'>\)]
+
+urls            : http://[^\s\"<>()']*\b
+
+
+Note:  These are imperfect!
