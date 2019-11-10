@@ -11,7 +11,6 @@ class Machine{
 
 		// Constructor calls another constructor:
 		name = "Arnie";
-
 	}
 
 	public Machine(String name){

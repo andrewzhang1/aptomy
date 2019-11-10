@@ -1,0 +1,12 @@
+Output:
+
+runfile('C:/Users/mrkdf/Documents/my-misc/myPythonClass/RS-PythonClass/excelSheetReadWrite.py', wdir='C:/Users/mrkdf/Documents/my-misc/myPythonClass/RS-PythonClass')
+current dir 1=  C:\Users\mrkdf\Documents\my-misc\myPythonClass\RS-PythonClass
+current dir 2=  C:\Users\mrkdf\Desktop\testPython
+a1=  apple
+b1=  11
+ma_row =   8
+ma_col =  2
+------- done -------
+C:/Users/mrkdf/Documents/my-misc/myPythonClass/RS-PythonClass/excelSheetReadWrite.py:37: DeprecationWarning: Call to deprecated function get_sheet_by_name (Use wb[sheetname]).
+  sheet = wb.get_sheet_b_name('Sheet1')

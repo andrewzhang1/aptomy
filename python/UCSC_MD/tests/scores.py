@@ -1,13 +1,13 @@
 
 
 while True:
-    score_string = raw_input("Score please: ")
+    score_string = input("Score please: ")
     if not score_string:
         break
     try:
         score = int(score_string)
     except ValueError:
-        print "That's not a valid score."
+        print ("That's not a valid score.")
     else:
         if score >= 90:
             grade = 'A'
@@ -19,5 +19,5 @@ while True:
             grade = 'D'
         else:
             grade = 'F'
-        print "Your grade is %s." % (grade)
+        print ("Your grade is %s." % (grade))
         break

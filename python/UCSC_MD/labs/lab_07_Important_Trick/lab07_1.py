@@ -35,7 +35,6 @@ def TranslateToKeypad(word):
     return translated_word
 
 
-
 def main():
     """Tests the TranslateToKeypad function."""
     
