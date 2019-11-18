@@ -1,5 +1,4 @@
 
-
 import random
 
 
@@ -26,25 +25,11 @@ def Experiment ():
 
     return flips
 
-
 MAX = 10
 sum = 0
 for i in range(0, MAX):
     sum += Experiment()
 avg = sum/MAX
 
-print avg
+print (avg)
 
-
-"""
->>> 
-=========== RESTART: C:\Users\E1HL\Python\exercises\lab04_exer1.py ===========
-22
->>> 
-=========== RESTART: C:\Users\E1HL\Python\exercises\lab04_exer1.py ===========
-9
->>> 
-=========== RESTART: C:\Users\E1HL\Python\exercises\lab04_exer1.py ===========
-13
->>> 
-"""

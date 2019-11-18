@@ -35,13 +35,12 @@ def TranslateToKeypad(word):
     return translated_word
 
 
-
 def main():
     """Tests the TranslateToKeypad function."""
     
     DATA = "peanut", "salt", "lemonade", "good time", ":10", "Zilch"
     for word in DATA:
-        print "%10s -> %s" % (word, TranslateToKeypad(word))
+        print ("%10s -> %s" % (word, TranslateToKeypad(word)))
 
 if __name__ == "__main__":
     main()

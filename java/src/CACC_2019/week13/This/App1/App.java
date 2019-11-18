@@ -1,32 +1,35 @@
-package CACC_2019.week12_Getter_Setter;
+package CACC_2019.week13.This.App1;
 
 class Frog{
 
-    // Part 1:
-   int age;
-   String name;
+    // Part 1: Create a Get method()
+    int age;   // age is an instance variable, what if I set this a "private" type? See App2
+    String name;
 
-    int getAge(){
+    public int getAge(){
+
         return age;
    }
 
-   String getName(){
+   public String getName(){
+
         return name;
    }
 
    // Part 2: Create a Set method()
 
-    public void SetName(String newName)
+    public void SetName(String newName)  //  "newName" is a local variable
     {
            name  = newName;
     }
 
     public  void setAge(int newAge){
-           age = newAge;
+
+        age = newAge;
     }
 }
 
-public class App2_Set {
+public class App {
     public static void main(String[] args) {
 
         // Part 1:  // Set an instance variable with a "=" sign.
@@ -51,6 +54,12 @@ public class App2_Set {
 
         frog1.setAge(15);
         System.out.println("After 3 years later, Mike is now: " + frog1.getAge());
+
+        System.out.println("Call Mile by using Set Method: ");
+        frog1.SetName("Jason");
+        System.out.println(frog1.getName());
+
+
 
     }
 }

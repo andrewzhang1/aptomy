@@ -1,4 +1,4 @@
-package CACC_2019.week12_Getter_Setter;
+package CACC_2019.week12_Getter_Setter1;
 
 // App1: Show no return type: all  "void" methods
 class Person{

@@ -1,4 +1,4 @@
-package CACC_2019.week12_Getter_Setter_This;
+package CACC_2019.week12_Getter_Setter2;
 
 // This program inrtroduces the concept "this"
 class Frog{

@@ -14,7 +14,7 @@ def Rollem():
   dice = random.randrange(1, 7), random.randrange(1, 7)
   print "%d and %d" % dice
   if dice[0] == dice[1]:
-    print DOUBLES[dice[0]]
+    print (DOUBLES[dice[0]])
 
 def main():
   while True:

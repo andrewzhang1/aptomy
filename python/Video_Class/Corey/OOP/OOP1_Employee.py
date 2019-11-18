@@ -15,9 +15,7 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
-
 print ("\nOld:\n")
-
 
 emp1 = Employee("Andrew", "Zhang", 5000)
 emp2 = Employee("Jasson", "Zhang", 4000)
@@ -35,7 +33,6 @@ print(emp1.fullname())
 print(emp2.fullname())
 
 print(Employee.fullname(emp1))
-
 
 # Old way before created methods
 # emp1.first = "Andrew"

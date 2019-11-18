@@ -26,7 +26,7 @@ public class Sum_Odd_Even_array
                 sumO = sumO + a[i];
             }
         }
-        System.out.println("Sum of Even Numbers:"+sumE);
+        System.out.println("Sum of Even Numbers:" +sumE);
         System.out.println("Sum of Odd Numbers:"+sumO);
     }
 }

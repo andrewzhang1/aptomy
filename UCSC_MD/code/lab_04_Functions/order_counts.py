@@ -1,14 +1,22 @@
 #!/usr/bin/env python
 """Order matters."""
 
+def BeatDrum():
+    print('boom! boom!')
+
+
 def StrumGuitar():
-    print 'strum. strum.'
+    print ('strum. strum.')
     BeatDrum()
 
-StrumGuitar()
+#StrumGuitar()
+#
 
-def BeatDrum():
-    print 'boom! boom!'
+
+
+
+
+
 
 """
 $ refs.py
