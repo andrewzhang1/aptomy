@@ -10,8 +10,6 @@ Automated way from within the main python routine:
 3) then run psilab from the python code by using a shell script command
 4) from python look for results in the /resultfolder, once detected, package the text and image files in the body of an email and send it back to the user
 
-Updated on 03/08/2019
+Updated on 11/18/2019
 
 
-
- 
