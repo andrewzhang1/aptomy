@@ -12,8 +12,7 @@ c = conn.cursor()
 #                 )""")
 
 c.execute(""" CREATE TABLE Student (
-                first text,
-                last text,
+                first text,\              last text,
                 age integer,
                 city text
                 )""")
