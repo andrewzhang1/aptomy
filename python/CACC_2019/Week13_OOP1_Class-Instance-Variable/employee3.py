@@ -5,10 +5,10 @@
 
 '''
 1. Create a specical method: __init__()
-2
+2. Use self
 '''
 
-# A class is a blueprint for creating instances.
+
 
 class Employee:
 

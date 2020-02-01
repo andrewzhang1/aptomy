@@ -1,5 +1,6 @@
 package CACC_2019.week9_Method_Overload;
 
+// Basic method overload: different number of parameters
 
 class App1_OverLoad1
 {
@@ -21,3 +22,8 @@ class Sample
        //obj.disp('a',10);
    }
 }
+
+/*
+Output:
+a
+*/

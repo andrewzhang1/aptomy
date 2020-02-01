@@ -22,7 +22,7 @@ class Employee:
         self.pay = pay
         self.email = first + "." + last + '@company.com'
 
-        Employee.num_of_emps += 1
+       # Employee.num_of_emps += 1
 
     def fullname(self):
     #def fullname():
@@ -30,7 +30,9 @@ class Employee:
 
     # Why this failed?
     def apply_raise(self):
-        self.pay = int(self.pay * range_amount)
+        #range_amount = 1.04
+
+        self.pay = int(self.pay * Employee.range_amount)   # "range_amount" IS not recognized!
 
 
 # empl_1 will be passed in as self and then it will set all of those attributes

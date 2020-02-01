@@ -1,5 +1,6 @@
 package CACC_2019.week9_Method_Overload;
 
+// method overload 2: different data type for the parameter
 
 class App2_OverLoad2
 {

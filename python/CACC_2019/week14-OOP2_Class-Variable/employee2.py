@@ -10,8 +10,8 @@
 We are talk about Class Variable today.
 
 Class Variable: variables that are shared among all instances of a class
-while instance variable can be unqiue for each instance like our names  and emails
- and pay, class variables should be the same for each instance.
+while instance variable can be unique for each instance like our names and emails
+and pay, class variables should be the same for each instance.
 
 Let's say we like to our company gives annual raised every year, now the
 '''
@@ -39,7 +39,6 @@ class Employee:
         self.pay = int(self.pay * Employee.raise_amount)
 
 
-
 # empl_1 will be passed in as self and then it will set all of those attributes
 emp_1 = Employee('Andrew', 'Zhang', 50000)
 emp_2 = Employee('Test', 'User', 60000)
@@ -52,5 +51,3 @@ print(emp_1.pay)
 emp_1.apply_raise()
 print(emp_1.pay)
 
-
-# Why this failed?

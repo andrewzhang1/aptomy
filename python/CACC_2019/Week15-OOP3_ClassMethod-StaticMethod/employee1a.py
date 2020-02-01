@@ -33,7 +33,6 @@ class Employee:
         # 2. Also we can ccess through instance variable
         self.pay = int(self.pay * self.raise_amount)
 
-
     @classmethod
     def set_raise_amta(cls, amount):
         # Now we can work with class variable and class method

@@ -3,6 +3,7 @@
 # Script name: employee2.py
 
 # A class is a blueprint for creating instances.
+
 class Employee:
     pass
 

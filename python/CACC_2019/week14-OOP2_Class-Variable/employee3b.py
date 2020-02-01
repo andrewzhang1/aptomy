@@ -31,7 +31,7 @@ class Employee:
         # self.pay = int(self.pay * Employee.raise_amount)
 
         # 2. Access through instance variable
-        self.pay = int(self.pay * self.raise_amount)
+        self.pay = int(self.pay * Employee.raise_amount)
 
 # empl_1 will be passed in as self and then it will set all of those attributes
 emp_1 = Employee('Andrew', 'Zhang', 50000)

@@ -23,3 +23,7 @@ class Sample3
 
    }
 }
+
+/*
+Output:
+I’m the second definition of method disp*/

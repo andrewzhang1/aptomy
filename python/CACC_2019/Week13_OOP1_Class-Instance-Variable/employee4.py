@@ -3,6 +3,8 @@
 
 # Script name: employee4.py
 
+
+
 class Employee:
 
     # 1. We can think this is a constructor
