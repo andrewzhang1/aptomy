@@ -16,10 +16,10 @@ class Frog{
         this.name = name;
         // "this.name" means "private String name;"
     }
-    public  void setAge(int age){
+    public void setAge(int age){
            this.age = age;
     }
-    public  String getName(){
+    public String getName(){
         return name;
    }
       int getAge(){
@@ -51,7 +51,6 @@ public class App2_Set_This {
         System.out.println(frog1.getName());
 
         System.out.println(frog1.getAge());  // what value do you expect?
-
     }
 }
 

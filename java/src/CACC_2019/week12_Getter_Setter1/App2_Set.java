@@ -6,7 +6,7 @@ class Frog{
    int age;
    String name;
 
-    int getAge(){
+   int getAge(){
         return age;
    }
 

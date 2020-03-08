@@ -56,9 +56,7 @@ public class Cis36AFall2014AndrewZhangLab1Ex1 {
 	
 		System.out.println("Updated sorted Arry1[] is: ");
 		displayArrayOneLine(array1);
-		
-		System.out.println();		
-		
+
 		System.out.println();	
 		
 		System.out.print("The Original Input Array2[] is: ");

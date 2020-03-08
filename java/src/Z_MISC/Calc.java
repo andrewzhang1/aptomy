@@ -32,6 +32,8 @@ public class Calc {
     System.out.println(str);
 
 
+
+
    String s="abc123def45gh6ij78";
    for(int i=0;i<s.length();i++) {
     char c=s.charAt(i);
