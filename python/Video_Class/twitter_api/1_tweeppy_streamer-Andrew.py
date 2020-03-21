@@ -2,7 +2,7 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 
-import Video_Class.twitter_api.twitter_credentials
+#import Video_Class.twitter_credentials
 # # # # TWITTER STREAMER # # # #
 
 
@@ -20,7 +20,7 @@ class TwitterStreamer():
         auth = OAuthHandler(Video_Class.twitter_api.twitter_credentials.CONSUMER_KEY,
                             Video_Class.twitter_api.twitter_credentials.CONSUMER_SECRET)
         auth.set_access_token(Video_Class.twitter_api.twitter_credentials.ACCESS_TOKEN,
-                              Video_Class.twitter_api.twitter_credentials.ACCESS_TOKEN_SECRET)
+                              Video_Class.c.ACCESS_TOKEN_SECRET)
 
         stream = Stream(auth, listener)
 #        stream.filter(track=['donald trump', 'hillary clinton', 'barack obama', 'Andrew_G_Zhang'])
