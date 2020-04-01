@@ -2,7 +2,7 @@
 # 1) a module inside a Package: define a variable, and a function (e.g. add two numbers or your choice)
 # 2) a module which imports the above module, and calls the function
 
-#from cacc.week20.module1.mathAdd import mul
+#from cacc.week29_DataStructureQuiz2.module1.mathAdd import mul
 import cacc.week20.module1.mathAdd
 
 print(mul(2,3))

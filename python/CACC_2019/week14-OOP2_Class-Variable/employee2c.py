@@ -1,9 +1,19 @@
+
+#  Python Objected-Oriented Programming 2 - Class Variable
+
 '''
-Python Objected-Oriented Programming 2 - Class Variable
-Script name: employee2a.py
+Script name: employee2c.py
+Note: Introduce an important concept.
 
-Note: Access instance variable
 
+1. Why class variable is a better use case?
+
+Class Variable: variables that are shared among all instances of a class
+while instance variable can be unique for each instance like our names and emails
+and pay, class variables should be the same for each instance.
+
+Let's say we like to our company gives annual raised every year, now we define two
+constance variable
 '''
 
 class Employee:
@@ -51,7 +61,13 @@ attribut, if it doesn't, then it will see of the class or any class inheritate f
 # emp_1.apply_raise()
 # print(emp_1.pay)
 
-print(emp_1.__dict__)
-
+#print(emp_1.__dict__)
+# Output
 # Output
 # {'first': 'Andrew', 'last': 'Zhang', 'pay': 50000, 'email': 'Andrew.Zhang@company.com'}
+
+print(Employee.__dict__)
+#Output:
+# {'__module__': '__main__', 'num_of_emps': 2, 'raise_amount': 1.06, '__init__': <function Employee.__init__ at 0x000001FCD4C094C8>,
+# 'fullname': <function Employee.fullname at 0x000001FCD4C09D38>, 'apply_raise': <function Employee.apply_raise at 0x000001FCD4D5C0D8>,
+# '__dict__': <attribute '__dict__' of 'Employee' objects>, '__weakref__': <attribute '__weakref__' of 'Employee' objects>, '__doc__': None}
