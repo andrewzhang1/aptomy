@@ -1,4 +1,4 @@
-package CACC_2019.Week23_moreSort;
+package CACC_2019.Week23_moreSort_0301;
 
 public class App2_SortArryTwoLoop {
     public static void main(String[] args) {
@@ -64,6 +64,7 @@ public class App2_SortArryTwoLoop {
         }
     }
 
+    // A sorting method using a temp variable for swaping two values.
     public static int[] sortArryInt(int[] arr) {
         int length = arr.length;
 

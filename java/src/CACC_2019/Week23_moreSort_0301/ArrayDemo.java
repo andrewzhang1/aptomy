@@ -1,4 +1,4 @@
-package CACC_2019.Week23_moreSort;
+package CACC_2019.Week23_moreSort_0301;
 
 // https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/
 
@@ -13,8 +13,9 @@ public class ArrayDemo {
 
             Arrays.sort(arr);
 
+            // Print out the sorted array usoing toString, which
+            // returns the string representation of the object:
             System.out.printf(Arrays.toString(arr));
-
 
         }
 

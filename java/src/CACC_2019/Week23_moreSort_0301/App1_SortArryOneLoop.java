@@ -1,6 +1,6 @@
-package CACC_2019.Week23_moreSort;
+package CACC_2019.Week23_moreSort_0301;
 
-public class App3_SortArryFunction {
+public class App1_SortArryOneLoop {
     public static void main(String[] args) {
         // Define an array
         int[] arry = {6, 4, 5, 3};
@@ -12,7 +12,8 @@ public class App3_SortArryFunction {
         printArryInt(arry);
 
         System.out.println("\nSorted arrary is : ");
-      //  System.out.println(Arrays.sort(arry, 1, 3));
+       arry = sortArryInt(arry);
+
        // Printing the sorted array.
         for (int i = 0; i < arry.length; i++) {
             System.out.print(arry[i] + ", ");
@@ -47,6 +48,31 @@ public class App3_SortArryFunction {
 
         }
     }
+    public static int[] sortArryInt(int[] arr) {
+        // Finding the length of array 'arr'
+        int length = arr.length;
 
+        // Sorting using a single loop
+        //
+        for (int j = 0; j < length - 1; j++) {
+
+            // Checking the condition for two
+            // simultaneous elements of the array
+        if (arr[j] > arr[j + 1]) {
+
+                // Swapping the elements.
+                int temp = arr[j];
+            arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+
+                // updating the value of j = -1
+                // so after getting updated for j++
+                // in the loop it becomes 0 and
+                // the loop begins from the start.
+                j = -1;
+            }
+        }
+        return arr;
+    }
 }
 
