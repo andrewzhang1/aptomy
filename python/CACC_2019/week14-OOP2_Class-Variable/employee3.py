@@ -1,10 +1,9 @@
-
-#  Python Objected-Oriented Programming 2 - Class Variable
-
+'''
+ Python Objected-Oriented Programming 2 - Class Variable
 # Script name: employee3.py
 
-'''
-1. Why class variable is a better use case?
+Note: This case show why it doesn't make sense to use "self"
+Say we want to keep track the number of employee.
 
 '''
 class Employee:
@@ -34,16 +33,11 @@ class Employee:
         self.pay = int(self.pay * self.raise_amount)
 
 # empl_1 will be passed in as self and then it will set all of those attributes
+print(Employee.num_of_emps)
 emp_1 = Employee('Andrew', 'Zhang', 50000)
 emp_2 = Employee('Test', 'User', 60000)
+emp_3 = Employee('Test3', 'User', 60000)
 
-print(Employee.raise_amount)
-print(emp_1.raise_amount)
-print(emp_2.raise_amount)
-
-# We can see that we can access this class variable from both my class and the instance
-
-# output:
-# 1.04
-# 1.04
-# 1.04
+print(emp_1.num_of_emps)
+print(Employee.num_of_emps)
+print(emp_2.num_of_emps)

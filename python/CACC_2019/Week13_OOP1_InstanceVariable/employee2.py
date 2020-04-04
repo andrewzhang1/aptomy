@@ -1,6 +1,6 @@
 #  Python Objected-Oriented Programming
 
-# Script name: employee2.py
+# Script name: employee2_StaticMethod.py
 
 # A class is a blueprint for creating instances.
 

@@ -2,7 +2,7 @@
 #  Python Objected-Oriented Programming - Inheritance
 
 # Script name: employee1.py
-# Note: A review with the class variabel and instance variable
+# Note: A review with the class variable and instance variable
 
 '''
 1. Based on the previous Employee class, we want to be more specific and create
@@ -13,7 +13,6 @@
    we can just reuse that code by inheritaing from the employee class.
 
 '''
-
 # Script name: employee1.py, a base class
 
 class Employee:

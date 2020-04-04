@@ -1,7 +1,7 @@
 
 #  Python Objected-Oriented Programming - Inheritance
 
-# Script name: employee6.py -  isinstance() vs issubclass()
+# Script name: employee6_Mrg_Remv_Emp.py -  isinstance() vs issubclass()
 
 class Employee:
 
@@ -57,11 +57,12 @@ dev_2 = Developer('Eric', 'Employee', 60000, 'java')
 
 #dev_3 = Developer('Kelly ', 'Feng', 70000, 'java')
 
-mrg_1 = Manager('Jane', 'Smith', 90000, [dev_1])
+mrg_1 = Manager('Sue', 'Smith', 90000, [dev_1])
 
 # Check isinstance
-#print(isinstance(mrg_1, Manager))      # True
-#print(isinstance(mrg_1, Employee))     # True
-#print(isinstance(mrg_1, Developer))    # False
-#print(issubclass(Developer, Employee)) # True
-#print(issubclass(Manager, Developer))  # False
+print(isinstance(mrg_1, Manager))      # True
+print(isinstance(mrg_1, Employee))     # True
+print(isinstance(mrg_1, Developer))    # False
+print(issubclass(Developer, Employee)) # True
+print(issubclass(Manager, Employee)) # True
+print(issubclass(Manager, Developer))  # False

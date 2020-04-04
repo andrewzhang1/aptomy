@@ -22,12 +22,12 @@ class Employee:
 
 # Create subclass: manager and developer by changing the pay rate
 class Developer(Employee):
-    # pass
     raise_amount = 1.10
 
     def __init__(self, first, last, pay, prog_lang):
-        super().__init__(first, last, pay) # This is a better way to do!
-        # Employee.__init__(self, first, last, pay)
+        super().__init__(first, last, pay) # This is a better way to do! This pass first, last, pay to our Employee
+                                           # init method, and let that class handle those arguments
+        #Employee.__init__(self, first, last, pay)  # Or someine prefer doing this!
         self.prog_lang = prog_lang
 
 dev_1 = Developer('Andrew', 'Zhang', 50000, 'python')
@@ -35,6 +35,7 @@ dev_2 = Developer('Eric', 'Employee', 60000, 'java')
 
 print(dev_1.email)
 print(dev_1.prog_lang)
+
 
 # Output:
 # Andrew.Zhang@company.com

@@ -1,12 +1,15 @@
 
 #  Python Objected-Oriented Programming - Inheritance
 
-# Script name: employee5b.py - Create a new class: "Magager"
-# (gives a empllyee list that the manger supervise.
+# Script name: employee5c_MrgAddEmp.py -
+# 1. Create a new class: "Magager" (gives a list that employee that
+#  manger supervise)
+# 2. Add and remove new employee
 
 class Employee:
 
     raise_amount = 1.04
+
     def __init__(self, first, last, pay):
         self.first = first
         self.last = last
@@ -25,7 +28,8 @@ class Developer(Employee):
     raise_amount = 1.10
 
     def __init__(self, first, last, pay, prog_lang):
-        super().__init__(first, last, pay) # This is a better to do!
+        # This is a better to do!
+        super().__init__(first, last, pay)
         # Employee.__init__(self, first, last, pay)
         self.prog_lang = prog_lang
 
@@ -53,16 +57,22 @@ class Manager(Employee):
 
 dev_1 = Developer('Andrew', 'Zhang', 50000, 'python')
 dev_2 = Developer('Eric', 'Employee', 60000, 'java')
+dev_3 = Developer('Kelly ', 'Feng', 70000, 'java')
 
 mrg_1 = Manager('Jane', 'Smith', 90000, [dev_1])
-
 
 print(mrg_1.email)
 mrg_1.print_emps()
 
+# Add an employee: dev_2 (We can play around this in the class!
+mrg_1.add_emp(dev_2)
+#mrg_1.remove_emp(dev_1)
 
+#mrg_1.add_emp(dev_3)
+mrg_1.print_emps()
 
 # Output:
 # Jane.Smith@company.com
 # --> Andrew Zhang
-
+# --> Andrew Zhang
+# --> Eric Employee

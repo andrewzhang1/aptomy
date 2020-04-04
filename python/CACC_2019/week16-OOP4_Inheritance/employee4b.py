@@ -3,7 +3,7 @@
 
 # Script name: employeeb.py -
 #
-# Change  the Developer class
+# Change the Developer classc by adding raise_amount
 
 class Employee:
 
@@ -25,14 +25,13 @@ class Developer(Employee):
     # pass
     raise_amount = 1.10
 
-dev_1 = Developer('Andrew', 'Zhang', 50000)
 
 # If we change back to the Employee class, the pay raise still will be 4%:
 # Changing the raise_amount in the subclass would affect the employee # instances
 # dev_1 = Employee('Andrew', 'Zhang', 50000)
 
 dev_1 = Developer('Andrew', 'Zhang', 50000)
-#dev_1 = Employee('Andrew', 'Zhang', 50000)
+dev_1 = Employee('Andrew', 'Zhang', 50000)
 dev_2 = Developer('Eric', 'Employee', 60000)
 
 # print(dev_1.email)

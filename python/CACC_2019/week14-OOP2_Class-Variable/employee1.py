@@ -11,7 +11,7 @@ instance like name, email, and pay.
 Note: this program works,  but there's something wrong here:
 1. You have to update the amount for the pay_raise
 2. When you update a data, you might have to update in a few places.
-3. What if we don't want manually update the 4 %, see the next program: employee2.py
+3. What if we don't want manually update the 4 %, see the next program: employee2_StaticMethod.py
 
 '''
 

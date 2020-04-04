@@ -1,7 +1,7 @@
 
 #  Python Objected-Oriented Programming - Inheritance
 
-# Script name: employee2.py - Inherit an empty class
+# Script name: employee2_StaticMethod.py - Inherit an empty class
 
 class Employee:
 
@@ -28,20 +28,24 @@ print(emp_1.email)
 # Create subclass: manager and developer
 
 print("\nAfter creating Developer class: \n")
-class DeveloperA():
+
+class Developer():
     pass
 
 class Developer(Employee):
     pass
 
 dev_1 = Developer('Andrew', 'Zhang', 50000)
-#dev_2 = Developer('Eric', 'Employee', 60000)
+dev_2 = Developer('Eric', 'Employee', 60000)
 
 print(dev_1.email)
-#print(dev_2.email)
+print(dev_2.email)
 
 # We will see that the two developers created successfully and we can
 # access the attributes that were actually set in our parent Employee class.
+
+# A very useful help function
+#print(help(Developer))
 
 # Outout:
 # Andrew.Zhang@company.com

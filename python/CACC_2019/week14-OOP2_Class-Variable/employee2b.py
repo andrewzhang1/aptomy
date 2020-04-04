@@ -1,14 +1,13 @@
 '''
 #  Python Objected-Oriented Programming 2 - Class Variable
 
-Script name: employee2.py
+Script name: employee2_StaticMethod.py
 
 Note: Access class  variable
 
 '''
 
 class Employee:
-    num_of_emps = 0
     raise_amount = 1.06
 
     # 1. We can think this is a constructor

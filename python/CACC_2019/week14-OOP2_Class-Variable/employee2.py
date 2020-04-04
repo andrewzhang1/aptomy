@@ -1,7 +1,7 @@
 
 #  Python Objected-Oriented Programming 2 - Class Variable
 
-# Script name: employee2.py
+# Script name: employee2_StaticMethod.py
 
 '''
 1. Why class variable is a better use case?
@@ -43,7 +43,7 @@ class Employee:
         #self.pay = int(self.pay * self.raise_amount)
 
         # ? Why this class variable can be accesd by the instance variable?
-        # See employee2.py
+        # See employee2_StaticMethod.py
 
 
     # empl_1 will be passed in as self and then it will set all of those attributes

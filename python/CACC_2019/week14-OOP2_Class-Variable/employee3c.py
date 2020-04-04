@@ -39,14 +39,8 @@ emp_2 = Employee('Test', 'User', 60000)
 # Set raise_amount using instance
 emp_1.raise_amount = 1.05
 
-print(emp_1.__dict__)
-
 print(Employee.raise_amount)
 print(emp_1.raise_amount)  # Why only this changed to 1.05?
 print(emp_2.raise_amount)
 
-# Output:
-# {'first': 'Andrew', 'last': 'Zhang', 'pay': 50000, 'email': 'Andrew.Zhang@company.com', 'raise_amount': 1.05}
-# 1.04
-# 1.05
-# 1.04
+print(emp_1.num_of_emps)

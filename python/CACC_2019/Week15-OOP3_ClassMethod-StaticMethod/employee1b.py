@@ -2,7 +2,8 @@
 # Script name: employee1b.py
 '''
 1. Now we can see the emp1 has the raise_amount within its namespace = 1.05, and
-returns that value before going and search the class and we didn't see that amount on employee 2
+returns that value before going and search the class and we didn't see that amount on employee
+2
 so that falls back to the class value before going and searching the class and we didn't set that
 raise_amount on employee 2: important to know the difference for class and instance
 '''
@@ -41,10 +42,9 @@ emp_2 = Employee('Test', 'User', 60000)
 
 # Now we want to change the payamount to 5 % using class method
 Employee.set_raise_amta(1.05)   # Line x: using class method
-
-Employee.raise_amount = 1.05    # Line y
-
-# Note: Line x and Line y have the same effect!
+Employee.raise_amount = 1.05    # Line y: using Class variable (they got the same result)
+# We can run class method for instances as well; however, it doesn't make sense, and no people do that?
+# Why? see employee1c_UseInstanceToAccessClassVariable.py
 
 print(Employee.raise_amount)
 print(emp_1.raise_amount)
