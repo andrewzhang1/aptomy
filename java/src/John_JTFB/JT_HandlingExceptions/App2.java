@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class App2 {
         public static void main(String[] args) {
 
-            File file = new File("test.txt");
+            File file = new File("test-a.txt");
             try {
                 FileReader fr = new FileReader(file);
 

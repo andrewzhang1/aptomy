@@ -2,6 +2,8 @@ package CACC_2019.week25_LinkedList;
 
 // Prog Name: App1b.java
 
+// Note: Just make sure no error for the compilation
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

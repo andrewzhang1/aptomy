@@ -1,5 +1,10 @@
 package CACC_2019.week22_sort;
-
+/*
+Note: Ask user to input
+        1. Array size
+        2. An integer array
+        3. It will sort the array in desc order.
+ */
 import java.util.Scanner;
 
 public class ArraySort1 {
@@ -28,7 +33,7 @@ public class ArraySort1 {
             }
         }
 
-        System.out.print("Array Elements in Ascending Order: ");
+        System.out.print("Array Elements in Descending Order: ");
         for (int i = 0; i < count - 1; i++) {
             System.out.print(num[i] + ", ");
         }

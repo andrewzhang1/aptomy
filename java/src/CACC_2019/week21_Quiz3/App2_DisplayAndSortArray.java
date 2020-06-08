@@ -37,7 +37,6 @@ public class App2_DisplayAndSortArray {
             System.out.print(ary[i]);
             if (i != ary.length - 1)
                 System.out.print(", ");
-
         }
     }
 

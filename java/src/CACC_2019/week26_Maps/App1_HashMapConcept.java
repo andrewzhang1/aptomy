@@ -3,7 +3,7 @@ package CACC_2019.week26_Maps;
 Script Name: App1_HashMapConcept
 Note: 1. What "hash" exactly mean?
         the output@1540e19d is the hash code,
-        this code is used to store thinkg in the hash map
+        this code is used to store think in the hash map
 
 */
 class Temp{

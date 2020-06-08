@@ -40,9 +40,9 @@ public class App3 {
 
         // If you add items to the end of the list
 /*
-     A golden rule to rememberL for the list:
-     1. When you need to user linkedList,
-     LinkedList doen't really care where you want to add the items, but arrayList does!
+     A golden rule to remember for the list:
+     1. When you need to use linkedList, LinkedList doen't really care where you want to add the items,
+        but arrayList does!
      2. If you want to add items in the middle of a list, you should use LinkedList!
      3. If you just want add items in the end of the list, you may use ArrayList!
      4. If you want o add items near the end of the list, ArrayList could be more efficient than LinkedList

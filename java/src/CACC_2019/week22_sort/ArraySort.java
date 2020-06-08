@@ -17,7 +17,8 @@ public class ArraySort {
             num[i] = scan.nextInt();
         }
         //Optional:
-        scan.close();
+        //scan.close();
+
         for (int i = 0; i < count; i++) {
             for (int j = i + 1; j < count; j++) {
                 if (num[i] < num[j]) {
@@ -27,6 +28,8 @@ public class ArraySort {
                 }
             }
         }
+
+
         System.out.print("Array Elements in Ascending Order: ");
         for (int i = 0; i < count - 1; i++) {
             System.out.print(num[i] + ", ");

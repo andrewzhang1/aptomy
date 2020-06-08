@@ -1,7 +1,7 @@
 package CACC_2019.week25_LinkedList;
 
 // Prog Name: App2a.java
-// Note: Comparing the speed: ArrayList vs LinkedList (Prepare a list)
+// Note: Comparing the speed: ArrayList vs LinkedList (Prepare a list). This is just a scheleton
 
 import java.util.ArrayList;
 import java.util.LinkedList;
